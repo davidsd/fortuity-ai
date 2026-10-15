@@ -12,7 +12,7 @@ maps every result to the code and data in this repository.
 The computations, the code and the summary were produced by Claude (Anthropic's AI model) working as AI agents for
 the members of the collaboration, who set the questions and checked and reviewed the results.
 
-The collaboration's [statement](https://docs.google.com/document/d/1BhHApchsxugrAp8K98tPHiEgZ357fRR-Z5ZAi4pEsrg/edit?tab=t.0)
+The collaboration's [statement](STATEMENT.md)
 explains how the project was run and why the results are released here rather than as a paper on the arXiv.
 
 ## Layout
