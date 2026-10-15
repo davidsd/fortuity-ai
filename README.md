@@ -1,6 +1,6 @@
 # Fortuity: fortuitous BPS states of N=4 SYM at weak coupling
 
-Results, code and data of the Fortuity collaboration on the 1/16-BPS cohomology of N=4 super Yang-Mills theory at
+Results, code and data on the 1/16-BPS cohomology of N=4 super Yang-Mills theory at
 finite rank: which classical Q-cohomology classes are multi-gravitons and which are fortuitous (black-hole
 candidates), for the gauge groups SU(2), SU(3), SU(4), SU(5), SO(5), SO(7), SO(9), SO(11), SO(13), USp(6), USp(8),
 USp(10), USp(12) and G2, and what happens to the lowest classes at one and two loops.
