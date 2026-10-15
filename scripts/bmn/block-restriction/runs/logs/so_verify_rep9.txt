@@ -1,0 +1,10 @@
+[      1s] so9_rep_1533_0.json.gz: 5863 terms, Q(rep) 3248 terms; rep nonzero at fresh points: True; Q(rep) = 0 at fresh points: True
+[      3s] so11_rep_1733_0.json.gz: 24278 terms, Q(rep) 14034 terms; rep nonzero at fresh points: True; Q(rep) = 0 at fresh points: True
+[     10s] so11_rep_1553_0.json.gz: 56021 terms, Q(rep) 26692 terms; rep nonzero at fresh points: True; Q(rep) = 0 at fresh points: True
+[     10s] done
+[     43s]   words: n=1: 14504, n+1: 18845 (0.2s)
+[     56s]   hw vectors: n=1: 1094, n+1: 1897 (13.3s)
+[     63s]   functionals: 480 in 1 chunks; rows A 1094, B 1897, G 18
+[     67s]   faithfulness OK: rank per degree {1: 442} vs exact {1: 442}
+[     68s]   sector SO_odd N=4 lam=(5, 3, 3) 2J=1: m=442 closed=311 exact=305 h=6 grav=5 non-graviton=1 (26s)
+[     68s] done

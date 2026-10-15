@@ -1,0 +1,15 @@
+name, memory.total [MiB]
+NVIDIA H200, 143771 MiB
+GPU smoke test ok, cupy 14.2.0
+=== su3_j30 Wed Sep 30 07:25:09 EDT 2026
+GPU 0: NVIDIA H200, 150 GB
+  rows 2048/123364: rank 2048 (21s)
+  rows 22528/123364: rank 22515 (156s)
+  rows 43008/123364: rank 42425 (289s)
+  rows 63488/123364: rank 56351 (395s)
+  rows 83968/123364: rank 63998 (466s)
+  rows 104448/123364: rank 72896 (575s)
+  rows 123364/123364: rank 76781 (658s)
+rank B = 76781 (658s)
+{"backend": "gpu", "nB": 123364, "nV": 9, "ncols": 145475, "n_ctrl": 3, "rank_B": 76781, "rank_after_controls": 76781, "controls_exact": true, "lifted_increments": [0, 0, 0, 0, 0, 0], "n_lifted": 0, "time": 680, "case": "su3_j30"}
+GPU DONE Wed Sep 30 07:36:31 EDT 2026

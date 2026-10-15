@@ -1,0 +1,10 @@
+{
+ "description": "SO(5) = Sp(2) BMN sector: SU(3)_R highest-weight Q-cohomology per sector (2J, lam) for all dominant weights with j<=28 (same format as the j<=26 file); h = classes, grav = multi-graviton (products of single-trace generators up to length 8 modulo Q-exact, full matrices), nongrav = h - grav",
+ "computed_by": "j<=26: Fortuity collaboration (Claude agent), laptop; j=28: Fortuity collaboration (Claude agent), SDSC Expanse",
+ "date": "2026-09-28",
+ "code": "code/fortuity/hwcoh (run_sectors, GROUP=SO_odd, N=2, GEN_NMAX=8, SEED=1; j=28 with ENGINE=par, mostly MAXLEN=12, some sectors unrestricted)",
+ "commit": "j=28 runs at 1daa911 (arrays 54496120/54496121/54496329/54496330 on Expanse); converter scripts/bmn/hw-scans-cluster/scripts/so5_json.py",
+ "conventions": "summary/fortuity-summary.pdf (section 2) D-005/D-006; sector (2J, q1,q2,q3), E = sum(q) - J",
+ "command": "scripts/bmn/hw-scans-cluster/cluster/hw_par.sbatch with GROUP=SO_odd N=2 GEN_NMAX=8 MAXLEN=12 over cluster/tasks_so5_j30_{heavy,light}.txt, seeded with scripts/bmn/so5-scan/hw_SO_odd2.jsonl; then scripts/so5_json.py 28",
+ "checked": "per-sector exact-dimension self-check passed in all 676 sectors (j<=28; with MAXLEN=12 it also certifies that the restricted word set spans); Euler characteristic = exact BMN index (fortuity.bmn.groupindex, via scripts/bmn/so-usp-g2-scans/euler_check.py) in every column with j<=28; j<=26 counts reproduce the earlier laptop scan exactly"
+}

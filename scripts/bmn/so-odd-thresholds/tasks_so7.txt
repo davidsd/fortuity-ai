@@ -1,0 +1,9 @@
+3 dims_so7_j18.pkl 10 so7_light_0.jsonl 1,0,0 2,0,0 1,1,0 3,0,0 2,1,0 1,1,1
+3 dims_so7_j18.pkl 10 so7_light_1.jsonl 4,0,0 3,1,0 2,2,0 2,1,1 5,0,0 4,1,0
+3 dims_so7_j18.pkl 10 so7_light_2.jsonl 3,2,0 3,1,1 2,2,1 6,0,0 5,1,0 4,2,0
+3 dims_so7_j18.pkl 10 so7_light_3.jsonl 4,1,1 3,3,0 3,2,1 2,2,2 7,0,0 6,1,0
+3 dims_so7_j18.pkl 10 so7_light_4.jsonl 5,2,0 5,1,1 4,3,0 4,2,1 3,3,1 3,2,2
+3 dims_so7_j18.pkl 10 so7_light_5.jsonl 8,0,0 7,1,0 6,2,0 6,1,1 5,3,0 5,2,1
+3 dims_so7_j18.pkl 10 so7_light_6.jsonl 4,4,0 4,3,1 4,2,2 3,3,2 9,0,0 8,1,0
+3 dims_so7_j18.pkl 10 so7_light_7.jsonl 7,2,0 7,1,1 6,3,0 6,2,1 5,4,0 5,3,1
+3 dims_so7_j18.pkl 10 so7_light_8.jsonl 5,2,2 4,4,1 4,3,2 3,3,3

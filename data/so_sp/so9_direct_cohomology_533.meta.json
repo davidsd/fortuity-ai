@@ -1,0 +1,10 @@
+{
+ "description": "Direct Q-cohomology of SO(9) N=4 SYM in the BMN sectors (2J;q1,q2,q3) = (0;5,3,3) and (1;5,3,3) (j=22; 11 and 10 letters): dim, closed, Q-exact, cohomology, monotone (products of single-trace graviton generators u_n, v_n, w_n up to n=11 modulo exact; D-005) and fortuitous (= coh - monotone). (5,3,3) is the highest weight of the SU(3)_R [2,0] that appears in the SO(9)-Sp(4) BMN index difference at j=22 (data/so_sp/so9_sp4_bmn_index.json).",
+ "computed_by": "Fortuity collaboration (Claude agent)",
+ "date": "2026-09-27",
+ "code": "code/fortuity/bmn/symdirect.py, evaluate.py, words.py",
+ "commit": "11a6e72",
+ "conventions": "As in data/so_sp/so7_direct_cohomology_1333.meta.json; letters random elements of SO(9) over F_p (p = 2^26-5), full sectors (not Weyl-symmetrised).",
+ "command": "cd code && python -m fortuity.bmn.symdirect SO_odd 4 ../data/so_sp/so9_direct_cohomology_533.json --sector 0,5,3,3 --sector 1,5,3,3 --gen-nmax 11",
+ "checked": "Sector (1;5,3,3) recomputed with a second seed (4242): identical counts for both groups (SO(9): 5395/4133 closed/3704 exact/429 coh/428 monotone/1 fortuitous; USp(8): 5395/4132/3704/428/428/0). SO(9) (0;5,3,3) computed twice (seed 777, two runs): identical. Ranks stable under point doubling. Consistency with the BMN index: net SO(9)-USp(8) difference in weight (5,3,3) at j=22 is -1 (one fermion), matching coh(1;5,3,3) 429 vs 428 with no difference at 2J=0. Sectors 2J >= 2 not computed (too large for a laptop run of this code; the index does not require a difference there, but compensating pairs are not excluded)."
+}

@@ -1,0 +1,11 @@
+{
+ "description": "SU(4) BMN-sector Q-cohomology at j = 30 for all dominant SU(3)_R weights and all 2J: per (lam, 2J) multiplicities of the SU(3)_R irrep in cohomology (h), multi-graviton part (grav, u_n, v_n, w_n with n <= 4, modulo Q-exact, full 4x4 matrices), non-graviton part (BH); per column Euler characteristic and exact index multiplicity",
+ "computed_by": "Fortuity collaboration (Claude agent) on SDSC Expanse",
+ "date": "2026-09-27",
+ "code": "code/fortuity/hwcoh (ENGINE=par: sectorpar + ffblas kernel), to_json",
+ "commit": "code 656785d..b9f9b9f (optimised engine; fixes during the run: empty-matrix rank b6ada22, worker-death handling 735df08, memory b9f9b9f; none changes the mathematics)",
+ "conventions": "D-006; sector (2J; q1,q2,q3), j = 2 sum q, E = j/2 - J; rep [a,b] = [q1-q2, q2-q3]",
+ "command": "arrays 54480062/54480063 (+ reruns 54480276/54480277/54481896/54483459/54484612/54487563) of scripts/bmn/hw-scans-cluster/cluster/hw_par.sbatch with N=4 MAXLEN=10 over tasks_su4_j30_{heavy,light,gaps,gaps2}.txt; python -m fortuity.hwcoh.to_json '<results>/su4_j30*/*.jsonl' 4 OUT",
+ "checked": "every sector: rank of hw vectors = exact hw multiplicity per fermion degree (two-sided); every column: Euler characteristic = exact index multiplicity (27/27). The parallel engine reproduces the reference engine on SU(4) j=28 sectors (identical r_up, grav) and in code/tests/test_hwcoh.py.",
+ "caveat": "classical cohomology; non-graviton in the sense of D-005 (proposed); traces of length <= 10 (spanning verified per sector)"
+}

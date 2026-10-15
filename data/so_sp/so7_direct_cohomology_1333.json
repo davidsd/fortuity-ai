@@ -1,0 +1,27 @@
+{
+ "group": "SO_odd",
+ "N": 3,
+ "seed": 777,
+ "gen_nmax": 8,
+ "symmetrize": false,
+ "results": [
+  {
+   "sector": [
+    1,
+    3,
+    3,
+    3
+   ],
+   "j": 18,
+   "nsym": 2094,
+   "basis": 903,
+   "closed": 683,
+   "exact": 559,
+   "coh": 124,
+   "grav": 123,
+   "BH": 1,
+   "nmono": 324,
+   "time": 21.262502193450928
+  }
+ ]
+}

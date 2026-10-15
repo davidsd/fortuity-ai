@@ -1,0 +1,1174 @@
+\PassOptionsToPackage{obeyspaces,spaces}{url}
+\documentclass[11pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage[margin=1in]{geometry}
+\usepackage{amsmath,amssymb}
+\usepackage{booktabs,longtable,array,tabularx}
+\usepackage{enumitem}
+\usepackage[dvipsnames]{xcolor}
+\usepackage{url}
+\usepackage[colorlinks=true,linkcolor=NavyBlue,citecolor=NavyBlue,urlcolor=NavyBlue]{hyperref}
+\usepackage{microtype}
+\hypersetup{pdftitle={Fortuitous states of N=4 SYM at weak coupling: results, code and cross-checks},
+  pdfauthor={The Fortuity collaboration}}
+
+\setlist{itemsep=2pt,topsep=3pt}
+\setlength{\emergencystretch}{3em}
+\renewcommand{\arraystretch}{1.12}
+\urlstyle{tt}
+\newcommand{\file}[1]{\path{#1}}
+\newcommand{\R}[1]{\textsf{R-0#1}}
+\newcommand{\T}[1]{\textsf{T-0#1}}
+\newcommand{\SU}{\mathrm{SU}}
+\newcommand{\SO}{\mathrm{SO}}
+\newcommand{\USp}{\mathrm{USp}}
+\newcommand{\Gtwo}{G_2}
+\newcommand{\cN}{\mathcal{N}}
+\newcommand{\ph}{\phi}
+\newcommand{\ps}{\psi}
+\newcommand{\ff}{f}
+\newcommand{\arxiv}[1]{\href{https://arxiv.org/abs/#1}{arXiv:#1}}
+\newcommand{\var}[1]{\texttt{\$\{#1\}}}
+
+\title{Fortuitous states of $\cN=4$ SYM at weak coupling:\\[2pt]
+\large results, code and cross-checks of the Fortuity collaboration}
+\author{The Fortuity collaboration}
+\date{14 October 2026}
+
+\begin{document}
+\maketitle
+
+\noindent\fbox{\parbox{\dimexpr\textwidth-2\fboxsep-2\fboxrule}{\small
+\textbf{How this document and the results in it were produced.} The computations, the code and this text were
+produced by Claude, Anthropic's AI model, working as AI agents for the members of the Fortuity collaboration. The
+members set the questions, read and checked the outputs, and reviewed one another's results; a separate set of AI
+agents reviewed the results independently (section~\ref{sec:checks}). Every number below either carries an automated
+certificate of the kind described in section~\ref{sec:method} or is marked as unverified; none has been rederived by
+hand. The labels \textsf{R-0xx} (results) and \textsf{T-0xx} (computations) are those of the collaboration's records
+and are used in the comments of the code; appendix~\ref{app:index} lists each of them with the code, the data and the
+checks in this repository. This document supersedes the summary of 7 October 2026. Corrections are welcome.}}
+
+\begin{abstract}
+We summarise what the collaboration has established about the $\frac1{16}$-BPS cohomology of $\cN=4$ super
+Yang--Mills theory at finite rank: the classical $Q$-cohomology in the BMN sector for $\SU(2)$ through level $j=44$,
+$\SU(3)$ through $j=32$ and in one column at $j=34$, $\SU(4)$ through $j=30$, $\SO(5)$, $\SO(7)$, $\SO(9)$,
+$\SO(11)$, $\USp(6)$, $\USp(8)$, $\USp(10)$ and $\Gtwo$; BMN indices for $\SU(5)$ and for $\SO(2N+1)$ against
+$\USp(2N)$ up to $N=6$; the full-letter cohomology of $\SO(7)$ and $\USp(6)$ at levels 18 to 22; and the
+perturbative fate of the lowest classes at one and two loops. The main results are:
+(i) the $\SU(3)$ threshold operator of Choi, Choi, Kim, Lee and Lee is $Q$-exact, and the eigenvalue criterion on
+which their non-graviton index rests is false; the first $\SU(3)$ non-graviton class is at $j=30$
+($E=\tfrac{25}{2}$, $[3,0]$), it is the brane-fused operator of de Mello Koch, Kim, Kim, Lee and Lee, it is odd under
+charge conjugation, and it survives one loop; every $\SU(3)$ black-hole class below $j=34$ is fused, and the first
+genuine core sits at $j=34$, exactly one in its column;
+(ii) $\SU(2)$ has 20 non-graviton classes through $j=44$, of which 5 lift at one loop; the threshold class has no
+admissible lifting partner at any order given a superconformal selection rule, $d_2$ vanishes on it by direct
+computation, and the index alone protects it at every coupling;
+(iii) $\SU(4)$ has no non-graviton class through $j=30$;
+(iv) $\SO(2N+1)$ and $\USp(2N)$ first differ at $j=4N+6$ in the representation $\mathrm{Sym}^{N-3}[2,0]$ ($N=3,\dots,6$);
+for $N=3,4,5$ the difference is one fermionic fortuitous $\SO(2N+1)$ multiplet per irrep, the lowest-level
+fortuitous class of that group, the $\SO(7)$ class dressed by $N-3$ separated branes, and lifted at one loop;
+(v) structural results: a charge-conjugation parity that makes every multi-graviton even, twisted and kernel-parity
+indices that detect black holes without a cohomology computation, multi-graviton classes invisible on the Coulomb
+branch, and a two-loop supercharge on derivative-free words fixed by nilpotency.
+We compare every overlapping statement with the published literature, list the cross-checks, and say what remains
+open. All code and data behind the results are in this repository.
+\end{abstract}
+
+\tableofcontents
+
+\section{Main results at a glance}\label{sec:glance}
+
+Table~\ref{tab:thresholds} collects the lowest non-graviton classes found in the BMN sector. ``Level'' is the power
+$j$ of $t$ in the BMN index (section~\ref{sec:setup}); a complete scan of all levels $j<j_0$ certifies the lowest
+\emph{level}, while the lowest \emph{energy} needs every level $j<3E$, since $E\ge j/3$ in this sector.
+
+\begin{table}[h]\centering\footnotesize
+\setlength{\tabcolsep}{4pt}
+\begin{tabularx}{\textwidth}{@{}lllllX@{}}
+\toprule
+group & lowest non-graviton class & $E$ & complete scans & certified & quantum fate\\
+\midrule
+$\SU(2)$ & $(5;4,4,4)$, $[0,0]$, $j=24$ & $\tfrac{19}{2}$ & $j\le44$ & level, energy & survives 1 loop; all orders$^{a}$; index$^{b}$\\
+$\SU(3)$ & $(5;7,4,4)$, $[3,0]$, $j=30$ & $\tfrac{25}{2}$ & $j\le32$ & level & survives 1 loop; orders 3, 4$^{c}$\\
+$\SU(4)$ & none for $j\le30$ & -- & $j\le30$ & level $\ge32$ & --\\
+$\SO(5)$ & none for $j\le28$ & -- & $j\le28$ & level $\ge30$ & --\\
+$\SO(7)$ & $(1;3,3,3)$, $[0,0]$, $j=18$ & $\tfrac{17}{2}$ & $j\le28$ & level, energy & lifted at 1 loop\\
+$\SO(9)$ & $(1;5,3,3)$, $[2,0]$, $j=22$ & $\tfrac{21}{2}$ & $j\le22$ & level & lifted at 1 loop\\
+$\SO(11)$ & $(1;7,3,3)$, $[4,0]$; $(1;5,5,3)$, $[0,2]$; $j=26$ & $\tfrac{25}{2}$ & $j\le24$ & level & lifted at 1 loop\\
+$\USp(6)$ & none at $j=20,22,24,28$ & -- & $j=20$--$24$, $28$ & -- & --\\
+$\Gtwo$ & none for $j\le28$ & -- & $j\le28$ & level $\ge30$ & --\\
+\bottomrule
+\end{tabularx}
+\caption{Lowest-level non-graviton classes in the BMN sector, sector labels $(2J;q_1,q_2,q_3)$ and $\SU(3)_R$ irreps
+$[q_1-q_2,q_2-q_3]$. $^a$Given the superconformal selection rule of section~\ref{sec:selection}. $^b$Protected at every
+coupling by the index, given the $\SU(2)$ classification. $^c$Order 4 uses the selection rule; order 2 is open
+(section~\ref{sec:su3pert}). The $\USp(6)$ scans do not cover $j<20$ or $j=26$; $\USp(6)$ has no class in the sector
+$(1;3,3,3)$ at $j=18$ either (\R{05}). For $\SO(9)$ and $\SO(11)$ the lowest energy is not established.}
+\label{tab:thresholds}
+\end{table}
+
+The statements that differ from the published literature are collected, with equation numbers, in
+section~\ref{sec:literature}. The most consequential ones:
+\begin{itemize}
+\item The criterion ``a multi-graviton polynomial that vanishes on diagonal matrices is $Q$-exact'' (sec.~3 of
+\cite{CCKLL}) is false. Counting gravitons on the diagonal undercounts them by the classes that vanish on the Coulomb
+branch, and the ``non-graviton index'' built on that count is not a detector of black holes (\R{02}, \R{15}).
+\item The $\SU(3)$ threshold operator, eq.~(4.8) of \cite{CCKLL}, is $Q$-exact at $N=3$; the $-t^{24}$ of their
+non-graviton index is a fermionic graviton class, represented by their own ``trace relation'' $R_{24}^{(0,3)}$
+(\R{09}). The first $\SU(3)$ black hole is at $j=30$ (\R{07}), the brane-fused operator $O^3_{30}$ of \cite{dMK}
+(\R{16}); the first genuine (unfused) core is at $j=34$ (\R{24}).
+\item The $\SU(4)$ entries $-\chi_{[2,0]}t^{28}$ and $\chi_{[1,1]}t^{30}$ of eq.~(3.15) of \cite{CCKLL} are artifacts of
+the same count (\R{08}, \R{14}).
+\item The descendant factor printed in eqs.~(3.7), (3.14), (3.15) of \cite{CCKLL} should be $\prod_I(1-t^2x_I)$
+(\R{01}); the thesis \cite{LeeThesis} has the correct factor.
+\item The operator $O^3_{30}$ of \cite{dMK} needs three corrections to its printed form to be closed; with them its
+stated coefficient $-\tfrac{648}{5}$ is reproduced (\R{16}).
+\end{itemize}
+Everything else that we checked agrees with the literature, often to the last digit: the $\SU(2)$ operator of
+\cite{CKLP}; Table~2 of \cite{CCKLL}; the $\SO(7)$/$\USp(6)$ numbers of \cite{GLRT} and Table~1 of \cite{CLSduality};
+the $\SO(7)$ lifting and the rank 741 of \cite{ChoiLee}; the one-loop verdicts and the rank 912 of \cite{KKLP}; and the
+entropy excess 1.21\% of \cite{KKLP}.
+
+\section{Setup, definitions and method}\label{sec:method}
+
+\subsection{Objects}\label{sec:setup}
+
+We work with the classical (tree-level) supercharge $Q\equiv Q_0$ of Chang and Lin \cite{CLWords} acting on
+gauge-invariant words in the $\frac1{16}$-BPS letters, mostly in the BMN subsector with letters $\ph_m$, $\ps_m$, $\ff$
+($m=1,2,3$), on which
+\begin{equation}
+Q\ph_m=0,\qquad Q\ps_m=\epsilon_{mnp}\,\ph_n\ph_p,\qquad Q\ff=\textstyle\sum_m[\ph_m,\ps_m]
+\end{equation}
+in the normalisation of the code (\file{code/fortuity/bmn/words.py}; the conventions are those of
+\cite{CLWords,CCKLL}, checked against the published counts \R{01}, \R{05}, \R{07}). A BMN sector is labelled
+$(2J;q_1,q_2,q_3)$ with $q_I=R_I+J$; the letters carry $\ph_I\to(0;e_I)$, $\ps_I\to(1;(1,1,1)-e_I)$,
+$\ff\to(2;(1,1,1))$. The \emph{level} $j=2\sum_Iq_I$ is the power of $t$ in the BMN index (fugacities
+$t^jx^{q_1-q_3}y^{q_3-q_2}$), the energy is $E=j/2-J$, and the number of letters is $Y=\sum_Iq_I-2J$. Every letter has
+$2J\le j/3$, so $E\ge j/3$ at level $j$. $Q$ commutes with $\SU(3)_R$ and lowers $2J$ by one. An $\SU(3)_R$ highest
+weight $\lambda=(q_1\ge q_2\ge q_3)$ labels a \emph{column}, the irrep $[q_1-q_2,q_2-q_3]$ at all $2J$.
+
+Outside the BMN sector we use the full set of letters (gaugini $\lambda$ and derivatives) in the superfield
+conventions of \cite{CLWords,BK}, with sectors $(2J_1,2J_2;2q_1,2q_2,2q_3)$ at letter number $Y$; the derivative
+grading $d_{\rm BMN}$ vanishes exactly on the BMN sector.
+
+\subsection{Gravitons and fortuity: the operational definition}
+
+A cohomology class is \emph{multi-graviton} (monotone) if it lies in the span of products of single-trace cohomology
+generators, modulo $Q$-exact operators, decided by linear algebra with the letters taken as \emph{generic} matrices
+of the gauge algebra (not diagonal ones). In the BMN sector of $\SU(N)$ the generators are the components
+$u_n,v_n,w_n$ of $\mathrm{tr}\,\Phi^n$; we use $n$ up to (at least) the top Casimir degree of the group ($N$ for
+$\SU(N)$, $2N$ for $\SO(2N+1)$ and $\USp(2N)$, 6 for $\Gtwo$), and larger sets where stated. The complement is called
+\emph{non-graviton}; it is our operational form of ``fortuitous'' (black-hole candidate) in the sense of
+\cite{CLWords,CLCovering}. Consistently, every non-graviton representative that was tested fails to be $Q$-closed at
+the next rank: the $\SU(3)$ class of \R{07} at $N=4,5$, the $\SO(7)$ class on $\mathfrak{so}(9)$ (\R{10}), the $\SO(9)$
+class on $\mathfrak{so}(11)$ and $\mathfrak{so}(13)$ (\T{43}), the $\SO(11)$ classes on $\mathfrak{so}(13)$ (\R{20}).
+(This tests a representative; a different representative closed at higher rank is excluded only by the graviton
+test itself.) We do \emph{not} use the
+eigenvalue (diagonal-matrix) criterion of \cite{CCKLL}; section~\ref{sec:su3j24} shows why. A class that is a
+multi-graviton but vanishes on Cartan-valued letters is called \emph{non-Coulomb} (terminology of \cite{ChoiLee}).
+
+\subsection{The highest-weight complex}
+
+Since $Q$ commutes with $\SU(3)_R$, the complex restricts to highest-weight vectors (the kernel of the raising
+operators $E_1,E_2$), and the cohomology of that subcomplex at $(2J;\lambda)$ is the multiplicity of the irrep
+$\lambda$ in $H(Q)$ at that $2J$. The dimension $m$ of each highest-weight space is known exactly from an $n_f$-refined
+Haar integral and the Weyl character formula. Highest-weight vectors are computed shape by shape in the free
+multi-trace space ($E_i$ preserve the flavour-stripped shape of a word). Operators are evaluated on random matrices
+of the gauge algebra over $\mathbb F_p$, $p=2^{26}-5$, with fermions expanded in Grassmann frames (one frame per
+fermion number), and ranks are taken modulo $p$. The multiplicity of the irrep in cohomology is
+$h=m-r_{\rm in}-r_{\rm out}$; its multi-graviton part is the rank of the graviton highest-weight vectors modulo the
+exact subspace. Implementation: \file{code/fortuity/hwcoh} (driver \file{run_sectors.py}, parallel engine
+\file{sectorpar.py}, FLINT/BLAS kernels \file{ffblas.py}); groups $\SU(N)$, $\SO(2N+1)$, $\USp(2N)$ and $\Gtwo$.
+
+\subsection{Certification}\label{sec:cert}
+
+\begin{enumerate}[label=(\alph*)]
+\item \emph{Per-sector self-check.} The rank of the highest-weight vectors at the chosen functionals must equal the
+exact multiplicity $m$, separately in every fermion degree. This verifies both that the functionals are faithful on
+the highest-weight space and that the word set (often restricted in trace length) spans it. With faithful
+functionals the ranks $r$ and the graviton counts are exact over $\mathbb F_p$.
+\item \emph{Euler characteristic.} In every column $\sum_{2J}(-1)^{2J}h$ equals the multiplicity in the exact index.
+The rank terms cancel in this sum, so it checks the dimensions and the bookkeeping, not the ranks.
+\item \emph{Completeness by enumeration.} Every (column, $2J$) with a nonempty letter content is present.
+\item \emph{Direction of errors.} A rank computed by random evaluation can only underestimate the true rank
+(Schwartz--Zippel \cite{Schwartz,Zippel}). An underestimated rank can create a spurious non-graviton class, never
+hide one. Null results (``no non-graviton class'') are therefore robust; positive results were recomputed with
+independent seeds and, where stated, with larger generator sets or independent engines.
+\item \emph{Rational reconstruction.} Where exact rational coefficients are claimed, they were solved at several
+primes and combined by the Chinese remainder theorem \cite{vMS,Peraro}, then re-verified at fresh primes.
+\end{enumerate}
+
+\subsection{Other tools}\label{sec:tools}
+
+\begin{itemize}
+\item \emph{Direct cohomology} on the full weight space or its Weyl-symmetric part:
+\file{code/fortuity/bmn/symdirect.py}, \file{direct.py} (\R{01}, \R{02}, \R{05}, \R{06}).
+\item \emph{Exact indices} by Haar integration: \file{code/fortuity/bmn/fullindex.py} ($\SU(N)$),
+\file{groupindex.py} ($\SO$, $\USp$, $\Gtwo$), \file{fugacityindex.py} (character values at fixed fugacities).
+\item \emph{Diagonal (eigenvalue) graviton counting} of \cite{CCKLL,KMMR}: \file{code/fortuity/bmn/gravindex.py}.
+\item \emph{Coulomb test}: rank of the graviton highest-weight vectors on Cartan-valued letters, where $Q$-exact
+operators vanish: \file{code/fortuity/hwcoh/noncoulomb.py}.
+\item \emph{Block restriction} (partial Coulomb branch): \file{code/fortuity/bmn/blockrestrict.py},
+\file{classify.py}, \file{code/fortuity/hwcoh/classreps.py}, \file{classreps_par.py}, \file{cores.py}.
+\item \emph{Charge conjugation} $C:X\to-X^T$ and twisted indices: \file{code/fortuity/bmn/cparity.py},
+\file{twistedindex.py}.
+\item \emph{Full letters and one loop}: \file{code/fortuity/full} (letters $\lambda$ and derivatives, $\SU$, $\SO$,
+$\USp$; the one-loop supercharge $Q_1$ of Budzik and Kulp \cite{BK} in \file{q1.py}, with the $\mathfrak{so}(n)$
+completeness term; lifting tests in \file{lifting.py}; full-letter levels in \file{sector.py}, \file{levels.py},
+\file{gravitons.py}). The parallel and GPU one-loop engine used for the large $\SU(2)$ and $\SU(3)$ tests is in
+\file{scripts/oneloop/su-threshold-classes} (\file{fullpar.py}, \file{gpu_rank.py}, \file{cpu_rank.py}).
+\item \emph{Two loops}: the two-loop supercharge on derivative-free words, \file{q2bmn.py} in the same directory
+(section~\ref{sec:q2}).
+\end{itemize}
+
+\section{$\SU(2)$}\label{sec:su2}
+
+\paragraph{The threshold class (\R{01}).} The first non-graviton class of $\SU(2)$ in the BMN sector is unique, at
+$j=24$ in the sector $(5;4,4,4)$ ($R_I=\tfrac32$, $J=\tfrac52$, $E=\tfrac{19}{2}$), as found in \cite{CLWords}; we call
+it $O_0$. The explicit operator of \cite{CKLP} was verified closed and not exact, and its $SU(1|3)$ descendants
+$Q^m_+O_0$ sit at $(6;5,4,4)$ and permutations ($j=26$, bosonic, $[1,0]$) and $(7;5,5,4)$ and permutations ($j=28$,
+fermionic, $[0,1]$). The supercharges $Q^m_+$ carry weight $t^2x_m$, so the descendant factor that multiplies the core
+of the non-graviton index is $\prod_I(1-t^2x_I)$, and with it the $\SU(2)$ core is exactly $-\sum_{n\ge0}t^{24+12n}$.
+Three independent computations agree: direct cohomology with full $2\times2$ matrices in all 683 sectors with $j\le28$;
+the exact index (signed sums at every $j\le28$); and the eigenvalue graviton count, which equals the closed form (3.4)
+of \cite{CCKLL} through $j=44$.
+
+\paragraph{Complete scan to $j=44$ (\T{27}).} All 446 $\SU(3)_R$ columns with $j\le44$ (3182 sectors, every
+nonempty $2J$) were computed with the highest-weight engine on a CPU cluster. Self-checks pass in every sector and the
+Euler characteristic equals the exact index in every column. The cohomology has 186 multiplets: 166 multi-graviton,
+all of Coulomb type (no non-Coulomb graviton in $\SU(2)$ through $j=44$), and 20 non-graviton classes in 17 sectors:
+\begin{center}\small
+\begin{tabular}{lcccccccccccc}
+\toprule
+$j$ & 24 & 26 & 28 & 30 & 32 & 34 & 36 & 38 & 40 & 42 & 44 & total\\
+\midrule
+non-graviton classes & 1 & 1 & 1 & 1 & 1 & 2 & 3 & 2 & 2 & 3 & 3 & 20\\
+\bottomrule
+\end{tabular}
+\end{center}
+All 20 have an odd number of letters, i.e.\ parity $P=-1$ (section~\ref{sec:parity}), and in every column their
+number equals $-T$, the kernel parity index computed before the scan finished (\R{17}). The sectors are listed in
+\file{data/su2/bmn_hw_cohomology_j44.json} (assembled from the per-sector records by
+\file{fortuity.hwcoh.to_json}); the non-graviton counts of all 17 sectors were reproduced by the full-letter one-loop
+runs below (different code, different seeds).
+
+\paragraph{One loop (\T{40}, \T{37}).} Each of the 20 classes was tested with the one-loop supercharge $Q_1$ of
+\cite{BK}: its image is checked for $Q_0$-exactness in the partner sector $(2J-1,2J-1;2q)$ at $d_{\rm BMN}=1$, with
+exact controls, two seeds, and a certificate that the words span. Five classes lift: the multiplet of $O_1$ (one
+class each at $j=36$ $[0,0]$, $38$ $[1,0]$, $40$ $[0,1]$, $42$ $[0,0]$) and, at $j=44$ $[1,0]$, one of the two
+classes of the sector $(11;8,7,7)$, which has the charges of $w_2O_1$. Fifteen survive: $O_0$ dressed by powers of $w_2$ and
+$O_1'$, with their $\mathfrak{psu}(1,2|3)$ descendants ($O_0$'s multiplet at $j=24$--$30$, $w_2O_0$ at $j=32$, $O_1'$ at
+$j=36$, $w_2^2O_0$ at $j=40$, $w_2O_1'$ at $j=44$, and the others listed in
+\file{scripts/oneloop/su-threshold-classes/runs/t040_oneloop_table.json}). This reproduces
+every verdict of \cite{KKLP} in its range ($O_0$, $w_2O_0$, $O_1'$ unlifted; $O_1$ lifted, with the exact-space rank 912
+at $j=36$) and extends it to $j=44$. The verdicts had been predicted a priori from the selection rules of
+section~\ref{sec:selection} (\T{37}); the prediction was posted before the direct results and agrees in all 16 sectors
+it covers. Rank stability was checked at three times the number of evaluation points for the lifted sectors.
+
+\paragraph{All orders for $O_0$.} The order-$n$ partner sectors of $O_0$, $(4,4;8,8,8)$ at $Y=8-n$ with $n\le4$,
+have cohomology $0, 27, 0, 4$ for $n=1,2,3,4$, all of Coulomb type. The Coulomb-type classes restrict injectively to
+the Cartan, where for $\SU(2)$ the module is the graded-symmetric algebra on one species of letters; that module has
+no lowest-weight vector of the weight of $O_0$ at $n=2$ or $4$. So, given the superconformal selection rule of
+section~\ref{sec:selection}, $O_0$ has no admissible lifting partner at any perturbative order, with no Coulomb-branch
+assumption. Independently, the two-loop differential vanishes by direct computation: $d_2[O_0]=0$ with the $Q_2$ of
+section~\ref{sec:q2}, and likewise for the three descendants of $O_0$ at $j=26$, 28, 30
+(\file{scripts/oneloop/su-threshold-classes/runs/su2_O0_d2.json} and \file{t040_twoloop_table.json}). The two-loop runs for the other $\SU(2)$ survivors
+($j\ge32$) were not completed.
+
+\paragraph{Index protection.} No Coulomb-type multiplet with the weight of $O_0$ and the opposite statistics exists at
+any odd rung of its index tower (\file{scripts/oneloop/su-threshold-classes/su2_index_tower.py}, output \file{runs/su2_O0_index_tower.txt}). Given the $\SU(2)$
+classification of non-Coulomb classes at these charges (our BMN scans; a direct computation at rung $+1$; for the other
+rungs the results of \cite{CLSduality}, not rederived), the index alone protects $O_0$ at every coupling
+(section~\ref{sec:selection}).
+
+\paragraph{Higher survivors.} For $w_2O_0$ and $O_1'$ the order-2 and order-4 partner sectors contain only Coulomb-type
+classes ($h=119$ and $470$ for $w_2O_0$; $103$ and $1123$ for $O_1'$, with 12 more at order 6) and order 5 is empty. At
+order 3 the partner sector of $w_2O_0$ has $h=42{,}894-23{,}094-19{,}797=3$ classes, all non-Coulomb, so its stability
+at order 3 is open; the order-3 test of $O_1'$ was not completed.
+
+\section{$\SU(3)$}\label{sec:su3}
+
+\subsection{Level 24: the published threshold is not a black hole}\label{sec:su3j24}
+
+\paragraph{All 29 classes are multi-gravitons (\R{02}).} In the sector $(3;4,4,4)$ ($R=\tfrac52$, $J=\tfrac32$,
+$E=\tfrac{21}{2}$) the Weyl-symmetric subspace has dimension 1898, 953 closed and 924 exact operators, hence 29
+classes, as in Table~2 of \cite{CCKLL}. The 807 symmetrised graviton monomials have rank 28 on diagonal matrices
+(the paper's ``\#gravitons $=28$'') but rank 29 modulo $Q$-exact operators with full $3\times3$ matrices, and
+$924+29=953$ saturates the closed space. Every class of the sector is therefore a multi-graviton. Explicit
+counterexample to the eigenvalue criterion: a 32-term polynomial $\sum c\,u_2u_2v_2w_3$ with $c\in\{\pm1,\pm2,\pm3\}$,
+$Q$-closed, identically zero on diagonal matrices and not exact (\file{data/su3/graviton_class_vanishing_on_diagonal_j24.json};
+check: \file{python3 -m fortuity.bmn.r002_check}).
+
+\paragraph{The threshold operator is exact (\R{09}).} The operator $O=-6\,O_6^{(0,3)}$ of eq.~(4.8) of \cite{CCKLL}
+was built in two ways (from the printed expansion, and from the definitions through $r_{10},r_{14}$ with the traceless
+projections of their (A.3)); the two agree term by term (3747 canonical multi-trace terms). It is closed on
+traceless $3\times3$ matrices (not formally, not at $N=4,5$) and it is $Q$-exact at $N=3$, by three independent
+computations (the Weyl-symmetric subspace at two primes, the full complex with certified functionals, and the
+highest-weight complex). An explicit preimage: an $\ff$-free $\SU(3)$-singlet $\lambda_0$ in $(4;4,4,4)$, a
+combination of 99 index-contracted multi-trace monomials with rational coefficients (common denominator 360), with
+$O=Q_{\rm code}(\lambda_0)=i\,Q_{\rm paper}(\lambda_0)$ on $3\times3$ traceless matrices
+(\file{data/su3/cckll_eq4p8_preimage_j24.json}; test \file{code/tests/test_r009_preimage.py}). The one-dimensional
+singlet cohomology of $(j,2J)=(24,3)$ is represented by the paper's own ``fundamental trace relation''
+$R_{24}^{(0,3)}=\epsilon_{a_1a_2a_3}u^{a_1b}{v^{a_2}}_b{v^{a_3c}}_d{v^d}_c$ of its (A.4), which vanishes on diagonal
+matrices at $N=3$ (not at $N=4,5$) but is not exact; $24R_{24}^{(0,3)}+\mathrm{Sym}(P)$ is exact, with $P$ the
+polynomial of \R{02}. Two errors cancel in the paper's Table~2: one graviton too few (28 instead of 29, from the
+diagonal count) and one exact operator called non-exact.
+
+\paragraph{The list (A.4) of \cite{CCKLL} (\R{09}).} Of the entries for which the paper gives no $Q$-exact form,
+$R_{18}^{(0,2)}$, $(R_{20}^{(0,3)})^i$, $(R_{22}^{(0,3)})^{ij}$ and $(R_{30}^{(0,5)})^{ijk}$ are exact (genuine
+relations), while $R_{24}^{(0,3)}$, $(R_{26}^{(0,4)})^i$ and the singlet $R_{30}^{(0,5)}$ are not: they represent the
+unique (graviton) classes of their sectors, 5 of the 287 components of (A.4). The entry of level 26 is the descendant
+of the one of level 24:
+\begin{equation}
+(R_{26}^{(0,4)})^1=-\tfrac13\,Q^1_+R_{24}^{(0,3)}+Q(\cdots)\qquad(N=3)
+\end{equation}
+in the paper's normalisation (\file{scripts/bmn/su3-level24/descendant_check.py}). In the sector of the $[3,0]$ entry
+(\R{07}'s sector, four graviton classes and one non-graviton class) the paper's diagonal-vanishing polynomial is
+trivial, so the $-t^{30}[3,0]$ of the non-graviton index is the genuine class of \R{07}.
+
+\paragraph{How the three entries vanish on the diagonal.} On diagonal traceless $3\times3$ matrices the three
+eigenvalue vectors of the scalars span only a plane in flavour space, and flavour singlets see the fermions through
+four anticommuting pairings. As a result the charge sectors of $R_{24}^{(0,3)}$, $(R_{26}^{(0,4)})^i$ and the singlet
+$R_{30}^{(0,5)}$ contain \emph{no} Weyl-invariant function of the eigenvalues at all (a Howe-duality count), so every
+operator of these sectors vanishes on the diagonal, graviton or not, exact or not; for the $[3,0]$ entry six such
+functions exist and the vanishing is a genuine condition (\file{scripts/bmn/su3-level24/diag_vanishing.py}; the counts
+are exact linear algebra on polynomials).
+
+\paragraph{Table~1 of \cite{CCKLL} revisited.} With the descendant factor corrected to $\prod_I(1-t^2x_I)$, the
+paper's Table~1 (the core of the $\SU(3)$ non-graviton index) is reproduced entry by entry through $j=40$ from our
+diagonal counts (\file{table1_core.py}); with the printed factor the rows 26 and 28 would not be empty. Adding the parity
+$P$ of section~\ref{sec:parity}: the $[0,0]$ entries at $j=24$ and $30$ are the graviton classes $R_{24}^{(0,3)}$ and
+$R_{30}^{(0,5)}$; every other entry through $j=40$ is $P$-odd, hence not a graviton (certified at $j\le30$, and at
+$j=32$ by the scan below; conditional on the diagonal counts for $j=34$--$40$); the $[0,0]$ at $j=36$ and the $[1,0]$
+at $j=38$ are $P$-even and undetermined. The bookkeeping of the first entry: in the singlet column at $j=24$ the exact
+index is $0=(-1)+(+1)$ from the fermionic $R_{24}^{(0,3)}$ at $2J=3$ and a bosonic graviton at $2J=4$; the diagonal
+count sees only the latter, so the paper's $Z-Z_{\rm grav}$ has $-1$, which it read as a fermionic black hole in
+$[0,0]$. It is the graviton $R_{24}^{(0,3)}$.
+
+\subsection{Level 30: the first black hole}\label{sec:su3j30}
+
+\paragraph{Complete scan (\R{07}).} All $\SU(3)_R$ columns with $j\le30$ (172 columns, every $2J$) were computed: the
+first non-graviton class is unique, at $j=30$ in $[3,0]$ (highest weight $(7,4,4)$), $2J=5$, i.e.\
+$R=(\tfrac92,\tfrac32,\tfrac32)$, $J=\tfrac52$, $E=\tfrac{25}{2}$, fermionic, in a sector with four graviton classes.
+There is no non-graviton class at any $j\le28$. Checks: self-checks in every sector, Euler characteristic $=$ index in
+172 of 172 columns, a second seed on the class and its neighbours, graviton generators up to $n=4$ and $n=5$ (\T{21})
+with unchanged counts, and agreement with the direct engine on overlapping sectors.
+
+\paragraph{Representative (\T{21}).} An explicit highest-weight representative over $\mathbb F_p$ with 201{,}564
+words, closed at $N=3$; $Q$ of its lift is nonzero at $N=4,5$
+(\file{scripts/bmn/su3-level30-representative}).
+
+\paragraph{Brane fusion (\R{16}).} Under the block restriction $\SU(3)\supset\SU(2)\times U(1)$ (a chain map for $Q_0$,
+section~\ref{sec:fusion}) the class restricts to $x_1^3\otimes O_0$, all other powers of $x_1$ being exact or zero. It
+is therefore the brane-fused operator $O^3_{30}$ of \cite{dMK}, eqs.~(2.24)--(2.25), up to normalisation, gravitons and
+exact terms. We rebuilt their operator (\file{code/fortuity/bmn/dmk.py}; 6139 terms in its $[3,0]$ highest-weight
+component); three readings of the printed formulas are needed, each forced by a check: the mixed-index $r$ and $R$
+tensors of their (A.2), (A.3) must be traceless parts; a Koszul sign is needed on the five terms with a fermion-odd
+prefactor $vvv$; and $r^{(0,2)}_{16}$ in the $\tfrac85$ term must read $r^{(0,3)}_{16}$. With them the operator is
+closed at $N=3$, not at $N=4$, and its $x_1^3$ coefficient is $-\tfrac{648}{5}O^2_{24}$, as stated in their (2.25).
+
+\paragraph{Charge conjugation (\R{17}).} The class is odd under $C:X\to-X^T$, so $P=-1$ (two independent checks: via
+the restriction, and by diagonalising $C$ in the sector). In its column the ordinary index is $0$ while the
+$C$-twisted index is $-10$.
+
+\paragraph{Lowest energy.} The scans certify the lowest level. The lowest energy $E=\tfrac{25}{2}$ also needs the
+sectors with $E<\tfrac{25}{2}$ at higher level, i.e.\ $j=34$ with $2J\ge10$ and $j=36$ with $2J=12$; these small
+sectors were not computed (all of $j\le32$ is, see below).
+
+\subsection{Level 32: three classes, all fused}\label{sec:su3j32}
+
+The complete scan of $j=32$ (\T{42}; all 30 columns, 207 sectors, every $2J$, the settings of \R{07}) finds 760
+multiplets, 757 multi-graviton and 3 non-graviton: $(6;7,5,4)$ in $[2,1]$ and $(5;8,4,4)$, $(6;8,4,4)$ in $[4,0]$.
+Self-checks pass in every sector and the Euler characteristic equals the index in all 30 columns (re-verified when
+this repository was assembled). This is exactly the count forced by the kernel parity index of \R{17} ($T=-1$ at
+$(7,5,4)$, $T=-2$ at $(8,4,4)$). All three classes are fused (\R{24}\,(iv)): $(5;8,4,4)$ has a non-graviton image
+$x^4\otimes O_0$ (the operator $O^3_{32}$ of \cite{dMK}), and $(6;8,4,4)$, $(6;7,5,4)$ have non-graviton images in
+their $x^3$ channels. By their charges the last two are the $(1;e_1)$ and $(1;e_2)$ descendants of the class of
+\R{07}. Data: \file{data/su3/hw_cohomology_j32_records}.
+
+\subsection{Level 34: the first genuine core}\label{sec:su3core}
+
+\paragraph{Counting (\R{24}).} The complete column $\lambda=(8,5,4)$ ($[3,1]$, $j=34$, every $2J$) has 37 multiplets:
+34 multi-graviton and 3 non-graviton, two at $(6;8,5,4)$ ($E=14$, 11 letters) and one at $(7;8,5,4)$
+($E=\tfrac{27}{2}$). Under $\SU(3)\supset\SU(2)\times U(1)$ the image of a non-graviton class lies in
+$x^n\otimes(\text{$\SU(2)$ non-graviton classes})$, equivariantly; the only channels with the right charges are
+$x^4\otimes$ (the $\SU(2)$ class at $(6;5,4,4)$) and $x^3\otimes$ (the one at $(7;5,5,4)$), so the fused capacity is
+one class at $2J=6$ and one at $2J=7$. Two classes at $2J=6$ against capacity one force at least one class whose
+restrictions are all graviton or exact: a core, not obtained by attaching branes to an $\SU(2)$ black hole.
+Independently of the graviton counts, the $C$-twisted index gives exactly $(37-31)/2=3$ $P$-odd classes in the
+column, more than the total capacity 2.
+
+\paragraph{Which class is the core.} Explicit representatives of all non-graviton classes at $j=30$--$34$ were built
+and restricted in every capacity channel (\file{data/su3/core_restrictions_j30_j34.json}): the $2J=7$ class and all
+three $j=32$ classes are fused; at $(6;8,5,4)$ the restriction map on the two classes has rank one, so exactly one
+combination is a core. Its images have zero residue in both channels, re-checked on the combined expression; the core
+is a generic lift on 834{,}657 of the sector's 834{,}972 trace words, closed at fresh $N=3$ points. With \R{07} fused
+and the $j=32$ classes fused, \emph{every $\SU(3)$ black-hole class below $j=34$ is fused, and the cores start at
+$j=34$}, exactly one in this column. By charges, the fused $2J=6$ class sits where the $(1;e_2)$ descendant of
+$O^3_{32}$ would, and the core is a new $SU(1|3)$ primary (a reading by charges, not constructed).
+
+\subsection{Beyond: what the indices force}\label{sec:su3beyond}
+
+The kernel parity index $T$ (section~\ref{sec:parity}) gives lower bounds on the number of $\SU(3)$ black-hole
+multiplets: at least $1,3,5,11,19,29$ at $j=30,32,\dots,40$ (and $45$, $66$ at $j=42,44$). These are certified at
+$j\le32$ by the direct scans, and checked in the one column $(8,5,4)$ at $j=34$ (exactly 3 $P$-odd classes, graviton
+count $34=D$); beyond that they are conditional on the diagonal Coulomb counts not being overcounted (very likely
+right, not certified). They include $T=-2$ in the $[n,0]$ column at $j=24+2n$ for $n=4,\dots,8$, the tower of
+\cite{dMK}. Independently of any Coulomb count, the $C$-twisted index alone forces at least 4 and 10 $P$-odd (hence
+non-graviton) classes in the columns $(9,6,6)$ at $j=42$ and $(10,6,6)$ at $j=44$.
+
+\subsection{Perturbative fate of the first black hole}\label{sec:su3pert}
+
+The class of \R{07}, called R-007 below, sits at $(2J_1,2J_2;2q)=(5,5;14,8,8)$ with $Y=10$ letters,
+$d_{\rm BMN}=0$; it is $C$-odd, an $\SU(2)_R$ singlet and a lowest-weight vector of $\mathfrak{psu}(1,2|3)$
+(\file{scripts/oneloop/su-threshold-classes/runs/r007_lowest_weight.json}). The loop corrections $Q_n$ have the charges of $Q$, change the letter number by
+$1-n$ and raise $d_{\rm BMN}$ by $n$. Hence R-007 is never the target of a lifting, its order-$n$ target lies in
+$(4,4;14,8,8)$ at $Y=11-n$, only $n\le4$ can occur, and the target must be $C$-odd.
+\begin{itemize}
+\item \emph{Order 1} (\T{31}). $Q_1$ of the class is $Q_0$-exact: in the partner sector ($[3,0]$ highest-weight
+multiplicity 145{,}197) the exact subspace has rank 76{,}781 at 145{,}475 functionals, and adding $Q_1$ of the class
+(or of any of the four gravitons of its sector) does not raise it; controls exact; two independent sets of points; GPU
+and CPU arithmetic. R-007 is not lifted at one loop.
+\item \emph{Order 3.} The $C$-odd target cohomology is empty, $131{,}048-67{,}869-63{,}179=0$ (exact multiplicity from
+twisted Weyl integration; computed ranks are lower bounds, so the zero is rigorous). No lifting at order 3, with no
+assumption.
+\item \emph{Order 4.} The target has 177 classes, all $C$-odd and all of Coulomb type, and none is a lowest-weight
+vector of the weight of R-007; excluded by the selection rule.
+\item \emph{Order 2.} The $C$-odd target cohomology has dimension $218{,}008-112{,}730-103{,}379=1{,}899$, of which
+$1{,}898$ are of Coulomb type. The one non-Coulomb class is not a lowest-weight vector (its $[2,1]$ and $[2,0]$ lowering
+images are not exact, with span certificates), so the selection rule excludes it. Eight Coulomb-type classes pass all
+lowest-weight tests; $d_1$ vanishes on them. They are excluded under the Coulomb-branch assumption (a Coulomb-type
+class is never a target), and otherwise only by $d_2[\text{R-007}]$. The direct computation of $d_2[\text{R-007}]$
+with the $Q_2$ of section~\ref{sec:q2} was set up on the cluster in two independent chains; it has not produced an
+exactness verdict, so order 2 is open.
+\item \emph{Restriction argument} (\T{33}). Theorem A: every possible order-3 partner of R-007 is an $\SU(3)$ core
+(restricts to zero under $\SU(3)\supset\SU(2)\times U(1)$); classical, with all fused channels computed directly.
+The block restriction is not a $Q_1$ chain map (W-boson exchange), so it can prove lifting but not survival.
+\end{itemize}
+So R-007 is stable to all orders under the Coulomb-branch assumption, and without it at orders 1, 3 and 4. The index
+cannot do better (section~\ref{sec:selection}): the eight multiplets above have the weight and $C$-parity of R-007 and
+the opposite statistics, so its protection is equivalent to the Coulomb-branch statement for those eight classes.
+The all-letter index at the weight of R-007 is $35$, its $C$-twisted version $-565$; without the all-letter graviton
+subtraction these decide nothing.
+
+\paragraph{The non-Coulomb graviton $R_{24}^{(0,3)}$ at loop level.} It can never be a target (grading), and it is
+not a source at one loop ($Q_1R_{24}^{(0,3)}$ is $Q_0$-exact, exact-space rank 1897, two sets of points; \T{30}) nor
+at two loops (direct null test at rank 3 with the two-loop supercharge). The same pipeline reproduces the one-loop
+lifting of one of the two $\SU(2)$ classes at $j=36$ \cite{KKLP}.
+
+\section{$\SU(4)$ and $\SU(5)$}\label{sec:su4}
+
+\begin{itemize}
+\item \R{03}. The diagonal (eigenvalue) count reproduces eq.~(3.15) of \cite{CCKLL}:
+$Z-Z_{\rm grav}=-\chi_{[2,0]}t^{28}+\chi_{[1,1]}t^{30}+O(t^{32})$. For $\SU(5)$ the same difference vanishes through
+$j=28$. No direct $\SU(5)$ scan was done.
+\item \R{08}, \R{14}. Complete highest-weight scans of all columns with $j\le28$ (145 columns) and $j=30$ (27
+columns), every $2J$: all cohomology is multi-graviton, so the $\SU(4)$ BMN threshold is at $j\ge32$. Both terms of
+eq.~(3.15) are artifacts of the diagonal count: the column $(6,4,4)$ ($[2,0]$, $j=28$) has $1,2,6,30,46,19,1$ classes
+at $2J=0,\dots,6$ and the column $(6,5,4)$ ($[1,1]$, $j=30$) has $0,3,13,36,66,50,13,1$ at $2J=0,\dots,7$, all
+multi-graviton. Self-checks in every sector; Euler characteristic $=$ index in 145/145 and 27/27 columns.
+\item Non-Coulomb gravitons (\R{15}): $(j,\lambda,2J)=(28,(6,4,4),3)$, $(30,(7,4,4),4)$, $(30,(6,5,4),4)$,
+$(30,(7,4,4),3)$, one class each. The onset $j=28$ is the ``apparent threshold'' of the diagonal index.
+\item Parity (\R{17}). Every $\SU(4)$ class through $j=30$ is $P$-even. The $C$-twisted index, validated against the
+direct cohomology in all 172 columns with $j\le30$, is non-negative in every column through $j=44$, so the indices
+force no $\SU(4)$ black hole in that range (\file{scripts/index/c-parity/runs/su4_twisted_scan_j44.json}).
+\item A fused candidate for the first $\SU(4)$ class ($x^3y^3\otimes O_0$ in $[6,0]$ at $j=36$, $2J=5$, by analogy
+with the $\SO$ tower) was proposed but not computed; it would bound the threshold level from above only.
+\end{itemize}
+
+\section{$\SO(2N+1)$, $\USp(2N)$, $\Gtwo$}\label{sec:so}
+
+\subsection{Index differences}
+
+$\SO(2N+1)$ and $\USp(2N)$ are exchanged by S-duality, and their BMN indices agree at low level. The first
+differences (\R{04}, \R{21}; exact Haar integrals, \file{code/fortuity/bmn/groupindex.py}, \file{fugacityindex.py}):
+\begin{align*}
+I_{\SO(7)}-I_{\USp(6)}&=-t^{18}+3t^{20}-3t^{22}+11t^{24}-33t^{26}+39t^{28}-74t^{30}+\dots\\
+I_{\SO(9)}-I_{\USp(8)}&=-6t^{22}+18t^{24}-33t^{26}+117t^{28}-289t^{30}+564t^{32}+\dots\\
+I_{\SO(11)}-I_{\USp(10)}&=-21t^{26}+63t^{28}-154t^{30}+\dots\\
+I_{\SO(13)}-I_{\USp(12)}&=-56t^{30}+168t^{32}+\dots
+\end{align*}
+with $\SU(3)_R$ content of the first term $[0,0]$, $[2,0]$, $[4,0]+[0,2]$ and $[6,0]+[2,2]+[0,0]$ respectively, i.e.\
+$-\mathrm{Sym}^{N-3}[2,0]$ (dimension $\binom{N+2}{5}$) at $j=4N+6$, the charge of one $\ps$ and $2N+1$ scalars. For
+$N=3$ this reproduces \cite{GLRT}; $N=4,5,6$ are new as far as we know. For $N=6$ the content is established by
+character values at three random fugacity points plus the unrefined count (strong evidence, not a proof).
+
+\subsection{Direct cohomology at the first difference}
+
+\begin{center}\small
+\begin{tabular}{llcccccc}
+\toprule
+group & sector & dim & closed & exact & classes & multi-graviton & non-graviton\\
+\midrule
+$\SO(7)$ & $(1;3,3,3)$ & 903 & 683 & 559 & 124 & 123 & 1\\
+$\USp(6)$ & $(1;3,3,3)$ & 903 & 682 & 559 & 123 & 123 & 0\\
+$\SO(9)$ & $(1;3,3,3)$ & 936 & 699 & 559 & 140 & 140 & 0\\
+$\USp(8)$ & $(1;3,3,3)$ & 936 & 699 & 559 & 140 & 140 & 0\\
+\midrule
+$\SO(9)$ & $(1;5,3,3)$ & 5395 & 4133 & 3704 & 429 & 428 & 1\\
+$\USp(8)$ & $(1;5,3,3)$ & 5395 & 4132 & 3704 & 428 & 428 & 0\\
+\bottomrule
+\end{tabular}
+\end{center}
+(\R{05}, \R{06}; weight spaces, two seeds each.) The $\SO(7)$/$\USp(6)$ rows reproduce Table~1 (BMN column) of
+\cite{CLSduality} and sec.~4.3 of \cite{GLRT}; the $\SO(9)$/$\USp(8)$ rows at 8 letters are a control. The $\SO(9)$
+class ($\ps\ph^9$, $j=22$, $E=\tfrac{21}{2}$, highest weight of a $[2,0]$) is new as far as we know; the complete
+$\SO(9)$ scan of level 22 (16 columns, 79 sectors: 320 multiplets, 319 multi-graviton) reproduces it as the only
+non-graviton class at that level. For $\SO(11)$ (\R{11}, highest-weight columns at $j=26$, two seeds):
+\begin{center}\small
+\begin{tabular}{lccc}
+\toprule
+column & $2J$ & $\SO(11)$: classes / graviton / non-graviton & $\USp(10)$\\
+\midrule
+$(7,3,3)$, $[4,0]$ & 0, 1, 2 & 0/0/0, \ 23/22/1, \ 0/0/0 & 0/0/0, \ 22/22/0, \ 0/0/0\\
+$(5,5,3)$, $[0,2]$ & 0, 1, 2 & 0/0/0, \ 12/11/1, \ 0/0/0 & 0/0/0, \ 11/11/0, \ 0/0/0\\
+\bottomrule
+\end{tabular}
+\end{center}
+So for $N=3,4,5$ the first index difference is exactly one fermionic non-graviton $\SO(2N+1)$ multiplet per irrep at
+$2J=1$, absent in $\USp(2N)$, with all graviton classes shared. The representatives fail to close one rank up: the
+$\SO(7)$ class (eq.~(4.14) of \cite{GLRT}) on $\mathfrak{so}(9)$; the $\SO(9)$ representative on $\mathfrak{so}(11)$
+and $\mathfrak{so}(13)$ (\T{43}; \file{scripts/bmn/so-usp-g2-scans/extensions/closure_check.py}); the $\SO(11)$ ones on
+$\mathfrak{so}(13)$.
+
+\subsection{These are the lowest-level classes (\R{18})}
+
+Complete scans of every column and every $2J$ below the first difference:
+\begin{center}\small
+\begin{tabular}{lccccc}
+\toprule
+group & scanned & columns & sectors & classes & non-graviton\\
+\midrule
+$\SO(7)$ & $j\le18$ & 52 & 170 & 166 & 1 (\R{05}'s class)\\
+$\SO(9)$ & $j\le22$ & 82 & 313 & 665 & 1 (\R{06}'s class)\\
+$\SO(11)$ & $j\le24$ & 101 & 416 & 1331 & 0\\
+\bottomrule
+\end{tabular}
+\end{center}
+With $\SO(3)=\SU(2)$ ($j=24$) and $\SO(5)$ (none for $j\le28$), the lowest fortuitous level of $\SO(2N+1)$ in the BMN
+sector is $j=24$, $\ge30$, $18$, $22$, $26$ for $N=1,\dots,5$. For $\SO(7)$ the class is also the lowest in energy
+(all levels $j\le28>3\cdot\tfrac{17}{2}$ are scanned); for $\SO(9)$ and $\SO(11)$ the energy statement is not
+established. Checks: self-checks in all sectors; Euler characteristic $=$ exact refined index in every column; the
+$\SO(9)$ column $(5,3,3)$ at $j=22$ as a positive control (sector by sector $m=131/442/664/665/404/114/3$, one
+non-graviton class at $2J=1$); the audit script \file{scripts/bmn/so-odd-thresholds/analyze.py} reproduces the table
+from the data files.
+
+\subsection{$\SO(7)$, $\USp(6)$ and $\Gtwo$ to level 28; $\SO(5)$}
+
+\begin{itemize}
+\item \R{13}, \R{19}. Complete scans of $\SO(7)$ and $\Gtwo$ for $j=20,\dots,28$ and of $\USp(6)$ for $j=20,22,24$ and
+$28$ ($j=26$ was not scanned for $\USp(6)$).
+$\SO(7)$ non-graviton classes: at $j=20,22,24$ the $SU(1|3)$ descendants of the $j=18$ class
+($(2;4,3,3)$, $(3;4,4,3)$, $(4;4,4,4)$); at $j=26$ a new multiplet $(3;5,4,4)$, $[1,0]$, $E=\tfrac{23}{2}$, which is
+the product $O_{18}w_2$ of the $j=18$ class with the graviton $w_2$ (a ``hairy'' class: the sector has exactly one
+non-graviton class and $O_{18}w_2$ is a nonzero non-graviton class there); at $j=28$ two classes at $2J=4$ in
+$(5,5,4)$ and $(6,4,4)$, with the charges of the descendants of the $j=26$ class. Level totals at $j=28$: $\SO(7)$ 1306
+multiplets (2 non-graviton), $\USp(6)$ 1302, $\Gtwo$ 212 (all multi-graviton).
+\item $\USp(6)$ has no non-graviton class at $j=20,22,24,28$, nor in the sector $(1;3,3,3)$ at $j=18$ (\R{05});
+$j<20$ and $j=26$ were not scanned.
+\item $\Gtwo$ (\R{10}, \R{22}): multi-trace words span all $\Gtwo$ invariants in every BMN sector with $j\le18$
+(exact Haar dimension $=$ rank of trace words); $\Gtwo$ has no non-graviton class for $j\le28$ (complete scans; 83
+classes for $j\le18$). The $\SO(7)$ class restricted to $\mathfrak g_2$-valued letters is a nonzero, non-exact
+\emph{multi-graviton} class of $\Gtwo$, and so is every $\SO(7)$ non-graviton class at $j=22$--$26$. Caveat: the
+trace-word basis is proven complete for $\Gtwo$ only for $j\le18$.
+\item $\SO(5)=\USp(4)$ (\R{12}): complete scan of $j\le28$ (676 sectors, 960 classes), all multi-graviton, so the
+threshold level is $\ge30$ and any fortuitous class has $E\ge10$. Four columns were recomputed with the $\USp(4)$
+letters, identically.
+\item One $\SO(7)$ multi-graviton class without a $\USp(6)$ counterpart, at $(2;6,3,3)$, $j=24$, accounts for the
+$+[3,0]t^{24}$ of the index difference; it vanishes on the Coulomb branch (\R{13}\,(v)).
+\end{itemize}
+
+\subsection{Brane fusion of the $\SO$ classes (\R{16})}
+
+Under $\SO(9)\supset\SO(7)\times\SO(2)$ the $\SO(9)$ class restricts to $x_1^2\otimes O_{\SO(7)}$ plus gravitons;
+under $\SO(11)\supset\SO(7)\times\SO(2)^2$ (blocks $x,y$) the two $\SO(11)$ classes restrict to
+$x_1^2y_1^2\otimes O_{\SO(7)}$ ($[4,0]$) and $(x_1y_2-x_2y_1)^2\otimes O_{\SO(7)}$ ($[0,2]$; measured coefficient ratio
+$1:-2:1$). The first $\SO(2N+1)$--$\USp(2N)$ difference is the $\SO(7)$ black hole with $N-3$ separated branes, each
+carrying one scalar bilinear ($\Delta j=4$, $\Delta E=2$), which accounts for $j=4N+6$, $E=2N+\tfrac52$ and the content
+$\mathrm{Sym}^{N-3}[2,0]$; it also explains the absence of the tower in $\USp(2N)$, which has no class at $j=18$. This
+gives certificates of fortuity for the $\SO(9)$ and $\SO(11)$ classes that use only the $\SO(7)$ data.
+
+\subsection{One loop (\R{20})}
+
+With the $\mathfrak{so}(n)$ version of $Q_1$ (\file{code/fortuity/full/q1.py}; checked against
+$Q_1\,\mathrm{tr}(\ph_1\ps_1)=4(n-2)\,\mathrm{tr}(\lambda_+\lambda_-)$ of \cite{ChoiLee} and the $\mathfrak{so}(n)$
+completeness relation): the $\SO(7)$ class is lifted, $Q_1O_{18}$ not lying in the span of the exact space (rank
+741, the number of \cite{ChoiLee}) and $Q_1$ of the 324 graviton polynomials of its sector; the $\SO(9)$ class and both
+$\SO(11)$ classes are lifted as well, through their $\SO(7)$ core (one-way block tests with 1364, 4436 and 6458
+graviton polynomials). In every sector tested, $Q_1$ of every graviton polynomial is $Q_0$-exact. So every
+$\SO(2N+1)$ class at the first $\SO$/$\USp$ difference, $N=3,4,5$, is lifted at one loop, as S-duality requires
+(\file{python -m fortuity.full.lifting so7|so9|so11}; outputs in \file{scripts/oneloop/so-odd-classes/runs}). The block
+restriction commutes with $Q_1$ in cohomology on all three lifted fused classes (\T{33}; ratios $-2$, $288$, $-60$ on
+both sides; \file{scripts/oneloop/protection}).
+
+\subsection{Full letters: $\SO(7)$ and $\USp(6)$ at levels 18--22 (\R{25})}
+
+Complete highest-weight cohomology with all letters (gaugini and derivatives) at levels 18, 20, 22 (every column,
+every $(2J_1,2J_2)$, every letter number):
+\begin{itemize}
+\item Level 18: $\SO(7)$ 985 multiplets, $\USp(6)$ 983. They differ only in the two sectors of Table~1 of
+\cite{CLSduality}, both reproduced in full: $(1,1;6,6,6)$, $Y=8$ (the BMN class: $903/559$ exact$/124$ classes,
+$123+1$, against $903/559/123$) and $(0,0;6,6,6)$, $Y=8$ (the chiral ring: $826/741/85$ against $825/741/84$, all
+multi-graviton; the extra $\SO(7)$ graviton vanishes on the Coulomb branch, as stated in \cite{CLSduality}).
+\item Level 20: $\SO(7)$ 2588, $\USp(6)$ 2578; ten extra $\SO(7)$ multiplets in nine sectors, all at $Y=8$: five are
+non-graviton, five are $\mathfrak{so}(7)$-only multi-gravitons, all Coulomb-invisible.
+\item Level 22: $\SO(7)$ 6747, $\USp(6)$ 6713; 34 extra $\SO(7)$ multiplets in 19 sectors, all at $Y=8$; of the 21 in
+the twelve sectors that were classified, five are non-graviton and sixteen Coulomb-invisible multi-gravitons; 13 in the
+seven largest sectors are not classified.
+\item In every classified sector the Coulomb-type graviton counts of $\SO(7)$ and $\USp(6)$ agree, as S-duality
+requires. The derivative-free sectors agree column by column with the BMN engine.
+\end{itemize}
+
+\subsection{Kernel parity for $\SO$, $\USp$, $\Gtwo$ (\T{34})}
+
+Here $C$ acts trivially on invariants, so $P=(-1)^Y$. The kernel parity index (twisted index minus Coulomb count) for
+$\SO(7)$ to $j=30$ and $\USp(6)$, $\Gtwo$ to $j=28$ is never negative: no black hole is forced by indices in these
+groups (their known classes have $P=+1$, which the index cannot see). Positive values are non-Coulomb gravitons where
+checked directly ($(8,3,3)$ at $j=28$ in $\SO(7)$ and $\USp(6)$; two $\Gtwo$ sectors); elsewhere they rest on the
+signed Coulomb count (not certified).
+
+\section{Structural results}\label{sec:structure}
+
+\subsection{Charge-conjugation parity and index-only detection of black holes}\label{sec:parity}
+
+\paragraph{Parity lemma (\R{17}).} Charge conjugation $C:X\to-X^T$ on every letter commutes with $Q$. With $Y$ the
+number of letters, every multi-graviton has $P:=C(-1)^Y=+1$: single-trace gravitons are components of
+$\mathrm{tr}\,\Phi^n$, which have $n$ letters and satisfy $\mathrm{tr}((-\Phi^T)^n)=(-1)^n\mathrm{tr}\,\Phi^n$, and both
+$C$ and $(-1)^Y$ are multiplicative. Hence a class with $P=-1$ is automatically non-graviton. For groups on whose
+invariants $C$ is inner or trivial ($\SU(2)$, $\SO(2N+1)$, $\USp(2N)$, $\Gtwo$) the lemma says that every graviton has
+an even number of letters; it holds for all 4{,}475 graviton classes of these groups in our data. On Cartan-valued
+letters $C$ acts as $(-1)^Y$, so every class visible on the Coulomb branch has $P=+1$.
+
+\paragraph{Twisted index.} $I_C=\mathrm{Tr}\,(-1)^{2J}C$ at fixed $q$ equals $(-1)^{|q|}(\dim H^{P=+1}-\dim H^{P=-1})$,
+summed over $2J$ with no boson--fermion cancellation. Computed by twisted Weyl integration over the coset
+$\SU(N)\cdot C$ (\file{code/fortuity/bmn/twistedindex.py}), it agrees with the cohomology data in all 172 $\SU(3)$
+and all 172 $\SU(4)$ columns with $j\le30$. In the column of R-007 the ordinary index is $0$ and $I_C=-10$.
+
+\paragraph{Kernel parity index.} With $D$ the Coulomb-branch (diagonal) graviton count of a column,
+$T=(-1)^{|\lambda|}I_C-D$ is $\#\{P=+1\}-\#\{P=-1\}$ among the classes invisible on the Coulomb branch, so $T<0$ forces
+black holes. The independent review (section~\ref{sec:checks}) showed that $D$, a six-term signed Weyl alternation of
+randomly sampled dimensions, is not a certified lower bound; with that correction: the $\SU(2)$ values through $j=44$
+are exact (in the 17 forced columns $D=0$, and every $\SU(2)$ diagonal dimension was also computed exactly over
+$\mathbb Q$); the $\SU(3)$ values are confirmed by direct cohomology at $j\le32$ and in the column $(8,5,4)$; beyond
+that they are very likely right but conditional. $Q_1$ preserves $Y$ and commutes with $C$, so it conserves $P$: at one
+loop a $P$-odd class can pair only with another $P$-odd (non-graviton) class. This is why the $P$-odd threshold
+classes of $\SU(2)$ and $\SU(3)$ survive one loop, while the $P$-even $\SO(7)$ class is lifted by a graviton
+\cite{ChoiLee}.
+
+\subsection{Non-Coulomb gravitons}\label{sec:noncoulomb}
+
+Multi-graviton classes that vanish on Cartan-valued letters (\R{15}, \R{23}; complete lists in
+\file{data/noncoulomb}). Onsets in the BMN sector: $\SU(2)$ none through $j=44$; $\SU(3)$ at $j=24$ (the multiplet of
+$R_{24}^{(0,3)}$, verified explicitly: $R_{24}^{(0,3)}$ and $Q^1_+R_{24}$, $Q^1_+Q^2_+R_{24}$, $Q^1_+Q^2_+Q^3_+R_{24}$
+are non-exact graviton classes at $(26,[1,0],4)$, $(28,[0,1],5)$, $(30,[0,0],6)$, plus a second primary, the singlet
+$R_{30}^{(0,5)}$ at $(30,[0,0],5)$); $\SU(4)$ at $j=28$; $\SO(5)$ at $j=20$; $\SO(7)$ exactly at $j=24$; $\USp(6)$ at
+$j=28$ (none at $j=20$--$24$); none in $\SO(9)$ through $j=22$ or $\SO(11)$ through $j=24$. None occurs at $2J=0,1$ in
+the range computed. Properties:
+\begin{itemize}
+\item \emph{S-duality.} The Coulomb-type graviton counts of $\SO(2N+1)$ and $\USp(2N)$ agree in every sector compared
+(99 common sectors for $j\le24$, all of $j=28$, and the classified full-letter sectors at levels 18--22), as their
+isomorphic Cartan data require; graviton mismatches between the two groups sit only in non-Coulomb classes.
+\item \emph{Rank dependence.} $R_{24}^{(0,3)}$ vanishes on diagonal $3\times3$ matrices but not on $4\times4$ or
+$5\times5$ ones; the observation that Coulomb-invisibility is rank-specific, and the terminology, are due to
+\cite{ChoiLee}; the first non-Coulomb graviton is the $\SO(7)$ chiral-ring class of \cite{CLSduality}.
+\item \emph{Counting.} The finite-$N$ graviton count by ``quantizing the moduli space'' (eigenvalues of commuting
+diagonal letters, \cite{KMMR} sec.~6.1, used for the $\frac1{16}$-BPS sector in \cite{CCKLL} sec.~3) undercounts the
+monotone spectrum by exactly these classes; $Z-Z_{\rm grav}$ computed that way is the index of the kernel of the
+Coulomb restriction, which contains non-Coulomb gravitons as well as black holes.
+\item \emph{Quantum.} BMN classes are never targets of a lifting (section~\ref{sec:selection}); $Q_1$ of every graviton
+polynomial tested is $Q_0$-exact, in all groups (\R{20}, \T{30}, \T{31}).
+\end{itemize}
+
+\subsection{Brane fusion and cores}\label{sec:fusion}
+
+Evaluate an operator on block-diagonal letters in which some abelian blocks carry only scalar components $x$
+(separated branes). Since $Q$ is built from commutators and the abelian parts are central, the coefficient of each
+monomial $x^a$ defines a chain map from the complex of $G$ to that of the unbroken non-abelian factor; it sends exact
+to exact and multi-gravitons to multi-gravitons. A non-graviton image therefore proves that a class is non-graviton and
+identifies the smaller-group class inside it (\R{16}). Results: the first $\SU(3)$ class is $x_1^3\otimes O_0$, the
+first $\SO(9)$ and $\SO(11)$ classes are the $\SO(7)$ class dressed by one scalar bilinear per separated $\SO(2)$
+block, and the first $\SU(3)$ class with no fused image is at $j=34$ (\R{24}). In every case examined the fused classes
+share the one-loop fate of their core (the $\SO$ classes are lifted with the $\SO(7)$ core; the $\SU(3)$ class
+survives like $O_0$). The restriction is not a chain map for $Q_1$ (W-boson exchange), so it can prove lifting but not
+survival; the intertwining in cohomology was checked on three lifted classes (\T{33}). Reading: an $\SO(2)$ block is a
+D3-brane with its orientifold image; the $\SU(3)$ class is the $\SU(2)$ black hole bound to one brane, the
+``dual-giant hair'' of \cite{dMK}. Thresholds read off as ``first fortuitous class at rank $N$'' therefore mix cores
+and fused classes.
+
+\subsection{Selection rules, and what the index protects}\label{sec:selection}
+
+\paragraph{Gradings.} $Q_n$ changes the letter number by $1-n$ and raises $d_{\rm BMN}$ by $n$. So a BMN class is never
+the target of a lifting, the order-$n$ partner of a class with $Y$ letters has $Y+1-n$ letters, and only finitely many
+orders can occur for a given class. $C$ is an exact symmetry of $\SU(N)$ $\cN=4$ SYM and commutes with $Q(g)$: partners
+have the same $C$, and the order-$n$ partner of a $P$-odd class has $P=(-1)^n$, so at odd $n$ it cannot be a graviton.
+
+\paragraph{Superconformal selection rule.} The loop differentials commute with the tree-level generators of the
+commutant $\mathfrak{psu}(1,2|3)$ of $Q$; a lifting partner must then be a lowest-weight vector of the same weight. This
+follows from perturbative superconformal invariance (a framework hypothesis, not the Coulomb-branch assumption). $Q_1$
+commutes exactly with all these generators except $K$ and $T$; for those, the defect was checked to be $Q_0$-exact on
+the one-loop partner of the lifted $\SU(2)$ class at $j=36$. At two loops the rule predicts $d_2[O_0]=0$, which the
+direct computation confirms. It is argued and tested, not proven, beyond one loop.
+
+\paragraph{The index.} The BPS states at coupling $g$ form a unitary lowest-weight module of $\mathfrak{psu}(1,2|3)$,
+whose Cartan charges are exactly the charges kept by the index. Since characters of distinct lowest-weight modules are
+independent, for each lowest weight $\mu$ the number $n_\mu=\sum_k(-1)^ka_k(\mu)$, with $a_k$ the number of BPS
+multiplets of lowest weight $\mu$ at rung $k$ (sectors $(2J-k,2J-k;2q)$), is independent of the coupling (for
+$\SU(N\ge3)$ separately for $C=\pm1$). Hence: at least $|n_\mu|$ multiplets of weight $\mu$ are BPS at every coupling;
+multiplets leave the BPS spectrum in pairs of the same $\mu$ and $C$ and opposite statistics; and if no multiplet of
+weight $\mu$ exists at the rungs of one parity, all those at the other parity are BPS at every coupling. The last
+statement protects the $\SU(2)$ threshold class non-perturbatively (section~\ref{sec:su2}) and fails for the $\SU(3)$
+class, for which eight Coulomb-type multiplets of its weight and $C$-parity exist at rung $+1$
+(section~\ref{sec:su3pert}).
+
+\subsection{The two-loop supercharge on derivative-free words}\label{sec:q2}
+
+$Q_1^2\neq0$ on words (on 26 of 60 derivative-free test words), while nilpotency of $Q(g)$ requires
+$Q_1^2+\{Q_0,Q_2\}=0$ (eq.~(12) of \cite{BK}), so a two-loop term is needed; \cite{BK} compute $Q_1$ only. We derive it
+on derivative-free words. In the superfield Feynman rules of the holomorphic twist the $l$-loop term of $Q$ is a sum over
+Laman graphs with $l+2$ vertices, one of them the operator \cite{BK}. At two loops the only graph is $K_4$ minus an
+edge; with the operator at a two-valent vertex the three interaction vertices form a triangle and give
+$\delta^3(0)=0$, which leaves one graph, with three letters in and two out ($\Delta Y=-1$):
+\begin{equation}
+Q_2\big(C^A(\theta_1)C^B(\theta_2)C^C(\theta_3)\big)=K_2\,f_{APX}f_{BPQ}f_{CQY}\,
+\delta^3(\theta_1-\theta_2)\,\delta^3(\theta_2-\theta_3)\,D_2\big(C^X(\theta_1),C^Y(\theta_3)\big),
+\end{equation}
+summed over the choice of the middle letter. On underived letters the kinematic factor must be an $\SU(2)_R$ invariant
+with four derivatives, and there is exactly one,
+$D_2(f,g)=\epsilon^{ac}\epsilon^{bd}\,\partial_a\partial_bf\,\partial_c\partial_dg$. So on derivative-free words
+$Q_2=K_2U$ with $U$ known, and nilpotency fixes the constant:
+\begin{itemize}
+\item $Q_1^2+K_2\{Q_0,U\}=0$ holds on 120 random derivative-free multi-traces (one or two traces of 2--5 letters) for
+$N=2,3,4$ with the single value $K_2=-\tfrac16$ ($Q_1$ normalised as in \file{fortuity.full.q1}); $Q_1^2\ne0$ on 54
+of them, and $\{Q_0,U\}\ne0$, so the value is unique;
+\item negative control: changing the weight of one term of $D_2$, no constant works on any of the 54 words;
+\item $U$ commutes with $\SU(3)_R$ and $C$ and anticommutes with $\partial/\partial\theta_a$ and $S_a$, as $Q_1$ does,
+and maps trace relations to relations at $N=2$ and $N=3$;
+\item eq.~(2.19) of \cite{KKLP}, $Q_1(Q_1O_0)=-Q_0(Q_2O_0)$, holds at rank 2 with this $Q_2$ and fails without it or
+with another constant.
+\end{itemize}
+Assumed: the true $Q_2$, in the scheme in which $Q_1$ is the operator above, has the graph form; within that form the
+solution is unique, and conjugations of $Q(g)$ change $d_2$ only by $d_1$-exact classes. $Q_2$ on letters with
+derivatives is not determined (it is not needed for $d_2$ of a derivative-free class). As far as we know this two-loop
+supercharge is not in the literature. Code: \file{scripts/oneloop/su-threshold-classes/q2bmn.py}, \file{test_q2.py},
+\file{test_q2_tracerel.py}, \file{d2_make.py}.
+
+\subsection{Entropy-level lifting}\label{sec:entropy}
+
+\begin{itemize}
+\item \T{38}. The bonus-charge refinement of the index in \cite{KKLP} implies that a fraction of the classical entropy
+must lift; at equal charges we reproduce their excess, $\delta_0=0.012134434$ (1.21\%). Refining by $P$ does not
+sharpen the bound: at fixed charges, $J_R$ and $d_{\rm BMN}$ the letter-number parity is fixed, so $P$ reduces to
+$\pm C(-1)^F$ and the $P$-graded index is the $C$-twisted one, whose Cardy growth cannot exceed the untwisted one (half
+of it for $\SU(N\ge3)$, the same for groups on which $C$ is trivial; for $\SO(7)$ we recover their ratio 1.0121).
+\item \T{41}. The charge dependence: over 927 points of the ordered wedge of charge space, $\delta_0$ is largest at
+equal charges and decreases along every sampled ray; the supersymmetric black holes fill the disk
+$\sum_I\varphi_I^2<1$ in charge fractions, not just the triangle $\varphi_I>0$; along the edge $Q_3=0$, $\delta_0$
+falls from $0.0100$ at the midpoint to $0.0011$ at fractions $(0.95,0.05,0)$. To first order in
+$\epsilon=(\dim G/j)^{1/3}$ at equal charges, $\delta=0.0121+0.0551\,\epsilon+o(\epsilon)$, and the first-order
+coefficient is positive at every computed point. An independent code reproduces $\delta_0$ to $5\times10^{-10}$ and the
+first-order coefficient to $5\times10^{-8}$ at 173 common points. The collapsed holonomy saddle dominates in all 432
+verdicts (six groups, 18 charge points, four criteria) inside the triangle; dominance was not tested where a charge is
+negative. $\delta_0$ bounds the lifted fraction only under the stated saddle-point assumptions.
+\end{itemize}
+
+\section{Comparison with the literature}\label{sec:literature}
+
+Paper by paper, every statement of ours that overlaps with a published one. ``Agrees'' means reproduced by our own
+computation, to the stated precision.
+
+\begin{description}[style=nextline,leftmargin=1.2em]
+\item[Chang, Lin \cite{CLWords}; \cite{CLCovering}.] Conventions, supercharge and the notion of fortuity. Agrees: the
+$\SU(2)$ BMN threshold at $j=24$, $(5;4,4,4)$, $E=\tfrac{19}{2}$, unique, with nothing below it in the BMN sector
+(\R{01}). The non-graviton representatives we tested fail to close at the next rank, as for fortuitous classes
+(section~\ref{sec:method}).
+\item[Choi, Kim, Lee, Park \cite{CKLP}.] Agrees: the explicit $\SU(2)$ threshold operator is closed and not exact; its
+$SU(1|3)$ descendants are non-exact non-gravitons (\R{01}).
+\item[Choi, Choi, Kim, Lee, Lee \cite{CCKLL}.] The overlap is large; item by item:
+\begin{itemize}
+\item Table~2 (the $j=24$ singlet sector: 1898 / 953 / 924 / 29): agrees exactly. Its split ``28 gravitons + 1 black
+hole'' does not: the 29 classes are all multi-gravitons (\R{02}).
+\item Sec.~3 and its appendix A, criterion ``graviton polynomial vanishing on diagonal matrices $\Rightarrow$
+$Q$-exact'': false; explicit counterexample (\R{02}); in the three affected sectors of (A.4) there is no function on the
+diagonal at all (section~\ref{sec:su3j24}).
+\item Eq.~(4.8), the threshold representative: $Q$-exact at $N=3$, explicit preimage (\R{09}). Their transcription and
+definition of the operator agree with each other (3747 terms); why their test reported it non-exact is not known.
+\item Eq.~(3.4), the $\SU(2)$ graviton closed form: agrees through $j=44$.
+\item Eqs.~(3.7), (3.14), (3.15): the descendant factor $\prod_{I<J}(1-t^4x_Ix_J)$ is a misprint for
+$\prod_I(1-t^2x_I)$ (the thesis \cite{LeeThesis}, eq.~6.33, has the correct one); with it the $\SU(2)$ core is exactly
+$-\sum_nt^{24+12n}$ and Table~1 is reproduced.
+\item Eq.~(3.15), $\SU(4)$: the diagonal-count terms $-\chi_{[2,0]}t^{28}$, $\chi_{[1,1]}t^{30}$ are reproduced as
+diagonal-count statements and are artifacts: no non-graviton class in $\SU(4)$ for $j\le30$ (\R{03}, \R{08},
+\R{14}).
+\item List (A.4): $R_{18}$, $R_{20}$, $R_{22}$ and $(R_{30})^{ijk}$ are genuine relations; $R_{24}^{(0,3)}$,
+$(R_{26}^{(0,4)})^i$ and the singlet $R_{30}^{(0,5)}$ are not, they are graviton classes, and
+$(R_{26}^{(0,4)})^i=-\tfrac13Q^i_+R_{24}^{(0,3)}$ modulo exact terms (\R{09}).
+\item Table~1: reproduced with the corrected factor through $j=40$ (signed). The $[0,0]$ entries at $j=24$, 30 are
+gravitons; the $-t^{30}[3,0]$ is the genuine class of \R{07}; the other entries through $j=40$ are $P$-odd; $[0,0]$ at
+$j=36$ and $[1,0]$ at $j=38$ are undetermined (section~\ref{sec:su3j24}).
+\end{itemize}
+\item[Lee, thesis \cite{LeeThesis}.] Restates the diagonal criterion (same remark as above); eq.~6.33 has the correct
+descendant factor.
+\item[de Mello Koch, Kim, Kim, Lee, Lee \cite{dMK}.] Eqs.~(2.24)--(2.25): with three corrections to the printed formulas
+(section~\ref{sec:su3j30}) the operator $O^3_{30}$ is closed at $N=3$ and its $x_1^3$ coefficient is
+$-\tfrac{648}{5}O^2_{24}$, as stated. It is the first $\SU(3)$ black hole (\R{07}, \R{16}); their next member
+$O^3_{32}$ is the $(5;8,4,4)$ class found by our $j=32$ scan. The paper regards $j=24$ as the $\SU(3)$ threshold
+(following \cite{CCKLL}); there is no class there. Their picture of fused classes is confirmed below $j=34$, where
+every $\SU(3)$ black hole is fused, and the first unfused core appears at $j=34$ (\R{24}).
+\item[Gadde, Lee, Raj, Tomar \cite{GLRT}.] Agrees: the closed forms of the $\SO(7)$ and $\USp(6)$ BMN indices (through
+$j=18$, as far as their printed numerators determine them) and of the difference through $j=30$; the singlet at
+$j=18$; the numbers of sec.~4.3 (903 / 559 / 124 against 123); the representative eq.~(4.14) is closed on
+$\mathfrak{so}(7)$ and not on $\mathfrak{so}(9)$. New relative to it: the $\SO(9)$, $\SO(11)$ classes and the index
+differences for $N=4,5,6$ (\R{04}, \R{06}, \R{11}, \R{21}); the restriction to $\Gtwo$ (\R{10}).
+\item[Chang, Lin \cite{CLSduality}.] Agrees: Table~1 in full, both columns and both groups, with the
+monotone/fortuitous split (BMN column 903 / 559 / 124 against 123; chiral-ring column 826 / 741 / 85 against
+825 / 741 / 84), and the statement that the extra $\SO(7)$ chiral-ring graviton is invisible on the Coulomb branch
+(\R{05}, \R{25}).
+\item[Choi, Lee \cite{ChoiLee}.] Agrees: the one-loop lifting of the $\SO(7)$ class, with the exact-space rank 741 in
+the target sector, and $Q_1\mathrm{tr}(\ph_1\ps_1)=4(n-2)\mathrm{tr}(\lambda_+\lambda_-)$ for $\mathfrak{so}(n)$ (\R{20}).
+Extended: the $\SO(9)$ and $\SO(11)$ classes are lifted too, through their $\SO(7)$ core.
+\item[Kim, Kim, Lee, Park \cite{KKLP}.] Agrees: every one-loop verdict in our common range ($O_0$, $w_2O_0$, $O_1'$
+unlifted; $O_1$ lifted, exact-space rank 912 at $j=36$); their eq.~(2.19) with an explicit $Q_2$; the entropy excess
+1.21\% and the $\SO(7)$ ratio 1.0121. Extended: the complete $\SU(2)$ one-loop table through $j=44$; for $O_0$, whose higher
+orders the paper leaves open (p.~6), no admissible partner at any order given the selection rule, $d_2[O_0]=0$
+directly, and protection at every coupling by the index (section~\ref{sec:su2}); the charge
+dependence of the entropy excess (section~\ref{sec:entropy}).
+\item[Budzik, Kulp \cite{BK}.] We use their one-loop supercharge $Q_1$ (with an $\mathfrak{so}(n)$ completeness term for
+the orthogonal groups) and their nilpotency relation eq.~(12). The two-loop supercharge on derivative-free words with
+$K_2=-\tfrac16$ (section~\ref{sec:q2}) is, as far as we know, new; \cite{BGKWWY} state for $\cN=1$ theories that
+$Q_1^2\ne0$ forces $Q_2\ne0$ and that a single two-loop diagram contributes, consistent with our counting.
+\item[Kinney, Maldacena, Minwalla, Raju \cite{KMMR}.] Sec.~6.1: the eigenvalue count of finite-$N$ gravitons misses
+the non-Coulomb gravitons (section~\ref{sec:noncoulomb}). For the gaugino-free part of the $\frac18$-BPS chiral ring
+that our BMN data cover, their statements are not contradicted in our range.
+\end{description}
+
+\section{Cross-checks}\label{sec:checks}
+
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{0.27\textwidth}>{\raggedright\arraybackslash}p{0.68\textwidth}@{}}
+\toprule
+check & where applied, and outcome\\
+\midrule
+\endhead
+Exact-dimension self-check & Every sector of every highest-weight scan (all groups, BMN and full letters): rank of the
+highest-weight vectors at the functionals $=$ exact multiplicity, per fermion degree.\\
+Euler characteristic $=$ exact index & Every column of every complete scan ($\SU(2)$ 446/446; $\SU(3)$ 172/172 at
+$j\le30$, 30/30 at $j=32$, the $(8,5,4)$ column; $\SU(4)$ 145/145 and 27/27; $\SO(5)$, $\SO(7)$, $\SO(9)$,
+$\SO(11)$, $\USp(6)$, $\Gtwo$ all columns).\\
+Completeness by enumeration & Expected (column, $2J$) lists compared with the data files for all complete scans.\\
+Second random seed & Every positive (non-graviton or non-Coulomb) count, and the one-loop tests (two seeds each); the
+$\SU(3)$ core column at $2J=4$--$7$; identical results throughout.\\
+Larger generator sets & $\SU(3)$ $j=30$ with $n\le4,5$; $\SO(7)$ with $n\le10$; unchanged counts.\\
+Independent engines & Weight-space direct cohomology (\file{bmn.symdirect}) against the highest-weight engine
+(\file{hwcoh}) on $\SU(2)$ $j=16$, $\SU(3)$ $j=14$--$18$, $\SO(9)$ $j=22$; full-letter engine (\file{full}) against
+\file{hwcoh} on all derivative-free sectors at levels 18, 20; the $\SU(2)$ non-graviton counts by the one-loop engine;
+$\SO(5)$ with $\USp(4)$ letters.\\
+Literature anchors & Table~2 of \cite{CCKLL}; eq.~(3.4) of \cite{CCKLL}; Table~1 of \cite{CLSduality}; sec.~4.3 and
+the index closed forms of \cite{GLRT}; rank 741 of \cite{ChoiLee}; rank 912 and the one-loop verdicts of \cite{KKLP};
+the 1.21\% of \cite{KKLP}; $-\tfrac{648}{5}$ of \cite{dMK}.\\
+Exact arithmetic & Rational preimage of eq.~(4.8) from five primes (CRT); diagonal-function counts as exact linear
+algebra; the $\SU(2)$ diagonal dimensions over $\mathbb Q$; exact multiplicities by Haar integration (rounding
+errors below $2\times10^{-7}$, results integral).\\
+Controls & Exact controls $Q_0u$ in every rank test; known-exact operators reported exact (e.g.\ $O_1^{(0,3)}$ of
+\cite{CCKLL}); planted non-exact rows (``$z+$noise'') reported non-exact; negative controls for $K_2$.\\
+Rank stability & Doubling, and for the one-loop lifts tripling, of the evaluation points; spanning certificates.\\
+Symmetries & $(2J_1,2J_2)\leftrightarrow(2J_2,2J_1)$ in every full-letter sector; $\SU(3)_R$ covariance of the block
+restriction coefficients ($1:-2:1$); Weyl symmetry of the diagonal dimensions.\\
+S-duality & Equal Coulomb-type graviton counts for $\SO(2N+1)$ and $\USp(2N)$ in all compared sectors.\\
+Index predictions & Kernel parity forecasts confirmed: $\SU(2)$ in all 446 columns; $\SU(3)$ at $j=32$ and in
+$(8,5,4)$.\\
+A-priori predictions & The $\SU(2)$ one-loop fate table predicted from selection rules before the direct computation
+(\T{37}); 16 of 16 sectors agree.\\
+Independent review & The results \R{01}--\R{18} were reviewed by a separate set of AI agents, with a cross-review of the
+claim list by an AI model from another developer (2026-10-01/02): the prose was consistent with the stored data and no
+stored number was wrong; the defects found (wording, claimed rigour, reproducibility) were corrected, including the
+status of the kernel parity index (section~\ref{sec:parity}) and the energy bound $E\ge j/3$. Reproducer scripts:
+\file{scripts/review/independent-checks}.\\
+Library tests & \file{code/tests}, run when this repository was assembled: 82 passed, 4 skipped (three slow
+tests that run with \texttt{FORTUITY\_SLOW=1}, and one that needs \texttt{fork}, disabled on macOS).\\
+\bottomrule
+\end{longtable}
+
+What random evaluation proves, in one sentence: computed ranks never exceed true ranks over $\mathbb F_p$, so
+certified null results are exact over $\mathbb F_p$, and a bad prime could only add pairs of classes.
+
+\section{Open questions}\label{sec:open}
+
+\begin{enumerate}
+\item $d_2$ of the $\SU(3)$ class R-007 (the only open order without the Coulomb-branch assumption); the validity of
+the superconformal selection rule beyond one loop; the lowest-energy status of R-007 (sectors $j=34$, $2J\ge10$ and
+$j=36$, $2J=12$).
+\item The $\SU(2)$ survivors at higher order: order 3 of $w_2O_0$ (three non-Coulomb classes in the target) and of
+$O_1'$; $d_2$ beyond the multiplet of $O_0$.
+\item $\SU(3)$ cores: the column $(8,6,4)$ at $j=36$ (fused capacity 0); the one-loop fate of the $j=34$ core; the
+$P$-even entries $[0,0]$ at $j=36$ and $[1,0]$ at $j=38$ of Table~1 of \cite{CCKLL} (a direct computation of the
+singlet column at $j=36$ was started and not finished).
+\item The $\SU(4)$ threshold ($j\ge32$); $\SU(5)$ by direct cohomology.
+\item $\SO(5)$ at $j=30$; direct $\SO(13)$ cohomology at $j=30$ (three fermionic classes predicted); $\SO(7)$ and
+$\USp(6)$ at level 30 (sizing done, scan not); $\USp(6)$ at $j=26$; the 13 unclassified full-letter multiplets at
+level 22.
+\item The $C$-twisted index with all letters at the charges of R-007, which is coupling-independent and could protect a
+$C$-odd state non-perturbatively.
+\item Are non-Coulomb gravitons ever lifted as targets in $\SU(N)$? Which fortuitous classes above the thresholds
+survive?
+\item $\SO(2N)$ groups (Pfaffian invariants), and the $\USp(2N)$ thresholds beyond $j=28$.
+\end{enumerate}
+
+\appendix
+
+\section{Index of results, code and data}\label{app:index}
+
+Paths are relative to the root of this repository. \file{code/fortuity} is the library (with tests in
+\file{code/tests}); \file{scripts/<area>/<project>} hold the drivers, cluster job files and run outputs behind each
+result; \file{data} holds the results in plain formats, each file with a \file{.meta.json} stating what it contains,
+the code and command that produced it and how it was checked. ``Labels'' are those of the collaboration's records,
+which the code comments use.
+
+\small
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{0.07\textwidth}>{\raggedright\arraybackslash}p{0.25\textwidth}>{\raggedright\arraybackslash}p{0.62\textwidth}@{}}
+\toprule
+label & content & code, data, checks\\
+\midrule
+\endhead
+\R{01} & $\SU(2)$ threshold $j=24$, descendants, descendant factor & \file{code/fortuity/bmn/direct.py},
+\file{fullindex.py}, \file{gravindex.py}, \file{run_su2_direct.py}; \file{scripts/bmn/index-and-direct-cohomology}
+(\file{run_index.py}, \file{extract_core.py}, \file{check_su2_index.py}, \file{test_threshold_ops.py});
+\file{data/su2/bmn_direct_cohomology_j28.json}, \file{bmn_index_j40.json}; check
+\file{python3 -m fortuity.bmn.run_su2_direct 28 OUT.json --check data/su2/bmn_direct_cohomology_j28.json};
+\file{code/tests/test_result_drivers.py}.\\
+\R{02} & $\SU(3)$ $j=24$: 29 multi-graviton classes; criterion false & \file{code/fortuity/bmn/symdirect.py},
+\file{r002_check.py}; \file{scripts/bmn/index-and-direct-cohomology} (\file{run_sym.py},
+\file{test_diag_criterion.py 3,4,4,4}, \file{test_grav_sym.py}, \file{test_grav_robust.py},
+\file{explicit_graviton_class.py}, \file{verify_explicit_class.py});
+\file{data/su3/bmn_table2_weyl_symmetric_j24.json}, \file{graviton_class_vanishing_on_diagonal_j24.json}.\\
+\R{03} & $\SU(4)$, $\SU(5)$ diagonal-count index & \file{code/fortuity/bmn/fullindex.py}, \file{gravindex.py};
+\file{scripts/bmn/index-and-direct-cohomology} (\file{run_index.py}, \file{run_su4_energy.py});
+\file{data/su4/bmn_index_j30.json}, \file{j28_highest_weight_sectors.json}, \file{data/su5/bmn_index_j28.json}.\\
+\R{04} & $\SO(2N+1)$ vs $\USp(2N)$ indices, $N=3,4,5$ & \file{code/fortuity/bmn/groupindex.py};
+\file{data/so_sp/so7_sp3_bmn_index.json}, \file{so9_sp4_bmn_index.json}, \file{so11_sp5_bmn_index.json};
+\file{code/tests/test_groupindex.py}.\\
+\R{05} & $\SO(7)$/$\USp(6)$ at $(1;3,3,3)$ & \file{code/fortuity/bmn/symdirect.py}, \file{evaluate.py};
+\file{data/so_sp/so7_direct_cohomology_1333.json}, \file{usp6_direct_cohomology_1333.json}.\\
+\R{06} & $\SO(9)$ class at $(1;5,3,3)$ & as \R{05}; \file{data/so_sp/so9_direct_cohomology_533.json},
+\file{usp8_direct_cohomology_533.json}, \file{so9_hw_cohomology_j22.jsonl},
+\file{so9_hw_cohomology_j22_seed2_533.jsonl}; closure test
+\file{scripts/bmn/so-usp-g2-scans/extensions/closure_check.py} (output \file{closure_check.txt}).\\
+\R{07} & $\SU(3)$ complete scan $j\le30$; class at $j=30$ & \file{code/fortuity/hwcoh}; cluster jobs
+\file{scripts/bmn/hw-scans-cluster}; \file{data/su3/bmn_hw_cohomology_j30.json}; representative (\T{21})
+\file{scripts/bmn/su3-level30-representative/representative.py} and \file{runs/}.\\
+\R{08} & $\SU(4)$ $j\le28$ & \file{code/fortuity/hwcoh}; \file{scripts/bmn/hw-scans-cluster};
+\file{data/su4/bmn_hw_cohomology_j28.json}.\\
+\R{09} & Eq.~(4.8) of \cite{CCKLL} exact; (A.4); diagonal mechanism; Table~1 & \file{scripts/bmn/su3-level24}
+(\file{build_O.py}, \file{build_O6.py}, \file{singlet_preimage*.py}, \file{hw_relation_test.py},
+\file{triple_check.py}, \file{decompose*.py}, \file{full_complex_check.py}, \file{f_restricted_exactness.py},
+\file{R24_check.py}, \file{descendant_check.py}, \file{diag_vanishing.py}, \file{table1_core.py},
+\file{singlet_column_j36.py}); \file{data/su3/cckll_eq4p8_operator_j24.json}, \file{cckll_eq4p8_preimage_j24.json},
+\file{cckll_A4_relations_exactness.json}; \file{code/tests/test_r009_preimage.py}.\\
+\R{10} & $\Gtwo$ completeness to $j=18$; restriction of the $\SO(7)$ class & \file{code/fortuity/bmn/g2_checks.py}
+(\file{python3 -m fortuity.bmn.g2_checks restriction}, \file{completeness 18});
+\file{data/g2/g2_so7_restriction_1333.json}; \file{code/tests/test_g2_checks.py}.\\
+\R{11} & $\SO(11)$/$\USp(10)$ at $j=26$ & \file{code/fortuity/hwcoh} (groups \file{SO_odd}, \file{Sp}); job files
+\file{scripts/bmn/so-usp-g2-scans/cluster/t020_*.sbatch}; \file{data/so_sp/so11_hw_cohomology_j26*.jsonl},
+\file{usp10_hw_cohomology_j26*.jsonl}.\\
+\R{12} & $\SO(5)$ none for $j\le28$ & \file{code/fortuity/hwcoh}; \file{scripts/bmn/so5-scan} (\file{run_so5.sh},
+\file{check_so5_driver.py}); \file{scripts/bmn/hw-scans-cluster} (\file{hw_par.sbatch}, \file{so5_json.py});
+\file{data/so5/bmn_hw_cohomology_j28.json} (and the $j\le24$, $j\le26$ snapshots).\\
+\R{13} & $\SO(7)$, $\Gtwo$, $\USp(6)$ at $j=20$--$26$ & \file{code/fortuity/hwcoh} (\file{restrict.py},
+\file{evalg.py}); \file{scripts/bmn/so-usp-g2-scans} (\file{restrict_scan.py}, \file{euler_check.py},
+\file{extra_checks.py}, \file{cluster/t023_*.sbatch}); \file{data/g2} (files \file{*_j20*}, \file{*_j22_j24*},
+\file{*_j26*}, \file{so7_robustness_seed2_gen10.jsonl}, \file{extra_564448}).\\
+\R{14} & $\SU(4)$ $j=30$ & \file{code/fortuity/hwcoh}; \file{scripts/bmn/hw-scans-cluster/cluster/launch_su4_j30.sbatch};
+\file{data/su4/bmn_hw_cohomology_j30.json}.\\
+\R{15} & Non-Coulomb gravitons & \file{code/fortuity/hwcoh/noncoulomb.py}
+(\file{python -m fortuity.hwcoh.noncoulomb GROUP N GEN_NMAX OUT DATA...}); \file{data/noncoulomb}
+(\file{README.meta.json}); \file{code/tests/test_noncoulomb.py}.\\
+\R{16} & Block restriction, fused classes, the operator of \cite{dMK} & \file{code/fortuity/bmn/blockrestrict.py},
+\file{classify.py}, \file{dmk.py}, \file{code/fortuity/hwcoh/classreps.py}; \file{scripts/bmn/block-restriction/code}
+(\file{run_su3_to_su2.py}, \file{run_so_tower.py}, \file{make_r016_data.py}) and \file{runs/};
+\file{data/su3/r007_block_restriction_su2xu1.json}, \file{r007_x1cubed_image_su2.json}, \file{dmk_o330_hw.json},
+\file{data/so_sp/*block_restriction*.json}, \file{*nongraviton_rep*.json}; \file{code/tests/test_blockrestrict.py},
+\file{test_dmk.py}.\\
+\R{17} & Parity lemma, twisted and kernel parity indices & \file{code/fortuity/bmn/twistedindex.py}, \file{cparity.py},
+\file{gravindex.py}; \file{scripts/index/c-parity/code} (\file{twisted_index.py}, \file{noncoulomb_parity.py},
+\file{su2_predictions.py}, \file{diag_counts.py}, \file{check_r007_cparity.py}, \file{atlas.py},
+\file{su4_twisted_scan.py}) and \file{runs/}; the review of its rigour in \file{scripts/index/c-parity/c19};
+\file{data/su3/twisted_index_j30.json}, \file{data/su4/twisted_index_j30.json}, \file{data/su3/kernel_parity_j40.json},
+\file{data/su2/kernel_parity_j44.json}; \file{code/tests/test_twistedindex.py}.\\
+\R{18} & $\SO(7)$, $\SO(9)$, $\SO(11)$ lowest levels certified & \file{code/fortuity/hwcoh};
+\file{scripts/bmn/so-odd-thresholds} (\file{make_tasks.py}, \file{dims.sbatch}, \file{col.sbatch}, \file{euler.sbatch},
+audit \file{analyze.py}); \file{data/so_sp/so7_hw_cohomology_j18.jsonl}, \file{so9_hw_cohomology_j20.jsonl},
+\file{so9_hw_cohomology_j22.jsonl}, \file{so11_hw_cohomology_j24.jsonl},
+\file{so9_hw_cohomology_533_j22_control.jsonl}.\\
+\R{19} & $\SO(7)$, $\USp(6)$, $\Gtwo$ at $j=28$ & \file{code/fortuity/hwcoh}; \file{scripts/bmn/so-usp-g2-scans}
+(\file{make_sector_tasks.py}, \file{extra_checks.py}, \file{cluster/t023_scan_v2.sbatch},
+\file{cluster/t023_j28_checks.sbatch}); \file{data/g2/*_j28.jsonl}, \file{data/g2/checks_j28}.\\
+\R{20} & One-loop lifting of the $\SO(2N+1)$ classes & \file{code/fortuity/full/q1.py}, \file{lifting.py}
+(\file{python -m fortuity.full.lifting so7|so9|so11}); \file{scripts/oneloop/so-odd-classes} (development scripts and
+\file{runs/}); \file{code/tests/test_q1_groups.py}, \file{test_lifting.py}.\\
+\R{21} & $\SO(13)$ vs $\USp(12)$ index & \file{code/fortuity/bmn/groupindex.py}, \file{fugacityindex.py};
+\file{data/so_sp/so13_sp6_bmn_index.json}; log \file{scripts/bmn/so-usp-g2-scans/extensions/n6_j30_fugacity.txt};
+\file{code/tests/test_fugacityindex.py}.\\
+\R{22} & $\Gtwo$ $j\le18$ & \file{code/fortuity/hwcoh} (group \file{G2}); \file{data/g2/g2_hw_cohomology_j18.jsonl};
+column list and log \file{scripts/bmn/so-usp-g2-scans/extensions/g2}.\\
+\R{23} & Non-Coulomb gravitons, $\SO$ series and $j=28$ & \file{code/fortuity/hwcoh/noncoulomb.py};
+\file{data/noncoulomb/noncoulomb_*_j18|j22|j24|j28.jsonl}, \file{so_odd_j28_extension.meta.json},
+\file{logs_2026-10-06}.\\
+\R{24} & $\SU(3)$ core at $j=34$ & \file{code/fortuity/hwcoh} (\file{run_sectors.py}, \file{cores.py},
+\file{classreps_par.py}); \file{scripts/bmn/su3-cores} (\file{cluster/sector.sbatch}, \file{analysis/make_core_data.py},
+\file{reps/run_reps.py}, \file{reps/reps.sbatch}, \file{reps/make_reps_data.py}) and its \file{results*};
+\file{data/su3/hw_cohomology_8_5_4.json}, \file{core_restrictions_j30_j34.json}; \file{code/tests/test_cores.py},
+\file{test_classreps_par.py}.\\
+\R{25} & Full letters, $\SO(7)$/$\USp(6)$ levels 18--22 & \file{code/fortuity/full} (\file{sector.py}, \file{gdims.py},
+\file{levels.py}, \file{gravitons.py}); \file{scripts/full-letter/so7-usp6} (\file{enum_level.py},
+\file{sector_group.py}, \file{hwgrav.py}, \file{runs/*.py}); \file{data/fullso} (\file{fullso.meta.json});
+\file{code/tests/test_full_groups.py}.\\
+\midrule
+\T{19} & One loop for $\SO$ classes (= \R{20}) & see \R{20}.\\
+\T{21} & Explicit representative of R-007 & see \R{07}.\\
+\T{25} & $\SO$ thresholds (= \R{18}) & see \R{18}.\\
+\T{27} & $\SU(2)$ complete scan $j\le44$ & \file{code/fortuity/hwcoh}; \file{scripts/bmn/su2-level44-scan}
+(\file{setup.sbatch}, \file{su2_scan.sbatch}, \file{su2_col.sbatch}, \file{seed_columns.py}, \file{watch_su2*.sbatch},
+\file{tasks_su2_j44.txt}); per-sector records \file{data/su2/hw_cohomology_j44_records}, assembled
+\file{data/su2/bmn_hw_cohomology_j44.json} (\file{python -m fortuity.hwcoh.to_json}); non-Coulomb test
+\file{data/noncoulomb/noncoulomb_su2_j44.jsonl}.\\
+\T{30}, \T{31}, \T{40} & One loop, all orders and two loops for the $\SU(2)$ and $\SU(3)$ classes &
+\file{scripts/oneloop/su-threshold-classes}: \file{oneloop_test.py}, \file{fullpar.py}, \file{gpu_rank.py},
+\file{cpu_rank.py} (one loop); \file{c_parity.py}, \file{twisted_index.py} ($C$); \file{size_r007_orders.py},
+\file{membership.py}, \file{hwcheck.py}, \file{abelian_lw*.py}, \file{su2_lw.py}, \file{test_q1_symm.py} (orders 2--4,
+selection rule); \file{su2_index_tower.py} (index); \file{q2bmn.py}, \file{test_q2.py}, \file{test_q2_tracerel.py},
+\file{d2_make.py}, \file{d2_report.py} (two loops); \file{cluster/} (job files); \file{runs/} (outputs, including
+\file{t040_oneloop_table.json}, \file{t040_twoloop_table.json}, \file{r007_*}).\\
+\T{32} & $\SU(3)$ cores (= \R{24}) & see \R{24}.\\
+\T{33} & Restriction and all-orders protection & \file{scripts/oneloop/protection/code} (\file{so9_intertwining.py},
+\file{so11_intertwining.py}, \file{su2_channels.py}) and \file{runs/}.\\
+\T{34} & Kernel parity for $\SO$, $\USp$, $\Gtwo$ & \file{scripts/index/kernel-parity-so-usp-g2/kernel_index.py} and its
+outputs.\\
+\T{37} & A-priori $\SU(2)$ fate table & \file{scripts/oneloop/su2-fate-predictions/scripts} (\file{run_all.sh}) and
+\file{outputs/}.\\
+\T{38} & Bonus index with parity & \file{scripts/entropy/bonus-index-parity} (\file{cardy_lib.py},
+\file{cardy_validate.py}, \file{cardy_kklp.py}, \dots, outputs \file{*.out}).\\
+\T{41} & Charge dependence of the lifting excess & \file{scripts/entropy/lifting-excess} (\file{code/},
+\file{physics/}, independent implementation \file{indep/}, \file{cluster/}, \file{outputs/}, \file{figures/}).\\
+\T{42} & $\SU(3)$ complete scan $j=32$ & \file{code/fortuity/hwcoh}; \file{scripts/bmn/su3-level32-scan}
+(\file{dims.sbatch}, \file{col.sbatch}, task lists); \file{data/su3/hw_cohomology_j32_records}; Euler check
+\file{python -m fortuity.hwcoh.to_json 'data/su3/hw_cohomology_j32_records/*.jsonl' 3 OUT.json}.\\
+\T{43} & $\SO(13)$ index, $\Gtwo$ below $j=20$, $\SO(9)$ closure & \file{scripts/bmn/so-usp-g2-scans/extensions}.\\
+\T{44}--\T{48} & $\SO(9)$ level 22, corrections, non-Coulomb extension, library promotion & see \R{18}, \R{19},
+\R{23}, \R{25}.\\
+other & labels in code comments & \T{20} (computations of \R{04}, \R{11}), \T{23} (\R{10}, \R{13}, \R{19}, \R{22}),
+\T{24} (\R{12}), \T{28} (\R{16}), \T{29} (\R{17}); \T{16}, \T{39}: promotion of the full-letter code and of the
+$\mathfrak{so}(n)$ one-loop supercharge into \file{code/fortuity/full}; \T{01}, \T{10}: conventions and the
+operational definition (section~\ref{sec:method}).\\
+\midrule
+\textsf{D-005} & Operational graviton definition & section~\ref{sec:method}.\\
+\textsf{D-006} & BMN conventions & section~\ref{sec:setup}; \file{code/fortuity/bmn/words.py}.\\
+other & Validation of the full-letter code & \file{scripts/full-letter/su-checks} (\file{validate_su2.py},
+\file{validate_hw_su2.py}, \file{run_bmn_check.py}, \file{classes_full.py}, \file{test_q1.py}).\\
+other & Independent review & \file{scripts/review/independent-checks} (\file{reproducers/}, \file{followup/}).\\
+\bottomrule
+\end{longtable}
+\normalsize
+
+\section{Reproduction}\label{app:repro}
+
+\paragraph{Installation.} Python $\ge3.10$ with numpy, scipy, sympy (\file{code/pyproject.toml}):
+\begin{small}
+\begin{verbatim}
+python3 -m pip install -e 'code[dev]'   # or: export PYTHONPATH=$PWD/code
+cd code && python3 -m pytest -q         # FORTUITY_SLOW=1 also runs the slow tests
+\end{verbatim}
+\end{small}
+The highest-weight engine runs on numpy alone; the optional FLINT/BLAS kernels are built with the scripts in
+\file{code/fortuity/hwcoh/flint} (FLINT 3, OpenBLAS or MKL). The GPU one-loop ranks need CuPy.
+
+\paragraph{Quick checks} (from the repository root unless stated; times on an Apple-silicon laptop).
+\begin{small}
+\begin{verbatim}
+cd code
+python3 -m fortuity.bmn.r002_check              # R-002 operator, seconds
+python3 -m fortuity.bmn.g2_checks restriction   # R-010, ~20 s
+python3 -m fortuity.full.lifting so7            # R-020, SO(7) lifting
+python3 -m fortuity.bmn.run_su2_direct 28 /tmp/su2.json \
+        --check ../data/su2/bmn_direct_cohomology_j28.json   # R-001, ~8 min
+cd ..
+PYTHONPATH=code python3 -m fortuity.hwcoh.to_json \
+        'data/su3/hw_cohomology_j32_records/*.jsonl' 3 out.json   # T-042 Euler check
+export PYTHONPATH=$PWD/code REPO=$PWD
+python3 scripts/bmn/su3-level24/table1_core.py   # Table 1 of CCKLL, seconds
+cd scripts/bmn/su3-level24
+python3 diag_vanishing.py       # diagonal mechanism, seconds
+python3 descendant_check.py 1   # R_26 = -1/3 Q_+ R_24 + exact, ~1 min
+cd ../so-odd-thresholds
+python3 analyze.py 5 24 ../../../data/so_sp/so11_hw_cohomology_j24.jsonl
+cd ../../oneloop/su-threshold-classes
+python3 test_q2.py 12           # K_2 = -1/6, seconds
+python3 su2_index_tower.py      # index tower of O_0, ~10 min
+cd ../../entropy/bonus-index-parity && python3 cardy_validate.py
+cd ../../full-letter/su-checks && python3 validate_su2.py 6
+\end{verbatim}
+\end{small}
+Scripts that are not modules need \file{PYTHONPATH} to contain \file{code}; scripts under
+\file{scripts/oneloop/su2-fate-predictions} also read the repository root from \file{REPO}.
+
+\paragraph{Cluster job files.} The \file{*.sbatch} and \file{env.sh} files are kept as they were run, with
+machine-specific values replaced by placeholders: \var{REPO} (the copy of this code used on the cluster),
+\var{SCRATCH}, \var{STORE}, \var{VENV} (scratch, storage and virtual-environment locations), \var{ACCOUNT},
+\var{USER}, \var{EMAIL}, \var{HOME}, \var{FLINT\_PREFIX}. In the layout used there the library sat under
+\var{REPO}\texttt{/code} and each job wrote per-sector records into a \file{results} directory; those records are
+the files in \file{data}. The largest scans took of order $10^2$--$10^3$ core-hours ($\SU(3)$ to $j=30$
+about 400, $\SU(4)$ to $j=28$ about 900 and at $j=30$ about 1500); the one-loop and higher-order $\SU(3)$ tests needed
+nodes with up to 0.5\,TB of memory or an H200 GPU.
+
+\begin{thebibliography}{99}\small
+
+\bibitem{CLWords} C.-M. Chang and Y.-H. Lin, \emph{Words to describe a black hole}, JHEP \textbf{02} (2023) 109,
+\arxiv{2209.06728}.
+
+\bibitem{CLCovering} C.-M. Chang and Y.-H. Lin, \emph{Holographic covering and the fortuity of black holes},
+\arxiv{2402.10129}.
+
+\bibitem{CKLP} S. Choi, S. Kim, E. Lee and J. Park, \emph{The shape of non-graviton operators for $SU(2)$},
+\arxiv{2209.12696}.
+
+\bibitem{CCKLL} J. Choi, S. Choi, S. Kim, J. Lee and S. Lee, \emph{Finite $N$ black hole cohomologies},
+\arxiv{2312.16443}.
+
+\bibitem{LeeThesis} S. Lee, \emph{Quantum anatomy of supersymmetric black holes in AdS spacetimes}, PhD thesis
+(2024), \arxiv{2409.03862}.
+
+\bibitem{dMK} R. de Mello Koch, M. Kim, S. Kim, J. Lee and S. Lee, \emph{Brane-fused black hole operators},
+\arxiv{2412.08695}.
+
+\bibitem{GLRT} A. Gadde, E. Lee, R. Raj and S. Tomar, \emph{Probing non-graviton spectra in $\cN=4$ SYM via BMN
+truncation and S-duality}, \arxiv{2506.13887}.
+
+\bibitem{CLSduality} C.-M. Chang and Y.-H. Lin, \emph{Violation of S-duality in classical $Q$-cohomology},
+\arxiv{2510.24008}.
+
+\bibitem{ChoiLee} J. Choi and E. Lee, \emph{Konishi lifts a black hole}, \arxiv{2511.09519}.
+
+\bibitem{BK} K. Budzik and J. Kulp, \emph{Loop corrected supercharges from holomorphic anomalies},
+\arxiv{2512.07771}.
+
+\bibitem{KKLP} S. Kim, S. Kim, S. Lee and J. Park, \emph{Quantum black hole cohomologies}, \arxiv{2606.27955}.
+
+\bibitem{BGKWWY} K. Budzik, D. Gaiotto, J. Kulp, B. R. Williams, J. Wu and M. Yu, \emph{Semi-chiral operators in 4d
+$\cN=1$ gauge theories}, JHEP \textbf{05} (2024) 245, \arxiv{2306.01039}.
+
+\bibitem{KMMR} J. Kinney, J. Maldacena, S. Minwalla and S. Raju, \emph{An index for 4 dimensional super conformal
+theories}, Commun.\ Math.\ Phys.\ \textbf{275} (2007) 209, \arxiv{hep-th/0510251}.
+
+\bibitem{Schwartz} J. T. Schwartz, \emph{Fast probabilistic algorithms for verification of polynomial identities},
+J.\ ACM \textbf{27} (1980) 701.
+
+\bibitem{Zippel} R. Zippel, \emph{Probabilistic algorithms for sparse polynomials}, in \emph{EUROSAM '79}, Lecture Notes
+in Computer Science \textbf{72} (1979) 216.
+
+\bibitem{vMS} A. von Manteuffel and R. M. Schabinger, \emph{A novel approach to integration by parts reduction},
+Phys.\ Lett.\ B \textbf{744} (2015) 101, \arxiv{1406.4513}.
+
+\bibitem{Peraro} T. Peraro, \emph{Scattering amplitudes over finite fields and multivariate functional
+reconstruction}, JHEP \textbf{12} (2016) 030, \arxiv{1608.01902}.
+
+\end{thebibliography}
+
+\end{document}

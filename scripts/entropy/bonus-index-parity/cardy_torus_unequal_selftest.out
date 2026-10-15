@@ -1,0 +1,19 @@
+# python cardy_torus_unequal.py selftest  (local M1 Max)
+li3e vs mpmath.polylog(3, e^w) on 40 random w (|Re w| <= 1.5): max error 1.2e-15
+xi = 0: Re S_cl/K / S0 = 1.0121344 (KKLP 1.0121344), Phi*/pi = 2.12448 (2.12448)
+Expected at xi = 0 (cardy_su2_torus.out): theta = pi gives R2 protected 0.793701, classical 0.979613/1.0121344 = 0.967868
+su2 xi = (0.0, 0.0, 0.0): Phi*/pi = 2.1245, Re S_prot/K = 1.4396135094, Re S_cl/K = 1.4570824039 (delta0 = 0.012134); grid 32 pts; saddle 0.0 s
+  protected R1 (fixed potentials): max 1.0000000 -> identity dominates
+      1.0000000 at theta/pi = [0.]
+  protected R2 (KKLP level): max 1.0000000 -> identity dominates
+      1.0000000 at theta/pi = [-0.]
+      0.7937005 at theta/pi = [1.]
+  classical R1 (fixed potentials): max 1.0000000 -> identity dominates
+      1.0000000 at theta/pi = [-0.]
+  classical: identity's own max over delta at delta/(3 pi) = -0.00000 (0 expected), value/(r + sum m xi) = 1.000000000
+  classical R2 (KKLP level, max over bonus): max 1.0000000 -> identity dominates
+      1.0000000 at theta/pi = [-0.], delta/(3 pi) = -0.0000
+      0.9678688 at theta/pi = [1.], delta/(3 pi) = -0.2918
+      0.4755953 at theta/pi = [1.], delta/(3 pi) = -0.9317
+  time 1.1 s
+selftest 2.7 s

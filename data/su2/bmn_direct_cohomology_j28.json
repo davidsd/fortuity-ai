@@ -1,0 +1,12286 @@
+{
+ "note": "per charge sector (2J,q1,q2,q3) with q1<=q2<=q3; other orderings by SU(3) flavour permutation",
+ "columns": "nwords (spanning multi-trace words), dimV, rQ (rank of Q on the sector), rQup (rank of Q from the sector above = #exact), coh, grav (multi-graviton classes mod exact), nongrav",
+ "sectors": [
+  {
+   "sector": [
+    0,
+    0,
+    0,
+    1
+   ],
+   "j": 2,
+   "nwords": 0,
+   "dimV": 0,
+   "rQ": 0,
+   "rQup": 0,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0
+  },
+  {
+   "sector": [
+    0,
+    0,
+    0,
+    2
+   ],
+   "j": 4,
+   "nwords": 1,
+   "dimV": 1,
+   "rQ": 0,
+   "rQup": 0,
+   "coh": 1,
+   "grav": 1,
+   "nongrav": 0,
+   "nmono": 1,
+   "time": 0.01
+  },
+  {
+   "sector": [
+    0,
+    0,
+    1,
+    1
+   ],
+   "j": 4,
+   "nwords": 1,
+   "dimV": 1,
+   "rQ": 0,
+   "rQup": 0,
+   "coh": 1,
+   "grav": 1,
+   "nongrav": 0,
+   "nmono": 1,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    1,
+    0,
+    1,
+    1
+   ],
+   "j": 4,
+   "nwords": 0,
+   "dimV": 0,
+   "rQ": 0,
+   "rQup": 0,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0
+  },
+  {
+   "sector": [
+    0,
+    0,
+    0,
+    3
+   ],
+   "j": 6,
+   "nwords": 1,
+   "dimV": 0,
+   "rQ": 0,
+   "rQup": 0,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    0,
+    0,
+    1,
+    2
+   ],
+   "j": 6,
+   "nwords": 1,
+   "dimV": 0,
+   "rQ": 0,
+   "rQup": 0,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    1,
+    0,
+    1,
+    2
+   ],
+   "j": 6,
+   "nwords": 1,
+   "dimV": 1,
+   "rQ": 0,
+   "rQup": 0,
+   "coh": 1,
+   "grav": 1,
+   "nongrav": 0,
+   "nmono": 1,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    0,
+    1,
+    1,
+    1
+   ],
+   "j": 6,
+   "nwords": 2,
+   "dimV": 1,
+   "rQ": 0,
+   "rQup": 1,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    1,
+    1,
+    1,
+    1
+   ],
+   "j": 6,
+   "nwords": 3,
+   "dimV": 3,
+   "rQ": 1,
+   "rQup": 0,
+   "coh": 2,
+   "grav": 2,
+   "nongrav": 0,
+   "nmono": 3,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    2,
+    1,
+    1,
+    1
+   ],
+   "j": 6,
+   "nwords": 0,
+   "dimV": 0,
+   "rQ": 0,
+   "rQup": 0,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0
+  },
+  {
+   "sector": [
+    0,
+    0,
+    0,
+    4
+   ],
+   "j": 8,
+   "nwords": 1,
+   "dimV": 1,
+   "rQ": 0,
+   "rQup": 0,
+   "coh": 1,
+   "grav": 1,
+   "nongrav": 0,
+   "nmono": 1,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    0,
+    0,
+    1,
+    3
+   ],
+   "j": 8,
+   "nwords": 1,
+   "dimV": 1,
+   "rQ": 0,
+   "rQup": 0,
+   "coh": 1,
+   "grav": 1,
+   "nongrav": 0,
+   "nmono": 1,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    1,
+    0,
+    1,
+    3
+   ],
+   "j": 8,
+   "nwords": 1,
+   "dimV": 0,
+   "rQ": 0,
+   "rQup": 0,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    0,
+    0,
+    2,
+    2
+   ],
+   "j": 8,
+   "nwords": 2,
+   "dimV": 2,
+   "rQ": 0,
+   "rQup": 1,
+   "coh": 1,
+   "grav": 1,
+   "nongrav": 0,
+   "nmono": 2,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    1,
+    0,
+    2,
+    2
+   ],
+   "j": 8,
+   "nwords": 2,
+   "dimV": 1,
+   "rQ": 1,
+   "rQup": 0,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    2,
+    0,
+    2,
+    2
+   ],
+   "j": 8,
+   "nwords": 0,
+   "dimV": 0,
+   "rQ": 0,
+   "rQup": 0,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0
+  },
+  {
+   "sector": [
+    0,
+    1,
+    1,
+    2
+   ],
+   "j": 8,
+   "nwords": 2,
+   "dimV": 2,
+   "rQ": 0,
+   "rQup": 1,
+   "coh": 1,
+   "grav": 1,
+   "nongrav": 0,
+   "nmono": 2,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    1,
+    1,
+    1,
+    2
+   ],
+   "j": 8,
+   "nwords": 5,
+   "dimV": 2,
+   "rQ": 1,
+   "rQup": 1,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    2,
+    1,
+    1,
+    2
+   ],
+   "j": 8,
+   "nwords": 2,
+   "dimV": 2,
+   "rQ": 1,
+   "rQup": 0,
+   "coh": 1,
+   "grav": 1,
+   "nongrav": 0,
+   "nmono": 1,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    0,
+    0,
+    0,
+    5
+   ],
+   "j": 10,
+   "nwords": 1,
+   "dimV": 0,
+   "rQ": 0,
+   "rQup": 0,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    0,
+    0,
+    1,
+    4
+   ],
+   "j": 10,
+   "nwords": 2,
+   "dimV": 0,
+   "rQ": 0,
+   "rQup": 0,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    1,
+    0,
+    1,
+    4
+   ],
+   "j": 10,
+   "nwords": 1,
+   "dimV": 1,
+   "rQ": 0,
+   "rQup": 0,
+   "coh": 1,
+   "grav": 1,
+   "nongrav": 0,
+   "nmono": 1,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    0,
+    0,
+    2,
+    3
+   ],
+   "j": 10,
+   "nwords": 3,
+   "dimV": 0,
+   "rQ": 0,
+   "rQup": 0,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    1,
+    0,
+    2,
+    3
+   ],
+   "j": 10,
+   "nwords": 2,
+   "dimV": 2,
+   "rQ": 0,
+   "rQup": 1,
+   "coh": 1,
+   "grav": 1,
+   "nongrav": 0,
+   "nmono": 2,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    2,
+    0,
+    2,
+    3
+   ],
+   "j": 10,
+   "nwords": 1,
+   "dimV": 1,
+   "rQ": 1,
+   "rQup": 0,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    0,
+    1,
+    1,
+    3
+   ],
+   "j": 10,
+   "nwords": 5,
+   "dimV": 1,
+   "rQ": 0,
+   "rQup": 1,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    1,
+    1,
+    1,
+    3
+   ],
+   "j": 10,
+   "nwords": 5,
+   "dimV": 5,
+   "rQ": 1,
+   "rQup": 1,
+   "coh": 3,
+   "grav": 3,
+   "nongrav": 0,
+   "nmono": 5,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    2,
+    1,
+    1,
+    3
+   ],
+   "j": 10,
+   "nwords": 3,
+   "dimV": 1,
+   "rQ": 1,
+   "rQup": 0,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    0,
+    1,
+    2,
+    2
+   ],
+   "j": 10,
+   "nwords": 6,
+   "dimV": 1,
+   "rQ": 0,
+   "rQup": 1,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    1,
+    1,
+    2,
+    2
+   ],
+   "j": 10,
+   "nwords": 7,
+   "dimV": 7,
+   "rQ": 1,
+   "rQup": 3,
+   "coh": 3,
+   "grav": 3,
+   "nongrav": 0,
+   "nmono": 7,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    2,
+    1,
+    2,
+    2
+   ],
+   "j": 10,
+   "nwords": 7,
+   "dimV": 4,
+   "rQ": 3,
+   "rQup": 1,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    3,
+    1,
+    2,
+    2
+   ],
+   "j": 10,
+   "nwords": 1,
+   "dimV": 1,
+   "rQ": 1,
+   "rQup": 0,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    0,
+    0,
+    0,
+    6
+   ],
+   "j": 12,
+   "nwords": 2,
+   "dimV": 1,
+   "rQ": 0,
+   "rQup": 0,
+   "coh": 1,
+   "grav": 1,
+   "nongrav": 0,
+   "nmono": 1,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    0,
+    0,
+    1,
+    5
+   ],
+   "j": 12,
+   "nwords": 2,
+   "dimV": 1,
+   "rQ": 0,
+   "rQup": 0,
+   "coh": 1,
+   "grav": 1,
+   "nongrav": 0,
+   "nmono": 1,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    1,
+    0,
+    1,
+    5
+   ],
+   "j": 12,
+   "nwords": 2,
+   "dimV": 0,
+   "rQ": 0,
+   "rQup": 0,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    0,
+    0,
+    2,
+    4
+   ],
+   "j": 12,
+   "nwords": 4,
+   "dimV": 2,
+   "rQ": 0,
+   "rQup": 1,
+   "coh": 1,
+   "grav": 1,
+   "nongrav": 0,
+   "nmono": 2,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    1,
+    0,
+    2,
+    4
+   ],
+   "j": 12,
+   "nwords": 5,
+   "dimV": 1,
+   "rQ": 1,
+   "rQup": 0,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    2,
+    0,
+    2,
+    4
+   ],
+   "j": 12,
+   "nwords": 0,
+   "dimV": 0,
+   "rQ": 0,
+   "rQup": 0,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0
+  },
+  {
+   "sector": [
+    0,
+    0,
+    3,
+    3
+   ],
+   "j": 12,
+   "nwords": 4,
+   "dimV": 2,
+   "rQ": 0,
+   "rQup": 1,
+   "coh": 1,
+   "grav": 1,
+   "nongrav": 0,
+   "nmono": 2,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    1,
+    0,
+    3,
+    3
+   ],
+   "j": 12,
+   "nwords": 6,
+   "dimV": 1,
+   "rQ": 1,
+   "rQup": 0,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    2,
+    0,
+    3,
+    3
+   ],
+   "j": 12,
+   "nwords": 1,
+   "dimV": 1,
+   "rQ": 0,
+   "rQup": 1,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 1,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    3,
+    0,
+    3,
+    3
+   ],
+   "j": 12,
+   "nwords": 1,
+   "dimV": 1,
+   "rQ": 1,
+   "rQup": 0,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    0,
+    1,
+    1,
+    4
+   ],
+   "j": 12,
+   "nwords": 5,
+   "dimV": 2,
+   "rQ": 0,
+   "rQup": 1,
+   "coh": 1,
+   "grav": 1,
+   "nongrav": 0,
+   "nmono": 2,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    1,
+    1,
+    1,
+    4
+   ],
+   "j": 12,
+   "nwords": 12,
+   "dimV": 2,
+   "rQ": 1,
+   "rQup": 1,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    2,
+    1,
+    1,
+    4
+   ],
+   "j": 12,
+   "nwords": 3,
+   "dimV": 3,
+   "rQ": 1,
+   "rQup": 0,
+   "coh": 2,
+   "grav": 2,
+   "nongrav": 0,
+   "nmono": 2,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "j": 12,
+   "nwords": 7,
+   "dimV": 3,
+   "rQ": 0,
+   "rQup": 2,
+   "coh": 1,
+   "grav": 1,
+   "nongrav": 0,
+   "nmono": 3,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    1,
+    1,
+    2,
+    3
+   ],
+   "j": 12,
+   "nwords": 22,
+   "dimV": 5,
+   "rQ": 2,
+   "rQup": 3,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    2,
+    1,
+    2,
+    3
+   ],
+   "j": 12,
+   "nwords": 8,
+   "dimV": 8,
+   "rQ": 3,
+   "rQup": 2,
+   "coh": 3,
+   "grav": 3,
+   "nongrav": 0,
+   "nmono": 6,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    3,
+    1,
+    2,
+    3
+   ],
+   "j": 12,
+   "nwords": 3,
+   "dimV": 2,
+   "rQ": 2,
+   "rQup": 0,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    0,
+    2,
+    2,
+    2
+   ],
+   "j": 12,
+   "nwords": 11,
+   "dimV": 5,
+   "rQ": 0,
+   "rQup": 4,
+   "coh": 1,
+   "grav": 1,
+   "nongrav": 0,
+   "nmono": 5,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    1,
+    2,
+    2,
+    2
+   ],
+   "j": 12,
+   "nwords": 33,
+   "dimV": 9,
+   "rQ": 4,
+   "rQup": 5,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    2,
+    2,
+    2,
+    2
+   ],
+   "j": 12,
+   "nwords": 12,
+   "dimV": 12,
+   "rQ": 5,
+   "rQup": 3,
+   "coh": 4,
+   "grav": 4,
+   "nongrav": 0,
+   "nmono": 9,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    3,
+    2,
+    2,
+    2
+   ],
+   "j": 12,
+   "nwords": 8,
+   "dimV": 4,
+   "rQ": 3,
+   "rQup": 1,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    4,
+    2,
+    2,
+    2
+   ],
+   "j": 12,
+   "nwords": 1,
+   "dimV": 1,
+   "rQ": 1,
+   "rQup": 0,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    0,
+    0,
+    0,
+    7
+   ],
+   "j": 14,
+   "nwords": 1,
+   "dimV": 0,
+   "rQ": 0,
+   "rQup": 0,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    0,
+    0,
+    1,
+    6
+   ],
+   "j": 14,
+   "nwords": 2,
+   "dimV": 0,
+   "rQ": 0,
+   "rQup": 0,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    1,
+    0,
+    1,
+    6
+   ],
+   "j": 14,
+   "nwords": 2,
+   "dimV": 1,
+   "rQ": 0,
+   "rQup": 0,
+   "coh": 1,
+   "grav": 1,
+   "nongrav": 0,
+   "nmono": 1,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    0,
+    0,
+    2,
+    5
+   ],
+   "j": 14,
+   "nwords": 4,
+   "dimV": 0,
+   "rQ": 0,
+   "rQup": 0,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    1,
+    0,
+    2,
+    5
+   ],
+   "j": 14,
+   "nwords": 5,
+   "dimV": 2,
+   "rQ": 0,
+   "rQup": 1,
+   "coh": 1,
+   "grav": 1,
+   "nongrav": 0,
+   "nmono": 2,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    2,
+    0,
+    2,
+    5
+   ],
+   "j": 14,
+   "nwords": 2,
+   "dimV": 1,
+   "rQ": 1,
+   "rQup": 0,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    0,
+    0,
+    3,
+    4
+   ],
+   "j": 14,
+   "nwords": 5,
+   "dimV": 0,
+   "rQ": 0,
+   "rQup": 0,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    1,
+    0,
+    3,
+    4
+   ],
+   "j": 14,
+   "nwords": 7,
+   "dimV": 3,
+   "rQ": 0,
+   "rQup": 2,
+   "coh": 1,
+   "grav": 1,
+   "nongrav": 0,
+   "nmono": 3,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    2,
+    0,
+    3,
+    4
+   ],
+   "j": 14,
+   "nwords": 5,
+   "dimV": 2,
+   "rQ": 2,
+   "rQup": 0,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    3,
+    0,
+    3,
+    4
+   ],
+   "j": 14,
+   "nwords": 0,
+   "dimV": 0,
+   "rQ": 0,
+   "rQup": 0,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0
+  },
+  {
+   "sector": [
+    0,
+    1,
+    1,
+    5
+   ],
+   "j": 14,
+   "nwords": 6,
+   "dimV": 1,
+   "rQ": 0,
+   "rQup": 1,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    1,
+    1,
+    1,
+    5
+   ],
+   "j": 14,
+   "nwords": 12,
+   "dimV": 5,
+   "rQ": 1,
+   "rQup": 1,
+   "coh": 3,
+   "grav": 3,
+   "nongrav": 0,
+   "nmono": 5,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    2,
+    1,
+    1,
+    5
+   ],
+   "j": 14,
+   "nwords": 7,
+   "dimV": 1,
+   "rQ": 1,
+   "rQup": 0,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    0,
+    1,
+    2,
+    4
+   ],
+   "j": 14,
+   "nwords": 10,
+   "dimV": 1,
+   "rQ": 0,
+   "rQup": 1,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    1,
+    1,
+    2,
+    4
+   ],
+   "j": 14,
+   "nwords": 24,
+   "dimV": 9,
+   "rQ": 1,
+   "rQup": 5,
+   "coh": 3,
+   "grav": 3,
+   "nongrav": 0,
+   "nmono": 9,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    2,
+    1,
+    2,
+    4
+   ],
+   "j": 14,
+   "nwords": 26,
+   "dimV": 7,
+   "rQ": 5,
+   "rQup": 2,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    3,
+    1,
+    2,
+    4
+   ],
+   "j": 14,
+   "nwords": 3,
+   "dimV": 3,
+   "rQ": 2,
+   "rQup": 0,
+   "coh": 1,
+   "grav": 1,
+   "nongrav": 0,
+   "nmono": 1,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    0,
+    1,
+    3,
+    3
+   ],
+   "j": 14,
+   "nwords": 12,
+   "dimV": 2,
+   "rQ": 0,
+   "rQup": 2,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    1,
+    1,
+    3,
+    3
+   ],
+   "j": 14,
+   "nwords": 30,
+   "dimV": 12,
+   "rQ": 2,
+   "rQup": 7,
+   "coh": 3,
+   "grav": 3,
+   "nongrav": 0,
+   "nmono": 12,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    2,
+    1,
+    3,
+    3
+   ],
+   "j": 14,
+   "nwords": 37,
+   "dimV": 10,
+   "rQ": 7,
+   "rQup": 3,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    3,
+    1,
+    3,
+    3
+   ],
+   "j": 14,
+   "nwords": 5,
+   "dimV": 5,
+   "rQ": 3,
+   "rQup": 1,
+   "coh": 1,
+   "grav": 1,
+   "nongrav": 0,
+   "nmono": 2,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    4,
+    1,
+    3,
+    3
+   ],
+   "j": 14,
+   "nwords": 1,
+   "dimV": 1,
+   "rQ": 1,
+   "rQup": 0,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    0,
+    2,
+    2,
+    3
+   ],
+   "j": 14,
+   "nwords": 16,
+   "dimV": 2,
+   "rQ": 0,
+   "rQup": 2,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    1,
+    2,
+    2,
+    3
+   ],
+   "j": 14,
+   "nwords": 44,
+   "dimV": 16,
+   "rQ": 2,
+   "rQup": 11,
+   "coh": 3,
+   "grav": 3,
+   "nongrav": 0,
+   "nmono": 16,
+   "time": 0.01
+  },
+  {
+   "sector": [
+    2,
+    2,
+    2,
+    3
+   ],
+   "j": 14,
+   "nwords": 65,
+   "dimV": 20,
+   "rQ": 11,
+   "rQup": 9,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    3,
+    2,
+    2,
+    3
+   ],
+   "j": 14,
+   "nwords": 13,
+   "dimV": 13,
+   "rQ": 9,
+   "rQup": 1,
+   "coh": 3,
+   "grav": 3,
+   "nongrav": 0,
+   "nmono": 5,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    4,
+    2,
+    2,
+    3
+   ],
+   "j": 14,
+   "nwords": 3,
+   "dimV": 1,
+   "rQ": 1,
+   "rQup": 0,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    0,
+    0,
+    0,
+    8
+   ],
+   "j": 16,
+   "nwords": 2,
+   "dimV": 1,
+   "rQ": 0,
+   "rQup": 0,
+   "coh": 1,
+   "grav": 1,
+   "nongrav": 0,
+   "nmono": 1,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    0,
+    0,
+    1,
+    7
+   ],
+   "j": 16,
+   "nwords": 3,
+   "dimV": 1,
+   "rQ": 0,
+   "rQup": 0,
+   "coh": 1,
+   "grav": 1,
+   "nongrav": 0,
+   "nmono": 1,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    1,
+    0,
+    1,
+    7
+   ],
+   "j": 16,
+   "nwords": 2,
+   "dimV": 0,
+   "rQ": 0,
+   "rQup": 0,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    0,
+    0,
+    2,
+    6
+   ],
+   "j": 16,
+   "nwords": 6,
+   "dimV": 2,
+   "rQ": 0,
+   "rQup": 1,
+   "coh": 1,
+   "grav": 1,
+   "nongrav": 0,
+   "nmono": 2,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    1,
+    0,
+    2,
+    6
+   ],
+   "j": 16,
+   "nwords": 6,
+   "dimV": 1,
+   "rQ": 1,
+   "rQup": 0,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    2,
+    0,
+    2,
+    6
+   ],
+   "j": 16,
+   "nwords": 1,
+   "dimV": 0,
+   "rQ": 0,
+   "rQup": 0,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    0,
+    0,
+    3,
+    5
+   ],
+   "j": 16,
+   "nwords": 7,
+   "dimV": 2,
+   "rQ": 0,
+   "rQup": 1,
+   "coh": 1,
+   "grav": 1,
+   "nongrav": 0,
+   "nmono": 2,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    1,
+    0,
+    3,
+    5
+   ],
+   "j": 16,
+   "nwords": 10,
+   "dimV": 1,
+   "rQ": 1,
+   "rQup": 0,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    2,
+    0,
+    3,
+    5
+   ],
+   "j": 16,
+   "nwords": 5,
+   "dimV": 1,
+   "rQ": 0,
+   "rQup": 1,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 1,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    3,
+    0,
+    3,
+    5
+   ],
+   "j": 16,
+   "nwords": 2,
+   "dimV": 1,
+   "rQ": 1,
+   "rQup": 0,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    0,
+    0,
+    4,
+    4
+   ],
+   "j": 16,
+   "nwords": 9,
+   "dimV": 3,
+   "rQ": 0,
+   "rQup": 2,
+   "coh": 1,
+   "grav": 1,
+   "nongrav": 0,
+   "nmono": 3,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    1,
+    0,
+    4,
+    4
+   ],
+   "j": 16,
+   "nwords": 12,
+   "dimV": 2,
+   "rQ": 2,
+   "rQup": 0,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    2,
+    0,
+    4,
+    4
+   ],
+   "j": 16,
+   "nwords": 5,
+   "dimV": 1,
+   "rQ": 0,
+   "rQup": 1,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 1,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    3,
+    0,
+    4,
+    4
+   ],
+   "j": 16,
+   "nwords": 3,
+   "dimV": 1,
+   "rQ": 1,
+   "rQup": 0,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    4,
+    0,
+    4,
+    4
+   ],
+   "j": 16,
+   "nwords": 0,
+   "dimV": 0,
+   "rQ": 0,
+   "rQup": 0,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0
+  },
+  {
+   "sector": [
+    0,
+    1,
+    1,
+    6
+   ],
+   "j": 16,
+   "nwords": 8,
+   "dimV": 2,
+   "rQ": 0,
+   "rQup": 1,
+   "coh": 1,
+   "grav": 1,
+   "nongrav": 0,
+   "nmono": 2,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    1,
+    1,
+    1,
+    6
+   ],
+   "j": 16,
+   "nwords": 14,
+   "dimV": 2,
+   "rQ": 1,
+   "rQup": 1,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    2,
+    1,
+    1,
+    6
+   ],
+   "j": 16,
+   "nwords": 7,
+   "dimV": 3,
+   "rQ": 1,
+   "rQup": 0,
+   "coh": 2,
+   "grav": 2,
+   "nongrav": 0,
+   "nmono": 2,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    0,
+    1,
+    2,
+    5
+   ],
+   "j": 16,
+   "nwords": 14,
+   "dimV": 3,
+   "rQ": 0,
+   "rQup": 2,
+   "coh": 1,
+   "grav": 1,
+   "nongrav": 0,
+   "nmono": 3,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    1,
+    1,
+    2,
+    5
+   ],
+   "j": 16,
+   "nwords": 33,
+   "dimV": 5,
+   "rQ": 2,
+   "rQup": 3,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    2,
+    1,
+    2,
+    5
+   ],
+   "j": 16,
+   "nwords": 27,
+   "dimV": 9,
+   "rQ": 3,
+   "rQup": 3,
+   "coh": 3,
+   "grav": 3,
+   "nongrav": 0,
+   "nmono": 7,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    3,
+    1,
+    2,
+    5
+   ],
+   "j": 16,
+   "nwords": 10,
+   "dimV": 3,
+   "rQ": 3,
+   "rQup": 0,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    0,
+    1,
+    3,
+    4
+   ],
+   "j": 16,
+   "nwords": 19,
+   "dimV": 4,
+   "rQ": 0,
+   "rQup": 3,
+   "coh": 1,
+   "grav": 1,
+   "nongrav": 0,
+   "nmono": 4,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    1,
+    1,
+    3,
+    4
+   ],
+   "j": 16,
+   "nwords": 49,
+   "dimV": 8,
+   "rQ": 3,
+   "rQup": 5,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    2,
+    1,
+    3,
+    4
+   ],
+   "j": 16,
+   "nwords": 48,
+   "dimV": 16,
+   "rQ": 5,
+   "rQup": 8,
+   "coh": 3,
+   "grav": 3,
+   "nongrav": 0,
+   "nmono": 13,
+   "time": 0.01
+  },
+  {
+   "sector": [
+    3,
+    1,
+    3,
+    4
+   ],
+   "j": 16,
+   "nwords": 28,
+   "dimV": 9,
+   "rQ": 8,
+   "rQup": 1,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    4,
+    1,
+    3,
+    4
+   ],
+   "j": 16,
+   "nwords": 1,
+   "dimV": 1,
+   "rQ": 1,
+   "rQup": 0,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    0,
+    2,
+    2,
+    4
+   ],
+   "j": 16,
+   "nwords": 27,
+   "dimV": 6,
+   "rQ": 0,
+   "rQup": 5,
+   "coh": 1,
+   "grav": 1,
+   "nongrav": 0,
+   "nmono": 6,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    1,
+    2,
+    2,
+    4
+   ],
+   "j": 16,
+   "nwords": 71,
+   "dimV": 13,
+   "rQ": 5,
+   "rQup": 8,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.01
+  },
+  {
+   "sector": [
+    2,
+    2,
+    2,
+    4
+   ],
+   "j": 16,
+   "nwords": 76,
+   "dimV": 23,
+   "rQ": 8,
+   "rQup": 11,
+   "coh": 4,
+   "grav": 4,
+   "nongrav": 0,
+   "nmono": 19,
+   "time": 0.01
+  },
+  {
+   "sector": [
+    3,
+    2,
+    2,
+    4
+   ],
+   "j": 16,
+   "nwords": 56,
+   "dimV": 16,
+   "rQ": 11,
+   "rQup": 5,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    4,
+    2,
+    2,
+    4
+   ],
+   "j": 16,
+   "nwords": 6,
+   "dimV": 6,
+   "rQ": 5,
+   "rQup": 0,
+   "coh": 1,
+   "grav": 1,
+   "nongrav": 0,
+   "nmono": 1,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    0,
+    2,
+    3,
+    3
+   ],
+   "j": 16,
+   "nwords": 30,
+   "dimV": 6,
+   "rQ": 0,
+   "rQup": 5,
+   "coh": 1,
+   "grav": 1,
+   "nongrav": 0,
+   "nmono": 6,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    1,
+    2,
+    3,
+    3
+   ],
+   "j": 16,
+   "nwords": 90,
+   "dimV": 16,
+   "rQ": 5,
+   "rQup": 11,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.01
+  },
+  {
+   "sector": [
+    2,
+    2,
+    3,
+    3
+   ],
+   "j": 16,
+   "nwords": 113,
+   "dimV": 35,
+   "rQ": 11,
+   "rQup": 20,
+   "coh": 4,
+   "grav": 4,
+   "nongrav": 0,
+   "nmono": 29,
+   "time": 0.02
+  },
+  {
+   "sector": [
+    3,
+    2,
+    3,
+    3
+   ],
+   "j": 16,
+   "nwords": 92,
+   "dimV": 29,
+   "rQ": 20,
+   "rQup": 9,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.01
+  },
+  {
+   "sector": [
+    4,
+    2,
+    3,
+    3
+   ],
+   "j": 16,
+   "nwords": 10,
+   "dimV": 10,
+   "rQ": 9,
+   "rQup": 0,
+   "coh": 1,
+   "grav": 1,
+   "nongrav": 0,
+   "nmono": 1,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    5,
+    2,
+    3,
+    3
+   ],
+   "j": 16,
+   "nwords": 1,
+   "dimV": 0,
+   "rQ": 0,
+   "rQup": 0,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    0,
+    0,
+    0,
+    9
+   ],
+   "j": 18,
+   "nwords": 2,
+   "dimV": 0,
+   "rQ": 0,
+   "rQup": 0,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    0,
+    0,
+    1,
+    8
+   ],
+   "j": 18,
+   "nwords": 3,
+   "dimV": 0,
+   "rQ": 0,
+   "rQup": 0,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    1,
+    0,
+    1,
+    8
+   ],
+   "j": 18,
+   "nwords": 3,
+   "dimV": 1,
+   "rQ": 0,
+   "rQup": 0,
+   "coh": 1,
+   "grav": 1,
+   "nongrav": 0,
+   "nmono": 1,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    0,
+    0,
+    2,
+    7
+   ],
+   "j": 18,
+   "nwords": 6,
+   "dimV": 0,
+   "rQ": 0,
+   "rQup": 0,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    1,
+    0,
+    2,
+    7
+   ],
+   "j": 18,
+   "nwords": 8,
+   "dimV": 2,
+   "rQ": 0,
+   "rQup": 1,
+   "coh": 1,
+   "grav": 1,
+   "nongrav": 0,
+   "nmono": 2,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    2,
+    0,
+    2,
+    7
+   ],
+   "j": 18,
+   "nwords": 2,
+   "dimV": 1,
+   "rQ": 1,
+   "rQup": 0,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    0,
+    0,
+    3,
+    6
+   ],
+   "j": 18,
+   "nwords": 9,
+   "dimV": 0,
+   "rQ": 0,
+   "rQup": 0,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    1,
+    0,
+    3,
+    6
+   ],
+   "j": 18,
+   "nwords": 14,
+   "dimV": 3,
+   "rQ": 0,
+   "rQup": 2,
+   "coh": 1,
+   "grav": 1,
+   "nongrav": 0,
+   "nmono": 3,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    2,
+    0,
+    3,
+    6
+   ],
+   "j": 18,
+   "nwords": 7,
+   "dimV": 2,
+   "rQ": 2,
+   "rQup": 0,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    3,
+    0,
+    3,
+    6
+   ],
+   "j": 18,
+   "nwords": 2,
+   "dimV": 0,
+   "rQ": 0,
+   "rQup": 0,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    0,
+    0,
+    4,
+    5
+   ],
+   "j": 18,
+   "nwords": 10,
+   "dimV": 0,
+   "rQ": 0,
+   "rQup": 0,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    1,
+    0,
+    4,
+    5
+   ],
+   "j": 18,
+   "nwords": 19,
+   "dimV": 4,
+   "rQ": 0,
+   "rQup": 3,
+   "coh": 1,
+   "grav": 1,
+   "nongrav": 0,
+   "nmono": 4,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    2,
+    0,
+    4,
+    5
+   ],
+   "j": 18,
+   "nwords": 11,
+   "dimV": 3,
+   "rQ": 3,
+   "rQup": 0,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    3,
+    0,
+    4,
+    5
+   ],
+   "j": 18,
+   "nwords": 4,
+   "dimV": 0,
+   "rQ": 0,
+   "rQup": 0,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    4,
+    0,
+    4,
+    5
+   ],
+   "j": 18,
+   "nwords": 1,
+   "dimV": 0,
+   "rQ": 0,
+   "rQup": 0,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    0,
+    1,
+    1,
+    7
+   ],
+   "j": 18,
+   "nwords": 9,
+   "dimV": 1,
+   "rQ": 0,
+   "rQup": 1,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    1,
+    1,
+    1,
+    7
+   ],
+   "j": 18,
+   "nwords": 19,
+   "dimV": 5,
+   "rQ": 1,
+   "rQup": 1,
+   "coh": 3,
+   "grav": 3,
+   "nongrav": 0,
+   "nmono": 5,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    2,
+    1,
+    1,
+    7
+   ],
+   "j": 18,
+   "nwords": 8,
+   "dimV": 1,
+   "rQ": 1,
+   "rQup": 0,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    0,
+    1,
+    2,
+    6
+   ],
+   "j": 18,
+   "nwords": 16,
+   "dimV": 1,
+   "rQ": 0,
+   "rQup": 1,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    1,
+    1,
+    2,
+    6
+   ],
+   "j": 18,
+   "nwords": 46,
+   "dimV": 9,
+   "rQ": 1,
+   "rQup": 5,
+   "coh": 3,
+   "grav": 3,
+   "nongrav": 0,
+   "nmono": 9,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    2,
+    1,
+    2,
+    6
+   ],
+   "j": 18,
+   "nwords": 36,
+   "dimV": 7,
+   "rQ": 5,
+   "rQup": 2,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    3,
+    1,
+    2,
+    6
+   ],
+   "j": 18,
+   "nwords": 10,
+   "dimV": 3,
+   "rQ": 2,
+   "rQup": 0,
+   "coh": 1,
+   "grav": 1,
+   "nongrav": 0,
+   "nmono": 1,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    0,
+    1,
+    3,
+    5
+   ],
+   "j": 18,
+   "nwords": 23,
+   "dimV": 2,
+   "rQ": 0,
+   "rQup": 2,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    1,
+    1,
+    3,
+    5
+   ],
+   "j": 18,
+   "nwords": 77,
+   "dimV": 14,
+   "rQ": 2,
+   "rQup": 9,
+   "coh": 3,
+   "grav": 3,
+   "nongrav": 0,
+   "nmono": 14,
+   "time": 0.01
+  },
+  {
+   "sector": [
+    2,
+    1,
+    3,
+    5
+   ],
+   "j": 18,
+   "nwords": 74,
+   "dimV": 13,
+   "rQ": 9,
+   "rQup": 4,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.01
+  },
+  {
+   "sector": [
+    3,
+    1,
+    3,
+    5
+   ],
+   "j": 18,
+   "nwords": 34,
+   "dimV": 8,
+   "rQ": 4,
+   "rQup": 3,
+   "coh": 1,
+   "grav": 1,
+   "nongrav": 0,
+   "nmono": 4,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    4,
+    1,
+    3,
+    5
+   ],
+   "j": 18,
+   "nwords": 8,
+   "dimV": 3,
+   "rQ": 3,
+   "rQup": 0,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    0,
+    1,
+    4,
+    4
+   ],
+   "j": 18,
+   "nwords": 26,
+   "dimV": 2,
+   "rQ": 0,
+   "rQup": 2,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    1,
+    1,
+    4,
+    4
+   ],
+   "j": 18,
+   "nwords": 90,
+   "dimV": 16,
+   "rQ": 2,
+   "rQup": 11,
+   "coh": 3,
+   "grav": 3,
+   "nongrav": 0,
+   "nmono": 16,
+   "time": 0.01
+  },
+  {
+   "sector": [
+    2,
+    1,
+    4,
+    4
+   ],
+   "j": 18,
+   "nwords": 94,
+   "dimV": 18,
+   "rQ": 11,
+   "rQup": 7,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.01
+  },
+  {
+   "sector": [
+    3,
+    1,
+    4,
+    4
+   ],
+   "j": 18,
+   "nwords": 51,
+   "dimV": 13,
+   "rQ": 7,
+   "rQup": 5,
+   "coh": 1,
+   "grav": 1,
+   "nongrav": 0,
+   "nmono": 7,
+   "time": 0.01
+  },
+  {
+   "sector": [
+    4,
+    1,
+    4,
+    4
+   ],
+   "j": 18,
+   "nwords": 16,
+   "dimV": 5,
+   "rQ": 5,
+   "rQup": 0,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    5,
+    1,
+    4,
+    4
+   ],
+   "j": 18,
+   "nwords": 0,
+   "dimV": 0,
+   "rQ": 0,
+   "rQup": 0,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0
+  },
+  {
+   "sector": [
+    0,
+    2,
+    2,
+    5
+   ],
+   "j": 18,
+   "nwords": 31,
+   "dimV": 2,
+   "rQ": 0,
+   "rQup": 2,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    1,
+    2,
+    2,
+    5
+   ],
+   "j": 18,
+   "nwords": 112,
+   "dimV": 18,
+   "rQ": 2,
+   "rQup": 13,
+   "coh": 3,
+   "grav": 3,
+   "nongrav": 0,
+   "nmono": 18,
+   "time": 0.01
+  },
+  {
+   "sector": [
+    2,
+    2,
+    2,
+    5
+   ],
+   "j": 18,
+   "nwords": 122,
+   "dimV": 25,
+   "rQ": 13,
+   "rQup": 12,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.01
+  },
+  {
+   "sector": [
+    3,
+    2,
+    2,
+    5
+   ],
+   "j": 18,
+   "nwords": 67,
+   "dimV": 20,
+   "rQ": 12,
+   "rQup": 4,
+   "coh": 4,
+   "grav": 4,
+   "nongrav": 0,
+   "nmono": 10,
+   "time": 0.01
+  },
+  {
+   "sector": [
+    4,
+    2,
+    2,
+    5
+   ],
+   "j": 18,
+   "nwords": 18,
+   "dimV": 4,
+   "rQ": 4,
+   "rQup": 0,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    0,
+    2,
+    3,
+    4
+   ],
+   "j": 18,
+   "nwords": 41,
+   "dimV": 3,
+   "rQ": 0,
+   "rQup": 3,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.01
+  },
+  {
+   "sector": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "j": 18,
+   "nwords": 167,
+   "dimV": 26,
+   "rQ": 3,
+   "rQup": 20,
+   "coh": 3,
+   "grav": 3,
+   "nongrav": 0,
+   "nmono": 26,
+   "time": 0.02
+  },
+  {
+   "sector": [
+    2,
+    2,
+    3,
+    4
+   ],
+   "j": 18,
+   "nwords": 211,
+   "dimV": 42,
+   "rQ": 20,
+   "rQup": 22,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.03
+  },
+  {
+   "sector": [
+    3,
+    2,
+    3,
+    4
+   ],
+   "j": 18,
+   "nwords": 147,
+   "dimV": 41,
+   "rQ": 22,
+   "rQup": 15,
+   "coh": 4,
+   "grav": 4,
+   "nongrav": 0,
+   "nmono": 22,
+   "time": 0.02
+  },
+  {
+   "sector": [
+    4,
+    2,
+    3,
+    4
+   ],
+   "j": 18,
+   "nwords": 62,
+   "dimV": 18,
+   "rQ": 15,
+   "rQup": 3,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    5,
+    2,
+    3,
+    4
+   ],
+   "j": 18,
+   "nwords": 3,
+   "dimV": 3,
+   "rQ": 3,
+   "rQup": 0,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    0,
+    3,
+    3,
+    3
+   ],
+   "j": 18,
+   "nwords": 50,
+   "dimV": 5,
+   "rQ": 0,
+   "rQup": 5,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.01
+  },
+  {
+   "sector": [
+    1,
+    3,
+    3,
+    3
+   ],
+   "j": 18,
+   "nwords": 213,
+   "dimV": 33,
+   "rQ": 5,
+   "rQup": 25,
+   "coh": 3,
+   "grav": 3,
+   "nongrav": 0,
+   "nmono": 33,
+   "time": 0.03
+  },
+  {
+   "sector": [
+    2,
+    3,
+    3,
+    3
+   ],
+   "j": 18,
+   "nwords": 288,
+   "dimV": 54,
+   "rQ": 25,
+   "rQup": 29,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.05
+  },
+  {
+   "sector": [
+    3,
+    3,
+    3,
+    3
+   ],
+   "j": 18,
+   "nwords": 226,
+   "dimV": 60,
+   "rQ": 29,
+   "rQup": 27,
+   "coh": 4,
+   "grav": 4,
+   "nongrav": 0,
+   "nmono": 33,
+   "time": 0.05
+  },
+  {
+   "sector": [
+    4,
+    3,
+    3,
+    3
+   ],
+   "j": 18,
+   "nwords": 113,
+   "dimV": 36,
+   "rQ": 27,
+   "rQup": 9,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.01
+  },
+  {
+   "sector": [
+    5,
+    3,
+    3,
+    3
+   ],
+   "j": 18,
+   "nwords": 9,
+   "dimV": 9,
+   "rQ": 9,
+   "rQup": 0,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    6,
+    3,
+    3,
+    3
+   ],
+   "j": 18,
+   "nwords": 1,
+   "dimV": 0,
+   "rQ": 0,
+   "rQup": 0,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    0,
+    0,
+    0,
+    10
+   ],
+   "j": 20,
+   "nwords": 2,
+   "dimV": 1,
+   "rQ": 0,
+   "rQup": 0,
+   "coh": 1,
+   "grav": 1,
+   "nongrav": 0,
+   "nmono": 1,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    0,
+    0,
+    1,
+    9
+   ],
+   "j": 20,
+   "nwords": 3,
+   "dimV": 1,
+   "rQ": 0,
+   "rQup": 0,
+   "coh": 1,
+   "grav": 1,
+   "nongrav": 0,
+   "nmono": 1,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    1,
+    0,
+    1,
+    9
+   ],
+   "j": 20,
+   "nwords": 3,
+   "dimV": 0,
+   "rQ": 0,
+   "rQup": 0,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    0,
+    0,
+    2,
+    8
+   ],
+   "j": 20,
+   "nwords": 7,
+   "dimV": 2,
+   "rQ": 0,
+   "rQup": 1,
+   "coh": 1,
+   "grav": 1,
+   "nongrav": 0,
+   "nmono": 2,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    1,
+    0,
+    2,
+    8
+   ],
+   "j": 20,
+   "nwords": 9,
+   "dimV": 1,
+   "rQ": 1,
+   "rQup": 0,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    2,
+    0,
+    2,
+    8
+   ],
+   "j": 20,
+   "nwords": 2,
+   "dimV": 0,
+   "rQ": 0,
+   "rQup": 0,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    0,
+    0,
+    3,
+    7
+   ],
+   "j": 20,
+   "nwords": 9,
+   "dimV": 2,
+   "rQ": 0,
+   "rQup": 1,
+   "coh": 1,
+   "grav": 1,
+   "nongrav": 0,
+   "nmono": 2,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    1,
+    0,
+    3,
+    7
+   ],
+   "j": 20,
+   "nwords": 16,
+   "dimV": 1,
+   "rQ": 1,
+   "rQup": 0,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    2,
+    0,
+    3,
+    7
+   ],
+   "j": 20,
+   "nwords": 10,
+   "dimV": 1,
+   "rQ": 0,
+   "rQup": 1,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 1,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    3,
+    0,
+    3,
+    7
+   ],
+   "j": 20,
+   "nwords": 2,
+   "dimV": 1,
+   "rQ": 1,
+   "rQup": 0,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    0,
+    0,
+    4,
+    6
+   ],
+   "j": 20,
+   "nwords": 13,
+   "dimV": 3,
+   "rQ": 0,
+   "rQup": 2,
+   "coh": 1,
+   "grav": 1,
+   "nongrav": 0,
+   "nmono": 3,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    1,
+    0,
+    4,
+    6
+   ],
+   "j": 20,
+   "nwords": 23,
+   "dimV": 2,
+   "rQ": 2,
+   "rQup": 0,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    2,
+    0,
+    4,
+    6
+   ],
+   "j": 20,
+   "nwords": 17,
+   "dimV": 1,
+   "rQ": 0,
+   "rQup": 1,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 1,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    3,
+    0,
+    4,
+    6
+   ],
+   "j": 20,
+   "nwords": 5,
+   "dimV": 1,
+   "rQ": 1,
+   "rQup": 0,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    4,
+    0,
+    4,
+    6
+   ],
+   "j": 20,
+   "nwords": 2,
+   "dimV": 0,
+   "rQ": 0,
+   "rQup": 0,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    0,
+    0,
+    5,
+    5
+   ],
+   "j": 20,
+   "nwords": 13,
+   "dimV": 3,
+   "rQ": 0,
+   "rQup": 2,
+   "coh": 1,
+   "grav": 1,
+   "nongrav": 0,
+   "nmono": 3,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    1,
+    0,
+    5,
+    5
+   ],
+   "j": 20,
+   "nwords": 26,
+   "dimV": 2,
+   "rQ": 2,
+   "rQup": 0,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    2,
+    0,
+    5,
+    5
+   ],
+   "j": 20,
+   "nwords": 22,
+   "dimV": 2,
+   "rQ": 0,
+   "rQup": 2,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 2,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    3,
+    0,
+    5,
+    5
+   ],
+   "j": 20,
+   "nwords": 8,
+   "dimV": 2,
+   "rQ": 2,
+   "rQup": 0,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    4,
+    0,
+    5,
+    5
+   ],
+   "j": 20,
+   "nwords": 3,
+   "dimV": 0,
+   "rQ": 0,
+   "rQup": 0,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    5,
+    0,
+    5,
+    5
+   ],
+   "j": 20,
+   "nwords": 0,
+   "dimV": 0,
+   "rQ": 0,
+   "rQup": 0,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0
+  },
+  {
+   "sector": [
+    0,
+    1,
+    1,
+    8
+   ],
+   "j": 20,
+   "nwords": 9,
+   "dimV": 2,
+   "rQ": 0,
+   "rQup": 1,
+   "coh": 1,
+   "grav": 1,
+   "nongrav": 0,
+   "nmono": 2,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    1,
+    1,
+    1,
+    8
+   ],
+   "j": 20,
+   "nwords": 21,
+   "dimV": 2,
+   "rQ": 1,
+   "rQup": 1,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    2,
+    1,
+    1,
+    8
+   ],
+   "j": 20,
+   "nwords": 11,
+   "dimV": 3,
+   "rQ": 1,
+   "rQup": 0,
+   "coh": 2,
+   "grav": 2,
+   "nongrav": 0,
+   "nmono": 2,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    0,
+    1,
+    2,
+    7
+   ],
+   "j": 20,
+   "nwords": 18,
+   "dimV": 3,
+   "rQ": 0,
+   "rQup": 2,
+   "coh": 1,
+   "grav": 1,
+   "nongrav": 0,
+   "nmono": 3,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    1,
+    1,
+    2,
+    7
+   ],
+   "j": 20,
+   "nwords": 52,
+   "dimV": 5,
+   "rQ": 2,
+   "rQup": 3,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    2,
+    1,
+    2,
+    7
+   ],
+   "j": 20,
+   "nwords": 50,
+   "dimV": 9,
+   "rQ": 3,
+   "rQup": 3,
+   "coh": 3,
+   "grav": 3,
+   "nongrav": 0,
+   "nmono": 7,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    3,
+    1,
+    2,
+    7
+   ],
+   "j": 20,
+   "nwords": 13,
+   "dimV": 3,
+   "rQ": 3,
+   "rQup": 0,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    0,
+    1,
+    3,
+    6
+   ],
+   "j": 20,
+   "nwords": 28,
+   "dimV": 4,
+   "rQ": 0,
+   "rQup": 3,
+   "coh": 1,
+   "grav": 1,
+   "nongrav": 0,
+   "nmono": 4,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    1,
+    1,
+    3,
+    6
+   ],
+   "j": 20,
+   "nwords": 90,
+   "dimV": 8,
+   "rQ": 3,
+   "rQup": 5,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.01
+  },
+  {
+   "sector": [
+    2,
+    1,
+    3,
+    6
+   ],
+   "j": 20,
+   "nwords": 118,
+   "dimV": 17,
+   "rQ": 5,
+   "rQup": 9,
+   "coh": 3,
+   "grav": 3,
+   "nongrav": 0,
+   "nmono": 14,
+   "time": 0.01
+  },
+  {
+   "sector": [
+    3,
+    1,
+    3,
+    6
+   ],
+   "j": 20,
+   "nwords": 49,
+   "dimV": 10,
+   "rQ": 9,
+   "rQup": 1,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    4,
+    1,
+    3,
+    6
+   ],
+   "j": 20,
+   "nwords": 9,
+   "dimV": 1,
+   "rQ": 1,
+   "rQup": 0,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    0,
+    1,
+    4,
+    5
+   ],
+   "j": 20,
+   "nwords": 35,
+   "dimV": 5,
+   "rQ": 0,
+   "rQup": 4,
+   "coh": 1,
+   "grav": 1,
+   "nongrav": 0,
+   "nmono": 5,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    1,
+    1,
+    4,
+    5
+   ],
+   "j": 20,
+   "nwords": 118,
+   "dimV": 11,
+   "rQ": 4,
+   "rQup": 7,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.01
+  },
+  {
+   "sector": [
+    2,
+    1,
+    4,
+    5
+   ],
+   "j": 20,
+   "nwords": 174,
+   "dimV": 24,
+   "rQ": 7,
+   "rQup": 14,
+   "coh": 3,
+   "grav": 3,
+   "nongrav": 0,
+   "nmono": 20,
+   "time": 0.02
+  },
+  {
+   "sector": [
+    3,
+    1,
+    4,
+    5
+   ],
+   "j": 20,
+   "nwords": 89,
+   "dimV": 17,
+   "rQ": 14,
+   "rQup": 3,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.01
+  },
+  {
+   "sector": [
+    4,
+    1,
+    4,
+    5
+   ],
+   "j": 20,
+   "nwords": 29,
+   "dimV": 4,
+   "rQ": 3,
+   "rQup": 1,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 1,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    5,
+    1,
+    4,
+    5
+   ],
+   "j": 20,
+   "nwords": 4,
+   "dimV": 1,
+   "rQ": 1,
+   "rQup": 0,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    0,
+    2,
+    2,
+    6
+   ],
+   "j": 20,
+   "nwords": 40,
+   "dimV": 6,
+   "rQ": 0,
+   "rQup": 5,
+   "coh": 1,
+   "grav": 1,
+   "nongrav": 0,
+   "nmono": 6,
+   "time": 0.01
+  },
+  {
+   "sector": [
+    1,
+    2,
+    2,
+    6
+   ],
+   "j": 20,
+   "nwords": 129,
+   "dimV": 13,
+   "rQ": 5,
+   "rQup": 8,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.01
+  },
+  {
+   "sector": [
+    2,
+    2,
+    2,
+    6
+   ],
+   "j": 20,
+   "nwords": 188,
+   "dimV": 24,
+   "rQ": 8,
+   "rQup": 12,
+   "coh": 4,
+   "grav": 4,
+   "nongrav": 0,
+   "nmono": 20,
+   "time": 0.02
+  },
+  {
+   "sector": [
+    3,
+    2,
+    2,
+    6
+   ],
+   "j": 20,
+   "nwords": 97,
+   "dimV": 18,
+   "rQ": 12,
+   "rQup": 6,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.01
+  },
+  {
+   "sector": [
+    4,
+    2,
+    2,
+    6
+   ],
+   "j": 20,
+   "nwords": 24,
+   "dimV": 8,
+   "rQ": 6,
+   "rQup": 0,
+   "coh": 2,
+   "grav": 2,
+   "nongrav": 0,
+   "nmono": 2,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    0,
+    2,
+    3,
+    5
+   ],
+   "j": 20,
+   "nwords": 56,
+   "dimV": 7,
+   "rQ": 0,
+   "rQup": 6,
+   "coh": 1,
+   "grav": 1,
+   "nongrav": 0,
+   "nmono": 7,
+   "time": 0.01
+  },
+  {
+   "sector": [
+    1,
+    2,
+    3,
+    5
+   ],
+   "j": 20,
+   "nwords": 213,
+   "dimV": 20,
+   "rQ": 6,
+   "rQup": 14,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.03
+  },
+  {
+   "sector": [
+    2,
+    2,
+    3,
+    5
+   ],
+   "j": 20,
+   "nwords": 389,
+   "dimV": 48,
+   "rQ": 14,
+   "rQup": 30,
+   "coh": 4,
+   "grav": 4,
+   "nongrav": 0,
+   "nmono": 41,
+   "time": 0.07
+  },
+  {
+   "sector": [
+    3,
+    2,
+    3,
+    5
+   ],
+   "j": 20,
+   "nwords": 252,
+   "dimV": 49,
+   "rQ": 30,
+   "rQup": 19,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.04
+  },
+  {
+   "sector": [
+    4,
+    2,
+    3,
+    5
+   ],
+   "j": 20,
+   "nwords": 96,
+   "dimV": 26,
+   "rQ": 19,
+   "rQup": 4,
+   "coh": 3,
+   "grav": 3,
+   "nongrav": 0,
+   "nmono": 7,
+   "time": 0.01
+  },
+  {
+   "sector": [
+    5,
+    2,
+    3,
+    5
+   ],
+   "j": 20,
+   "nwords": 16,
+   "dimV": 4,
+   "rQ": 4,
+   "rQup": 0,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    0,
+    2,
+    4,
+    4
+   ],
+   "j": 20,
+   "nwords": 67,
+   "dimV": 9,
+   "rQ": 0,
+   "rQup": 8,
+   "coh": 1,
+   "grav": 1,
+   "nongrav": 0,
+   "nmono": 9,
+   "time": 0.01
+  },
+  {
+   "sector": [
+    1,
+    2,
+    4,
+    4
+   ],
+   "j": 20,
+   "nwords": 250,
+   "dimV": 25,
+   "rQ": 8,
+   "rQup": 17,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.03
+  },
+  {
+   "sector": [
+    2,
+    2,
+    4,
+    4
+   ],
+   "j": 20,
+   "nwords": 476,
+   "dimV": 56,
+   "rQ": 17,
+   "rQup": 35,
+   "coh": 4,
+   "grav": 4,
+   "nongrav": 0,
+   "nmono": 48,
+   "time": 0.09
+  },
+  {
+   "sector": [
+    3,
+    2,
+    4,
+    4
+   ],
+   "j": 20,
+   "nwords": 338,
+   "dimV": 62,
+   "rQ": 35,
+   "rQup": 27,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.06
+  },
+  {
+   "sector": [
+    4,
+    2,
+    4,
+    4
+   ],
+   "j": 20,
+   "nwords": 157,
+   "dimV": 41,
+   "rQ": 27,
+   "rQup": 11,
+   "coh": 3,
+   "grav": 3,
+   "nongrav": 0,
+   "nmono": 12,
+   "time": 0.02
+  },
+  {
+   "sector": [
+    5,
+    2,
+    4,
+    4
+   ],
+   "j": 20,
+   "nwords": 35,
+   "dimV": 11,
+   "rQ": 11,
+   "rQup": 0,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    6,
+    2,
+    4,
+    4
+   ],
+   "j": 20,
+   "nwords": 0,
+   "dimV": 0,
+   "rQ": 0,
+   "rQup": 0,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0
+  },
+  {
+   "sector": [
+    0,
+    3,
+    3,
+    4
+   ],
+   "j": 20,
+   "nwords": 77,
+   "dimV": 9,
+   "rQ": 0,
+   "rQup": 8,
+   "coh": 1,
+   "grav": 1,
+   "nongrav": 0,
+   "nmono": 9,
+   "time": 0.01
+  },
+  {
+   "sector": [
+    1,
+    3,
+    3,
+    4
+   ],
+   "j": 20,
+   "nwords": 317,
+   "dimV": 30,
+   "rQ": 8,
+   "rQup": 22,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.05
+  },
+  {
+   "sector": [
+    2,
+    3,
+    3,
+    4
+   ],
+   "j": 20,
+   "nwords": 664,
+   "dimV": 78,
+   "rQ": 22,
+   "rQup": 52,
+   "coh": 4,
+   "grav": 4,
+   "nongrav": 0,
+   "nmono": 68,
+   "time": 0.17
+  },
+  {
+   "sector": [
+    3,
+    3,
+    3,
+    4
+   ],
+   "j": 20,
+   "nwords": 500,
+   "dimV": 95,
+   "rQ": 52,
+   "rQup": 43,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.12
+  },
+  {
+   "sector": [
+    4,
+    3,
+    3,
+    4
+   ],
+   "j": 20,
+   "nwords": 246,
+   "dimV": 64,
+   "rQ": 43,
+   "rQup": 17,
+   "coh": 4,
+   "grav": 4,
+   "nongrav": 0,
+   "nmono": 18,
+   "time": 0.04
+  },
+  {
+   "sector": [
+    5,
+    3,
+    3,
+    4
+   ],
+   "j": 20,
+   "nwords": 70,
+   "dimV": 20,
+   "rQ": 17,
+   "rQup": 3,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.01
+  },
+  {
+   "sector": [
+    6,
+    3,
+    3,
+    4
+   ],
+   "j": 20,
+   "nwords": 3,
+   "dimV": 3,
+   "rQ": 3,
+   "rQup": 0,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    0,
+    0,
+    0,
+    11
+   ],
+   "j": 22,
+   "nwords": 2,
+   "dimV": 0,
+   "rQ": 0,
+   "rQup": 0,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    0,
+    0,
+    1,
+    10
+   ],
+   "j": 22,
+   "nwords": 4,
+   "dimV": 0,
+   "rQ": 0,
+   "rQup": 0,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    1,
+    0,
+    1,
+    10
+   ],
+   "j": 22,
+   "nwords": 3,
+   "dimV": 1,
+   "rQ": 0,
+   "rQup": 0,
+   "coh": 1,
+   "grav": 1,
+   "nongrav": 0,
+   "nmono": 1,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    0,
+    0,
+    2,
+    9
+   ],
+   "j": 22,
+   "nwords": 8,
+   "dimV": 0,
+   "rQ": 0,
+   "rQup": 0,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    1,
+    0,
+    2,
+    9
+   ],
+   "j": 22,
+   "nwords": 9,
+   "dimV": 2,
+   "rQ": 0,
+   "rQup": 1,
+   "coh": 1,
+   "grav": 1,
+   "nongrav": 0,
+   "nmono": 2,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    2,
+    0,
+    2,
+    9
+   ],
+   "j": 22,
+   "nwords": 3,
+   "dimV": 1,
+   "rQ": 1,
+   "rQup": 0,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    0,
+    0,
+    3,
+    8
+   ],
+   "j": 22,
+   "nwords": 12,
+   "dimV": 0,
+   "rQ": 0,
+   "rQup": 0,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    1,
+    0,
+    3,
+    8
+   ],
+   "j": 22,
+   "nwords": 18,
+   "dimV": 3,
+   "rQ": 0,
+   "rQup": 2,
+   "coh": 1,
+   "grav": 1,
+   "nongrav": 0,
+   "nmono": 3,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    2,
+    0,
+    3,
+    8
+   ],
+   "j": 22,
+   "nwords": 11,
+   "dimV": 2,
+   "rQ": 2,
+   "rQup": 0,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    3,
+    0,
+    3,
+    8
+   ],
+   "j": 22,
+   "nwords": 3,
+   "dimV": 0,
+   "rQ": 0,
+   "rQup": 0,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    0,
+    0,
+    4,
+    7
+   ],
+   "j": 22,
+   "nwords": 16,
+   "dimV": 0,
+   "rQ": 0,
+   "rQup": 0,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    1,
+    0,
+    4,
+    7
+   ],
+   "j": 22,
+   "nwords": 28,
+   "dimV": 4,
+   "rQ": 0,
+   "rQup": 3,
+   "coh": 1,
+   "grav": 1,
+   "nongrav": 0,
+   "nmono": 4,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    2,
+    0,
+    4,
+    7
+   ],
+   "j": 22,
+   "nwords": 20,
+   "dimV": 3,
+   "rQ": 3,
+   "rQup": 0,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    3,
+    0,
+    4,
+    7
+   ],
+   "j": 22,
+   "nwords": 11,
+   "dimV": 0,
+   "rQ": 0,
+   "rQup": 0,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    4,
+    0,
+    4,
+    7
+   ],
+   "j": 22,
+   "nwords": 1,
+   "dimV": 0,
+   "rQ": 0,
+   "rQup": 0,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    0,
+    0,
+    5,
+    6
+   ],
+   "j": 22,
+   "nwords": 18,
+   "dimV": 0,
+   "rQ": 0,
+   "rQup": 0,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    1,
+    0,
+    5,
+    6
+   ],
+   "j": 22,
+   "nwords": 35,
+   "dimV": 5,
+   "rQ": 0,
+   "rQup": 4,
+   "coh": 1,
+   "grav": 1,
+   "nongrav": 0,
+   "nmono": 5,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    2,
+    0,
+    5,
+    6
+   ],
+   "j": 22,
+   "nwords": 28,
+   "dimV": 4,
+   "rQ": 4,
+   "rQup": 0,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    3,
+    0,
+    5,
+    6
+   ],
+   "j": 22,
+   "nwords": 18,
+   "dimV": 0,
+   "rQ": 0,
+   "rQup": 0,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    4,
+    0,
+    5,
+    6
+   ],
+   "j": 22,
+   "nwords": 3,
+   "dimV": 0,
+   "rQ": 0,
+   "rQup": 0,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    5,
+    0,
+    5,
+    6
+   ],
+   "j": 22,
+   "nwords": 1,
+   "dimV": 0,
+   "rQ": 0,
+   "rQup": 0,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    0,
+    1,
+    1,
+    9
+   ],
+   "j": 22,
+   "nwords": 12,
+   "dimV": 1,
+   "rQ": 0,
+   "rQup": 1,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    1,
+    1,
+    1,
+    9
+   ],
+   "j": 22,
+   "nwords": 21,
+   "dimV": 5,
+   "rQ": 1,
+   "rQup": 1,
+   "coh": 3,
+   "grav": 3,
+   "nongrav": 0,
+   "nmono": 5,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    2,
+    1,
+    1,
+    9
+   ],
+   "j": 22,
+   "nwords": 12,
+   "dimV": 1,
+   "rQ": 1,
+   "rQup": 0,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    0,
+    1,
+    2,
+    8
+   ],
+   "j": 22,
+   "nwords": 23,
+   "dimV": 1,
+   "rQ": 0,
+   "rQup": 1,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    1,
+    1,
+    2,
+    8
+   ],
+   "j": 22,
+   "nwords": 57,
+   "dimV": 9,
+   "rQ": 1,
+   "rQup": 5,
+   "coh": 3,
+   "grav": 3,
+   "nongrav": 0,
+   "nmono": 9,
+   "time": 0.01
+  },
+  {
+   "sector": [
+    2,
+    1,
+    2,
+    8
+   ],
+   "j": 22,
+   "nwords": 56,
+   "dimV": 7,
+   "rQ": 5,
+   "rQup": 2,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    3,
+    1,
+    2,
+    8
+   ],
+   "j": 22,
+   "nwords": 18,
+   "dimV": 3,
+   "rQ": 2,
+   "rQup": 0,
+   "coh": 1,
+   "grav": 1,
+   "nongrav": 0,
+   "nmono": 1,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    0,
+    1,
+    3,
+    7
+   ],
+   "j": 22,
+   "nwords": 37,
+   "dimV": 2,
+   "rQ": 0,
+   "rQup": 2,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    1,
+    1,
+    3,
+    7
+   ],
+   "j": 22,
+   "nwords": 110,
+   "dimV": 14,
+   "rQ": 2,
+   "rQup": 9,
+   "coh": 3,
+   "grav": 3,
+   "nongrav": 0,
+   "nmono": 14,
+   "time": 0.01
+  },
+  {
+   "sector": [
+    2,
+    1,
+    3,
+    7
+   ],
+   "j": 22,
+   "nwords": 132,
+   "dimV": 13,
+   "rQ": 9,
+   "rQup": 4,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.01
+  },
+  {
+   "sector": [
+    3,
+    1,
+    3,
+    7
+   ],
+   "j": 22,
+   "nwords": 81,
+   "dimV": 8,
+   "rQ": 4,
+   "rQup": 3,
+   "coh": 1,
+   "grav": 1,
+   "nongrav": 0,
+   "nmono": 4,
+   "time": 0.01
+  },
+  {
+   "sector": [
+    4,
+    1,
+    3,
+    7
+   ],
+   "j": 22,
+   "nwords": 12,
+   "dimV": 3,
+   "rQ": 3,
+   "rQup": 0,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    0,
+    1,
+    4,
+    6
+   ],
+   "j": 22,
+   "nwords": 48,
+   "dimV": 2,
+   "rQ": 0,
+   "rQup": 2,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.01
+  },
+  {
+   "sector": [
+    1,
+    1,
+    4,
+    6
+   ],
+   "j": 22,
+   "nwords": 159,
+   "dimV": 18,
+   "rQ": 2,
+   "rQup": 13,
+   "coh": 3,
+   "grav": 3,
+   "nongrav": 0,
+   "nmono": 18,
+   "time": 0.02
+  },
+  {
+   "sector": [
+    2,
+    1,
+    4,
+    6
+   ],
+   "j": 22,
+   "nwords": 215,
+   "dimV": 21,
+   "rQ": 13,
+   "rQup": 8,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.02
+  },
+  {
+   "sector": [
+    3,
+    1,
+    4,
+    6
+   ],
+   "j": 22,
+   "nwords": 176,
+   "dimV": 16,
+   "rQ": 8,
+   "rQup": 7,
+   "coh": 1,
+   "grav": 1,
+   "nongrav": 0,
+   "nmono": 9,
+   "time": 0.01
+  },
+  {
+   "sector": [
+    4,
+    1,
+    4,
+    6
+   ],
+   "j": 22,
+   "nwords": 42,
+   "dimV": 7,
+   "rQ": 7,
+   "rQup": 0,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    5,
+    1,
+    4,
+    6
+   ],
+   "j": 22,
+   "nwords": 7,
+   "dimV": 0,
+   "rQ": 0,
+   "rQup": 0,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    0,
+    1,
+    5,
+    5
+   ],
+   "j": 22,
+   "nwords": 52,
+   "dimV": 3,
+   "rQ": 0,
+   "rQup": 3,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.01
+  },
+  {
+   "sector": [
+    1,
+    1,
+    5,
+    5
+   ],
+   "j": 22,
+   "nwords": 181,
+   "dimV": 21,
+   "rQ": 3,
+   "rQup": 15,
+   "coh": 3,
+   "grav": 3,
+   "nongrav": 0,
+   "nmono": 21,
+   "time": 0.02
+  },
+  {
+   "sector": [
+    2,
+    1,
+    5,
+    5
+   ],
+   "j": 22,
+   "nwords": 250,
+   "dimV": 24,
+   "rQ": 15,
+   "rQup": 9,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.03
+  },
+  {
+   "sector": [
+    3,
+    1,
+    5,
+    5
+   ],
+   "j": 22,
+   "nwords": 219,
+   "dimV": 19,
+   "rQ": 9,
+   "rQup": 9,
+   "coh": 1,
+   "grav": 1,
+   "nongrav": 0,
+   "nmono": 11,
+   "time": 0.02
+  },
+  {
+   "sector": [
+    4,
+    1,
+    5,
+    5
+   ],
+   "j": 22,
+   "nwords": 62,
+   "dimV": 10,
+   "rQ": 9,
+   "rQup": 1,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.01
+  },
+  {
+   "sector": [
+    5,
+    1,
+    5,
+    5
+   ],
+   "j": 22,
+   "nwords": 16,
+   "dimV": 1,
+   "rQ": 1,
+   "rQup": 0,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    6,
+    1,
+    5,
+    5
+   ],
+   "j": 22,
+   "nwords": 1,
+   "dimV": 0,
+   "rQ": 0,
+   "rQup": 0,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    0,
+    2,
+    2,
+    7
+   ],
+   "j": 22,
+   "nwords": 49,
+   "dimV": 2,
+   "rQ": 0,
+   "rQup": 2,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.01
+  },
+  {
+   "sector": [
+    1,
+    2,
+    2,
+    7
+   ],
+   "j": 22,
+   "nwords": 158,
+   "dimV": 18,
+   "rQ": 2,
+   "rQup": 13,
+   "coh": 3,
+   "grav": 3,
+   "nongrav": 0,
+   "nmono": 18,
+   "time": 0.02
+  },
+  {
+   "sector": [
+    2,
+    2,
+    2,
+    7
+   ],
+   "j": 22,
+   "nwords": 213,
+   "dimV": 25,
+   "rQ": 13,
+   "rQup": 12,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.03
+  },
+  {
+   "sector": [
+    3,
+    2,
+    2,
+    7
+   ],
+   "j": 22,
+   "nwords": 152,
+   "dimV": 20,
+   "rQ": 12,
+   "rQup": 4,
+   "coh": 4,
+   "grav": 4,
+   "nongrav": 0,
+   "nmono": 10,
+   "time": 0.01
+  },
+  {
+   "sector": [
+    4,
+    2,
+    2,
+    7
+   ],
+   "j": 22,
+   "nwords": 30,
+   "dimV": 4,
+   "rQ": 4,
+   "rQup": 0,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    0,
+    2,
+    3,
+    6
+   ],
+   "j": 22,
+   "nwords": 76,
+   "dimV": 3,
+   "rQ": 0,
+   "rQup": 3,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.01
+  },
+  {
+   "sector": [
+    1,
+    2,
+    3,
+    6
+   ],
+   "j": 22,
+   "nwords": 291,
+   "dimV": 28,
+   "rQ": 3,
+   "rQup": 22,
+   "coh": 3,
+   "grav": 3,
+   "nongrav": 0,
+   "nmono": 28,
+   "time": 0.04
+  },
+  {
+   "sector": [
+    2,
+    2,
+    3,
+    6
+   ],
+   "j": 22,
+   "nwords": 467,
+   "dimV": 47,
+   "rQ": 22,
+   "rQup": 25,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.09
+  },
+  {
+   "sector": [
+    3,
+    2,
+    3,
+    6
+   ],
+   "j": 22,
+   "nwords": 466,
+   "dimV": 49,
+   "rQ": 25,
+   "rQup": 20,
+   "coh": 4,
+   "grav": 4,
+   "nongrav": 0,
+   "nmono": 28,
+   "time": 0.07
+  },
+  {
+   "sector": [
+    4,
+    2,
+    3,
+    6
+   ],
+   "j": 22,
+   "nwords": 151,
+   "dimV": 26,
+   "rQ": 20,
+   "rQup": 6,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.02
+  },
+  {
+   "sector": [
+    5,
+    2,
+    3,
+    6
+   ],
+   "j": 22,
+   "nwords": 25,
+   "dimV": 7,
+   "rQ": 6,
+   "rQup": 0,
+   "coh": 1,
+   "grav": 1,
+   "nongrav": 0,
+   "nmono": 1,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    0,
+    2,
+    4,
+    5
+   ],
+   "j": 22,
+   "nwords": 95,
+   "dimV": 4,
+   "rQ": 0,
+   "rQup": 4,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.01
+  },
+  {
+   "sector": [
+    1,
+    2,
+    4,
+    5
+   ],
+   "j": 22,
+   "nwords": 390,
+   "dimV": 36,
+   "rQ": 4,
+   "rQup": 29,
+   "coh": 3,
+   "grav": 3,
+   "nongrav": 0,
+   "nmono": 36,
+   "time": 0.06
+  },
+  {
+   "sector": [
+    2,
+    2,
+    4,
+    5
+   ],
+   "j": 22,
+   "nwords": 669,
+   "dimV": 66,
+   "rQ": 29,
+   "rQup": 37,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.17
+  },
+  {
+   "sector": [
+    3,
+    2,
+    4,
+    5
+   ],
+   "j": 22,
+   "nwords": 772,
+   "dimV": 77,
+   "rQ": 37,
+   "rQup": 36,
+   "coh": 4,
+   "grav": 4,
+   "nongrav": 0,
+   "nmono": 47,
+   "time": 0.16
+  },
+  {
+   "sector": [
+    4,
+    2,
+    4,
+    5
+   ],
+   "j": 22,
+   "nwords": 305,
+   "dimV": 50,
+   "rQ": 36,
+   "rQup": 14,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.05
+  },
+  {
+   "sector": [
+    5,
+    2,
+    4,
+    5
+   ],
+   "j": 22,
+   "nwords": 81,
+   "dimV": 18,
+   "rQ": 14,
+   "rQup": 3,
+   "coh": 1,
+   "grav": 1,
+   "nongrav": 0,
+   "nmono": 2,
+   "time": 0.01
+  },
+  {
+   "sector": [
+    6,
+    2,
+    4,
+    5
+   ],
+   "j": 22,
+   "nwords": 8,
+   "dimV": 3,
+   "rQ": 3,
+   "rQup": 0,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    0,
+    3,
+    3,
+    5
+   ],
+   "j": 22,
+   "nwords": 114,
+   "dimV": 6,
+   "rQ": 0,
+   "rQup": 6,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.02
+  },
+  {
+   "sector": [
+    1,
+    3,
+    3,
+    5
+   ],
+   "j": 22,
+   "nwords": 497,
+   "dimV": 44,
+   "rQ": 6,
+   "rQup": 35,
+   "coh": 3,
+   "grav": 3,
+   "nongrav": 0,
+   "nmono": 44,
+   "time": 0.09
+  },
+  {
+   "sector": [
+    2,
+    3,
+    3,
+    5
+   ],
+   "j": 22,
+   "nwords": 907,
+   "dimV": 82,
+   "rQ": 35,
+   "rQup": 47,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.3
+  },
+  {
+   "sector": [
+    3,
+    3,
+    3,
+    5
+   ],
+   "j": 22,
+   "nwords": 1128,
+   "dimV": 107,
+   "rQ": 47,
+   "rQup": 56,
+   "coh": 4,
+   "grav": 4,
+   "nongrav": 0,
+   "nmono": 67,
+   "time": 0.34
+  },
+  {
+   "sector": [
+    4,
+    3,
+    3,
+    5
+   ],
+   "j": 22,
+   "nwords": 493,
+   "dimV": 90,
+   "rQ": 56,
+   "rQup": 34,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.1
+  },
+  {
+   "sector": [
+    5,
+    3,
+    3,
+    5
+   ],
+   "j": 22,
+   "nwords": 143,
+   "dimV": 41,
+   "rQ": 34,
+   "rQup": 4,
+   "coh": 3,
+   "grav": 3,
+   "nongrav": 0,
+   "nmono": 5,
+   "time": 0.02
+  },
+  {
+   "sector": [
+    6,
+    3,
+    3,
+    5
+   ],
+   "j": 22,
+   "nwords": 18,
+   "dimV": 4,
+   "rQ": 4,
+   "rQup": 0,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.01
+  },
+  {
+   "sector": [
+    0,
+    3,
+    4,
+    4
+   ],
+   "j": 22,
+   "nwords": 131,
+   "dimV": 6,
+   "rQ": 0,
+   "rQup": 6,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.02
+  },
+  {
+   "sector": [
+    1,
+    3,
+    4,
+    4
+   ],
+   "j": 22,
+   "nwords": 588,
+   "dimV": 50,
+   "rQ": 6,
+   "rQup": 41,
+   "coh": 3,
+   "grav": 3,
+   "nongrav": 0,
+   "nmono": 50,
+   "time": 0.12
+  },
+  {
+   "sector": [
+    2,
+    3,
+    4,
+    4
+   ],
+   "j": 22,
+   "nwords": 1122,
+   "dimV": 103,
+   "rQ": 41,
+   "rQup": 62,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.47
+  },
+  {
+   "sector": [
+    3,
+    3,
+    4,
+    4
+   ],
+   "j": 22,
+   "nwords": 1496,
+   "dimV": 141,
+   "rQ": 62,
+   "rQup": 75,
+   "coh": 4,
+   "grav": 4,
+   "nongrav": 0,
+   "nmono": 91,
+   "time": 0.58
+  },
+  {
+   "sector": [
+    4,
+    3,
+    4,
+    4
+   ],
+   "j": 22,
+   "nwords": 703,
+   "dimV": 122,
+   "rQ": 75,
+   "rQup": 47,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.18
+  },
+  {
+   "sector": [
+    5,
+    3,
+    4,
+    4
+   ],
+   "j": 22,
+   "nwords": 233,
+   "dimV": 61,
+   "rQ": 47,
+   "rQup": 11,
+   "coh": 3,
+   "grav": 3,
+   "nongrav": 0,
+   "nmono": 7,
+   "time": 0.04
+  },
+  {
+   "sector": [
+    6,
+    3,
+    4,
+    4
+   ],
+   "j": 22,
+   "nwords": 41,
+   "dimV": 12,
+   "rQ": 11,
+   "rQup": 1,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.01
+  },
+  {
+   "sector": [
+    7,
+    3,
+    4,
+    4
+   ],
+   "j": 22,
+   "nwords": 1,
+   "dimV": 1,
+   "rQ": 1,
+   "rQup": 0,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.01
+  },
+  {
+   "sector": [
+    0,
+    0,
+    0,
+    12
+   ],
+   "j": 24,
+   "nwords": 3,
+   "dimV": 1,
+   "rQ": 0,
+   "rQup": 0,
+   "coh": 1,
+   "grav": 1,
+   "nongrav": 0,
+   "nmono": 1,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    0,
+    0,
+    1,
+    11
+   ],
+   "j": 24,
+   "nwords": 4,
+   "dimV": 1,
+   "rQ": 0,
+   "rQup": 0,
+   "coh": 1,
+   "grav": 1,
+   "nongrav": 0,
+   "nmono": 1,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    1,
+    0,
+    1,
+    11
+   ],
+   "j": 24,
+   "nwords": 4,
+   "dimV": 0,
+   "rQ": 0,
+   "rQup": 0,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    0,
+    0,
+    2,
+    10
+   ],
+   "j": 24,
+   "nwords": 9,
+   "dimV": 2,
+   "rQ": 0,
+   "rQup": 1,
+   "coh": 1,
+   "grav": 1,
+   "nongrav": 0,
+   "nmono": 2,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    1,
+    0,
+    2,
+    10
+   ],
+   "j": 24,
+   "nwords": 12,
+   "dimV": 1,
+   "rQ": 1,
+   "rQup": 0,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    2,
+    0,
+    2,
+    10
+   ],
+   "j": 24,
+   "nwords": 2,
+   "dimV": 0,
+   "rQ": 0,
+   "rQup": 0,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    0,
+    0,
+    3,
+    9
+   ],
+   "j": 24,
+   "nwords": 13,
+   "dimV": 2,
+   "rQ": 0,
+   "rQup": 1,
+   "coh": 1,
+   "grav": 1,
+   "nongrav": 0,
+   "nmono": 2,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    1,
+    0,
+    3,
+    9
+   ],
+   "j": 24,
+   "nwords": 23,
+   "dimV": 1,
+   "rQ": 1,
+   "rQup": 0,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    2,
+    0,
+    3,
+    9
+   ],
+   "j": 24,
+   "nwords": 12,
+   "dimV": 1,
+   "rQ": 0,
+   "rQup": 1,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 1,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    3,
+    0,
+    3,
+    9
+   ],
+   "j": 24,
+   "nwords": 4,
+   "dimV": 1,
+   "rQ": 1,
+   "rQup": 0,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    0,
+    0,
+    4,
+    8
+   ],
+   "j": 24,
+   "nwords": 19,
+   "dimV": 3,
+   "rQ": 0,
+   "rQup": 2,
+   "coh": 1,
+   "grav": 1,
+   "nongrav": 0,
+   "nmono": 3,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    1,
+    0,
+    4,
+    8
+   ],
+   "j": 24,
+   "nwords": 37,
+   "dimV": 2,
+   "rQ": 2,
+   "rQup": 0,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    2,
+    0,
+    4,
+    8
+   ],
+   "j": 24,
+   "nwords": 24,
+   "dimV": 1,
+   "rQ": 0,
+   "rQup": 1,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 1,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    3,
+    0,
+    4,
+    8
+   ],
+   "j": 24,
+   "nwords": 10,
+   "dimV": 1,
+   "rQ": 1,
+   "rQup": 0,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    4,
+    0,
+    4,
+    8
+   ],
+   "j": 24,
+   "nwords": 4,
+   "dimV": 0,
+   "rQ": 0,
+   "rQup": 0,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    0,
+    0,
+    5,
+    7
+   ],
+   "j": 24,
+   "nwords": 21,
+   "dimV": 3,
+   "rQ": 0,
+   "rQup": 2,
+   "coh": 1,
+   "grav": 1,
+   "nongrav": 0,
+   "nmono": 3,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    1,
+    0,
+    5,
+    7
+   ],
+   "j": 24,
+   "nwords": 48,
+   "dimV": 2,
+   "rQ": 2,
+   "rQup": 0,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    2,
+    0,
+    5,
+    7
+   ],
+   "j": 24,
+   "nwords": 40,
+   "dimV": 2,
+   "rQ": 0,
+   "rQup": 2,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 2,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    3,
+    0,
+    5,
+    7
+   ],
+   "j": 24,
+   "nwords": 20,
+   "dimV": 2,
+   "rQ": 2,
+   "rQup": 0,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    4,
+    0,
+    5,
+    7
+   ],
+   "j": 24,
+   "nwords": 11,
+   "dimV": 0,
+   "rQ": 0,
+   "rQup": 0,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    5,
+    0,
+    5,
+    7
+   ],
+   "j": 24,
+   "nwords": 0,
+   "dimV": 0,
+   "rQ": 0,
+   "rQup": 0,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0
+  },
+  {
+   "sector": [
+    0,
+    0,
+    6,
+    6
+   ],
+   "j": 24,
+   "nwords": 25,
+   "dimV": 4,
+   "rQ": 0,
+   "rQup": 3,
+   "coh": 1,
+   "grav": 1,
+   "nongrav": 0,
+   "nmono": 4,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    1,
+    0,
+    6,
+    6
+   ],
+   "j": 24,
+   "nwords": 52,
+   "dimV": 3,
+   "rQ": 3,
+   "rQup": 0,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    2,
+    0,
+    6,
+    6
+   ],
+   "j": 24,
+   "nwords": 44,
+   "dimV": 2,
+   "rQ": 0,
+   "rQup": 2,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 2,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    3,
+    0,
+    6,
+    6
+   ],
+   "j": 24,
+   "nwords": 24,
+   "dimV": 2,
+   "rQ": 2,
+   "rQup": 0,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    4,
+    0,
+    6,
+    6
+   ],
+   "j": 24,
+   "nwords": 15,
+   "dimV": 0,
+   "rQ": 0,
+   "rQup": 0,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    5,
+    0,
+    6,
+    6
+   ],
+   "j": 24,
+   "nwords": 1,
+   "dimV": 0,
+   "rQ": 0,
+   "rQup": 0,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    6,
+    0,
+    6,
+    6
+   ],
+   "j": 24,
+   "nwords": 0,
+   "dimV": 0,
+   "rQ": 0,
+   "rQup": 0,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0
+  },
+  {
+   "sector": [
+    0,
+    1,
+    1,
+    10
+   ],
+   "j": 24,
+   "nwords": 12,
+   "dimV": 2,
+   "rQ": 0,
+   "rQup": 1,
+   "coh": 1,
+   "grav": 1,
+   "nongrav": 0,
+   "nmono": 2,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    1,
+    1,
+    1,
+    10
+   ],
+   "j": 24,
+   "nwords": 28,
+   "dimV": 2,
+   "rQ": 1,
+   "rQup": 1,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    2,
+    1,
+    1,
+    10
+   ],
+   "j": 24,
+   "nwords": 12,
+   "dimV": 3,
+   "rQ": 1,
+   "rQup": 0,
+   "coh": 2,
+   "grav": 2,
+   "nongrav": 0,
+   "nmono": 2,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    0,
+    1,
+    2,
+    9
+   ],
+   "j": 24,
+   "nwords": 24,
+   "dimV": 3,
+   "rQ": 0,
+   "rQup": 2,
+   "coh": 1,
+   "grav": 1,
+   "nongrav": 0,
+   "nmono": 3,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    1,
+    1,
+    2,
+    9
+   ],
+   "j": 24,
+   "nwords": 74,
+   "dimV": 5,
+   "rQ": 2,
+   "rQup": 3,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.01
+  },
+  {
+   "sector": [
+    2,
+    1,
+    2,
+    9
+   ],
+   "j": 24,
+   "nwords": 60,
+   "dimV": 9,
+   "rQ": 3,
+   "rQup": 3,
+   "coh": 3,
+   "grav": 3,
+   "nongrav": 0,
+   "nmono": 7,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    3,
+    1,
+    2,
+    9
+   ],
+   "j": 24,
+   "nwords": 20,
+   "dimV": 3,
+   "rQ": 3,
+   "rQup": 0,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    0,
+    1,
+    3,
+    8
+   ],
+   "j": 24,
+   "nwords": 40,
+   "dimV": 4,
+   "rQ": 0,
+   "rQup": 3,
+   "coh": 1,
+   "grav": 1,
+   "nongrav": 0,
+   "nmono": 4,
+   "time": 0.01
+  },
+  {
+   "sector": [
+    1,
+    1,
+    3,
+    8
+   ],
+   "j": 24,
+   "nwords": 142,
+   "dimV": 8,
+   "rQ": 3,
+   "rQup": 5,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.01
+  },
+  {
+   "sector": [
+    2,
+    1,
+    3,
+    8
+   ],
+   "j": 24,
+   "nwords": 161,
+   "dimV": 17,
+   "rQ": 5,
+   "rQup": 9,
+   "coh": 3,
+   "grav": 3,
+   "nongrav": 0,
+   "nmono": 14,
+   "time": 0.02
+  },
+  {
+   "sector": [
+    3,
+    1,
+    3,
+    8
+   ],
+   "j": 24,
+   "nwords": 86,
+   "dimV": 10,
+   "rQ": 9,
+   "rQup": 1,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.01
+  },
+  {
+   "sector": [
+    4,
+    1,
+    3,
+    8
+   ],
+   "j": 24,
+   "nwords": 21,
+   "dimV": 1,
+   "rQ": 1,
+   "rQup": 0,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    0,
+    1,
+    4,
+    7
+   ],
+   "j": 24,
+   "nwords": 56,
+   "dimV": 5,
+   "rQ": 0,
+   "rQup": 4,
+   "coh": 1,
+   "grav": 1,
+   "nongrav": 0,
+   "nmono": 5,
+   "time": 0.01
+  },
+  {
+   "sector": [
+    1,
+    1,
+    4,
+    7
+   ],
+   "j": 24,
+   "nwords": 214,
+   "dimV": 11,
+   "rQ": 4,
+   "rQup": 7,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.02
+  },
+  {
+   "sector": [
+    2,
+    1,
+    4,
+    7
+   ],
+   "j": 24,
+   "nwords": 292,
+   "dimV": 25,
+   "rQ": 7,
+   "rQup": 15,
+   "coh": 3,
+   "grav": 3,
+   "nongrav": 0,
+   "nmono": 21,
+   "time": 0.04
+  },
+  {
+   "sector": [
+    3,
+    1,
+    4,
+    7
+   ],
+   "j": 24,
+   "nwords": 200,
+   "dimV": 18,
+   "rQ": 15,
+   "rQup": 3,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.02
+  },
+  {
+   "sector": [
+    4,
+    1,
+    4,
+    7
+   ],
+   "j": 24,
+   "nwords": 95,
+   "dimV": 4,
+   "rQ": 3,
+   "rQup": 1,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 1,
+   "time": 0.01
+  },
+  {
+   "sector": [
+    5,
+    1,
+    4,
+    7
+   ],
+   "j": 24,
+   "nwords": 8,
+   "dimV": 1,
+   "rQ": 1,
+   "rQup": 0,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    0,
+    1,
+    5,
+    6
+   ],
+   "j": 24,
+   "nwords": 65,
+   "dimV": 6,
+   "rQ": 0,
+   "rQup": 5,
+   "coh": 1,
+   "grav": 1,
+   "nongrav": 0,
+   "nmono": 6,
+   "time": 0.01
+  },
+  {
+   "sector": [
+    1,
+    1,
+    5,
+    6
+   ],
+   "j": 24,
+   "nwords": 262,
+   "dimV": 14,
+   "rQ": 5,
+   "rQup": 9,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.03
+  },
+  {
+   "sector": [
+    2,
+    1,
+    5,
+    6
+   ],
+   "j": 24,
+   "nwords": 389,
+   "dimV": 32,
+   "rQ": 9,
+   "rQup": 20,
+   "coh": 3,
+   "grav": 3,
+   "nongrav": 0,
+   "nmono": 27,
+   "time": 0.06
+  },
+  {
+   "sector": [
+    3,
+    1,
+    5,
+    6
+   ],
+   "j": 24,
+   "nwords": 292,
+   "dimV": 25,
+   "rQ": 20,
+   "rQup": 5,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.03
+  },
+  {
+   "sector": [
+    4,
+    1,
+    5,
+    6
+   ],
+   "j": 24,
+   "nwords": 172,
+   "dimV": 7,
+   "rQ": 5,
+   "rQup": 2,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 2,
+   "time": 0.01
+  },
+  {
+   "sector": [
+    5,
+    1,
+    5,
+    6
+   ],
+   "j": 24,
+   "nwords": 24,
+   "dimV": 2,
+   "rQ": 2,
+   "rQup": 0,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    6,
+    1,
+    5,
+    6
+   ],
+   "j": 24,
+   "nwords": 4,
+   "dimV": 0,
+   "rQ": 0,
+   "rQup": 0,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    0,
+    2,
+    2,
+    8
+   ],
+   "j": 24,
+   "nwords": 56,
+   "dimV": 6,
+   "rQ": 0,
+   "rQup": 5,
+   "coh": 1,
+   "grav": 1,
+   "nongrav": 0,
+   "nmono": 6,
+   "time": 0.01
+  },
+  {
+   "sector": [
+    1,
+    2,
+    2,
+    8
+   ],
+   "j": 24,
+   "nwords": 203,
+   "dimV": 13,
+   "rQ": 5,
+   "rQup": 8,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.02
+  },
+  {
+   "sector": [
+    2,
+    2,
+    2,
+    8
+   ],
+   "j": 24,
+   "nwords": 253,
+   "dimV": 24,
+   "rQ": 8,
+   "rQup": 12,
+   "coh": 4,
+   "grav": 4,
+   "nongrav": 0,
+   "nmono": 20,
+   "time": 0.04
+  },
+  {
+   "sector": [
+    3,
+    2,
+    2,
+    8
+   ],
+   "j": 24,
+   "nwords": 166,
+   "dimV": 18,
+   "rQ": 12,
+   "rQup": 6,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.02
+  },
+  {
+   "sector": [
+    4,
+    2,
+    2,
+    8
+   ],
+   "j": 24,
+   "nwords": 49,
+   "dimV": 8,
+   "rQ": 6,
+   "rQup": 0,
+   "coh": 2,
+   "grav": 2,
+   "nongrav": 0,
+   "nmono": 2,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    0,
+    2,
+    3,
+    7
+   ],
+   "j": 24,
+   "nwords": 88,
+   "dimV": 7,
+   "rQ": 0,
+   "rQup": 6,
+   "coh": 1,
+   "grav": 1,
+   "nongrav": 0,
+   "nmono": 7,
+   "time": 0.01
+  },
+  {
+   "sector": [
+    1,
+    2,
+    3,
+    7
+   ],
+   "j": 24,
+   "nwords": 385,
+   "dimV": 20,
+   "rQ": 6,
+   "rQup": 14,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.05
+  },
+  {
+   "sector": [
+    2,
+    2,
+    3,
+    7
+   ],
+   "j": 24,
+   "nwords": 632,
+   "dimV": 49,
+   "rQ": 14,
+   "rQup": 31,
+   "coh": 4,
+   "grav": 4,
+   "nongrav": 0,
+   "nmono": 42,
+   "time": 0.14
+  },
+  {
+   "sector": [
+    3,
+    2,
+    3,
+    7
+   ],
+   "j": 24,
+   "nwords": 532,
+   "dimV": 51,
+   "rQ": 31,
+   "rQup": 20,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.09
+  },
+  {
+   "sector": [
+    4,
+    2,
+    3,
+    7
+   ],
+   "j": 24,
+   "nwords": 283,
+   "dimV": 28,
+   "rQ": 20,
+   "rQup": 5,
+   "coh": 3,
+   "grav": 3,
+   "nongrav": 0,
+   "nmono": 8,
+   "time": 0.03
+  },
+  {
+   "sector": [
+    5,
+    2,
+    3,
+    7
+   ],
+   "j": 24,
+   "nwords": 36,
+   "dimV": 5,
+   "rQ": 5,
+   "rQup": 0,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    0,
+    2,
+    4,
+    6
+   ],
+   "j": 24,
+   "nwords": 122,
+   "dimV": 10,
+   "rQ": 0,
+   "rQup": 9,
+   "coh": 1,
+   "grav": 1,
+   "nongrav": 0,
+   "nmono": 10,
+   "time": 0.02
+  },
+  {
+   "sector": [
+    1,
+    2,
+    4,
+    6
+   ],
+   "j": 24,
+   "nwords": 557,
+   "dimV": 29,
+   "rQ": 9,
+   "rQup": 20,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.09
+  },
+  {
+   "sector": [
+    2,
+    2,
+    4,
+    6
+   ],
+   "j": 24,
+   "nwords": 1024,
+   "dimV": 69,
+   "rQ": 20,
+   "rQup": 45,
+   "coh": 4,
+   "grav": 4,
+   "nongrav": 0,
+   "nmono": 60,
+   "time": 0.32
+  },
+  {
+   "sector": [
+    3,
+    2,
+    4,
+    6
+   ],
+   "j": 24,
+   "nwords": 1001,
+   "dimV": 83,
+   "rQ": 45,
+   "rQup": 38,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.28
+  },
+  {
+   "sector": [
+    4,
+    2,
+    4,
+    6
+   ],
+   "j": 24,
+   "nwords": 715,
+   "dimV": 62,
+   "rQ": 38,
+   "rQup": 21,
+   "coh": 3,
+   "grav": 3,
+   "nongrav": 0,
+   "nmono": 23,
+   "time": 0.14
+  },
+  {
+   "sector": [
+    5,
+    2,
+    4,
+    6
+   ],
+   "j": 24,
+   "nwords": 145,
+   "dimV": 23,
+   "rQ": 21,
+   "rQup": 2,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.02
+  },
+  {
+   "sector": [
+    6,
+    2,
+    4,
+    6
+   ],
+   "j": 24,
+   "nwords": 15,
+   "dimV": 2,
+   "rQ": 2,
+   "rQup": 0,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.01
+  },
+  {
+   "sector": [
+    0,
+    2,
+    5,
+    5
+   ],
+   "j": 24,
+   "nwords": 130,
+   "dimV": 10,
+   "rQ": 0,
+   "rQup": 9,
+   "coh": 1,
+   "grav": 1,
+   "nongrav": 0,
+   "nmono": 10,
+   "time": 0.03
+  },
+  {
+   "sector": [
+    1,
+    2,
+    5,
+    5
+   ],
+   "j": 24,
+   "nwords": 631,
+   "dimV": 32,
+   "rQ": 9,
+   "rQup": 23,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.12
+  },
+  {
+   "sector": [
+    2,
+    2,
+    5,
+    5
+   ],
+   "j": 24,
+   "nwords": 1213,
+   "dimV": 83,
+   "rQ": 23,
+   "rQup": 56,
+   "coh": 4,
+   "grav": 4,
+   "nongrav": 0,
+   "nmono": 72,
+   "time": 0.46
+  },
+  {
+   "sector": [
+    3,
+    2,
+    5,
+    5
+   ],
+   "j": 24,
+   "nwords": 1226,
+   "dimV": 103,
+   "rQ": 56,
+   "rQup": 47,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.44
+  },
+  {
+   "sector": [
+    4,
+    2,
+    5,
+    5
+   ],
+   "j": 24,
+   "nwords": 939,
+   "dimV": 76,
+   "rQ": 47,
+   "rQup": 26,
+   "coh": 3,
+   "grav": 3,
+   "nongrav": 0,
+   "nmono": 29,
+   "time": 0.19
+  },
+  {
+   "sector": [
+    5,
+    2,
+    5,
+    5
+   ],
+   "j": 24,
+   "nwords": 216,
+   "dimV": 30,
+   "rQ": 26,
+   "rQup": 4,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.03
+  },
+  {
+   "sector": [
+    6,
+    2,
+    5,
+    5
+   ],
+   "j": 24,
+   "nwords": 37,
+   "dimV": 5,
+   "rQ": 4,
+   "rQup": 1,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.01
+  },
+  {
+   "sector": [
+    7,
+    2,
+    5,
+    5
+   ],
+   "j": 24,
+   "nwords": 2,
+   "dimV": 1,
+   "rQ": 1,
+   "rQup": 0,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.01
+  },
+  {
+   "sector": [
+    0,
+    3,
+    3,
+    6
+   ],
+   "j": 24,
+   "nwords": 143,
+   "dimV": 10,
+   "rQ": 0,
+   "rQup": 9,
+   "coh": 1,
+   "grav": 1,
+   "nongrav": 0,
+   "nmono": 10,
+   "time": 0.03
+  },
+  {
+   "sector": [
+    1,
+    3,
+    3,
+    6
+   ],
+   "j": 24,
+   "nwords": 706,
+   "dimV": 34,
+   "rQ": 9,
+   "rQup": 25,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.15
+  },
+  {
+   "sector": [
+    2,
+    3,
+    3,
+    6
+   ],
+   "j": 24,
+   "nwords": 1400,
+   "dimV": 93,
+   "rQ": 25,
+   "rQup": 64,
+   "coh": 4,
+   "grav": 4,
+   "nongrav": 0,
+   "nmono": 82,
+   "time": 0.65
+  },
+  {
+   "sector": [
+    3,
+    3,
+    3,
+    6
+   ],
+   "j": 24,
+   "nwords": 1445,
+   "dimV": 123,
+   "rQ": 64,
+   "rQup": 59,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.6
+  },
+  {
+   "sector": [
+    4,
+    3,
+    3,
+    6
+   ],
+   "j": 24,
+   "nwords": 1088,
+   "dimV": 95,
+   "rQ": 59,
+   "rQup": 32,
+   "coh": 4,
+   "grav": 4,
+   "nongrav": 0,
+   "nmono": 34,
+   "time": 0.26
+  },
+  {
+   "sector": [
+    5,
+    3,
+    3,
+    6
+   ],
+   "j": 24,
+   "nwords": 262,
+   "dimV": 43,
+   "rQ": 32,
+   "rQup": 11,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.03
+  },
+  {
+   "sector": [
+    6,
+    3,
+    3,
+    6
+   ],
+   "j": 24,
+   "nwords": 36,
+   "dimV": 12,
+   "rQ": 11,
+   "rQup": 0,
+   "coh": 1,
+   "grav": 1,
+   "nongrav": 0,
+   "nmono": 1,
+   "time": 0.01
+  },
+  {
+   "sector": [
+    0,
+    3,
+    4,
+    5
+   ],
+   "j": 24,
+   "nwords": 179,
+   "dimV": 12,
+   "rQ": 0,
+   "rQup": 11,
+   "coh": 1,
+   "grav": 1,
+   "nongrav": 0,
+   "nmono": 12,
+   "time": 0.04
+  },
+  {
+   "sector": [
+    1,
+    3,
+    4,
+    5
+   ],
+   "j": 24,
+   "nwords": 947,
+   "dimV": 45,
+   "rQ": 11,
+   "rQup": 34,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.25
+  },
+  {
+   "sector": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "j": 24,
+   "nwords": 2029,
+   "dimV": 127,
+   "rQ": 34,
+   "rQup": 89,
+   "coh": 4,
+   "grav": 4,
+   "nongrav": 0,
+   "nmono": 113,
+   "time": 1.24
+  },
+  {
+   "sector": [
+    3,
+    3,
+    4,
+    5
+   ],
+   "j": 24,
+   "nwords": 2300,
+   "dimV": 183,
+   "rQ": 89,
+   "rQup": 94,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 1.43
+  },
+  {
+   "sector": [
+    4,
+    3,
+    4,
+    5
+   ],
+   "j": 24,
+   "nwords": 2019,
+   "dimV": 166,
+   "rQ": 94,
+   "rQup": 68,
+   "coh": 4,
+   "grav": 4,
+   "nongrav": 0,
+   "nmono": 67,
+   "time": 0.77
+  },
+  {
+   "sector": [
+    5,
+    3,
+    4,
+    5
+   ],
+   "j": 24,
+   "nwords": 589,
+   "dimV": 96,
+   "rQ": 68,
+   "rQup": 28,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.12
+  },
+  {
+   "sector": [
+    6,
+    3,
+    4,
+    5
+   ],
+   "j": 24,
+   "nwords": 118,
+   "dimV": 32,
+   "rQ": 28,
+   "rQup": 3,
+   "coh": 1,
+   "grav": 1,
+   "nongrav": 0,
+   "nmono": 1,
+   "time": 0.02
+  },
+  {
+   "sector": [
+    7,
+    3,
+    4,
+    5
+   ],
+   "j": 24,
+   "nwords": 10,
+   "dimV": 3,
+   "rQ": 3,
+   "rQup": 0,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.01
+  },
+  {
+   "sector": [
+    0,
+    4,
+    4,
+    4
+   ],
+   "j": 24,
+   "nwords": 212,
+   "dimV": 15,
+   "rQ": 0,
+   "rQup": 14,
+   "coh": 1,
+   "grav": 1,
+   "nongrav": 0,
+   "nmono": 15,
+   "time": 0.05
+  },
+  {
+   "sector": [
+    1,
+    4,
+    4,
+    4
+   ],
+   "j": 24,
+   "nwords": 1122,
+   "dimV": 54,
+   "rQ": 14,
+   "rQup": 40,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.32
+  },
+  {
+   "sector": [
+    2,
+    4,
+    4,
+    4
+   ],
+   "j": 24,
+   "nwords": 2493,
+   "dimV": 147,
+   "rQ": 40,
+   "rQup": 103,
+   "coh": 4,
+   "grav": 4,
+   "nongrav": 0,
+   "nmono": 132,
+   "time": 2.01
+  },
+  {
+   "sector": [
+    3,
+    4,
+    4,
+    4
+   ],
+   "j": 24,
+   "nwords": 3001,
+   "dimV": 226,
+   "rQ": 103,
+   "rQup": 123,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 2.57
+  },
+  {
+   "sector": [
+    4,
+    4,
+    4,
+    4
+   ],
+   "j": 24,
+   "nwords": 2837,
+   "dimV": 232,
+   "rQ": 123,
+   "rQup": 105,
+   "coh": 4,
+   "grav": 4,
+   "nongrav": 0,
+   "nmono": 99,
+   "time": 1.59
+  },
+  {
+   "sector": [
+    5,
+    4,
+    4,
+    4
+   ],
+   "j": 24,
+   "nwords": 897,
+   "dimV": 153,
+   "rQ": 105,
+   "rQup": 47,
+   "coh": 1,
+   "grav": 0,
+   "nongrav": 1,
+   "nmono": 0,
+   "time": 0.26
+  },
+  {
+   "sector": [
+    6,
+    4,
+    4,
+    4
+   ],
+   "j": 24,
+   "nwords": 197,
+   "dimV": 53,
+   "rQ": 47,
+   "rQup": 5,
+   "coh": 1,
+   "grav": 1,
+   "nongrav": 0,
+   "nmono": 1,
+   "time": 0.03
+  },
+  {
+   "sector": [
+    7,
+    4,
+    4,
+    4
+   ],
+   "j": 24,
+   "nwords": 26,
+   "dimV": 6,
+   "rQ": 5,
+   "rQup": 1,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.01
+  },
+  {
+   "sector": [
+    8,
+    4,
+    4,
+    4
+   ],
+   "j": 24,
+   "nwords": 1,
+   "dimV": 1,
+   "rQ": 1,
+   "rQup": 0,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.01
+  },
+  {
+   "sector": [
+    0,
+    0,
+    0,
+    13
+   ],
+   "j": 26,
+   "nwords": 2,
+   "dimV": 0,
+   "rQ": 0,
+   "rQup": 0,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    0,
+    0,
+    1,
+    12
+   ],
+   "j": 26,
+   "nwords": 4,
+   "dimV": 0,
+   "rQ": 0,
+   "rQup": 0,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    1,
+    0,
+    1,
+    12
+   ],
+   "j": 26,
+   "nwords": 4,
+   "dimV": 1,
+   "rQ": 0,
+   "rQup": 0,
+   "coh": 1,
+   "grav": 1,
+   "nongrav": 0,
+   "nmono": 1,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    0,
+    0,
+    2,
+    11
+   ],
+   "j": 26,
+   "nwords": 9,
+   "dimV": 0,
+   "rQ": 0,
+   "rQup": 0,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    1,
+    0,
+    2,
+    11
+   ],
+   "j": 26,
+   "nwords": 12,
+   "dimV": 2,
+   "rQ": 0,
+   "rQup": 1,
+   "coh": 1,
+   "grav": 1,
+   "nongrav": 0,
+   "nmono": 2,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    2,
+    0,
+    2,
+    11
+   ],
+   "j": 26,
+   "nwords": 4,
+   "dimV": 1,
+   "rQ": 1,
+   "rQup": 0,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    0,
+    0,
+    3,
+    10
+   ],
+   "j": 26,
+   "nwords": 14,
+   "dimV": 0,
+   "rQ": 0,
+   "rQup": 0,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    1,
+    0,
+    3,
+    10
+   ],
+   "j": 26,
+   "nwords": 24,
+   "dimV": 3,
+   "rQ": 0,
+   "rQup": 2,
+   "coh": 1,
+   "grav": 1,
+   "nongrav": 0,
+   "nmono": 3,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    2,
+    0,
+    3,
+    10
+   ],
+   "j": 26,
+   "nwords": 16,
+   "dimV": 2,
+   "rQ": 2,
+   "rQup": 0,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    3,
+    0,
+    3,
+    10
+   ],
+   "j": 26,
+   "nwords": 3,
+   "dimV": 0,
+   "rQ": 0,
+   "rQup": 0,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    0,
+    0,
+    4,
+    9
+   ],
+   "j": 26,
+   "nwords": 20,
+   "dimV": 0,
+   "rQ": 0,
+   "rQup": 0,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    1,
+    0,
+    4,
+    9
+   ],
+   "j": 26,
+   "nwords": 40,
+   "dimV": 4,
+   "rQ": 0,
+   "rQup": 3,
+   "coh": 1,
+   "grav": 1,
+   "nongrav": 0,
+   "nmono": 4,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    2,
+    0,
+    4,
+    9
+   ],
+   "j": 26,
+   "nwords": 33,
+   "dimV": 3,
+   "rQ": 3,
+   "rQup": 0,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    3,
+    0,
+    4,
+    9
+   ],
+   "j": 26,
+   "nwords": 13,
+   "dimV": 0,
+   "rQ": 0,
+   "rQup": 0,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    4,
+    0,
+    4,
+    9
+   ],
+   "j": 26,
+   "nwords": 3,
+   "dimV": 0,
+   "rQ": 0,
+   "rQup": 0,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    0,
+    0,
+    5,
+    8
+   ],
+   "j": 26,
+   "nwords": 25,
+   "dimV": 0,
+   "rQ": 0,
+   "rQup": 0,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    1,
+    0,
+    5,
+    8
+   ],
+   "j": 26,
+   "nwords": 56,
+   "dimV": 5,
+   "rQ": 0,
+   "rQup": 4,
+   "coh": 1,
+   "grav": 1,
+   "nongrav": 0,
+   "nmono": 5,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    2,
+    0,
+    5,
+    8
+   ],
+   "j": 26,
+   "nwords": 53,
+   "dimV": 4,
+   "rQ": 4,
+   "rQup": 0,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    3,
+    0,
+    5,
+    8
+   ],
+   "j": 26,
+   "nwords": 29,
+   "dimV": 0,
+   "rQ": 0,
+   "rQup": 0,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    4,
+    0,
+    5,
+    8
+   ],
+   "j": 26,
+   "nwords": 10,
+   "dimV": 0,
+   "rQ": 0,
+   "rQup": 0,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    5,
+    0,
+    5,
+    8
+   ],
+   "j": 26,
+   "nwords": 3,
+   "dimV": 0,
+   "rQ": 0,
+   "rQup": 0,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    0,
+    0,
+    6,
+    7
+   ],
+   "j": 26,
+   "nwords": 28,
+   "dimV": 0,
+   "rQ": 0,
+   "rQup": 0,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    1,
+    0,
+    6,
+    7
+   ],
+   "j": 26,
+   "nwords": 65,
+   "dimV": 6,
+   "rQ": 0,
+   "rQup": 5,
+   "coh": 1,
+   "grav": 1,
+   "nongrav": 0,
+   "nmono": 6,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    2,
+    0,
+    6,
+    7
+   ],
+   "j": 26,
+   "nwords": 67,
+   "dimV": 5,
+   "rQ": 5,
+   "rQup": 0,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.01
+  },
+  {
+   "sector": [
+    3,
+    0,
+    6,
+    7
+   ],
+   "j": 26,
+   "nwords": 41,
+   "dimV": 0,
+   "rQ": 0,
+   "rQup": 0,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    4,
+    0,
+    6,
+    7
+   ],
+   "j": 26,
+   "nwords": 16,
+   "dimV": 0,
+   "rQ": 0,
+   "rQup": 0,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    5,
+    0,
+    6,
+    7
+   ],
+   "j": 26,
+   "nwords": 7,
+   "dimV": 0,
+   "rQ": 0,
+   "rQup": 0,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    6,
+    0,
+    6,
+    7
+   ],
+   "j": 26,
+   "nwords": 0,
+   "dimV": 0,
+   "rQ": 0,
+   "rQup": 0,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0
+  },
+  {
+   "sector": [
+    0,
+    1,
+    1,
+    11
+   ],
+   "j": 26,
+   "nwords": 13,
+   "dimV": 1,
+   "rQ": 0,
+   "rQup": 1,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    1,
+    1,
+    1,
+    11
+   ],
+   "j": 26,
+   "nwords": 28,
+   "dimV": 5,
+   "rQ": 1,
+   "rQup": 1,
+   "coh": 3,
+   "grav": 3,
+   "nongrav": 0,
+   "nmono": 5,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    2,
+    1,
+    1,
+    11
+   ],
+   "j": 26,
+   "nwords": 16,
+   "dimV": 1,
+   "rQ": 1,
+   "rQup": 0,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    0,
+    1,
+    2,
+    10
+   ],
+   "j": 26,
+   "nwords": 27,
+   "dimV": 1,
+   "rQ": 0,
+   "rQup": 1,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    1,
+    1,
+    2,
+    10
+   ],
+   "j": 26,
+   "nwords": 76,
+   "dimV": 9,
+   "rQ": 1,
+   "rQup": 5,
+   "coh": 3,
+   "grav": 3,
+   "nongrav": 0,
+   "nmono": 9,
+   "time": 0.01
+  },
+  {
+   "sector": [
+    2,
+    1,
+    2,
+    10
+   ],
+   "j": 26,
+   "nwords": 79,
+   "dimV": 7,
+   "rQ": 5,
+   "rQup": 2,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.01
+  },
+  {
+   "sector": [
+    3,
+    1,
+    2,
+    10
+   ],
+   "j": 26,
+   "nwords": 21,
+   "dimV": 3,
+   "rQ": 2,
+   "rQup": 0,
+   "coh": 1,
+   "grav": 1,
+   "nongrav": 0,
+   "nmono": 1,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    0,
+    1,
+    3,
+    9
+   ],
+   "j": 26,
+   "nwords": 46,
+   "dimV": 2,
+   "rQ": 0,
+   "rQup": 2,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.01
+  },
+  {
+   "sector": [
+    1,
+    1,
+    3,
+    9
+   ],
+   "j": 26,
+   "nwords": 153,
+   "dimV": 14,
+   "rQ": 2,
+   "rQup": 9,
+   "coh": 3,
+   "grav": 3,
+   "nongrav": 0,
+   "nmono": 14,
+   "time": 0.02
+  },
+  {
+   "sector": [
+    2,
+    1,
+    3,
+    9
+   ],
+   "j": 26,
+   "nwords": 206,
+   "dimV": 13,
+   "rQ": 9,
+   "rQup": 4,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.02
+  },
+  {
+   "sector": [
+    3,
+    1,
+    3,
+    9
+   ],
+   "j": 26,
+   "nwords": 104,
+   "dimV": 8,
+   "rQ": 4,
+   "rQup": 3,
+   "coh": 1,
+   "grav": 1,
+   "nongrav": 0,
+   "nmono": 4,
+   "time": 0.01
+  },
+  {
+   "sector": [
+    4,
+    1,
+    3,
+    9
+   ],
+   "j": 26,
+   "nwords": 21,
+   "dimV": 3,
+   "rQ": 3,
+   "rQup": 0,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    0,
+    1,
+    4,
+    8
+   ],
+   "j": 26,
+   "nwords": 66,
+   "dimV": 2,
+   "rQ": 0,
+   "rQup": 2,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.01
+  },
+  {
+   "sector": [
+    1,
+    1,
+    4,
+    8
+   ],
+   "j": 26,
+   "nwords": 245,
+   "dimV": 18,
+   "rQ": 2,
+   "rQup": 13,
+   "coh": 3,
+   "grav": 3,
+   "nongrav": 0,
+   "nmono": 18,
+   "time": 0.03
+  },
+  {
+   "sector": [
+    2,
+    1,
+    4,
+    8
+   ],
+   "j": 26,
+   "nwords": 384,
+   "dimV": 21,
+   "rQ": 13,
+   "rQup": 8,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.05
+  },
+  {
+   "sector": [
+    3,
+    1,
+    4,
+    8
+   ],
+   "j": 26,
+   "nwords": 274,
+   "dimV": 16,
+   "rQ": 8,
+   "rQup": 7,
+   "coh": 1,
+   "grav": 1,
+   "nongrav": 0,
+   "nmono": 9,
+   "time": 0.03
+  },
+  {
+   "sector": [
+    4,
+    1,
+    4,
+    8
+   ],
+   "j": 26,
+   "nwords": 97,
+   "dimV": 7,
+   "rQ": 7,
+   "rQup": 0,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.01
+  },
+  {
+   "sector": [
+    5,
+    1,
+    4,
+    8
+   ],
+   "j": 26,
+   "nwords": 22,
+   "dimV": 0,
+   "rQ": 0,
+   "rQup": 0,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    0,
+    1,
+    5,
+    7
+   ],
+   "j": 26,
+   "nwords": 82,
+   "dimV": 3,
+   "rQ": 0,
+   "rQup": 3,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.01
+  },
+  {
+   "sector": [
+    1,
+    1,
+    5,
+    7
+   ],
+   "j": 26,
+   "nwords": 323,
+   "dimV": 23,
+   "rQ": 3,
+   "rQup": 17,
+   "coh": 3,
+   "grav": 3,
+   "nongrav": 0,
+   "nmono": 23,
+   "time": 0.04
+  },
+  {
+   "sector": [
+    2,
+    1,
+    5,
+    7
+   ],
+   "j": 26,
+   "nwords": 549,
+   "dimV": 27,
+   "rQ": 17,
+   "rQup": 10,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.1
+  },
+  {
+   "sector": [
+    3,
+    1,
+    5,
+    7
+   ],
+   "j": 26,
+   "nwords": 459,
+   "dimV": 22,
+   "rQ": 10,
+   "rQup": 11,
+   "coh": 1,
+   "grav": 1,
+   "nongrav": 0,
+   "nmono": 13,
+   "time": 0.06
+  },
+  {
+   "sector": [
+    4,
+    1,
+    5,
+    7
+   ],
+   "j": 26,
+   "nwords": 209,
+   "dimV": 12,
+   "rQ": 11,
+   "rQup": 1,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.02
+  },
+  {
+   "sector": [
+    5,
+    1,
+    5,
+    7
+   ],
+   "j": 26,
+   "nwords": 82,
+   "dimV": 1,
+   "rQ": 1,
+   "rQup": 0,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.01
+  },
+  {
+   "sector": [
+    6,
+    1,
+    5,
+    7
+   ],
+   "j": 26,
+   "nwords": 4,
+   "dimV": 0,
+   "rQ": 0,
+   "rQup": 0,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    0,
+    1,
+    6,
+    6
+   ],
+   "j": 26,
+   "nwords": 88,
+   "dimV": 3,
+   "rQ": 0,
+   "rQup": 3,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.01
+  },
+  {
+   "sector": [
+    1,
+    1,
+    6,
+    6
+   ],
+   "j": 26,
+   "nwords": 351,
+   "dimV": 25,
+   "rQ": 3,
+   "rQup": 19,
+   "coh": 3,
+   "grav": 3,
+   "nongrav": 0,
+   "nmono": 25,
+   "time": 0.05
+  },
+  {
+   "sector": [
+    2,
+    1,
+    6,
+    6
+   ],
+   "j": 26,
+   "nwords": 621,
+   "dimV": 32,
+   "rQ": 19,
+   "rQup": 13,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.12
+  },
+  {
+   "sector": [
+    3,
+    1,
+    6,
+    6
+   ],
+   "j": 26,
+   "nwords": 545,
+   "dimV": 27,
+   "rQ": 13,
+   "rQup": 13,
+   "coh": 1,
+   "grav": 1,
+   "nongrav": 0,
+   "nmono": 16,
+   "time": 0.07
+  },
+  {
+   "sector": [
+    4,
+    1,
+    6,
+    6
+   ],
+   "j": 26,
+   "nwords": 261,
+   "dimV": 14,
+   "rQ": 13,
+   "rQup": 1,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.03
+  },
+  {
+   "sector": [
+    5,
+    1,
+    6,
+    6
+   ],
+   "j": 26,
+   "nwords": 115,
+   "dimV": 1,
+   "rQ": 1,
+   "rQup": 0,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.01
+  },
+  {
+   "sector": [
+    6,
+    1,
+    6,
+    6
+   ],
+   "j": 26,
+   "nwords": 8,
+   "dimV": 0,
+   "rQ": 0,
+   "rQup": 0,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    7,
+    1,
+    6,
+    6
+   ],
+   "j": 26,
+   "nwords": 1,
+   "dimV": 0,
+   "rQ": 0,
+   "rQup": 0,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    0,
+    2,
+    2,
+    9
+   ],
+   "j": 26,
+   "nwords": 62,
+   "dimV": 2,
+   "rQ": 0,
+   "rQup": 2,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.01
+  },
+  {
+   "sector": [
+    1,
+    2,
+    2,
+    9
+   ],
+   "j": 26,
+   "nwords": 218,
+   "dimV": 18,
+   "rQ": 2,
+   "rQup": 13,
+   "coh": 3,
+   "grav": 3,
+   "nongrav": 0,
+   "nmono": 18,
+   "time": 0.03
+  },
+  {
+   "sector": [
+    2,
+    2,
+    2,
+    9
+   ],
+   "j": 26,
+   "nwords": 331,
+   "dimV": 25,
+   "rQ": 13,
+   "rQup": 12,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.05
+  },
+  {
+   "sector": [
+    3,
+    2,
+    2,
+    9
+   ],
+   "j": 26,
+   "nwords": 197,
+   "dimV": 20,
+   "rQ": 12,
+   "rQup": 4,
+   "coh": 4,
+   "grav": 4,
+   "nongrav": 0,
+   "nmono": 10,
+   "time": 0.02
+  },
+  {
+   "sector": [
+    4,
+    2,
+    2,
+    9
+   ],
+   "j": 26,
+   "nwords": 51,
+   "dimV": 4,
+   "rQ": 4,
+   "rQup": 0,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    0,
+    2,
+    3,
+    8
+   ],
+   "j": 26,
+   "nwords": 105,
+   "dimV": 3,
+   "rQ": 0,
+   "rQup": 3,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.02
+  },
+  {
+   "sector": [
+    1,
+    2,
+    3,
+    8
+   ],
+   "j": 26,
+   "nwords": 439,
+   "dimV": 28,
+   "rQ": 3,
+   "rQup": 22,
+   "coh": 3,
+   "grav": 3,
+   "nongrav": 0,
+   "nmono": 28,
+   "time": 0.08
+  },
+  {
+   "sector": [
+    2,
+    2,
+    3,
+    8
+   ],
+   "j": 26,
+   "nwords": 823,
+   "dimV": 47,
+   "rQ": 22,
+   "rQup": 25,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.21
+  },
+  {
+   "sector": [
+    3,
+    2,
+    3,
+    8
+   ],
+   "j": 26,
+   "nwords": 710,
+   "dimV": 49,
+   "rQ": 25,
+   "rQup": 20,
+   "coh": 4,
+   "grav": 4,
+   "nongrav": 0,
+   "nmono": 28,
+   "time": 0.14
+  },
+  {
+   "sector": [
+    4,
+    2,
+    3,
+    8
+   ],
+   "j": 26,
+   "nwords": 310,
+   "dimV": 26,
+   "rQ": 20,
+   "rQup": 6,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.03
+  },
+  {
+   "sector": [
+    5,
+    2,
+    3,
+    8
+   ],
+   "j": 26,
+   "nwords": 69,
+   "dimV": 7,
+   "rQ": 6,
+   "rQup": 0,
+   "coh": 1,
+   "grav": 1,
+   "nongrav": 0,
+   "nmono": 1,
+   "time": 0.01
+  },
+  {
+   "sector": [
+    0,
+    2,
+    4,
+    7
+   ],
+   "j": 26,
+   "nwords": 150,
+   "dimV": 4,
+   "rQ": 0,
+   "rQup": 4,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.03
+  },
+  {
+   "sector": [
+    1,
+    2,
+    4,
+    7
+   ],
+   "j": 26,
+   "nwords": 681,
+   "dimV": 38,
+   "rQ": 4,
+   "rQup": 31,
+   "coh": 3,
+   "grav": 3,
+   "nongrav": 0,
+   "nmono": 38,
+   "time": 0.15
+  },
+  {
+   "sector": [
+    2,
+    2,
+    4,
+    7
+   ],
+   "j": 26,
+   "nwords": 1436,
+   "dimV": 71,
+   "rQ": 31,
+   "rQup": 40,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.62
+  },
+  {
+   "sector": [
+    3,
+    2,
+    4,
+    7
+   ],
+   "j": 26,
+   "nwords": 1519,
+   "dimV": 85,
+   "rQ": 40,
+   "rQup": 41,
+   "coh": 4,
+   "grav": 4,
+   "nongrav": 0,
+   "nmono": 53,
+   "time": 0.56
+  },
+  {
+   "sector": [
+    4,
+    2,
+    4,
+    7
+   ],
+   "j": 26,
+   "nwords": 866,
+   "dimV": 58,
+   "rQ": 41,
+   "rQup": 17,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.18
+  },
+  {
+   "sector": [
+    5,
+    2,
+    4,
+    7
+   ],
+   "j": 26,
+   "nwords": 345,
+   "dimV": 23,
+   "rQ": 17,
+   "rQup": 5,
+   "coh": 1,
+   "grav": 1,
+   "nongrav": 0,
+   "nmono": 4,
+   "time": 0.03
+  },
+  {
+   "sector": [
+    6,
+    2,
+    4,
+    7
+   ],
+   "j": 26,
+   "nwords": 28,
+   "dimV": 5,
+   "rQ": 5,
+   "rQup": 0,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.01
+  },
+  {
+   "sector": [
+    0,
+    2,
+    5,
+    6
+   ],
+   "j": 26,
+   "nwords": 178,
+   "dimV": 5,
+   "rQ": 0,
+   "rQup": 5,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.04
+  },
+  {
+   "sector": [
+    1,
+    2,
+    5,
+    6
+   ],
+   "j": 26,
+   "nwords": 843,
+   "dimV": 46,
+   "rQ": 5,
+   "rQup": 38,
+   "coh": 3,
+   "grav": 3,
+   "nongrav": 0,
+   "nmono": 46,
+   "time": 0.2
+  },
+  {
+   "sector": [
+    2,
+    2,
+    5,
+    6
+   ],
+   "j": 26,
+   "nwords": 1891,
+   "dimV": 90,
+   "rQ": 38,
+   "rQup": 52,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 1.09
+  },
+  {
+   "sector": [
+    3,
+    2,
+    5,
+    6
+   ],
+   "j": 26,
+   "nwords": 2175,
+   "dimV": 114,
+   "rQ": 52,
+   "rQup": 58,
+   "coh": 4,
+   "grav": 4,
+   "nongrav": 0,
+   "nmono": 73,
+   "time": 1.02
+  },
+  {
+   "sector": [
+    4,
+    2,
+    5,
+    6
+   ],
+   "j": 26,
+   "nwords": 1388,
+   "dimV": 87,
+   "rQ": 58,
+   "rQup": 29,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.45
+  },
+  {
+   "sector": [
+    5,
+    2,
+    5,
+    6
+   ],
+   "j": 26,
+   "nwords": 692,
+   "dimV": 41,
+   "rQ": 29,
+   "rQup": 11,
+   "coh": 1,
+   "grav": 1,
+   "nongrav": 0,
+   "nmono": 9,
+   "time": 0.09
+  },
+  {
+   "sector": [
+    6,
+    2,
+    5,
+    6
+   ],
+   "j": 26,
+   "nwords": 85,
+   "dimV": 11,
+   "rQ": 11,
+   "rQup": 0,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.01
+  },
+  {
+   "sector": [
+    7,
+    2,
+    5,
+    6
+   ],
+   "j": 26,
+   "nwords": 7,
+   "dimV": 0,
+   "rQ": 0,
+   "rQup": 0,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.01
+  },
+  {
+   "sector": [
+    0,
+    3,
+    3,
+    7
+   ],
+   "j": 26,
+   "nwords": 179,
+   "dimV": 6,
+   "rQ": 0,
+   "rQup": 6,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.04
+  },
+  {
+   "sector": [
+    1,
+    3,
+    3,
+    7
+   ],
+   "j": 26,
+   "nwords": 861,
+   "dimV": 46,
+   "rQ": 6,
+   "rQup": 37,
+   "coh": 3,
+   "grav": 3,
+   "nongrav": 0,
+   "nmono": 46,
+   "time": 0.22
+  },
+  {
+   "sector": [
+    2,
+    3,
+    3,
+    7
+   ],
+   "j": 26,
+   "nwords": 1935,
+   "dimV": 87,
+   "rQ": 37,
+   "rQup": 50,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 1.13
+  },
+  {
+   "sector": [
+    3,
+    3,
+    3,
+    7
+   ],
+   "j": 26,
+   "nwords": 2175,
+   "dimV": 116,
+   "rQ": 50,
+   "rQup": 62,
+   "coh": 4,
+   "grav": 4,
+   "nongrav": 0,
+   "nmono": 74,
+   "time": 1.11
+  },
+  {
+   "sector": [
+    4,
+    3,
+    3,
+    7
+   ],
+   "j": 26,
+   "nwords": 1329,
+   "dimV": 103,
+   "rQ": 62,
+   "rQup": 41,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.42
+  },
+  {
+   "sector": [
+    5,
+    3,
+    3,
+    7
+   ],
+   "j": 26,
+   "nwords": 566,
+   "dimV": 53,
+   "rQ": 41,
+   "rQup": 8,
+   "coh": 4,
+   "grav": 4,
+   "nongrav": 0,
+   "nmono": 10,
+   "time": 0.07
+  },
+  {
+   "sector": [
+    6,
+    3,
+    3,
+    7
+   ],
+   "j": 26,
+   "nwords": 59,
+   "dimV": 8,
+   "rQ": 8,
+   "rQup": 0,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.01
+  },
+  {
+   "sector": [
+    0,
+    3,
+    4,
+    6
+   ],
+   "j": 26,
+   "nwords": 245,
+   "dimV": 7,
+   "rQ": 0,
+   "rQup": 7,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.08
+  },
+  {
+   "sector": [
+    1,
+    3,
+    4,
+    6
+   ],
+   "j": 26,
+   "nwords": 1261,
+   "dimV": 61,
+   "rQ": 7,
+   "rQup": 51,
+   "coh": 3,
+   "grav": 3,
+   "nongrav": 0,
+   "nmono": 61,
+   "time": 0.44
+  },
+  {
+   "sector": [
+    2,
+    3,
+    4,
+    6
+   ],
+   "j": 26,
+   "nwords": 3136,
+   "dimV": 133,
+   "rQ": 51,
+   "rQup": 82,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 3.2
+  },
+  {
+   "sector": [
+    3,
+    3,
+    4,
+    6
+   ],
+   "j": 26,
+   "nwords": 4029,
+   "dimV": 196,
+   "rQ": 82,
+   "rQup": 110,
+   "coh": 4,
+   "grav": 4,
+   "nongrav": 0,
+   "nmono": 133,
+   "time": 3.66
+  },
+  {
+   "sector": [
+    4,
+    3,
+    4,
+    6
+   ],
+   "j": 26,
+   "nwords": 2899,
+   "dimV": 195,
+   "rQ": 110,
+   "rQup": 85,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 2.07
+  },
+  {
+   "sector": [
+    5,
+    3,
+    4,
+    6
+   ],
+   "j": 26,
+   "nwords": 1620,
+   "dimV": 126,
+   "rQ": 85,
+   "rQup": 37,
+   "coh": 4,
+   "grav": 4,
+   "nongrav": 0,
+   "nmono": 28,
+   "time": 0.48
+  },
+  {
+   "sector": [
+    6,
+    3,
+    4,
+    6
+   ],
+   "j": 26,
+   "nwords": 273,
+   "dimV": 44,
+   "rQ": 37,
+   "rQup": 7,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.04
+  },
+  {
+   "sector": [
+    7,
+    3,
+    4,
+    6
+   ],
+   "j": 26,
+   "nwords": 25,
+   "dimV": 7,
+   "rQ": 7,
+   "rQup": 0,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.01
+  },
+  {
+   "sector": [
+    0,
+    3,
+    5,
+    5
+   ],
+   "j": 26,
+   "nwords": 271,
+   "dimV": 9,
+   "rQ": 0,
+   "rQup": 9,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.07
+  },
+  {
+   "sector": [
+    1,
+    3,
+    5,
+    5
+   ],
+   "j": 26,
+   "nwords": 1433,
+   "dimV": 69,
+   "rQ": 9,
+   "rQup": 57,
+   "coh": 3,
+   "grav": 3,
+   "nongrav": 0,
+   "nmono": 69,
+   "time": 0.6
+  },
+  {
+   "sector": [
+    2,
+    3,
+    5,
+    5
+   ],
+   "j": 26,
+   "nwords": 3665,
+   "dimV": 149,
+   "rQ": 57,
+   "rQup": 92,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 4.48
+  },
+  {
+   "sector": [
+    3,
+    3,
+    5,
+    5
+   ],
+   "j": 26,
+   "nwords": 4900,
+   "dimV": 229,
+   "rQ": 92,
+   "rQup": 133,
+   "coh": 4,
+   "grav": 4,
+   "nongrav": 0,
+   "nmono": 158,
+   "time": 6.26
+  },
+  {
+   "sector": [
+    4,
+    3,
+    5,
+    5
+   ],
+   "j": 26,
+   "nwords": 3733,
+   "dimV": 246,
+   "rQ": 133,
+   "rQup": 113,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 3.76
+  },
+  {
+   "sector": [
+    5,
+    3,
+    5,
+    5
+   ],
+   "j": 26,
+   "nwords": 2270,
+   "dimV": 171,
+   "rQ": 113,
+   "rQup": 54,
+   "coh": 4,
+   "grav": 4,
+   "nongrav": 0,
+   "nmono": 40,
+   "time": 1.06
+  },
+  {
+   "sector": [
+    6,
+    3,
+    5,
+    5
+   ],
+   "j": 26,
+   "nwords": 425,
+   "dimV": 64,
+   "rQ": 54,
+   "rQup": 10,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.08
+  },
+  {
+   "sector": [
+    7,
+    3,
+    5,
+    5
+   ],
+   "j": 26,
+   "nwords": 51,
+   "dimV": 11,
+   "rQ": 10,
+   "rQup": 1,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.02
+  },
+  {
+   "sector": [
+    8,
+    3,
+    5,
+    5
+   ],
+   "j": 26,
+   "nwords": 2,
+   "dimV": 1,
+   "rQ": 1,
+   "rQup": 0,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.01
+  },
+  {
+   "sector": [
+    0,
+    4,
+    4,
+    5
+   ],
+   "j": 26,
+   "nwords": 313,
+   "dimV": 9,
+   "rQ": 0,
+   "rQup": 9,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.09
+  },
+  {
+   "sector": [
+    1,
+    4,
+    4,
+    5
+   ],
+   "j": 26,
+   "nwords": 1697,
+   "dimV": 77,
+   "rQ": 9,
+   "rQup": 65,
+   "coh": 3,
+   "grav": 3,
+   "nongrav": 0,
+   "nmono": 77,
+   "time": 0.87
+  },
+  {
+   "sector": [
+    2,
+    4,
+    4,
+    5
+   ],
+   "j": 26,
+   "nwords": 4522,
+   "dimV": 181,
+   "rQ": 65,
+   "rQup": 116,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 7.4
+  },
+  {
+   "sector": [
+    3,
+    4,
+    4,
+    5
+   ],
+   "j": 26,
+   "nwords": 6346,
+   "dimV": 289,
+   "rQ": 116,
+   "rQup": 169,
+   "coh": 4,
+   "grav": 4,
+   "nongrav": 0,
+   "nmono": 206,
+   "time": 9.92
+  },
+  {
+   "sector": [
+    4,
+    4,
+    4,
+    5
+   ],
+   "j": 26,
+   "nwords": 5096,
+   "dimV": 320,
+   "rQ": 169,
+   "rQup": 151,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 5.96
+  },
+  {
+   "sector": [
+    5,
+    4,
+    4,
+    5
+   ],
+   "j": 26,
+   "nwords": 3293,
+   "dimV": 245,
+   "rQ": 151,
+   "rQup": 90,
+   "coh": 4,
+   "grav": 4,
+   "nongrav": 0,
+   "nmono": 58,
+   "time": 1.85
+  },
+  {
+   "sector": [
+    6,
+    4,
+    4,
+    5
+   ],
+   "j": 26,
+   "nwords": 697,
+   "dimV": 119,
+   "rQ": 90,
+   "rQup": 28,
+   "coh": 1,
+   "grav": 0,
+   "nongrav": 1,
+   "nmono": 0,
+   "time": 0.15
+  },
+  {
+   "sector": [
+    7,
+    4,
+    4,
+    5
+   ],
+   "j": 26,
+   "nwords": 99,
+   "dimV": 29,
+   "rQ": 28,
+   "rQup": 1,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.02
+  },
+  {
+   "sector": [
+    8,
+    4,
+    4,
+    5
+   ],
+   "j": 26,
+   "nwords": 7,
+   "dimV": 1,
+   "rQ": 1,
+   "rQup": 0,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.02
+  },
+  {
+   "sector": [
+    0,
+    0,
+    0,
+    14
+   ],
+   "j": 28,
+   "nwords": 3,
+   "dimV": 1,
+   "rQ": 0,
+   "rQup": 0,
+   "coh": 1,
+   "grav": 1,
+   "nongrav": 0,
+   "nmono": 1,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    0,
+    0,
+    1,
+    13
+   ],
+   "j": 28,
+   "nwords": 5,
+   "dimV": 1,
+   "rQ": 0,
+   "rQup": 0,
+   "coh": 1,
+   "grav": 1,
+   "nongrav": 0,
+   "nmono": 1,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    1,
+    0,
+    1,
+    13
+   ],
+   "j": 28,
+   "nwords": 4,
+   "dimV": 0,
+   "rQ": 0,
+   "rQup": 0,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    0,
+    0,
+    2,
+    12
+   ],
+   "j": 28,
+   "nwords": 11,
+   "dimV": 2,
+   "rQ": 0,
+   "rQup": 1,
+   "coh": 1,
+   "grav": 1,
+   "nongrav": 0,
+   "nmono": 2,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    1,
+    0,
+    2,
+    12
+   ],
+   "j": 28,
+   "nwords": 13,
+   "dimV": 1,
+   "rQ": 1,
+   "rQup": 0,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    2,
+    0,
+    2,
+    12
+   ],
+   "j": 28,
+   "nwords": 3,
+   "dimV": 0,
+   "rQ": 0,
+   "rQup": 0,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    0,
+    0,
+    3,
+    11
+   ],
+   "j": 28,
+   "nwords": 16,
+   "dimV": 2,
+   "rQ": 0,
+   "rQup": 1,
+   "coh": 1,
+   "grav": 1,
+   "nongrav": 0,
+   "nmono": 2,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    1,
+    0,
+    3,
+    11
+   ],
+   "j": 28,
+   "nwords": 27,
+   "dimV": 1,
+   "rQ": 1,
+   "rQup": 0,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    2,
+    0,
+    3,
+    11
+   ],
+   "j": 28,
+   "nwords": 16,
+   "dimV": 1,
+   "rQ": 0,
+   "rQup": 1,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 1,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    3,
+    0,
+    3,
+    11
+   ],
+   "j": 28,
+   "nwords": 5,
+   "dimV": 1,
+   "rQ": 1,
+   "rQup": 0,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    0,
+    0,
+    4,
+    10
+   ],
+   "j": 28,
+   "nwords": 25,
+   "dimV": 3,
+   "rQ": 0,
+   "rQup": 2,
+   "coh": 1,
+   "grav": 1,
+   "nongrav": 0,
+   "nmono": 3,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    1,
+    0,
+    4,
+    10
+   ],
+   "j": 28,
+   "nwords": 46,
+   "dimV": 2,
+   "rQ": 2,
+   "rQup": 0,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    2,
+    0,
+    4,
+    10
+   ],
+   "j": 28,
+   "nwords": 33,
+   "dimV": 1,
+   "rQ": 0,
+   "rQup": 1,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 1,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    3,
+    0,
+    4,
+    10
+   ],
+   "j": 28,
+   "nwords": 17,
+   "dimV": 1,
+   "rQ": 1,
+   "rQup": 0,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    4,
+    0,
+    4,
+    10
+   ],
+   "j": 28,
+   "nwords": 4,
+   "dimV": 0,
+   "rQ": 0,
+   "rQup": 0,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    0,
+    0,
+    5,
+    9
+   ],
+   "j": 28,
+   "nwords": 30,
+   "dimV": 3,
+   "rQ": 0,
+   "rQup": 2,
+   "coh": 1,
+   "grav": 1,
+   "nongrav": 0,
+   "nmono": 3,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    1,
+    0,
+    5,
+    9
+   ],
+   "j": 28,
+   "nwords": 66,
+   "dimV": 2,
+   "rQ": 2,
+   "rQup": 0,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    2,
+    0,
+    5,
+    9
+   ],
+   "j": 28,
+   "nwords": 61,
+   "dimV": 2,
+   "rQ": 0,
+   "rQup": 2,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 2,
+   "time": 0.01
+  },
+  {
+   "sector": [
+    3,
+    0,
+    5,
+    9
+   ],
+   "j": 28,
+   "nwords": 38,
+   "dimV": 2,
+   "rQ": 2,
+   "rQup": 0,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    4,
+    0,
+    5,
+    9
+   ],
+   "j": 28,
+   "nwords": 14,
+   "dimV": 0,
+   "rQ": 0,
+   "rQup": 0,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    5,
+    0,
+    5,
+    9
+   ],
+   "j": 28,
+   "nwords": 2,
+   "dimV": 0,
+   "rQ": 0,
+   "rQup": 0,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    0,
+    0,
+    6,
+    8
+   ],
+   "j": 28,
+   "nwords": 37,
+   "dimV": 4,
+   "rQ": 0,
+   "rQup": 3,
+   "coh": 1,
+   "grav": 1,
+   "nongrav": 0,
+   "nmono": 4,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    1,
+    0,
+    6,
+    8
+   ],
+   "j": 28,
+   "nwords": 82,
+   "dimV": 3,
+   "rQ": 3,
+   "rQup": 0,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.01
+  },
+  {
+   "sector": [
+    2,
+    0,
+    6,
+    8
+   ],
+   "j": 28,
+   "nwords": 80,
+   "dimV": 2,
+   "rQ": 0,
+   "rQup": 2,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 2,
+   "time": 0.01
+  },
+  {
+   "sector": [
+    3,
+    0,
+    6,
+    8
+   ],
+   "j": 28,
+   "nwords": 58,
+   "dimV": 2,
+   "rQ": 2,
+   "rQup": 0,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.01
+  },
+  {
+   "sector": [
+    4,
+    0,
+    6,
+    8
+   ],
+   "j": 28,
+   "nwords": 29,
+   "dimV": 0,
+   "rQ": 0,
+   "rQup": 0,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    5,
+    0,
+    6,
+    8
+   ],
+   "j": 28,
+   "nwords": 8,
+   "dimV": 0,
+   "rQ": 0,
+   "rQup": 0,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    6,
+    0,
+    6,
+    8
+   ],
+   "j": 28,
+   "nwords": 1,
+   "dimV": 0,
+   "rQ": 0,
+   "rQup": 0,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    0,
+    0,
+    7,
+    7
+   ],
+   "j": 28,
+   "nwords": 37,
+   "dimV": 4,
+   "rQ": 0,
+   "rQup": 3,
+   "coh": 1,
+   "grav": 1,
+   "nongrav": 0,
+   "nmono": 4,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    1,
+    0,
+    7,
+    7
+   ],
+   "j": 28,
+   "nwords": 88,
+   "dimV": 3,
+   "rQ": 3,
+   "rQup": 0,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.01
+  },
+  {
+   "sector": [
+    2,
+    0,
+    7,
+    7
+   ],
+   "j": 28,
+   "nwords": 91,
+   "dimV": 3,
+   "rQ": 0,
+   "rQup": 3,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 3,
+   "time": 0.01
+  },
+  {
+   "sector": [
+    3,
+    0,
+    7,
+    7
+   ],
+   "j": 28,
+   "nwords": 69,
+   "dimV": 3,
+   "rQ": 3,
+   "rQup": 0,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.01
+  },
+  {
+   "sector": [
+    4,
+    0,
+    7,
+    7
+   ],
+   "j": 28,
+   "nwords": 34,
+   "dimV": 0,
+   "rQ": 0,
+   "rQup": 0,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    5,
+    0,
+    7,
+    7
+   ],
+   "j": 28,
+   "nwords": 9,
+   "dimV": 0,
+   "rQ": 0,
+   "rQup": 0,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    6,
+    0,
+    7,
+    7
+   ],
+   "j": 28,
+   "nwords": 2,
+   "dimV": 0,
+   "rQ": 0,
+   "rQup": 0,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    7,
+    0,
+    7,
+    7
+   ],
+   "j": 28,
+   "nwords": 0,
+   "dimV": 0,
+   "rQ": 0,
+   "rQup": 0,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0
+  },
+  {
+   "sector": [
+    0,
+    1,
+    1,
+    12
+   ],
+   "j": 28,
+   "nwords": 15,
+   "dimV": 2,
+   "rQ": 0,
+   "rQup": 1,
+   "coh": 1,
+   "grav": 1,
+   "nongrav": 0,
+   "nmono": 2,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    1,
+    1,
+    1,
+    12
+   ],
+   "j": 28,
+   "nwords": 30,
+   "dimV": 2,
+   "rQ": 1,
+   "rQup": 1,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    2,
+    1,
+    1,
+    12
+   ],
+   "j": 28,
+   "nwords": 16,
+   "dimV": 3,
+   "rQ": 1,
+   "rQup": 0,
+   "coh": 2,
+   "grav": 2,
+   "nongrav": 0,
+   "nmono": 2,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    0,
+    1,
+    2,
+    11
+   ],
+   "j": 28,
+   "nwords": 31,
+   "dimV": 3,
+   "rQ": 0,
+   "rQup": 2,
+   "coh": 1,
+   "grav": 1,
+   "nongrav": 0,
+   "nmono": 3,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    1,
+    1,
+    2,
+    11
+   ],
+   "j": 28,
+   "nwords": 85,
+   "dimV": 5,
+   "rQ": 2,
+   "rQup": 3,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.01
+  },
+  {
+   "sector": [
+    2,
+    1,
+    2,
+    11
+   ],
+   "j": 28,
+   "nwords": 80,
+   "dimV": 9,
+   "rQ": 3,
+   "rQup": 3,
+   "coh": 3,
+   "grav": 3,
+   "nongrav": 0,
+   "nmono": 7,
+   "time": 0.01
+  },
+  {
+   "sector": [
+    3,
+    1,
+    2,
+    11
+   ],
+   "j": 28,
+   "nwords": 28,
+   "dimV": 3,
+   "rQ": 3,
+   "rQup": 0,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    0,
+    1,
+    3,
+    10
+   ],
+   "j": 28,
+   "nwords": 54,
+   "dimV": 4,
+   "rQ": 0,
+   "rQup": 3,
+   "coh": 1,
+   "grav": 1,
+   "nongrav": 0,
+   "nmono": 4,
+   "time": 0.01
+  },
+  {
+   "sector": [
+    1,
+    1,
+    3,
+    10
+   ],
+   "j": 28,
+   "nwords": 175,
+   "dimV": 8,
+   "rQ": 3,
+   "rQup": 5,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.02
+  },
+  {
+   "sector": [
+    2,
+    1,
+    3,
+    10
+   ],
+   "j": 28,
+   "nwords": 220,
+   "dimV": 17,
+   "rQ": 5,
+   "rQup": 9,
+   "coh": 3,
+   "grav": 3,
+   "nongrav": 0,
+   "nmono": 14,
+   "time": 0.03
+  },
+  {
+   "sector": [
+    3,
+    1,
+    3,
+    10
+   ],
+   "j": 28,
+   "nwords": 134,
+   "dimV": 10,
+   "rQ": 9,
+   "rQup": 1,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.01
+  },
+  {
+   "sector": [
+    4,
+    1,
+    3,
+    10
+   ],
+   "j": 28,
+   "nwords": 25,
+   "dimV": 1,
+   "rQ": 1,
+   "rQup": 0,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    0,
+    1,
+    4,
+    9
+   ],
+   "j": 28,
+   "nwords": 80,
+   "dimV": 5,
+   "rQ": 0,
+   "rQup": 4,
+   "coh": 1,
+   "grav": 1,
+   "nongrav": 0,
+   "nmono": 5,
+   "time": 0.01
+  },
+  {
+   "sector": [
+    1,
+    1,
+    4,
+    9
+   ],
+   "j": 28,
+   "nwords": 289,
+   "dimV": 11,
+   "rQ": 4,
+   "rQup": 7,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.03
+  },
+  {
+   "sector": [
+    2,
+    1,
+    4,
+    9
+   ],
+   "j": 28,
+   "nwords": 433,
+   "dimV": 25,
+   "rQ": 7,
+   "rQup": 15,
+   "coh": 3,
+   "grav": 3,
+   "nongrav": 0,
+   "nmono": 21,
+   "time": 0.07
+  },
+  {
+   "sector": [
+    3,
+    1,
+    4,
+    9
+   ],
+   "j": 28,
+   "nwords": 354,
+   "dimV": 18,
+   "rQ": 15,
+   "rQup": 3,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.04
+  },
+  {
+   "sector": [
+    4,
+    1,
+    4,
+    9
+   ],
+   "j": 28,
+   "nwords": 133,
+   "dimV": 4,
+   "rQ": 3,
+   "rQup": 1,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 1,
+   "time": 0.01
+  },
+  {
+   "sector": [
+    5,
+    1,
+    4,
+    9
+   ],
+   "j": 28,
+   "nwords": 20,
+   "dimV": 1,
+   "rQ": 1,
+   "rQup": 0,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    0,
+    1,
+    5,
+    8
+   ],
+   "j": 28,
+   "nwords": 102,
+   "dimV": 6,
+   "rQ": 0,
+   "rQup": 5,
+   "coh": 1,
+   "grav": 1,
+   "nongrav": 0,
+   "nmono": 6,
+   "time": 0.02
+  },
+  {
+   "sector": [
+    1,
+    1,
+    5,
+    8
+   ],
+   "j": 28,
+   "nwords": 402,
+   "dimV": 14,
+   "rQ": 5,
+   "rQup": 9,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.05
+  },
+  {
+   "sector": [
+    2,
+    1,
+    5,
+    8
+   ],
+   "j": 28,
+   "nwords": 665,
+   "dimV": 33,
+   "rQ": 9,
+   "rQup": 21,
+   "coh": 3,
+   "grav": 3,
+   "nongrav": 0,
+   "nmono": 28,
+   "time": 0.15
+  },
+  {
+   "sector": [
+    3,
+    1,
+    5,
+    8
+   ],
+   "j": 28,
+   "nwords": 636,
+   "dimV": 26,
+   "rQ": 21,
+   "rQup": 5,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.09
+  },
+  {
+   "sector": [
+    4,
+    1,
+    5,
+    8
+   ],
+   "j": 28,
+   "nwords": 325,
+   "dimV": 7,
+   "rQ": 5,
+   "rQup": 2,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 2,
+   "time": 0.03
+  },
+  {
+   "sector": [
+    5,
+    1,
+    5,
+    8
+   ],
+   "j": 28,
+   "nwords": 90,
+   "dimV": 2,
+   "rQ": 2,
+   "rQup": 0,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.01
+  },
+  {
+   "sector": [
+    6,
+    1,
+    5,
+    8
+   ],
+   "j": 28,
+   "nwords": 18,
+   "dimV": 0,
+   "rQ": 0,
+   "rQup": 0,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    0,
+    1,
+    6,
+    7
+   ],
+   "j": 28,
+   "nwords": 116,
+   "dimV": 7,
+   "rQ": 0,
+   "rQup": 6,
+   "coh": 1,
+   "grav": 1,
+   "nongrav": 0,
+   "nmono": 7,
+   "time": 0.02
+  },
+  {
+   "sector": [
+    1,
+    1,
+    6,
+    7
+   ],
+   "j": 28,
+   "nwords": 473,
+   "dimV": 17,
+   "rQ": 6,
+   "rQup": 11,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.07
+  },
+  {
+   "sector": [
+    2,
+    1,
+    6,
+    7
+   ],
+   "j": 28,
+   "nwords": 819,
+   "dimV": 40,
+   "rQ": 11,
+   "rQup": 26,
+   "coh": 3,
+   "grav": 3,
+   "nongrav": 0,
+   "nmono": 34,
+   "time": 0.22
+  },
+  {
+   "sector": [
+    3,
+    1,
+    6,
+    7
+   ],
+   "j": 28,
+   "nwords": 851,
+   "dimV": 33,
+   "rQ": 26,
+   "rQup": 7,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.15
+  },
+  {
+   "sector": [
+    4,
+    1,
+    6,
+    7
+   ],
+   "j": 28,
+   "nwords": 490,
+   "dimV": 10,
+   "rQ": 7,
+   "rQup": 3,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 3,
+   "time": 0.06
+  },
+  {
+   "sector": [
+    5,
+    1,
+    6,
+    7
+   ],
+   "j": 28,
+   "nwords": 164,
+   "dimV": 3,
+   "rQ": 3,
+   "rQup": 0,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.02
+  },
+  {
+   "sector": [
+    6,
+    1,
+    6,
+    7
+   ],
+   "j": 28,
+   "nwords": 48,
+   "dimV": 0,
+   "rQ": 0,
+   "rQup": 0,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.01
+  },
+  {
+   "sector": [
+    7,
+    1,
+    6,
+    7
+   ],
+   "j": 28,
+   "nwords": 1,
+   "dimV": 0,
+   "rQ": 0,
+   "rQup": 0,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    0,
+    2,
+    2,
+    10
+   ],
+   "j": 28,
+   "nwords": 74,
+   "dimV": 6,
+   "rQ": 0,
+   "rQup": 5,
+   "coh": 1,
+   "grav": 1,
+   "nongrav": 0,
+   "nmono": 6,
+   "time": 0.01
+  },
+  {
+   "sector": [
+    1,
+    2,
+    2,
+    10
+   ],
+   "j": 28,
+   "nwords": 249,
+   "dimV": 13,
+   "rQ": 5,
+   "rQup": 8,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.03
+  },
+  {
+   "sector": [
+    2,
+    2,
+    2,
+    10
+   ],
+   "j": 28,
+   "nwords": 345,
+   "dimV": 24,
+   "rQ": 8,
+   "rQup": 12,
+   "coh": 4,
+   "grav": 4,
+   "nongrav": 0,
+   "nmono": 20,
+   "time": 0.06
+  },
+  {
+   "sector": [
+    3,
+    2,
+    2,
+    10
+   ],
+   "j": 28,
+   "nwords": 253,
+   "dimV": 18,
+   "rQ": 12,
+   "rQup": 6,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.02
+  },
+  {
+   "sector": [
+    4,
+    2,
+    2,
+    10
+   ],
+   "j": 28,
+   "nwords": 62,
+   "dimV": 8,
+   "rQ": 6,
+   "rQup": 0,
+   "coh": 2,
+   "grav": 2,
+   "nongrav": 0,
+   "nmono": 2,
+   "time": 0.0
+  },
+  {
+   "sector": [
+    0,
+    2,
+    3,
+    9
+   ],
+   "j": 28,
+   "nwords": 125,
+   "dimV": 7,
+   "rQ": 0,
+   "rQup": 6,
+   "coh": 1,
+   "grav": 1,
+   "nongrav": 0,
+   "nmono": 7,
+   "time": 0.02
+  },
+  {
+   "sector": [
+    1,
+    2,
+    3,
+    9
+   ],
+   "j": 28,
+   "nwords": 518,
+   "dimV": 20,
+   "rQ": 6,
+   "rQup": 14,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.09
+  },
+  {
+   "sector": [
+    2,
+    2,
+    3,
+    9
+   ],
+   "j": 28,
+   "nwords": 922,
+   "dimV": 49,
+   "rQ": 14,
+   "rQup": 31,
+   "coh": 4,
+   "grav": 4,
+   "nongrav": 0,
+   "nmono": 42,
+   "time": 0.3
+  },
+  {
+   "sector": [
+    3,
+    2,
+    3,
+    9
+   ],
+   "j": 28,
+   "nwords": 916,
+   "dimV": 51,
+   "rQ": 31,
+   "rQup": 20,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.19
+  },
+  {
+   "sector": [
+    4,
+    2,
+    3,
+    9
+   ],
+   "j": 28,
+   "nwords": 408,
+   "dimV": 28,
+   "rQ": 20,
+   "rQup": 5,
+   "coh": 3,
+   "grav": 3,
+   "nongrav": 0,
+   "nmono": 8,
+   "time": 0.04
+  },
+  {
+   "sector": [
+    5,
+    2,
+    3,
+    9
+   ],
+   "j": 28,
+   "nwords": 73,
+   "dimV": 5,
+   "rQ": 5,
+   "rQup": 0,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.01
+  },
+  {
+   "sector": [
+    0,
+    2,
+    4,
+    8
+   ],
+   "j": 28,
+   "nwords": 189,
+   "dimV": 10,
+   "rQ": 0,
+   "rQup": 9,
+   "coh": 1,
+   "grav": 1,
+   "nongrav": 0,
+   "nmono": 10,
+   "time": 0.04
+  },
+  {
+   "sector": [
+    1,
+    2,
+    4,
+    8
+   ],
+   "j": 28,
+   "nwords": 848,
+   "dimV": 29,
+   "rQ": 9,
+   "rQup": 20,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.19
+  },
+  {
+   "sector": [
+    2,
+    2,
+    4,
+    8
+   ],
+   "j": 28,
+   "nwords": 1704,
+   "dimV": 70,
+   "rQ": 20,
+   "rQup": 46,
+   "coh": 4,
+   "grav": 4,
+   "nongrav": 0,
+   "nmono": 61,
+   "time": 0.96
+  },
+  {
+   "sector": [
+    3,
+    2,
+    4,
+    8
+   ],
+   "j": 28,
+   "nwords": 2073,
+   "dimV": 85,
+   "rQ": 46,
+   "rQup": 39,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.86
+  },
+  {
+   "sector": [
+    4,
+    2,
+    4,
+    8
+   ],
+   "j": 28,
+   "nwords": 1295,
+   "dimV": 64,
+   "rQ": 39,
+   "rQup": 22,
+   "coh": 3,
+   "grav": 3,
+   "nongrav": 0,
+   "nmono": 24,
+   "time": 0.3
+  },
+  {
+   "sector": [
+    5,
+    2,
+    4,
+    8
+   ],
+   "j": 28,
+   "nwords": 401,
+   "dimV": 24,
+   "rQ": 22,
+   "rQup": 2,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.05
+  },
+  {
+   "sector": [
+    6,
+    2,
+    4,
+    8
+   ],
+   "j": 28,
+   "nwords": 66,
+   "dimV": 2,
+   "rQ": 2,
+   "rQup": 0,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.01
+  },
+  {
+   "sector": [
+    0,
+    2,
+    5,
+    7
+   ],
+   "j": 28,
+   "nwords": 231,
+   "dimV": 11,
+   "rQ": 0,
+   "rQup": 10,
+   "coh": 1,
+   "grav": 1,
+   "nongrav": 0,
+   "nmono": 11,
+   "time": 0.05
+  },
+  {
+   "sector": [
+    1,
+    2,
+    5,
+    7
+   ],
+   "j": 28,
+   "nwords": 1134,
+   "dimV": 36,
+   "rQ": 10,
+   "rQup": 26,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.31
+  },
+  {
+   "sector": [
+    2,
+    2,
+    5,
+    7
+   ],
+   "j": 28,
+   "nwords": 2459,
+   "dimV": 96,
+   "rQ": 26,
+   "rQup": 66,
+   "coh": 4,
+   "grav": 4,
+   "nongrav": 0,
+   "nmono": 84,
+   "time": 2.04
+  },
+  {
+   "sector": [
+    3,
+    2,
+    5,
+    7
+   ],
+   "j": 28,
+   "nwords": 3306,
+   "dimV": 124,
+   "rQ": 66,
+   "rQup": 58,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 2.3
+  },
+  {
+   "sector": [
+    4,
+    2,
+    5,
+    7
+   ],
+   "j": 28,
+   "nwords": 2398,
+   "dimV": 97,
+   "rQ": 58,
+   "rQup": 36,
+   "coh": 3,
+   "grav": 3,
+   "nongrav": 0,
+   "nmono": 40,
+   "time": 1.04
+  },
+  {
+   "sector": [
+    5,
+    2,
+    5,
+    7
+   ],
+   "j": 28,
+   "nwords": 960,
+   "dimV": 43,
+   "rQ": 36,
+   "rQup": 7,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.2
+  },
+  {
+   "sector": [
+    6,
+    2,
+    5,
+    7
+   ],
+   "j": 28,
+   "nwords": 284,
+   "dimV": 9,
+   "rQ": 7,
+   "rQup": 2,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 1,
+   "time": 0.03
+  },
+  {
+   "sector": [
+    7,
+    2,
+    5,
+    7
+   ],
+   "j": 28,
+   "nwords": 15,
+   "dimV": 2,
+   "rQ": 2,
+   "rQup": 0,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.01
+  },
+  {
+   "sector": [
+    0,
+    2,
+    6,
+    6
+   ],
+   "j": 28,
+   "nwords": 254,
+   "dimV": 13,
+   "rQ": 0,
+   "rQup": 12,
+   "coh": 1,
+   "grav": 1,
+   "nongrav": 0,
+   "nmono": 13,
+   "time": 0.06
+  },
+  {
+   "sector": [
+    1,
+    2,
+    6,
+    6
+   ],
+   "j": 28,
+   "nwords": 1247,
+   "dimV": 41,
+   "rQ": 12,
+   "rQup": 29,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.37
+  },
+  {
+   "sector": [
+    2,
+    2,
+    6,
+    6
+   ],
+   "j": 28,
+   "nwords": 2752,
+   "dimV": 104,
+   "rQ": 29,
+   "rQup": 71,
+   "coh": 4,
+   "grav": 4,
+   "nongrav": 0,
+   "nmono": 91,
+   "time": 2.73
+  },
+  {
+   "sector": [
+    3,
+    2,
+    6,
+    6
+   ],
+   "j": 28,
+   "nwords": 3850,
+   "dimV": 138,
+   "rQ": 71,
+   "rQup": 67,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 3.02
+  },
+  {
+   "sector": [
+    4,
+    2,
+    6,
+    6
+   ],
+   "j": 28,
+   "nwords": 2945,
+   "dimV": 117,
+   "rQ": 67,
+   "rQup": 47,
+   "coh": 3,
+   "grav": 3,
+   "nongrav": 0,
+   "nmono": 50,
+   "time": 1.46
+  },
+  {
+   "sector": [
+    5,
+    2,
+    6,
+    6
+   ],
+   "j": 28,
+   "nwords": 1271,
+   "dimV": 57,
+   "rQ": 47,
+   "rQup": 10,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.36
+  },
+  {
+   "sector": [
+    6,
+    2,
+    6,
+    6
+   ],
+   "j": 28,
+   "nwords": 425,
+   "dimV": 12,
+   "rQ": 10,
+   "rQup": 2,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 1,
+   "time": 0.05
+  },
+  {
+   "sector": [
+    7,
+    2,
+    6,
+    6
+   ],
+   "j": 28,
+   "nwords": 28,
+   "dimV": 2,
+   "rQ": 2,
+   "rQup": 0,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.01
+  },
+  {
+   "sector": [
+    8,
+    2,
+    6,
+    6
+   ],
+   "j": 28,
+   "nwords": 2,
+   "dimV": 0,
+   "rQ": 0,
+   "rQup": 0,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.01
+  },
+  {
+   "sector": [
+    0,
+    3,
+    3,
+    8
+   ],
+   "j": 28,
+   "nwords": 221,
+   "dimV": 10,
+   "rQ": 0,
+   "rQup": 9,
+   "coh": 1,
+   "grav": 1,
+   "nongrav": 0,
+   "nmono": 10,
+   "time": 0.05
+  },
+  {
+   "sector": [
+    1,
+    3,
+    3,
+    8
+   ],
+   "j": 28,
+   "nwords": 1073,
+   "dimV": 34,
+   "rQ": 9,
+   "rQup": 25,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.3
+  },
+  {
+   "sector": [
+    2,
+    3,
+    3,
+    8
+   ],
+   "j": 28,
+   "nwords": 2304,
+   "dimV": 94,
+   "rQ": 25,
+   "rQup": 65,
+   "coh": 4,
+   "grav": 4,
+   "nongrav": 0,
+   "nmono": 83,
+   "time": 1.85
+  },
+  {
+   "sector": [
+    3,
+    3,
+    3,
+    8
+   ],
+   "j": 28,
+   "nwords": 2954,
+   "dimV": 125,
+   "rQ": 65,
+   "rQup": 60,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 1.83
+  },
+  {
+   "sector": [
+    4,
+    3,
+    3,
+    8
+   ],
+   "j": 28,
+   "nwords": 1950,
+   "dimV": 97,
+   "rQ": 60,
+   "rQup": 33,
+   "coh": 4,
+   "grav": 4,
+   "nongrav": 0,
+   "nmono": 35,
+   "time": 0.67
+  },
+  {
+   "sector": [
+    5,
+    3,
+    3,
+    8
+   ],
+   "j": 28,
+   "nwords": 672,
+   "dimV": 45,
+   "rQ": 33,
+   "rQup": 12,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.1
+  },
+  {
+   "sector": [
+    6,
+    3,
+    3,
+    8
+   ],
+   "j": 28,
+   "nwords": 125,
+   "dimV": 14,
+   "rQ": 12,
+   "rQup": 0,
+   "coh": 2,
+   "grav": 2,
+   "nongrav": 0,
+   "nmono": 2,
+   "time": 0.01
+  },
+  {
+   "sector": [
+    0,
+    3,
+    4,
+    7
+   ],
+   "j": 28,
+   "nwords": 319,
+   "dimV": 13,
+   "rQ": 0,
+   "rQup": 12,
+   "coh": 1,
+   "grav": 1,
+   "nongrav": 0,
+   "nmono": 13,
+   "time": 0.09
+  },
+  {
+   "sector": [
+    1,
+    3,
+    4,
+    7
+   ],
+   "j": 28,
+   "nwords": 1697,
+   "dimV": 49,
+   "rQ": 12,
+   "rQup": 37,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.65
+  },
+  {
+   "sector": [
+    2,
+    3,
+    4,
+    7
+   ],
+   "j": 28,
+   "nwords": 4044,
+   "dimV": 142,
+   "rQ": 37,
+   "rQup": 101,
+   "coh": 4,
+   "grav": 4,
+   "nongrav": 0,
+   "nmono": 127,
+   "time": 5.89
+  },
+  {
+   "sector": [
+    3,
+    3,
+    4,
+    7
+   ],
+   "j": 28,
+   "nwords": 6050,
+   "dimV": 212,
+   "rQ": 101,
+   "rQup": 111,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 8.19
+  },
+  {
+   "sector": [
+    4,
+    3,
+    4,
+    7
+   ],
+   "j": 28,
+   "nwords": 4900,
+   "dimV": 202,
+   "rQ": 111,
+   "rQup": 87,
+   "coh": 4,
+   "grav": 4,
+   "nongrav": 0,
+   "nmono": 88,
+   "time": 4.37
+  },
+  {
+   "sector": [
+    5,
+    3,
+    4,
+    7
+   ],
+   "j": 28,
+   "nwords": 2226,
+   "dimV": 131,
+   "rQ": 87,
+   "rQup": 44,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.96
+  },
+  {
+   "sector": [
+    6,
+    3,
+    4,
+    7
+   ],
+   "j": 28,
+   "nwords": 716,
+   "dimV": 56,
+   "rQ": 44,
+   "rQup": 9,
+   "coh": 3,
+   "grav": 3,
+   "nongrav": 0,
+   "nmono": 7,
+   "time": 0.1
+  },
+  {
+   "sector": [
+    7,
+    3,
+    4,
+    7
+   ],
+   "j": 28,
+   "nwords": 54,
+   "dimV": 9,
+   "rQ": 9,
+   "rQup": 0,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.02
+  },
+  {
+   "sector": [
+    0,
+    3,
+    5,
+    6
+   ],
+   "j": 28,
+   "nwords": 380,
+   "dimV": 15,
+   "rQ": 0,
+   "rQup": 14,
+   "coh": 1,
+   "grav": 1,
+   "nongrav": 0,
+   "nmono": 15,
+   "time": 0.12
+  },
+  {
+   "sector": [
+    1,
+    3,
+    5,
+    6
+   ],
+   "j": 28,
+   "nwords": 2126,
+   "dimV": 60,
+   "rQ": 14,
+   "rQup": 46,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 1.35
+  },
+  {
+   "sector": [
+    2,
+    3,
+    5,
+    6
+   ],
+   "j": 28,
+   "nwords": 5313,
+   "dimV": 178,
+   "rQ": 46,
+   "rQup": 128,
+   "coh": 4,
+   "grav": 4,
+   "nongrav": 0,
+   "nmono": 160,
+   "time": 11.07
+  },
+  {
+   "sector": [
+    3,
+    3,
+    5,
+    6
+   ],
+   "j": 28,
+   "nwords": 8515,
+   "dimV": 279,
+   "rQ": 128,
+   "rQup": 151,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 16.96
+  },
+  {
+   "sector": [
+    4,
+    3,
+    5,
+    6
+   ],
+   "j": 28,
+   "nwords": 7550,
+   "dimV": 287,
+   "rQ": 151,
+   "rQup": 132,
+   "coh": 4,
+   "grav": 4,
+   "nongrav": 0,
+   "nmono": 135,
+   "time": 10.84
+  },
+  {
+   "sector": [
+    5,
+    3,
+    5,
+    6
+   ],
+   "j": 28,
+   "nwords": 3911,
+   "dimV": 209,
+   "rQ": 132,
+   "rQup": 77,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 3.1
+  },
+  {
+   "sector": [
+    6,
+    3,
+    5,
+    6
+   ],
+   "j": 28,
+   "nwords": 1559,
+   "dimV": 105,
+   "rQ": 77,
+   "rQup": 25,
+   "coh": 3,
+   "grav": 3,
+   "nongrav": 0,
+   "nmono": 13,
+   "time": 0.42
+  },
+  {
+   "sector": [
+    7,
+    3,
+    5,
+    6
+   ],
+   "j": 28,
+   "nwords": 169,
+   "dimV": 26,
+   "rQ": 25,
+   "rQup": 1,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.03
+  },
+  {
+   "sector": [
+    8,
+    3,
+    5,
+    6
+   ],
+   "j": 28,
+   "nwords": 9,
+   "dimV": 1,
+   "rQ": 1,
+   "rQup": 0,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.02
+  },
+  {
+   "sector": [
+    0,
+    4,
+    4,
+    6
+   ],
+   "j": 28,
+   "nwords": 446,
+   "dimV": 18,
+   "rQ": 0,
+   "rQup": 17,
+   "coh": 1,
+   "grav": 1,
+   "nongrav": 0,
+   "nmono": 18,
+   "time": 0.14
+  },
+  {
+   "sector": [
+    1,
+    4,
+    4,
+    6
+   ],
+   "j": 28,
+   "nwords": 2519,
+   "dimV": 70,
+   "rQ": 17,
+   "rQup": 53,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 1.38
+  },
+  {
+   "sector": [
+    2,
+    4,
+    4,
+    6
+   ],
+   "j": 28,
+   "nwords": 6505,
+   "dimV": 202,
+   "rQ": 53,
+   "rQup": 145,
+   "coh": 4,
+   "grav": 4,
+   "nongrav": 0,
+   "nmono": 183,
+   "time": 16.89
+  },
+  {
+   "sector": [
+    3,
+    4,
+    4,
+    6
+   ],
+   "j": 28,
+   "nwords": 10972,
+   "dimV": 336,
+   "rQ": 145,
+   "rQup": 191,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 29.95
+  },
+  {
+   "sector": [
+    4,
+    4,
+    4,
+    6
+   ],
+   "j": 28,
+   "nwords": 10229,
+   "dimV": 386,
+   "rQ": 191,
+   "rQup": 191,
+   "coh": 4,
+   "grav": 4,
+   "nongrav": 0,
+   "nmono": 192,
+   "time": 21.5
+  },
+  {
+   "sector": [
+    5,
+    4,
+    4,
+    6
+   ],
+   "j": 28,
+   "nwords": 5548,
+   "dimV": 314,
+   "rQ": 191,
+   "rQup": 123,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 6.72
+  },
+  {
+   "sector": [
+    6,
+    4,
+    4,
+    6
+   ],
+   "j": 28,
+   "nwords": 2328,
+   "dimV": 169,
+   "rQ": 123,
+   "rQup": 42,
+   "coh": 4,
+   "grav": 4,
+   "nongrav": 0,
+   "nmono": 19,
+   "time": 0.96
+  },
+  {
+   "sector": [
+    7,
+    4,
+    4,
+    6
+   ],
+   "j": 28,
+   "nwords": 306,
+   "dimV": 50,
+   "rQ": 42,
+   "rQup": 8,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.06
+  },
+  {
+   "sector": [
+    8,
+    4,
+    4,
+    6
+   ],
+   "j": 28,
+   "nwords": 24,
+   "dimV": 8,
+   "rQ": 8,
+   "rQup": 0,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.02
+  },
+  {
+   "sector": [
+    0,
+    4,
+    5,
+    5
+   ],
+   "j": 28,
+   "nwords": 486,
+   "dimV": 18,
+   "rQ": 0,
+   "rQup": 17,
+   "coh": 1,
+   "grav": 1,
+   "nongrav": 0,
+   "nmono": 18,
+   "time": 0.16
+  },
+  {
+   "sector": [
+    1,
+    4,
+    5,
+    5
+   ],
+   "j": 28,
+   "nwords": 2872,
+   "dimV": 77,
+   "rQ": 17,
+   "rQup": 60,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 1.94
+  },
+  {
+   "sector": [
+    2,
+    4,
+    5,
+    5
+   ],
+   "j": 28,
+   "nwords": 7632,
+   "dimV": 235,
+   "rQ": 60,
+   "rQup": 171,
+   "coh": 4,
+   "grav": 4,
+   "nongrav": 0,
+   "nmono": 214,
+   "time": 24.48
+  },
+  {
+   "sector": [
+    3,
+    4,
+    5,
+    5
+   ],
+   "j": 28,
+   "nwords": 13279,
+   "dimV": 398,
+   "rQ": 171,
+   "rQup": 227,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 46.28
+  },
+  {
+   "sector": [
+    4,
+    4,
+    5,
+    5
+   ],
+   "j": 28,
+   "nwords": 12889,
+   "dimV": 462,
+   "rQ": 227,
+   "rQup": 231,
+   "coh": 4,
+   "grav": 4,
+   "nongrav": 0,
+   "nmono": 239,
+   "time": 35.06
+  },
+  {
+   "sector": [
+    5,
+    4,
+    5,
+    5
+   ],
+   "j": 28,
+   "nwords": 7437,
+   "dimV": 397,
+   "rQ": 231,
+   "rQup": 166,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 12.67
+  },
+  {
+   "sector": [
+    6,
+    4,
+    5,
+    5
+   ],
+   "j": 28,
+   "nwords": 3408,
+   "dimV": 243,
+   "rQ": 166,
+   "rQup": 73,
+   "coh": 4,
+   "grav": 4,
+   "nongrav": 0,
+   "nmono": 28,
+   "time": 2.14
+  },
+  {
+   "sector": [
+    7,
+    4,
+    5,
+    5
+   ],
+   "j": 28,
+   "nwords": 504,
+   "dimV": 88,
+   "rQ": 73,
+   "rQup": 14,
+   "coh": 1,
+   "grav": 0,
+   "nongrav": 1,
+   "nmono": 0,
+   "time": 0.11
+  },
+  {
+   "sector": [
+    8,
+    4,
+    5,
+    5
+   ],
+   "j": 28,
+   "nwords": 47,
+   "dimV": 14,
+   "rQ": 14,
+   "rQup": 0,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.03
+  },
+  {
+   "sector": [
+    9,
+    4,
+    5,
+    5
+   ],
+   "j": 28,
+   "nwords": 2,
+   "dimV": 0,
+   "rQ": 0,
+   "rQup": 0,
+   "coh": 0,
+   "grav": 0,
+   "nongrav": 0,
+   "nmono": 0,
+   "time": 0.03
+  }
+ ]
+}

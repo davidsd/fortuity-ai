@@ -1,0 +1,24 @@
+[su2_j36] SEC (9, 9, 12, 12, 12) Y=9: words 5665, hw rows 300, independent 25 vs exact m 25 {3: 11, 5: 9, 1: 2, 7: 2, 9: 1} -> SPAN (1s)
+exact: UP (10, 10, 12, 12, 12) Y=8: words 728, hw rows 73 (exact m_up 6); rank of Q_0 images 6 (1s)
+closedness: Q_0 image rank 17 (m_low 26); closed hw combinations 8 (1s)
+cohomology dimension h = 2 = closed 8 - exact rank 6 (1s)
+representative sizes (words): [558, 510]
+closedness at fresh points: nonzero entries 0 of 178 (must be 0)
+        1.63 real         1.51 user         0.04 sys
+           252477440  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+               16422  page reclaims
+                 327  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                 160  voluntary context switches
+                1082  involuntary context switches
+         29462991617  instructions retired
+          6073080968  cycles elapsed
+           238338648  peak memory footprint

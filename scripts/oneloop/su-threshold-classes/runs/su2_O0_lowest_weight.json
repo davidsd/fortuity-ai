@@ -1,0 +1,110 @@
+{
+ "order_2": {
+  "Y": 6,
+  "abelian_monomials": 711,
+  "abelian_LW": 0,
+  "classes": 27,
+  "h": 27,
+  "cartan_rank": 27,
+  "LW_combinations_of_classes": 0,
+  "kernel_dim_per_condition": {
+   "E1": 27,
+   "E2": 27,
+   "D": 11,
+   "K+": 24,
+   "K-": 24,
+   "S0": 15,
+   "S1": 15,
+   "S2": 15,
+   "T00": 5,
+   "T01": 5,
+   "T02": 5,
+   "T10": 5,
+   "T11": 5,
+   "T12": 5
+  }
+ },
+ "order_4": {
+  "Y": 4,
+  "abelian_monomials": 11,
+  "abelian_LW": 0,
+  "classes": 4,
+  "h": 4,
+  "cartan_rank": 4,
+  "LW_combinations_of_classes": 0,
+  "kernel_dim_per_condition": {
+   "E1": 4,
+   "E2": 4,
+   "D": 1,
+   "K+": 2,
+   "K-": 2,
+   "S0": 4,
+   "S1": 4,
+   "S2": 4,
+   "T00": 0,
+   "T01": 0,
+   "T02": 0,
+   "T10": 0,
+   "T11": 0,
+   "T12": 0
+  }
+ },
+ "subsets": {
+  "order_2": {
+   "SU(3)_R hw + SU(2)_R singlet (E1,E2,D)": {
+    "abelian_kernel": 11,
+    "class_kernel": 11
+   },
+   "+ S_a  [all commute with Q_1 exactly]": {
+    "abelian_kernel": 6,
+    "class_kernel": 6
+   },
+   "+ K_+- (no T)": {
+    "abelian_kernel": 4,
+    "class_kernel": 4
+   },
+   "+ T (no K)": {
+    "abelian_kernel": 0,
+    "class_kernel": 0
+   },
+   "all 14": {
+    "abelian_kernel": 0,
+    "class_kernel": 0
+   }
+  },
+  "order_4": {
+   "SU(3)_R hw + SU(2)_R singlet (E1,E2,D)": {
+    "abelian_kernel": 2,
+    "class_kernel": 1
+   },
+   "+ S_a  [all commute with Q_1 exactly]": {
+    "abelian_kernel": 2,
+    "class_kernel": 1
+   },
+   "+ K_+- (no T)": {
+    "abelian_kernel": 0,
+    "class_kernel": 0
+   },
+   "+ T (no K)": {
+    "abelian_kernel": 0,
+    "class_kernel": 0
+   },
+   "all 14": {
+    "abelian_kernel": 0,
+    "class_kernel": 0
+   }
+  }
+ },
+ "O0_lowest_weight": {
+  "S2_O0_sector": "(4,4;8,8,6), Y=7",
+  "multiplicity": 11,
+  "rank_in": 6,
+  "rank_out": 5,
+  "h_upper": 0,
+  "controls_exact": true,
+  "increment": [
+   0
+  ],
+  "note": "K, T annihilate O_0 (no derivatives); S_2 O_0 is hw and Q_0-exact; S_0, S_1 follow by SU(3)_R covariance"
+ }
+}

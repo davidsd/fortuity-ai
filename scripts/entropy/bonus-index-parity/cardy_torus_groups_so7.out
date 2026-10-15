@@ -1,0 +1,16 @@
+so7: dim G = 21, rank 3, 18 roots; grid 4913 torus pts x 121 phi = 594473
+identity: protected 1.0000000 ; max over phi 1.0121344
+protected slice phi = 2pi/3: 8 grid local maxima; distinct refined values:
+    1.0000000 at theta/pi = [-0. -0. -0.], phi/pi = 0.666667
+    0.7094917 at theta/pi = [1. 1. 1.], phi/pi = 0.666667
+    0.6586338 at theta/pi = [1. 1. 0.], phi/pi = 0.666667
+    0.4149133 at theta/pi = [ 1. -0. -0.], phi/pi = 0.666667
+classical (torus x phi): 43 grid local maxima; distinct refined values:
+    1.0121344 at theta/pi = [-1.e-05 -0.e+00 -0.e+00], phi/pi = 0.708159
+    0.7430478 at theta/pi = [0.99996 0.99999 1.     ], phi/pi = 0.738079
+    0.7385770 at theta/pi = [1. 1. 0.], phi/pi = 1.000000
+    0.5777429 at theta/pi = [0.97766 0.99077 1.     ], phi/pi = 0.389372
+    0.5116913 at theta/pi = [ 1.0e+00 -1.1e-04 -2.0e-05], phi/pi = 0.354194
+    0.4923674 at theta/pi = [1. 1. 0.], phi/pi = 0.355610
+time: grid 3.28 s, total 5.38 s
+$PY cardy_torus_groups.py $g 1/16 1/120  3,29s user 2,04s system 97% cpu 5,471 total

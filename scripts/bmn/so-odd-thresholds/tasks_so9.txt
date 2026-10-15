@@ -1,0 +1,42 @@
+4 dims_so9_j22.pkl 10 so9_ctrl_5_3_3_j22.jsonl 5,3,3
+4 dims_so9_j22.pkl 10 so9_c_4_3_3.jsonl 4,3,3
+4 dims_so9_j22.pkl 10 so9_c_4_4_2.jsonl 4,4,2
+4 dims_so9_j22.pkl 10 so9_c_5_3_2.jsonl 5,3,2
+4 dims_so9_j22.pkl 10 so9_c_6_2_2.jsonl 6,2,2
+4 dims_so9_j22.pkl 10 so9_c_5_4_1.jsonl 5,4,1
+4 dims_so9_j22.pkl 10 so9_c_6_3_1.jsonl 6,3,1
+4 dims_so9_j22.pkl 10 so9_c_7_2_1.jsonl 7,2,1
+4 dims_so9_j22.pkl 10 so9_c_8_1_1.jsonl 8,1,1
+4 dims_so9_j22.pkl 10 so9_c_5_5_0.jsonl 5,5,0
+4 dims_so9_j22.pkl 10 so9_c_6_4_0.jsonl 6,4,0
+4 dims_so9_j22.pkl 10 so9_c_7_3_0.jsonl 7,3,0
+4 dims_so9_j22.pkl 10 so9_c_8_2_0.jsonl 8,2,0
+4 dims_so9_j22.pkl 10 so9_c_9_1_0.jsonl 9,1,0
+4 dims_so9_j22.pkl 10 so9_c_10_0_0.jsonl 10,0,0
+4 dims_so9_j22.pkl 10 so9_c_3_3_3.jsonl 3,3,3
+4 dims_so9_j22.pkl 10 so9_c_4_3_2.jsonl 4,3,2
+4 dims_so9_j22.pkl 10 so9_c_5_2_2.jsonl 5,2,2
+4 dims_so9_j22.pkl 10 so9_c_4_4_1.jsonl 4,4,1
+4 dims_so9_j22.pkl 10 so9_c_5_3_1.jsonl 5,3,1
+4 dims_so9_j22.pkl 10 so9_c_6_2_1.jsonl 6,2,1
+4 dims_so9_j22.pkl 10 so9_c_7_1_1.jsonl 7,1,1
+4 dims_so9_j22.pkl 10 so9_c_5_4_0.jsonl 5,4,0
+4 dims_so9_j22.pkl 10 so9_c_6_3_0.jsonl 6,3,0
+4 dims_so9_j22.pkl 10 so9_c_7_2_0.jsonl 7,2,0
+4 dims_so9_j22.pkl 10 so9_c_8_1_0.jsonl 8,1,0
+4 dims_so9_j22.pkl 10 so9_c_9_0_0.jsonl 9,0,0
+4 dims_so9_j22.pkl 10 so9_c_3_3_2.jsonl 3,3,2
+4 dims_so9_j22.pkl 10 so9_c_4_2_2.jsonl 4,2,2
+4 dims_so9_j22.pkl 10 so9_c_4_3_1.jsonl 4,3,1
+4 dims_so9_j22.pkl 10 so9_c_5_2_1.jsonl 5,2,1
+4 dims_so9_j22.pkl 10 so9_c_6_1_1.jsonl 6,1,1
+4 dims_so9_j22.pkl 10 so9_c_4_4_0.jsonl 4,4,0
+4 dims_so9_j22.pkl 10 so9_c_5_3_0.jsonl 5,3,0
+4 dims_so9_j22.pkl 10 so9_c_6_2_0.jsonl 6,2,0
+4 dims_so9_j22.pkl 10 so9_c_7_1_0.jsonl 7,1,0
+4 dims_so9_j22.pkl 10 so9_c_8_0_0.jsonl 8,0,0
+4 dims_so9_j22.pkl 10 so9_light_0.jsonl 1,0,0 2,0,0 1,1,0 3,0,0 2,1,0 1,1,1
+4 dims_so9_j22.pkl 10 so9_light_1.jsonl 4,0,0 3,1,0 2,2,0 2,1,1 5,0,0 4,1,0
+4 dims_so9_j22.pkl 10 so9_light_2.jsonl 3,2,0 3,1,1 2,2,1 6,0,0 5,1,0 4,2,0
+4 dims_so9_j22.pkl 10 so9_light_3.jsonl 4,1,1 3,3,0 3,2,1 2,2,2 7,0,0 6,1,0
+4 dims_so9_j22.pkl 10 so9_light_4.jsonl 5,2,0 5,1,1 4,3,0 4,2,1 3,3,1 3,2,2

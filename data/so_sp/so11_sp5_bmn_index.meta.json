@@ -1,0 +1,10 @@
+{
+ "description": "BMN-sector index of SO(11) and Sp(5) N=4 SYM (unrefined, x=y=1) to j=30, their difference, and the SU(3)_R representation content of the refined difference to j=26. Negative multiplicity = net fermionic excess in SO(11) (or bosonic in Sp(5)).",
+ "computed_by": "Fortuity collaboration (Claude agent)",
+ "date": "2026-09-27",
+ "code": "code/fortuity/bmn/groupindex.py",
+ "commit": "2ec0556",
+ "conventions": "As in data/so_sp/so7_sp3_bmn_index.meta.json; SO(11) = B_5, Sp(5) = USp(10) = C_5, |W| = 3840.",
+ "command": "cd code && FORTUITY_WORKERS=14 python -m fortuity.bmn.groupindex 5 30 26 ../data/so_sp/so11_sp5_bmn_index.json",
+ "checked": "Same code as the N=3 (reproduces arXiv:2506.13887) and N=4 files; exact Haar integrals, rounding errors < 1e-7. The unrefined difference to j=28 was obtained independently by a serial run (same numbers, -21 t^26 + 63 t^28). Refined difference re-sums to the unrefined one at j=26 (15 + 6 = 21). No literature value known to us."
+}

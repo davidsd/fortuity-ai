@@ -1,0 +1,10 @@
+{
+ "description": "SO(11) BMN Q-cohomology on SU(3)_R highest-weight vectors: ALL dominant columns with j <= 24 and every nonempty 2J (101 columns, 416 sectors). One JSON line per sector, fortuity.hwcoh.run_sectors format: m = exact hw multiplicity, r_up = rank of Q from 2J to 2J+1, grav = multi-graviton hw classes modulo exact, check = self-check (rank of the hw vectors at the chosen functionals = m). The irrep lam occurs in the cohomology at 2J = n with multiplicity h = m_n - r_up(n-1) - r_up(n); non-graviton = h - grav. Result: 1331 classes (per j = 4..24: 1, 1, 4, 5, 13, 21, 47, 85, 173, 330, 651), all multi-graviton: no fortuitous class below the first SO(11)/USp(10) index difference at j = 26 (R-011). T-025.",
+ "computed_by": "Fortuity collaboration (Claude agent), NYU Torch (partition cs, account ${ACCOUNT})",
+ "date": "2026-09-30",
+ "code": "code/fortuity/hwcoh (run_sectors, ENGINE=par, group='SO_odd'); exact multiplicities from hwcoh.dims.partition_dims_nf (all 2J); MKL build of the ffblas kernel",
+ "commit": "809059f",
+ "conventions": "D-006 BMN conventions; so(11) letters as random antisymmetric 11x11 matrices over F_p; graviton generators up to n = 12 (GEN_NMAX=12, as in R-011; highest Casimir degree 10).",
+ "command": "scripts/bmn/so-odd-thresholds: sbatch dims.sbatch 5 24; col.sbatch arrays with TASKS=tasks_so11.txt (49 tasks, 8 cores) and tasks_so11_big.txt (the 19 columns at j = 24, 16 cores); jobs 18887925, 18887927, 18887928",
+ "checked": "(i) per-sector self-check passed in all 416 sectors; (ii) Euler characteristic = exact refined BMN index (fortuity.bmn.groupindex, via scripts/bmn/so-usp-g2-scans/euler_check.py, Torch job 18902353) in all 101 columns, and the unrefined sum_lam dim(lam) chi(lam) = the stored SO(11) BMN index (data/so_sp/so11_sp5_bmn_index.json, R-004) at every j = 2..24; (iii) the pipeline is the one of so9_hw_cohomology_j20 (positive control passed there). Single seed (see so9_hw_cohomology_j20.meta.json)."
+}

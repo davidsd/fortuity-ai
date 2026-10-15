@@ -1,0 +1,7 @@
+SU(3) theta=0: c_odd = -2  (so-type 1-N = -2, sp-type N+1 = 4)
+SU(4) theta=0: c_odd = +5  (so-type 1-N = -3, sp-type N+1 = 5)
+SU(4) theta=pi/2: c_odd = -3  (so-type 1-N = -3, sp-type N+1 = 5)
+SU(5) theta=0: c_odd = -4  (so-type 1-N = -4, sp-type N+1 = 6)
+SU(6) theta=0: c_odd = +7  (so-type 1-N = -5, sp-type N+1 = 7)
+SU(6) theta=pi/2: c_odd = -5  (so-type 1-N = -5, sp-type N+1 = 7)
+max |explicit - formula| over N=3..6, n<=7, random t: 1.7e-14

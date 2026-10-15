@@ -1,0 +1,45 @@
+{
+ "group": "SO_odd",
+ "N": 4,
+ "seed": 777,
+ "gen_nmax": 11,
+ "symmetrize": false,
+ "results": [
+  {
+   "sector": [
+    0,
+    5,
+    3,
+    3
+   ],
+   "j": 22,
+   "nsym": 4420,
+   "basis": 1262,
+   "closed": 1262,
+   "exact": 1262,
+   "coh": 0,
+   "grav": 0,
+   "BH": 0,
+   "nmono": 484,
+   "time": 335.5792350769043
+  },
+  {
+   "sector": [
+    1,
+    5,
+    3,
+    3
+   ],
+   "j": 22,
+   "nsym": 14504,
+   "basis": 5395,
+   "closed": 4133,
+   "exact": 3704,
+   "coh": 429,
+   "grav": 428,
+   "BH": 1,
+   "nmono": 1367,
+   "time": 1317.8398699760437
+  }
+ ]
+}

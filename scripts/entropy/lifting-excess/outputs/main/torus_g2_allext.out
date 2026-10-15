@@ -1,0 +1,380 @@
+== point eq
+g2 xi = (0.0, 0.0, 0.0): Phi*/pi = 2.1245, Re S_prot/K = 1.4396135094, Re S_cl/K = 1.4570824039 (delta0 = 0.012134); grid 1024 pts; saddle 0.0 s
+  protected R1 (fixed potentials): max over other holonomies 0.3571429 -> identity dominates
+      1.0000000 at theta/pi = [-0. -0.]   [identity/central: max|alpha.theta| mod 2 pi = 3.34e-08]
+      0.3571429 at theta/pi = [0.6667 1.3333]
+  protected R2 (KKLP level): max over other holonomies 0.7094917 -> identity dominates
+      1.0000000 at theta/pi = [-0. -0.]   [identity/central: max|alpha.theta| mod 2 pi = 5.73e-08]
+      0.7094917 at theta/pi = [1.3333 0.6667]
+      0.6586338 at theta/pi = [1. 1.]
+  classical: x = e^{i Phi*} != 1, Re(1/r^2) = +0.1259 -> rim of the identity at |alpha.theta| ~ theta* = exp(-B-1/2) = 1.95e-05 (B = 10.347)
+  classical R1 (fixed potentials): max over other holonomies 0.3575309 -> identity dominates; identity's rim max 1 + 4.68e-12
+      1.0000000 at theta/pi = [-0. -0.]   [identity/central: max|alpha.theta| mod 2 pi = 2.75e-05]
+      0.3575309 at theta/pi = [1.3333 0.6667]
+  classical: identity's own max over delta at delta/(3 pi) = 0.00000 (0 expected), value/(r + sum m xi) = 1.000000000
+  classical R2 (KKLP level, max over bonus): max over other holonomies 0.7297222 -> identity dominates; identity's rim max 1 + 1.56e-12
+      1.0000000 at theta/pi = [-0. -0.], delta/(3 pi) = 0.0000   [identity/central: max|alpha.theta| mod 2 pi = 2.76e-05]
+      0.7297222 at theta/pi = [0. 1.], delta/(3 pi) = -0.2918
+      0.7097601 at theta/pi = [0.6667 1.3333], delta/(3 pi) = -0.5819
+      0.4864644 at theta/pi = [1. 0.], delta/(3 pi) = 0.3525
+      0.3975366 at theta/pi = [1.3076 0.6391], delta/(3 pi) = 0.4576
+  time 44.9 s
+== point r1a
+g2 xi = (0.0625, -0.03125, -0.03125): Phi*/pi = 2.1215, Re S_prot/K = 1.4211289330, Re S_cl/K = 1.4376162709 (delta0 = 0.011602); grid 1024 pts; saddle 0.0 s
+  protected R1 (fixed potentials): max over other holonomies 0.3522919 -> identity dominates
+      1.0000000 at theta/pi = [0. 0.]   [identity/central: max|alpha.theta| mod 2 pi = 1.37e-08]
+      0.3522919 at theta/pi = [0.6667 1.3333]
+  protected R2 (KKLP level): max over other holonomies 0.6990019 -> identity dominates
+      1.0000000 at theta/pi = [-0. -0.]   [identity/central: max|alpha.theta| mod 2 pi = 5.57e-08]
+      0.6990019 at theta/pi = [1.3333 0.6667]
+      0.6362023 at theta/pi = [1. 1.]
+  classical: x = e^{i Phi*} != 1, Re(1/r^2) = +0.1333 -> rim of the identity at |alpha.theta| ~ theta* = exp(-B-1/2) = 4.35e-05 (B = 9.543)
+  classical R1 (fixed potentials): max over other holonomies 0.3435908 -> identity dominates; identity's rim max 1 + 2.44e-11
+      1.0000000 at theta/pi = [-0. -0.]   [identity/central: max|alpha.theta| mod 2 pi = 6.14e-05]
+      0.3435908 at theta/pi = [0.6912 1.3823]
+  classical: identity's own max over delta at delta/(3 pi) = 0.00000 (0 expected), value/(r + sum m xi) = 1.000000000
+  classical R2 (KKLP level, max over bonus): max over other holonomies 0.7214122 -> identity dominates; identity's rim max 1 + 8.34e-12
+      1.0000000 at theta/pi = [-0. -0.], delta/(3 pi) = 0.0000   [identity/central: max|alpha.theta| mod 2 pi = 6.16e-05]
+      0.9845424 at theta/pi = [-0. -0.], delta/(3 pi) = -0.5839   [identity/central: max|alpha.theta| mod 2 pi = 1.20e-05]
+      0.7214122 at theta/pi = [0. 1.], delta/(3 pi) = -0.3823
+      0.7117759 at theta/pi = [1.1188 1.1188], delta/(3 pi) = -0.2635
+      0.7117756 at theta/pi = [0.8816 0.    ], delta/(3 pi) = -0.2639
+  time 33.9 s
+== point r1b
+g2 xi = (0.125, -0.0625, -0.0625): Phi*/pi = 2.1111, Re S_prot/K = 1.3724258391, Re S_cl/K = 1.3861637439 (delta0 = 0.010010); grid 1024 pts; saddle 0.0 s
+  protected R1 (fixed potentials): max over other holonomies 0.3504815 -> identity dominates
+      1.0000000 at theta/pi = [-0. -0.]   [identity/central: max|alpha.theta| mod 2 pi = 3.19e-08]
+      0.3504815 at theta/pi = [0.6667 1.3333]
+  protected R2 (KKLP level): max over other holonomies 0.6795362 -> identity dominates
+      1.0000000 at theta/pi = [-0. -0.]   [identity/central: max|alpha.theta| mod 2 pi = 5.02e-08]
+      0.6795362 at theta/pi = [1.3333 0.6667]
+      0.5650488 at theta/pi = [1. 1.]
+  classical: x = e^{i Phi*} != 1, Re(1/r^2) = +0.1562 -> rim of the identity at |alpha.theta| ~ theta* = exp(-B-1/2) = 2.69e-04 (B = 7.721)
+  classical R1 (fixed potentials): max over other holonomies 0.3393399 -> identity dominates; identity's rim max 1 + 1.07e-09
+      1.0000000 at theta/pi = [-0.0001 -0.0001]   [identity/central: max|alpha.theta| mod 2 pi = 3.80e-04]
+      0.3393399 at theta/pi = [1.3333 0.6666]
+  classical: identity's own max over delta at delta/(3 pi) = 0.00000 (0 expected), value/(r + sum m xi) = 1.000000000
+  classical R2 (KKLP level, max over bonus): max over other holonomies 0.7082058 -> identity dominates; identity's rim max 1 + 3.88e-10
+      1.0000000 at theta/pi = [-0.0001 -0.0001], delta/(3 pi) = 0.0000   [identity/central: max|alpha.theta| mod 2 pi = 3.80e-04]
+      0.9362714 at theta/pi = [-0. -0.], delta/(3 pi) = -0.5850   [identity/central: max|alpha.theta| mod 2 pi = 9.12e-07]
+      0.7356561 at theta/pi = [0. 0.], delta/(3 pi) = 0.5076   [identity/central: max|alpha.theta| mod 2 pi = 0.00e+00]
+      0.7082058 at theta/pi = [1. 1.], delta/(3 pi) = -0.4924
+      0.6742011 at theta/pi = [0.6666 1.3333], delta/(3 pi) = 0.0198
+  time 25.1 s
+== point r1c
+g2 xi = (0.1875, -0.09375, -0.09375): Phi*/pi = 2.0936, Re S_prot/K = 1.3044833269, Re S_cl/K = 1.3145442753 (delta0 = 0.007713); grid 1024 pts; saddle 0.0 s
+  protected R1 (fixed potentials): max over other holonomies 0.3589722 -> identity dominates
+      1.0000000 at theta/pi = [-0.  0.]   [identity/central: max|alpha.theta| mod 2 pi = 9.12e-09]
+      0.3589722 at theta/pi = [1.3333 0.6667]
+  protected R2 (KKLP level): max over other holonomies 0.6624378 -> identity dominates
+      1.0000000 at theta/pi = [-0. -0.]   [identity/central: max|alpha.theta| mod 2 pi = 6.39e-08]
+      0.6624378 at theta/pi = [1.3333 0.6667]
+      0.4572172 at theta/pi = [1. 1.]
+  classical: x = e^{i Phi*} != 1, Re(1/r^2) = +0.1932 -> rim of the identity at |alpha.theta| ~ theta* = exp(-B-1/2) = 1.63e-03 (B = 5.921)
+  classical R1 (fixed potentials): max over other holonomies 0.3531338 -> identity dominates; identity's rim max 1 + 4.72e-08
+      1.0000000 at theta/pi = [-0.0004 -0.0004]   [identity/central: max|alpha.theta| mod 2 pi = 2.30e-03]
+      0.3531338 at theta/pi = [1.333  0.6667]
+  classical: identity's own max over delta at delta/(3 pi) = 0.00000 (0 expected), value/(r + sum m xi) = 1.000000000
+  classical R2 (KKLP level, max over bonus): max over other holonomies 0.7052529 -> identity dominates; identity's rim max 1 + 1.85e-08
+      1.0000000 at theta/pi = [-0.0004 -0.0004], delta/(3 pi) = 0.0000   [identity/central: max|alpha.theta| mod 2 pi = 2.30e-03]
+      0.8665295 at theta/pi = [-0. -0.], delta/(3 pi) = -0.5884   [identity/central: max|alpha.theta| mod 2 pi = 8.82e-08]
+      0.8627176 at theta/pi = [0. 0.], delta/(3 pi) = 0.3908   [identity/central: max|alpha.theta| mod 2 pi = 0.00e+00]
+      0.7052529 at theta/pi = [1. 1.], delta/(3 pi) = -0.6092
+      0.6584237 at theta/pi = [0.6667 1.3332], delta/(3 pi) = 0.0146
+  time 33.9 s
+== point r1d
+g2 xi = (0.25, -0.125, -0.125): Phi*/pi = 2.0728, Re S_prot/K = 1.2282589587, Re S_cl/K = 1.2348485004 (delta0 = 0.005365); grid 1024 pts; saddle 0.0 s
+  protected R1 (fixed potentials): max over other holonomies 0.3733862 -> identity dominates
+      1.0000000 at theta/pi = [-0.  0.]   [identity/central: max|alpha.theta| mod 2 pi = 9.12e-09]
+      0.3733862 at theta/pi = [0.6667 1.3333]
+  protected R2 (KKLP level): max over other holonomies 0.6507506 -> identity dominates
+      1.0000000 at theta/pi = [-0. -0.]   [identity/central: max|alpha.theta| mod 2 pi = 5.98e-08]
+      0.6507506 at theta/pi = [0.6667 1.3333]
+      0.3377139 at theta/pi = [1. 1.]
+  classical: x = e^{i Phi*} != 1, Re(1/r^2) = +0.2405 -> rim of the identity at |alpha.theta| ~ theta* = exp(-B-1/2) = 5.83e-03 (B = 4.645)
+  classical R1 (fixed potentials): max over other holonomies 0.3713127 -> identity dominates; identity's rim max 1 + 7.50e-07
+      1.0000008 at theta/pi = [-0.0001 -0.0013]   [identity/central: max|alpha.theta| mod 2 pi = 8.23e-03]
+      0.3713127 at theta/pi = [1.3322 0.6667]
+  classical: identity's own max over delta at delta/(3 pi) = -0.00000 (0 expected), value/(r + sum m xi) = 1.000000000
+  classical R2 (KKLP level, max over bonus): max over other holonomies 0.6590897 -> identity dominates; identity's rim max 1 + 3.15e-07
+      1.0000003 at theta/pi = [-0.0013 -0.0013], delta/(3 pi) = -0.0000   [identity/central: max|alpha.theta| mod 2 pi = 8.23e-03]
+      0.9319659 at theta/pi = [0. 0.], delta/(3 pi) = 0.2849   [identity/central: max|alpha.theta| mod 2 pi = 0.00e+00]
+      0.7993234 at theta/pi = [-0. -0.], delta/(3 pi) = -0.5942   [identity/central: max|alpha.theta| mod 2 pi = 1.12e-07]
+      0.6590897 at theta/pi = [1. 0.], delta/(3 pi) = -0.7151
+      0.6482266 at theta/pi = [0.6662 1.3329], delta/(3 pi) = 0.0103
+  time 24.4 s
+== point r2a
+g2 xi = (0.0826, -0.0413, -0.0413): Phi*/pi = 2.1190, Re S_prot/K = 1.4082554125, Re S_cl/K = 1.4240247470 (delta0 = 0.011198); grid 1024 pts; saddle 0.0 s
+  protected R1 (fixed potentials): max over other holonomies 0.3506993 -> identity dominates
+      1.0000000 at theta/pi = [-0.  0.]   [identity/central: max|alpha.theta| mod 2 pi = 5.47e-08]
+      0.3506993 at theta/pi = [0.6667 1.3333]
+  protected R2 (KKLP level): max over other holonomies 0.6929822 -> identity dominates
+      1.0000000 at theta/pi = [-0. -0.]   [identity/central: max|alpha.theta| mod 2 pi = 5.47e-08]
+      0.6929822 at theta/pi = [1.3333 0.6667]
+      0.6184625 at theta/pi = [1. 1.]
+  classical: x = e^{i Phi*} != 1, Re(1/r^2) = +0.1389 -> rim of the identity at |alpha.theta| ~ theta* = exp(-B-1/2) = 7.38e-05 (B = 9.014)
+  classical R1 (fixed potentials): max over other holonomies 0.3339126 -> identity dominates; identity's rim max 1 + 7.27e-11
+      1.0000000 at theta/pi = [-0. -0.]   [identity/central: max|alpha.theta| mod 2 pi = 1.04e-04]
+      0.3339126 at theta/pi = [1.3515 0.6485]
+  classical: identity's own max over delta at delta/(3 pi) = -0.00000 (0 expected), value/(r + sum m xi) = 1.000000000
+  classical R2 (KKLP level, max over bonus): max over other holonomies 0.7169450 -> identity dominates; identity's rim max 1 + 2.53e-11
+      1.0000000 at theta/pi = [-0. -0.], delta/(3 pi) = -0.0000   [identity/central: max|alpha.theta| mod 2 pi = 1.04e-04]
+      0.9724349 at theta/pi = [-0. -0.], delta/(3 pi) = -0.5841   [identity/central: max|alpha.theta| mod 2 pi = 6.40e-06]
+      0.7169450 at theta/pi = [1. 1.], delta/(3 pi) = -0.4160
+      0.6964487 at theta/pi = [0.8514 0.8514], delta/(3 pi) = -0.2547
+      0.6873505 at theta/pi = [0.6667 1.3333], delta/(3 pi) = 0.0227
+  time 34.0 s
+== point r2b
+g2 xi = (0.1652, -0.0826, -0.0826): Phi*/pi = 2.1005, Re S_prot/K = 1.3302179224, Re S_cl/K = 1.3416228429 (delta0 = 0.008574); grid 1024 pts; saddle 0.0 s
+  protected R1 (fixed potentials): max over other holonomies 0.3549072 -> identity dominates
+      1.0000000 at theta/pi = [0. 0.]   [identity/central: max|alpha.theta| mod 2 pi = 5.47e-08]
+      0.3549072 at theta/pi = [0.6667 1.3333]
+  protected R2 (KKLP level): max over other holonomies 0.6679412 -> identity dominates
+      1.0000000 at theta/pi = [-0. -0.]   [identity/central: max|alpha.theta| mod 2 pi = 5.47e-08]
+      0.6679412 at theta/pi = [1.3333 0.6667]
+      0.4984404 at theta/pi = [1. 1.]
+  classical: x = e^{i Phi*} != 1, Re(1/r^2) = +0.1786 -> rim of the identity at |alpha.theta| ~ theta* = exp(-B-1/2) = 8.99e-04 (B = 6.514)
+  classical R1 (fixed potentials): max over other holonomies 0.3472631 -> identity dominates; identity's rim max 1 + 1.34e-08
+      1.0000000 at theta/pi = [-0.0002 -0.0002]   [identity/central: max|alpha.theta| mod 2 pi = 1.27e-03]
+      0.3472631 at theta/pi = [1.3332 0.6665]
+  classical: identity's own max over delta at delta/(3 pi) = 0.00000 (0 expected), value/(r + sum m xi) = 1.000000000
+  classical R2 (KKLP level, max over bonus): max over other holonomies 0.7049680 -> identity dominates; identity's rim max 1 + 5.12e-09
+      1.0000000 at theta/pi = [-0.0002 -0.0002], delta/(3 pi) = 0.0000   [identity/central: max|alpha.theta| mod 2 pi = 1.27e-03]
+      0.8924646 at theta/pi = [-0. -0.], delta/(3 pi) = -0.5869   [identity/central: max|alpha.theta| mod 2 pi = 2.03e-07]
+      0.8254878 at theta/pi = [0. 0.], delta/(3 pi) = 0.4321   [identity/central: max|alpha.theta| mod 2 pi = 0.00e+00]
+      0.7049680 at theta/pi = [1. 0.], delta/(3 pi) = -0.5679
+      0.6633869 at theta/pi = [1.3333 0.6666], delta/(3 pi) = 0.0164
+  time 32.6 s
+== point r3a
+g2 xi = (0.031, 0.031, -0.062): Phi*/pi = 2.1224, Re S_prot/K = 1.4182803154, Re S_cl/K = 1.4348424169 (delta0 = 0.011678); grid 1024 pts; saddle 0.0 s
+  protected R1 (fixed potentials): max over other holonomies 0.3695670 -> identity dominates
+      1.0000000 at theta/pi = [-0. -0.]   [identity/central: max|alpha.theta| mod 2 pi = 5.57e-08]
+      0.3695670 at theta/pi = [1.3679 0.684 ]
+  protected R2 (KKLP level): max over other holonomies 0.7088567 -> identity dominates
+      1.0000000 at theta/pi = [-0. -0.]   [identity/central: max|alpha.theta| mod 2 pi = 5.02e-08]
+      0.7088567 at theta/pi = [1.316 0.684]
+      0.6469667 at theta/pi = [1. 1.]
+  classical: x = e^{i Phi*} != 1, Re(1/r^2) = +0.1317 -> rim of the identity at |alpha.theta| ~ theta* = exp(-B-1/2) = 4.23e-05 (B = 9.570)
+  classical R1 (fixed potentials): max over other holonomies 0.3653749 -> identity dominates; identity's rim max 1 + 2.28e-11
+      1.0000000 at theta/pi = [-0. -0.]   [identity/central: max|alpha.theta| mod 2 pi = 5.98e-05]
+      0.3653749 at theta/pi = [0.6537 1.3463]
+  classical: identity's own max over delta at delta/(3 pi) = -0.00000 (0 expected), value/(r + sum m xi) = 1.000000000
+  classical R2 (KKLP level, max over bonus): max over other holonomies 0.7347705 -> identity dominates; identity's rim max 1 + 7.83e-12
+      1.0000000 at theta/pi = [-0. -0.], delta/(3 pi) = -0.0000   [identity/central: max|alpha.theta| mod 2 pi = 6.00e-05]
+      0.9895038 at theta/pi = [-0. -0.], delta/(3 pi) = -0.5840   [identity/central: max|alpha.theta| mod 2 pi = 1.39e-05]
+      0.7347705 at theta/pi = [0.9843 0.9843], delta/(3 pi) = -0.2871
+      0.7102476 at theta/pi = [1.3354 0.6677], delta/(3 pi) = 0.0086
+      0.7101931 at theta/pi = [0.6629 1.3315], delta/(3 pi) = 0.0102
+  time 37.9 s
+== point r3b
+g2 xi = (0.062, 0.062, -0.124): Phi*/pi = 2.1174, Re S_prot/K = 1.3473162134, Re S_cl/K = 1.3614052883 (delta0 = 0.010457); grid 1024 pts; saddle 0.0 s
+  protected R1 (fixed potentials): max over other holonomies 0.4118178 -> identity dominates
+      1.0000000 at theta/pi = [-0. -0.]   [identity/central: max|alpha.theta| mod 2 pi = 5.22e-08]
+      0.4118178 at theta/pi = [1.3028 0.6057]
+  protected R2 (KKLP level): max over other holonomies 0.7068213 -> identity dominates
+      1.0000000 at theta/pi = [-0. -0.]   [identity/central: max|alpha.theta| mod 2 pi = 9.02e-08]
+      0.7068213 at theta/pi = [0.6057 1.3028]
+      0.6413065 at theta/pi = [-0.  1.]
+  classical: x = e^{i Phi*} != 1, Re(1/r^2) = +0.1441 -> rim of the identity at |alpha.theta| ~ theta* = exp(-B-1/2) = 2.60e-04 (B = 7.754)
+  classical R1 (fixed potentials): max over other holonomies 0.4234086 -> identity dominates; identity's rim max 1 + 8.89e-10
+      1.0000000 at theta/pi = [-0.0001 -0.0001]   [identity/central: max|alpha.theta| mod 2 pi = 3.68e-04]
+      0.4234086 at theta/pi = [1.3229 0.677 ]
+  classical: identity's own max over delta at delta/(3 pi) = 0.00000 (0 expected), value/(r + sum m xi) = 1.000000000
+  classical R2 (KKLP level, max over bonus): max over other holonomies 0.7422311 -> identity dominates; identity's rim max 1 + 3.41e-10
+      1.0000000 at theta/pi = [-0.0001 -0.0001], delta/(3 pi) = 0.0000   [identity/central: max|alpha.theta| mod 2 pi = 3.68e-04]
+      0.9709267 at theta/pi = [-0. -0.], delta/(3 pi) = -0.5858   [identity/central: max|alpha.theta| mod 2 pi = 3.88e-06]
+      0.7422311 at theta/pi = [0.     1.0288], delta/(3 pi) = -0.2829
+      0.7134389 at theta/pi = [1.3577 0.6788], delta/(3 pi) = 0.0036
+      0.6633301 at theta/pi = [0.6667 1.3333], delta/(3 pi) = -0.5649
+  time 51.6 s
+== point r1e
+g2 xi = (0.3017, -0.15085, -0.15085): Phi*/pi = 2.0565, Re S_prot/K = 1.1652139019, Re S_cl/K = 1.1695933770 (delta0 = 0.003759); grid 1024 pts; saddle 0.0 s
+  protected R1 (fixed potentials): max over other holonomies 0.3854039 -> identity dominates
+      1.0000000 at theta/pi = [-0. -0.]   [identity/central: max|alpha.theta| mod 2 pi = 2.79e-08]
+      0.3854039 at theta/pi = [1.3333 0.6667]
+  protected R2 (KKLP level): max over other holonomies 0.6445240 -> identity dominates
+      1.0000000 at theta/pi = [-0. -0.]   [identity/central: max|alpha.theta| mod 2 pi = 1.98e-08]
+      0.6445240 at theta/pi = [1.3333 0.6667]
+      0.2467230 at theta/pi = [1. 1.]
+  classical: x = e^{i Phi*} != 1, Re(1/r^2) = +0.2840 -> rim of the identity at |alpha.theta| ~ theta* = exp(-B-1/2) = 1.13e-02 (B = 3.983)
+  classical R1 (fixed potentials): max over other holonomies 0.3849433 -> identity dominates; identity's rim max 1 + 3.36e-06
+      1.0000034 at theta/pi = [-0.0026 -0.0025]   [identity/central: max|alpha.theta| mod 2 pi = 1.59e-02]
+      0.3849433 at theta/pi = [1.3356 0.6667]
+  classical: identity's own max over delta at delta/(3 pi) = 0.00000 (0 expected), value/(r + sum m xi) = 1.000000000
+  classical R2 (KKLP level, max over bonus): max over other holonomies 0.6429440 -> identity dominates; identity's rim max 1 + 1.48e-06
+      1.0000015 at theta/pi = [-0.0026 -0.0025], delta/(3 pi) = -0.0000   [identity/central: max|alpha.theta| mod 2 pi = 1.60e-02]
+      0.9626481 at theta/pi = [0. 0.], delta/(3 pi) = 0.2143   [identity/central: max|alpha.theta| mod 2 pi = 0.00e+00]
+      0.7602467 at theta/pi = [-0. -0.], delta/(3 pi) = -0.5998   [identity/central: max|alpha.theta| mod 2 pi = 4.56e-08]
+      0.6429440 at theta/pi = [0.6658 1.3333], delta/(3 pi) = 0.0078
+      0.5889149 at theta/pi = [1. 1.], delta/(3 pi) = -0.7857
+  time 28.0 s
+== point r1f
+g2 xi = (0.40825, -0.20412, -0.20412): Phi*/pi = 2.0316, Re S_prot/K = 1.0473839751, Re S_cl/K = 1.0491478890 (delta0 = 0.001684); grid 1024 pts; saddle 0.0 s
+  protected R1 (fixed potentials): max over other holonomies 0.4038714 -> identity dominates
+      1.0000000 at theta/pi = [-0. -0.]   [identity/central: max|alpha.theta| mod 2 pi = 6.39e-08]
+      0.4038714 at theta/pi = [1.3333 0.6667]
+  protected R2 (KKLP level): max over other holonomies 0.6375825 -> identity dominates
+      1.0000000 at theta/pi = [-0. -0.]   [identity/central: max|alpha.theta| mod 2 pi = 5.07e-08]
+      0.6375825 at theta/pi = [1.3333 0.6667]
+      0.1070117 at theta/pi = [0. 1.]
+  classical: x = e^{i Phi*} != 1, Re(1/r^2) = +0.3786 -> rim of the identity at |alpha.theta| ~ theta* = exp(-B-1/2) = 2.12e-02 (B = 3.353)
+  classical R1 (fixed potentials): max over other holonomies 0.4043205 -> identity dominates; identity's rim max 1 + 1.64e-05
+      1.0000164 at theta/pi = [-0.0049 -0.0046]   [identity/central: max|alpha.theta| mod 2 pi = 2.97e-02]
+      0.4043205 at theta/pi = [0.6625 1.3291]
+  classical: identity's own max over delta at delta/(3 pi) = -0.00000 (0 expected), value/(r + sum m xi) = 1.000000000
+  classical R2 (KKLP level, max over bonus): max over other holonomies 0.6419114 -> identity dominates; identity's rim max 1 + 7.70e-06
+      1.0000077 at theta/pi = [-0.0049 -0.0046], delta/(3 pi) = -0.0001   [identity/central: max|alpha.theta| mod 2 pi = 2.98e-02]
+      0.9892721 at theta/pi = [0. 0.], delta/(3 pi) = 0.1180   [identity/central: max|alpha.theta| mod 2 pi = 0.00e+00]
+      0.7397809 at theta/pi = [-0. -0.], delta/(3 pi) = -0.6102   [identity/central: max|alpha.theta| mod 2 pi = 8.31e-08]
+      0.6370627 at theta/pi = [1.3315 0.6648], delta/(3 pi) = 0.0048
+      0.6419114 at theta/pi = [0.6667 1.3333], delta/(3 pi) = 0.1180
+  time 43.5 s
+== point r3c
+g2 xi = (0.0694, 0.0694, -0.1388): Phi*/pi = 2.1159, Re S_prot/K = 1.3216116093, Re S_cl/K = 1.3349202120 (delta0 = 0.010070); grid 1024 pts; saddle 0.0 s
+  protected R1 (fixed potentials): max over other holonomies 0.4272343 -> identity dominates
+      1.0000000 at theta/pi = [0. 0.]   [identity/central: max|alpha.theta| mod 2 pi = 0.00e+00]
+      0.4272343 at theta/pi = [1.3002 0.6998]
+  protected R2 (KKLP level): max over other holonomies 0.7061206 -> identity dominates
+      1.0000000 at theta/pi = [0. 0.]   [identity/central: max|alpha.theta| mod 2 pi = 0.00e+00]
+      0.7061206 at theta/pi = [1.3002 0.6998]
+      0.6438608 at theta/pi = [-0.  1.]
+  classical: x = e^{i Phi*} != 1, Re(1/r^2) = +0.1468 -> rim of the identity at |alpha.theta| ~ theta* = exp(-B-1/2) = 4.26e-04 (B = 7.261)
+  classical R1 (fixed potentials): max over other holonomies 0.4407830 -> identity dominates; identity's rim max 1 + 2.38e-09
+      1.0000000 at theta/pi = [-0.0001 -0.0001]   [identity/central: max|alpha.theta| mod 2 pi = 6.02e-04]
+      0.4407830 at theta/pi = [1.3202 0.6403]
+  classical: identity's own max over delta at delta/(3 pi) = -0.00000 (0 expected), value/(r + sum m xi) = 1.000000000
+  classical R2 (KKLP level, max over bonus): max over other holonomies 0.7438386 -> identity dominates; identity's rim max 1 + 9.51e-10
+      1.0000000 at theta/pi = [-0.0001 -0.0001], delta/(3 pi) = 0.0000   [identity/central: max|alpha.theta| mod 2 pi = 6.02e-04]
+      0.9673237 at theta/pi = [-0. -0.], delta/(3 pi) = -0.5865   [identity/central: max|alpha.theta| mod 2 pi = 3.38e-06]
+      0.7438386 at theta/pi = [1.0307 1.0307], delta/(3 pi) = -0.2824
+      0.7145490 at theta/pi = [1.3239 0.6481], delta/(3 pi) = -0.0078
+      0.6530418 at theta/pi = [0.6667 1.3333], delta/(3 pi) = -0.5608
+  time 49.6 s
+== point r4a
+g2 xi = (0.07071, 0.0, -0.07071): Phi*/pi = 2.1201, Re S_prot/K = 1.4053279045, Re S_cl/K = 1.4211958778 (delta0 = 0.011291); grid 1024 pts; saddle 0.0 s
+  protected R1 (fixed potentials): max over other holonomies 0.3649791 -> identity dominates
+      1.0000000 at theta/pi = [-0. -0.]   [identity/central: max|alpha.theta| mod 2 pi = 2.58e-08]
+      0.3649791 at theta/pi = [1.3333 0.6667]
+  protected R2 (KKLP level): max over other holonomies 0.7007150 -> identity dominates
+      1.0000000 at theta/pi = [0. 0.]   [identity/central: max|alpha.theta| mod 2 pi = 0.00e+00]
+      0.7007150 at theta/pi = [1.3333 0.6667]
+      0.6314331 at theta/pi = [1. 1.]
+  classical: x = e^{i Phi*} != 1, Re(1/r^2) = +0.1370 -> rim of the identity at |alpha.theta| ~ theta* = exp(-B-1/2) = 7.10e-05 (B = 9.053)
+  classical R1 (fixed potentials): max over other holonomies 0.3594728 -> identity dominates; identity's rim max 1 + 6.61e-11
+      1.0000000 at theta/pi = [-0. -0.]   [identity/central: max|alpha.theta| mod 2 pi = 1.00e-04]
+      0.3594728 at theta/pi = [1.3333 0.6667]
+      0.3512277 at theta/pi = [0.6082 1.2759]
+  classical: identity's own max over delta at delta/(3 pi) = -0.00000 (0 expected), value/(r + sum m xi) = 1.000000000
+  classical R2 (KKLP level, max over bonus): max over other holonomies 0.7152866 -> identity dominates; identity's rim max 1 + 2.31e-11
+      1.0000000 at theta/pi = [-0. -0.], delta/(3 pi) = 0.0000   [identity/central: max|alpha.theta| mod 2 pi = 1.00e-04]
+      0.9783726 at theta/pi = [-0. -0.], delta/(3 pi) = -0.5842   [identity/central: max|alpha.theta| mod 2 pi = 7.78e-06]
+      0.7152866 at theta/pi = [0. 1.], delta/(3 pi) = -0.3918
+      0.7104099 at theta/pi = [ 1.1206 -0.    ], delta/(3 pi) = -0.2659
+      0.6977851 at theta/pi = [1.3333 0.6667], delta/(3 pi) = 0.0142
+  time 39.7 s
+== point r4b
+g2 xi = (0.14142, 0.0, -0.14142): Phi*/pi = 2.1068, Re S_prot/K = 1.3020449341, Re S_cl/K = 1.3137461876 (delta0 = 0.008987); grid 1024 pts; saddle 0.0 s
+  protected R1 (fixed potentials): max over other holonomies 0.4133379 -> identity dominates
+      1.0000000 at theta/pi = [-0. -0.]   [identity/central: max|alpha.theta| mod 2 pi = 6.84e-08]
+      0.4133379 at theta/pi = [1.3333 0.6667]
+  protected R2 (KKLP level): max over other holonomies 0.6907065 -> identity dominates
+      1.0000000 at theta/pi = [ 0. -0.]   [identity/central: max|alpha.theta| mod 2 pi = 2.74e-08]
+      0.6907065 at theta/pi = [1.3333 0.6667]
+      0.5927459 at theta/pi = [1. 1.]
+  classical: x = e^{i Phi*} != 1, Re(1/r^2) = +0.1636 -> rim of the identity at |alpha.theta| ~ theta* = exp(-B-1/2) = 9.07e-04 (B = 6.506)
+  classical R1 (fixed potentials): max over other holonomies 0.4108645 -> identity dominates; identity's rim max 1 + 1.20e-08
+      1.0000000 at theta/pi = [-0.0002 -0.0002]   [identity/central: max|alpha.theta| mod 2 pi = 1.28e-03]
+      0.4108645 at theta/pi = [0.6665 1.3331]
+  classical: identity's own max over delta at delta/(3 pi) = -0.00000 (0 expected), value/(r + sum m xi) = 1.000000000
+  classical R2 (KKLP level, max over bonus): max over other holonomies 0.7047784 -> identity dominates; identity's rim max 1 + 4.88e-09
+      1.0000000 at theta/pi = [-0.0002 -0.0002], delta/(3 pi) = 0.0000   [identity/central: max|alpha.theta| mod 2 pi = 1.28e-03]
+      0.9324518 at theta/pi = [-0. -0.], delta/(3 pi) = -0.5880   [identity/central: max|alpha.theta| mod 2 pi = 8.21e-07]
+      0.8081812 at theta/pi = [0. 0.], delta/(3 pi) = 0.4908   [identity/central: max|alpha.theta| mod 2 pi = 0.00e+00]
+      0.7047784 at theta/pi = [1. 1.], delta/(3 pi) = -0.5092
+      0.6880194 at theta/pi = [1.3331 0.6665], delta/(3 pi) = 0.0105
+  time 33.4 s
+== point r5a
+g2 xi = (0.32536, -0.13803, -0.18733): Phi*/pi = 2.0499, Re S_prot/K = 1.1277817737, Re S_cl/K = 1.1313138079 (delta0 = 0.003132); grid 1024 pts; saddle 0.0 s
+  protected R1 (fixed potentials): max over other holonomies 0.4014173 -> identity dominates
+      1.0000000 at theta/pi = [-0. -0.]   [identity/central: max|alpha.theta| mod 2 pi = 4.41e-08]
+      0.4014173 at theta/pi = [0.6667 1.3333]
+  protected R2 (KKLP level): max over other holonomies 0.6449604 -> identity dominates
+      1.0000000 at theta/pi = [-0. -0.]   [identity/central: max|alpha.theta| mod 2 pi = 7.91e-08]
+      0.6449604 at theta/pi = [1.3333 0.6667]
+      0.2636837 at theta/pi = [1. 1.]
+  classical: x = e^{i Phi*} != 1, Re(1/r^2) = +0.3005 -> rim of the identity at |alpha.theta| ~ theta* = exp(-B-1/2) = 1.44e-02 (B = 3.739)
+  classical R1 (fixed potentials): max over other holonomies 0.4015246 -> identity dominates; identity's rim max 1 + 5.78e-06
+      1.0000058 at theta/pi = [-0.0033 -0.0032]   [identity/central: max|alpha.theta| mod 2 pi = 2.03e-02]
+      0.4015246 at theta/pi = [1.3333 0.6638]
+  classical: identity's own max over delta at delta/(3 pi) = -0.00000 (0 expected), value/(r + sum m xi) = 1.000000000
+  classical R2 (KKLP level, max over bonus): max over other holonomies 0.6453785 -> identity dominates; identity's rim max 1 + 2.63e-06
+      1.0000026 at theta/pi = [-0.0033 -0.0032], delta/(3 pi) = -0.0000   [identity/central: max|alpha.theta| mod 2 pi = 2.04e-02]
+      0.9729090 at theta/pi = [0. 0.], delta/(3 pi) = 0.1881   [identity/central: max|alpha.theta| mod 2 pi = 0.00e+00]
+      0.7668485 at theta/pi = [-0. -0.], delta/(3 pi) = -0.6036   [identity/central: max|alpha.theta| mod 2 pi = 5.57e-09]
+      0.6437656 at theta/pi = [0.6653 1.332 ], delta/(3 pi) = 0.0063
+      0.6453785 at theta/pi = [1.3333 0.6667], delta/(3 pi) = 0.1881
+  time 25.6 s
+== point r6a
+g2 xi = (0.1183, -0.0317, -0.0866): Phi*/pi = 2.1125, Re S_prot/K = 1.3712239548, Re S_cl/K = 1.3851406049 (delta0 = 0.010149); grid 1024 pts; saddle 0.0 s
+  protected R1 (fixed potentials): max over other holonomies 0.3591725 -> identity dominates
+      1.0000000 at theta/pi = [-0. -0.]   [identity/central: max|alpha.theta| mod 2 pi = 7.80e-08]
+      0.3591725 at theta/pi = [1.3333 0.6667]
+  protected R2 (KKLP level): max over other holonomies 0.6840968 -> identity dominates
+      1.0000000 at theta/pi = [-0. -0.]   [identity/central: max|alpha.theta| mod 2 pi = 7.45e-08]
+      0.6840968 at theta/pi = [1.3333 0.6667]
+      0.5813490 at theta/pi = [1. 1.]
+  classical: x = e^{i Phi*} != 1, Re(1/r^2) = +0.1533 -> rim of the identity at |alpha.theta| ~ theta* = exp(-B-1/2) = 2.48e-04 (B = 7.800)
+  classical R1 (fixed potentials): max over other holonomies 0.3501345 -> identity dominates; identity's rim max 1 + 8.90e-10
+      1.0000000 at theta/pi = [ 0.     -0.0001]   [identity/central: max|alpha.theta| mod 2 pi = 3.51e-04]
+      0.3501345 at theta/pi = [0.6641 1.3281]
+  classical: identity's own max over delta at delta/(3 pi) = -0.00000 (0 expected), value/(r + sum m xi) = 1.000000000
+  classical R2 (KKLP level, max over bonus): max over other holonomies 0.7083281 -> identity dominates; identity's rim max 1 + 3.25e-10
+      1.0000000 at theta/pi = [-0.0001 -0.0001], delta/(3 pi) = 0.0000   [identity/central: max|alpha.theta| mod 2 pi = 3.51e-04]
+      0.9438587 at theta/pi = [-0. -0.], delta/(3 pi) = -0.5851   [identity/central: max|alpha.theta| mod 2 pi = 1.11e-06]
+      0.7083281 at theta/pi = [0. 1.], delta/(3 pi) = -0.4777
+      0.7223052 at theta/pi = [0. 0.], delta/(3 pi) = 0.5223   [identity/central: max|alpha.theta| mod 2 pi = 0.00e+00]
+      0.6794791 at theta/pi = [1.3333 0.6666], delta/(3 pi) = 0.0179
+  time 25.4 s
+== point r6b
+g2 xi = (0.21294, -0.05706, -0.15588): Phi*/pi = 2.0854, Re S_prot/K = 1.2427032623, Re S_cl/K = 1.2508535250 (delta0 = 0.006558); grid 1024 pts; saddle 0.0 s
+  protected R1 (fixed potentials): max over other holonomies 0.3999243 -> identity dominates
+      1.0000000 at theta/pi = [-0.  0.]   [identity/central: max|alpha.theta| mod 2 pi = 4.56e-08]
+      0.3999243 at theta/pi = [1.3333 0.6667]
+  protected R2 (KKLP level): max over other holonomies 0.6654305 -> identity dominates
+      1.0000000 at theta/pi = [-0. -0.]   [identity/central: max|alpha.theta| mod 2 pi = 7.04e-08]
+      0.6654305 at theta/pi = [1.3333 0.6667]
+      0.4785532 at theta/pi = [0. 1.]
+  classical: x = e^{i Phi*} != 1, Re(1/r^2) = +0.2063 -> rim of the identity at |alpha.theta| ~ theta* = exp(-B-1/2) = 3.68e-03 (B = 5.104)
+  classical R1 (fixed potentials): max over other holonomies 0.3980557 -> identity dominates; identity's rim max 1 + 2.49e-07
+      1.0000002 at theta/pi = [-0.0009 -0.0008]   [identity/central: max|alpha.theta| mod 2 pi = 5.20e-03]
+      0.3980557 at theta/pi = [1.3325 0.6667]
+  classical: identity's own max over delta at delta/(3 pi) = -0.00000 (0 expected), value/(r + sum m xi) = 1.000000000
+  classical R2 (KKLP level, max over bonus): max over other holonomies 0.7065229 -> identity dominates; identity's rim max 1 + 1.06e-07
+      1.0000001 at theta/pi = [-0.0009 -0.0008], delta/(3 pi) = -0.0000   [identity/central: max|alpha.theta| mod 2 pi = 5.20e-03]
+      0.9067041 at theta/pi = [0. 0.], delta/(3 pi) = 0.3504   [identity/central: max|alpha.theta| mod 2 pi = 0.00e+00]
+      0.8600750 at theta/pi = [-0. -0.], delta/(3 pi) = -0.5928   [identity/central: max|alpha.theta| mod 2 pi = 1.28e-07]
+      0.7065229 at theta/pi = [1. 0.], delta/(3 pi) = -0.6496
+      0.6628280 at theta/pi = [0.6663 1.3329], delta/(3 pi) = 0.0091
+  time 33.1 s
+== point r7a
+g2 xi = (0.09815, 0.03592, -0.13407): Phi*/pi = 2.1146, Re S_prot/K = 1.3271590726, Re S_cl/K = 1.3404167268 (delta0 = 0.009989); grid 1024 pts; saddle 0.0 s
+  protected R1 (fixed potentials): max over other holonomies 0.4191261 -> identity dominates
+      1.0000000 at theta/pi = [-0.  0.]   [identity/central: max|alpha.theta| mod 2 pi = 5.17e-08]
+      0.4191261 at theta/pi = [1.3412 0.6588]
+  protected R2 (KKLP level): max over other holonomies 0.7036223 -> identity dominates
+      1.0000000 at theta/pi = [-0. -0.]   [identity/central: max|alpha.theta| mod 2 pi = 9.12e-08]
+      0.7036223 at theta/pi = [1.3177 0.6588]
+      0.6324323 at theta/pi = [1. 1.]
+  classical: x = e^{i Phi*} != 1, Re(1/r^2) = +0.1492 -> rim of the identity at |alpha.theta| ~ theta* = exp(-B-1/2) = 4.24e-04 (B = 7.266)
+  classical R1 (fixed potentials): max over other holonomies 0.4284746 -> identity dominates; identity's rim max 1 + 2.41e-09
+      1.0000000 at theta/pi = [-0.0001 -0.    ]   [identity/central: max|alpha.theta| mod 2 pi = 5.99e-04]
+      0.4284746 at theta/pi = [0.6666 1.3333]
+  classical: identity's own max over delta at delta/(3 pi) = -0.00000 (0 expected), value/(r + sum m xi) = 1.000000000
+  classical R2 (KKLP level, max over bonus): max over other holonomies 0.7342619 -> identity dominates; identity's rim max 1 + 9.54e-10
+      1.0000000 at theta/pi = [-0.0001 -0.    ], delta/(3 pi) = 0.0000   [identity/central: max|alpha.theta| mod 2 pi = 5.99e-04]
+      0.9613490 at theta/pi = [-0. -0.], delta/(3 pi) = -0.5865   [identity/central: max|alpha.theta| mod 2 pi = 2.71e-06]
+      0.7342619 at theta/pi = [0. 1.], delta/(3 pi) = -0.2992
+      0.7170929 at theta/pi = [0. 0.], delta/(3 pi) = 0.5789   [identity/central: max|alpha.theta| mod 2 pi = 0.00e+00]
+      0.7091705 at theta/pi = [1.3331 0.6665], delta/(3 pi) = 0.0123
+  time 30.5 s
+# exit 0 after 805 s

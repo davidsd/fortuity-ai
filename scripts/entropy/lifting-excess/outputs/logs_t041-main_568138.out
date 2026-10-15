@@ -1,0 +1,14 @@
+host cn083, out ${SCRATCH}/t041/main/568138, Python 3.11.4, numpy 1.24.3, mpmath 1.3.0, Fri Oct  2 01:46:44 PM EDT 2026
+done Fri Oct  2 02:31:48 PM EDT 2026
+${SCRATCH}/t041/main/568138/conv_g2_r5a.out:# exit 0 after 84 s
+${SCRATCH}/t041/main/568138/conv_so7_r4b.out:# exit 0 after 338 s
+${SCRATCH}/t041/main/568138/conv_su3_r1d.out:# exit 0 after 85 s
+${SCRATCH}/t041/main/568138/conv_usp6_r1e.out:# exit 0 after 356 s
+${SCRATCH}/t041/main/568138/scan12_patched.tsv:# exit 0 after 398 s
+${SCRATCH}/t041/main/568138/scan24_fine.tsv:# exit 0 after 1424 s
+${SCRATCH}/t041/main/568138/torus_g2_allext.out:# exit 0 after 805 s
+${SCRATCH}/t041/main/568138/torus_so7_allext.out:# exit 0 after 1255 s
+${SCRATCH}/t041/main/568138/torus_su2_allext.out:# exit 0 after 239 s
+${SCRATCH}/t041/main/568138/torus_su3_allext.out:# exit 0 after 632 s
+${SCRATCH}/t041/main/568138/torus_su4_allext.out:# exit 0 after 2691 s
+${SCRATCH}/t041/main/568138/torus_usp6_allext.out:# exit 0 after 1597 s

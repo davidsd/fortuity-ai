@@ -1,0 +1,4 @@
+su2_j36 class 0: Q_1 v at generic points: nonzero 4740 of 4740
+su2_j36 class 1: Q_1 v at generic points: nonzero 4740 of 4740
+su2_j36 class 0: Q_1 v at Cartan points: nonzero 0 of 4740
+su2_j36 class 1: Q_1 v at Cartan points: nonzero 0 of 4740

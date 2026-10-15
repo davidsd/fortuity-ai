@@ -1,0 +1,9 @@
+O_9 terms 5863 ; Q_0 O_9 terms 3248
+SO(9) seed 5: Q_0 O_9 = 0: True
+SO(9) seed 6: Q_0 O_9 = 0: True
+SO(11) seed 5: Q_0 O_9 = 0: False
+SO(11) seed 6: Q_0 O_9 = 0: False
+SO(13) seed 5: Q_0 O_9 = 0: False
+SO(13) seed 6: Q_0 O_9 = 0: False
+control O_18 on SO(7): Q_0 O = 0: True
+control O_18 on SO(9): Q_0 O = 0: False

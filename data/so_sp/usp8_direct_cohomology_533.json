@@ -1,0 +1,45 @@
+{
+ "group": "Sp",
+ "N": 4,
+ "seed": 777,
+ "gen_nmax": 11,
+ "symmetrize": false,
+ "results": [
+  {
+   "sector": [
+    0,
+    5,
+    3,
+    3
+   ],
+   "j": 22,
+   "nsym": 4420,
+   "basis": 1263,
+   "closed": 1263,
+   "exact": 1263,
+   "coh": 0,
+   "grav": 0,
+   "BH": 0,
+   "nmono": 484,
+   "time": 397.21409583091736
+  },
+  {
+   "sector": [
+    1,
+    5,
+    3,
+    3
+   ],
+   "j": 22,
+   "nsym": 14504,
+   "basis": 5395,
+   "closed": 4132,
+   "exact": 3704,
+   "coh": 428,
+   "grav": 428,
+   "BH": 0,
+   "nmono": 1367,
+   "time": 1049.296207666397
+  }
+ ]
+}

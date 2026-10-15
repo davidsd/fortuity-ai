@@ -1,0 +1,952 @@
+{
+ "description": "SU(4) C-twisted BMN index per SU(3)_R hw column, (-1)^|lam| I_C = #P+ - #P- (R-017); negative values force P-odd (non-graviton) classes with no Coulomb input",
+ "qmax": 18,
+ "grids": [
+  84,
+  90
+ ],
+ "rounding_error": [
+  7.057706388732725e-10,
+  7.859295038339808e-10
+ ],
+ "validation_j30": {
+  "columns": 172,
+  "mismatches": []
+ },
+ "forced": [],
+ "summary_by_j": {
+  "26": {
+   "columns": 21,
+   "negative": 0,
+   "min": 5
+  },
+  "28": {
+   "columns": 24,
+   "negative": 0,
+   "min": 8
+  },
+  "30": {
+   "columns": 27,
+   "negative": 0,
+   "min": 7
+  },
+  "32": {
+   "columns": 30,
+   "negative": 0,
+   "min": 10
+  },
+  "34": {
+   "columns": 33,
+   "negative": 0,
+   "min": 8
+  },
+  "36": {
+   "columns": 37,
+   "negative": 0,
+   "min": 12
+  }
+ },
+ "columns": [
+  {
+   "lam": [
+    6,
+    5,
+    5
+   ],
+   "j": 32,
+   "signed_twisted": 109
+  },
+  {
+   "lam": [
+    6,
+    6,
+    4
+   ],
+   "j": 32,
+   "signed_twisted": 171
+  },
+  {
+   "lam": [
+    7,
+    5,
+    4
+   ],
+   "j": 32,
+   "signed_twisted": 400
+  },
+  {
+   "lam": [
+    7,
+    6,
+    3
+   ],
+   "j": 32,
+   "signed_twisted": 441
+  },
+  {
+   "lam": [
+    7,
+    7,
+    2
+   ],
+   "j": 32,
+   "signed_twisted": 181
+  },
+  {
+   "lam": [
+    8,
+    4,
+    4
+   ],
+   "j": 32,
+   "signed_twisted": 334
+  },
+  {
+   "lam": [
+    8,
+    5,
+    3
+   ],
+   "j": 32,
+   "signed_twisted": 704
+  },
+  {
+   "lam": [
+    8,
+    6,
+    2
+   ],
+   "j": 32,
+   "signed_twisted": 497
+  },
+  {
+   "lam": [
+    8,
+    7,
+    1
+   ],
+   "j": 32,
+   "signed_twisted": 136
+  },
+  {
+   "lam": [
+    8,
+    8,
+    0
+   ],
+   "j": 32,
+   "signed_twisted": 11
+  },
+  {
+   "lam": [
+    9,
+    4,
+    3
+   ],
+   "j": 32,
+   "signed_twisted": 677
+  },
+  {
+   "lam": [
+    9,
+    5,
+    2
+   ],
+   "j": 32,
+   "signed_twisted": 688
+  },
+  {
+   "lam": [
+    9,
+    6,
+    1
+   ],
+   "j": 32,
+   "signed_twisted": 252
+  },
+  {
+   "lam": [
+    9,
+    7,
+    0
+   ],
+   "j": 32,
+   "signed_twisted": 31
+  },
+  {
+   "lam": [
+    10,
+    3,
+    3
+   ],
+   "j": 32,
+   "signed_twisted": 384
+  },
+  {
+   "lam": [
+    10,
+    4,
+    2
+   ],
+   "j": 32,
+   "signed_twisted": 693
+  },
+  {
+   "lam": [
+    10,
+    5,
+    1
+   ],
+   "j": 32,
+   "signed_twisted": 328
+  },
+  {
+   "lam": [
+    10,
+    6,
+    0
+   ],
+   "j": 32,
+   "signed_twisted": 49
+  },
+  {
+   "lam": [
+    11,
+    3,
+    2
+   ],
+   "j": 32,
+   "signed_twisted": 514
+  },
+  {
+   "lam": [
+    11,
+    4,
+    1
+   ],
+   "j": 32,
+   "signed_twisted": 346
+  },
+  {
+   "lam": [
+    11,
+    5,
+    0
+   ],
+   "j": 32,
+   "signed_twisted": 61
+  },
+  {
+   "lam": [
+    12,
+    2,
+    2
+   ],
+   "j": 32,
+   "signed_twisted": 234
+  },
+  {
+   "lam": [
+    12,
+    3,
+    1
+   ],
+   "j": 32,
+   "signed_twisted": 295
+  },
+  {
+   "lam": [
+    12,
+    4,
+    0
+   ],
+   "j": 32,
+   "signed_twisted": 67
+  },
+  {
+   "lam": [
+    13,
+    2,
+    1
+   ],
+   "j": 32,
+   "signed_twisted": 188
+  },
+  {
+   "lam": [
+    13,
+    3,
+    0
+   ],
+   "j": 32,
+   "signed_twisted": 63
+  },
+  {
+   "lam": [
+    14,
+    1,
+    1
+   ],
+   "j": 32,
+   "signed_twisted": 72
+  },
+  {
+   "lam": [
+    14,
+    2,
+    0
+   ],
+   "j": 32,
+   "signed_twisted": 49
+  },
+  {
+   "lam": [
+    15,
+    1,
+    0
+   ],
+   "j": 32,
+   "signed_twisted": 26
+  },
+  {
+   "lam": [
+    16,
+    0,
+    0
+   ],
+   "j": 32,
+   "signed_twisted": 10
+  },
+  {
+   "lam": [
+    6,
+    6,
+    5
+   ],
+   "j": 34,
+   "signed_twisted": 134
+  },
+  {
+   "lam": [
+    7,
+    5,
+    5
+   ],
+   "j": 34,
+   "signed_twisted": 256
+  },
+  {
+   "lam": [
+    7,
+    6,
+    4
+   ],
+   "j": 34,
+   "signed_twisted": 498
+  },
+  {
+   "lam": [
+    7,
+    7,
+    3
+   ],
+   "j": 34,
+   "signed_twisted": 325
+  },
+  {
+   "lam": [
+    8,
+    5,
+    4
+   ],
+   "j": 34,
+   "signed_twisted": 723
+  },
+  {
+   "lam": [
+    8,
+    6,
+    3
+   ],
+   "j": 34,
+   "signed_twisted": 864
+  },
+  {
+   "lam": [
+    8,
+    7,
+    2
+   ],
+   "j": 34,
+   "signed_twisted": 442
+  },
+  {
+   "lam": [
+    8,
+    8,
+    1
+   ],
+   "j": 34,
+   "signed_twisted": 81
+  },
+  {
+   "lam": [
+    9,
+    4,
+    4
+   ],
+   "j": 34,
+   "signed_twisted": 519
+  },
+  {
+   "lam": [
+    9,
+    5,
+    3
+   ],
+   "j": 34,
+   "signed_twisted": 1111
+  },
+  {
+   "lam": [
+    9,
+    6,
+    2
+   ],
+   "j": 34,
+   "signed_twisted": 792
+  },
+  {
+   "lam": [
+    9,
+    7,
+    1
+   ],
+   "j": 34,
+   "signed_twisted": 233
+  },
+  {
+   "lam": [
+    9,
+    8,
+    0
+   ],
+   "j": 34,
+   "signed_twisted": 24
+  },
+  {
+   "lam": [
+    10,
+    4,
+    3
+   ],
+   "j": 34,
+   "signed_twisted": 970
+  },
+  {
+   "lam": [
+    10,
+    5,
+    2
+   ],
+   "j": 34,
+   "signed_twisted": 968
+  },
+  {
+   "lam": [
+    10,
+    6,
+    1
+   ],
+   "j": 34,
+   "signed_twisted": 355
+  },
+  {
+   "lam": [
+    10,
+    7,
+    0
+   ],
+   "j": 34,
+   "signed_twisted": 46
+  },
+  {
+   "lam": [
+    11,
+    3,
+    3
+   ],
+   "j": 34,
+   "signed_twisted": 521
+  },
+  {
+   "lam": [
+    11,
+    4,
+    2
+   ],
+   "j": 34,
+   "signed_twisted": 917
+  },
+  {
+   "lam": [
+    11,
+    5,
+    1
+   ],
+   "j": 34,
+   "signed_twisted": 427
+  },
+  {
+   "lam": [
+    11,
+    6,
+    0
+   ],
+   "j": 34,
+   "signed_twisted": 64
+  },
+  {
+   "lam": [
+    12,
+    3,
+    2
+   ],
+   "j": 34,
+   "signed_twisted": 653
+  },
+  {
+   "lam": [
+    12,
+    4,
+    1
+   ],
+   "j": 34,
+   "signed_twisted": 431
+  },
+  {
+   "lam": [
+    12,
+    5,
+    0
+   ],
+   "j": 34,
+   "signed_twisted": 76
+  },
+  {
+   "lam": [
+    13,
+    2,
+    2
+   ],
+   "j": 34,
+   "signed_twisted": 289
+  },
+  {
+   "lam": [
+    13,
+    3,
+    1
+   ],
+   "j": 34,
+   "signed_twisted": 357
+  },
+  {
+   "lam": [
+    13,
+    4,
+    0
+   ],
+   "j": 34,
+   "signed_twisted": 80
+  },
+  {
+   "lam": [
+    14,
+    2,
+    1
+   ],
+   "j": 34,
+   "signed_twisted": 222
+  },
+  {
+   "lam": [
+    14,
+    3,
+    0
+   ],
+   "j": 34,
+   "signed_twisted": 74
+  },
+  {
+   "lam": [
+    15,
+    1,
+    1
+   ],
+   "j": 34,
+   "signed_twisted": 81
+  },
+  {
+   "lam": [
+    15,
+    2,
+    0
+   ],
+   "j": 34,
+   "signed_twisted": 56
+  },
+  {
+   "lam": [
+    16,
+    1,
+    0
+   ],
+   "j": 34,
+   "signed_twisted": 32
+  },
+  {
+   "lam": [
+    17,
+    0,
+    0
+   ],
+   "j": 34,
+   "signed_twisted": 8
+  },
+  {
+   "lam": [
+    6,
+    6,
+    6
+   ],
+   "j": 36,
+   "signed_twisted": 63
+  },
+  {
+   "lam": [
+    7,
+    6,
+    5
+   ],
+   "j": 36,
+   "signed_twisted": 420
+  },
+  {
+   "lam": [
+    7,
+    7,
+    4
+   ],
+   "j": 36,
+   "signed_twisted": 403
+  },
+  {
+   "lam": [
+    8,
+    5,
+    5
+   ],
+   "j": 36,
+   "signed_twisted": 479
+  },
+  {
+   "lam": [
+    8,
+    6,
+    4
+   ],
+   "j": 36,
+   "signed_twisted": 1017
+  },
+  {
+   "lam": [
+    8,
+    7,
+    3
+   ],
+   "j": 36,
+   "signed_twisted": 838
+  },
+  {
+   "lam": [
+    8,
+    8,
+    2
+   ],
+   "j": 36,
+   "signed_twisted": 278
+  },
+  {
+   "lam": [
+    9,
+    5,
+    4
+   ],
+   "j": 36,
+   "signed_twisted": 1171
+  },
+  {
+   "lam": [
+    9,
+    6,
+    3
+   ],
+   "j": 36,
+   "signed_twisted": 1446
+  },
+  {
+   "lam": [
+    9,
+    7,
+    2
+   ],
+   "j": 36,
+   "signed_twisted": 786
+  },
+  {
+   "lam": [
+    9,
+    8,
+    1
+   ],
+   "j": 36,
+   "signed_twisted": 184
+  },
+  {
+   "lam": [
+    9,
+    9,
+    0
+   ],
+   "j": 36,
+   "signed_twisted": 14
+  },
+  {
+   "lam": [
+    10,
+    4,
+    4
+   ],
+   "j": 36,
+   "signed_twisted": 762
+  },
+  {
+   "lam": [
+    10,
+    5,
+    3
+   ],
+   "j": 36,
+   "signed_twisted": 1627
+  },
+  {
+   "lam": [
+    10,
+    6,
+    2
+   ],
+   "j": 36,
+   "signed_twisted": 1152
+  },
+  {
+   "lam": [
+    10,
+    7,
+    1
+   ],
+   "j": 36,
+   "signed_twisted": 350
+  },
+  {
+   "lam": [
+    10,
+    8,
+    0
+   ],
+   "j": 36,
+   "signed_twisted": 40
+  },
+  {
+   "lam": [
+    11,
+    4,
+    3
+   ],
+   "j": 36,
+   "signed_twisted": 1326
+  },
+  {
+   "lam": [
+    11,
+    5,
+    2
+   ],
+   "j": 36,
+   "signed_twisted": 1299
+  },
+  {
+   "lam": [
+    11,
+    6,
+    1
+   ],
+   "j": 36,
+   "signed_twisted": 474
+  },
+  {
+   "lam": [
+    11,
+    7,
+    0
+   ],
+   "j": 36,
+   "signed_twisted": 62
+  },
+  {
+   "lam": [
+    12,
+    3,
+    3
+   ],
+   "j": 36,
+   "signed_twisted": 684
+  },
+  {
+   "lam": [
+    12,
+    4,
+    2
+   ],
+   "j": 36,
+   "signed_twisted": 1174
+  },
+  {
+   "lam": [
+    12,
+    5,
+    1
+   ],
+   "j": 36,
+   "signed_twisted": 538
+  },
+  {
+   "lam": [
+    12,
+    6,
+    0
+   ],
+   "j": 36,
+   "signed_twisted": 82
+  },
+  {
+   "lam": [
+    13,
+    3,
+    2
+   ],
+   "j": 36,
+   "signed_twisted": 811
+  },
+  {
+   "lam": [
+    13,
+    4,
+    1
+   ],
+   "j": 36,
+   "signed_twisted": 526
+  },
+  {
+   "lam": [
+    13,
+    5,
+    0
+   ],
+   "j": 36,
+   "signed_twisted": 92
+  },
+  {
+   "lam": [
+    14,
+    2,
+    2
+   ],
+   "j": 36,
+   "signed_twisted": 349
+  },
+  {
+   "lam": [
+    14,
+    3,
+    1
+   ],
+   "j": 36,
+   "signed_twisted": 425
+  },
+  {
+   "lam": [
+    14,
+    4,
+    0
+   ],
+   "j": 36,
+   "signed_twisted": 94
+  },
+  {
+   "lam": [
+    15,
+    2,
+    1
+   ],
+   "j": 36,
+   "signed_twisted": 259
+  },
+  {
+   "lam": [
+    15,
+    3,
+    0
+   ],
+   "j": 36,
+   "signed_twisted": 86
+  },
+  {
+   "lam": [
+    16,
+    1,
+    1
+   ],
+   "j": 36,
+   "signed_twisted": 95
+  },
+  {
+   "lam": [
+    16,
+    2,
+    0
+   ],
+   "j": 36,
+   "signed_twisted": 64
+  },
+  {
+   "lam": [
+    17,
+    1,
+    0
+   ],
+   "j": 36,
+   "signed_twisted": 33
+  },
+  {
+   "lam": [
+    18,
+    0,
+    0
+   ],
+   "j": 36,
+   "signed_twisted": 12
+  }
+ ],
+ "time": 140.5
+}

@@ -1,0 +1,6 @@
+host cn112  start Fri Oct  2 05:28:27 PM EDT 2026  chunks K=64  out ${SCRATCH}/t041/indep_seg/568296  Python 3.11.4  mpmath 1.3.0
+360510057e992e47e18a8da4d4b04a16  indep_delta_r1.py
+397c0d44bc0022f691241b9c7d3335e3  points_segments.txt
+4665f83670dff9bac3c8af219b6386e9  /cm/local/apps/slurm/var/spool/job568296/slurm_script
+no failed points
+end Fri Oct  2 05:28:41 PM EDT 2026  h=1e-5  bad=0

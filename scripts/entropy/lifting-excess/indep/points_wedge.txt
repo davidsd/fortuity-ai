@@ -1,0 +1,32 @@
+# T-041 comparison points for indep_delta_r1.py --file points_wedge.txt
+# All "polar TH R" points lie on the grid of t038/rf/scan_kklp_charges.py scan 12:
+#   xi = R (cos TH e1 + sin TH e2), e1 = (2,-1,-1)/sqrt6, e2 = (0,1,-1)/sqrt2, TH = 5k deg, R = 0.02 j,
+#   ordered wedge xi1 >= xi2 >= xi3 (TH = 0: one large charge; TH = 60: one small charge).
+# Edge Q3 = 0 of each ray (closed form, fractions (phi, 1-phi, 0)): r_edge = 0.437 (5 deg), 0.330 (10), 0.278 (15),
+#   0.245 (20), 0.222 (25), 0.206 (30), 0.194 (35), 0.185 (40), 0.179 (45), 0.175 (50), 0.172 (55), 0.171 (60).
+#   The TH = 0 ray never meets an edge: the corner Q1/sumQ -> 1 is at R -> infinity.
+# "last" = last grid point before the edge (smallest charge fraction in parentheses, from local runs).
+polar 0 0            # equal charges, KKLP's point
+polar 0 0.10
+polar 0 0.20
+polar 0 0.30
+polar 0 0.40         # toward the corner: fractions (0.895, 0.052, 0.052)
+polar 0 0.60         # (0.960, 0.020, 0.020)
+polar 0 1.00         # (0.990, 0.0049, 0.0049)
+polar 0 1.50         # (0.997, 0.0015, 0.0015); the production scan reaches this only if its TH = 0 ray runs this far
+polar 5 0.20
+polar 5 0.42         # last; near both the corner and the edge
+polar 10 0.32        # last
+polar 15 0.14
+polar 15 0.26        # last
+polar 20 0.24        # last; 0.005 from the edge in R
+polar 30 0.10
+polar 30 0.20        # last (Q3/sumQ = 0.0079)
+polar 40 0.18        # last
+polar 45 0.10
+polar 50 0.16        # last
+polar 60 0.06
+polar 60 0.16        # last; fractions (0.490, 0.490, 0.020)
+# off-grid reference points (pilot selftest, t038/rf/scan_selftest.out: delta0 0.010485, r1 0.052672; 0.005365, 0.042390)
+0.1 -0.1 0
+0.25 -0.125 -0.125

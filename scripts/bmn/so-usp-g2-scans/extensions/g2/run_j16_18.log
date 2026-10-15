@@ -1,0 +1,508 @@
+=== N=0 lam=(8, 0, 0) 2J=0
+  words: n=0: 7, n+1: 0 (0.0s)
+  hw vectors: n=0: 7, n+1: 0 (0.0s)
+  functionals: 34 in 1 chunks; rows A 7, B 0, G 6
+  check (attempt 0): rank per degree {0: 2} vs m_d {0: 2} -> OK
+RESULT {"N": 0, "lam": [8, 0, 0], "n": 0, "maxlen": null, "maxlen_up": null, "m": 2, "m_d": {"0": 2}, "words": 7, "words_up": 0, "rank_C_d": {"0": 2}, "check": true, "r_up": 0, "grav": 2, "grav_rows": 6, "ncols": 34, "timing": {"enumerate": 0.0, "hw": 0.0, "qimages": 0.0, "grav_hw": 0.0, "eval": 0.0, "combine": 0.0, "grav_eval": 0.0, "rank": 0.0}, "time": 0.0, "seed": 1, "group": "G2", "gen_nmax": 6}
+=== N=0 lam=(7, 1, 0) 2J=0
+  words: n=0: 11, n+1: 7 (0.0s)
+  hw vectors: n=0: 4, n+1: 7 (0.0s)
+  functionals: 33 in 1 chunks; rows A 4, B 0, G 4
+  check (attempt 0): rank per degree {0: 1} vs m_d {0: 1} -> OK
+RESULT {"N": 0, "lam": [7, 1, 0], "n": 0, "maxlen": null, "maxlen_up": null, "m": 1, "m_d": {"0": 1}, "words": 11, "words_up": 7, "rank_C_d": {"0": 1}, "check": true, "r_up": 0, "grav": 1, "grav_rows": 4, "ncols": 33, "timing": {"enumerate": 0.0, "hw": 0.0, "qimages": 0.0, "grav_hw": 0.0, "eval": 0.0, "combine": 0.0, "grav_eval": 0.0, "rank": 0.0}, "time": 0.0, "seed": 1, "group": "G2", "gen_nmax": 6}
+=== N=0 lam=(7, 1, 0) 2J=1
+  words: n=1: 7, n+1: 0 (0.0s)
+  hw vectors: n=1: 7, n+1: 0 (0.0s)
+RESULT {"N": 0, "lam": [7, 1, 0], "n": 1, "maxlen": null, "maxlen_up": null, "m": 0, "m_d": {"1": 0}, "words": 7, "words_up": 0, "rank_C": 0, "check": true, "r_up": 0, "grav": 0, "time": 0.009735822677612305, "seed": 1, "group": "G2", "gen_nmax": 6}
+=== N=0 lam=(6, 2, 0) 2J=0
+  words: n=0: 27, n+1: 26 (0.0s)
+  hw vectors: n=0: 16, n+1: 19 (0.0s)
+  functionals: 37 in 1 chunks; rows A 16, B 16, G 8
+  check (attempt 0): rank per degree {0: 5} vs m_d {0: 5} -> OK
+RESULT {"N": 0, "lam": [6, 2, 0], "n": 0, "maxlen": null, "maxlen_up": null, "m": 5, "m_d": {"0": 5}, "words": 27, "words_up": 26, "rank_C_d": {"0": 5}, "check": true, "r_up": 4, "grav": 1, "grav_rows": 8, "ncols": 37, "timing": {"enumerate": 0.0, "hw": 0.0, "qimages": 0.0, "grav_hw": 0.0, "eval": 0.0, "combine": 0.0, "grav_eval": 0.0, "rank": 0.0}, "time": 0.0, "seed": 1, "group": "G2", "gen_nmax": 6}
+=== N=0 lam=(6, 2, 0) 2J=1
+  words: n=1: 26, n+1: 5 (0.0s)
+  hw vectors: n=1: 19, n+1: 5 (0.0s)
+  functionals: 36 in 1 chunks; rows A 19, B 4, G 7
+  check (attempt 0): rank per degree {1: 4} vs m_d {1: 4} -> OK
+RESULT {"N": 0, "lam": [6, 2, 0], "n": 1, "maxlen": null, "maxlen_up": null, "m": 4, "m_d": {"1": 4}, "words": 26, "words_up": 5, "rank_C_d": {"1": 4}, "check": true, "r_up": 0, "grav": 0, "grav_rows": 7, "ncols": 36, "timing": {"enumerate": 0.0, "hw": 0.0, "qimages": 0.0, "grav_hw": 0.0, "eval": 0.0, "combine": 0.0, "grav_eval": 0.0, "rank": 0.0}, "time": 0.0, "seed": 1, "group": "G2", "gen_nmax": 6}
+=== N=0 lam=(6, 2, 0) 2J=2
+  words: n=2: 5, n+1: 0 (0.0s)
+  hw vectors: n=2: 5, n+1: 0 (0.0s)
+RESULT {"N": 0, "lam": [6, 2, 0], "n": 2, "maxlen": null, "maxlen_up": null, "m": 0, "m_d": {"2": 0}, "words": 5, "words_up": 0, "rank_C": 0, "check": true, "r_up": 0, "grav": 0, "time": 0.0197298526763916, "seed": 1, "group": "G2", "gen_nmax": 6}
+=== N=0 lam=(6, 1, 1) 2J=0
+  words: n=0: 42, n+1: 59 (0.0s)
+  hw vectors: n=0: 11, n+1: 26 (0.0s)
+RESULT {"N": 0, "lam": [6, 1, 1], "n": 0, "maxlen": null, "maxlen_up": null, "m": 0, "m_d": {"0": 0}, "words": 42, "words_up": 59, "rank_C": 0, "check": true, "r_up": 0, "grav": 0, "time": 0.02004694938659668, "seed": 1, "group": "G2", "gen_nmax": 6}
+=== N=0 lam=(6, 1, 1) 2J=1
+  words: n=1: 59, n+1: 21 (0.0s)
+  hw vectors: n=1: 26, n+1: 16 (0.0s)
+  functionals: 36 in 1 chunks; rows A 26, B 13, G 7
+  check (attempt 0): rank per degree {1: 4} vs m_d {1: 4} -> OK
+RESULT {"N": 0, "lam": [6, 1, 1], "n": 1, "maxlen": null, "maxlen_up": null, "m": 4, "m_d": {"1": 4}, "words": 59, "words_up": 21, "rank_C_d": {"1": 4}, "check": true, "r_up": 4, "grav": 0, "grav_rows": 7, "ncols": 36, "timing": {"enumerate": 0.0, "hw": 0.0, "qimages": 0.0, "grav_hw": 0.0, "eval": 0.0, "combine": 0.0, "grav_eval": 0.0, "rank": 0.0}, "time": 0.0, "seed": 1, "group": "G2", "gen_nmax": 6}
+=== N=0 lam=(6, 1, 1) 2J=2
+  words: n=2: 21, n+1: 0 (0.0s)
+  hw vectors: n=2: 16, n+1: 0 (0.0s)
+  functionals: 79 in 2 chunks; rows A 16, B 0, G 8
+  check (attempt 0): rank per degree {0: 2, 2: 5} vs m_d {0: 2, 2: 5} -> OK
+RESULT {"N": 0, "lam": [6, 1, 1], "n": 2, "maxlen": null, "maxlen_up": null, "m": 7, "m_d": {"0": 2, "2": 5}, "words": 21, "words_up": 0, "rank_C_d": {"0": 2, "2": 5}, "check": true, "r_up": 0, "grav": 3, "grav_rows": 8, "ncols": 79, "timing": {"enumerate": 0.0, "hw": 0.0, "qimages": 0.0, "grav_hw": 0.0, "eval": 0.0, "combine": 0.0, "grav_eval": 0.0, "rank": 0.0}, "time": 0.0, "seed": 1, "group": "G2", "gen_nmax": 6}
+=== N=0 lam=(5, 3, 0) 2J=0
+  words: n=0: 37, n+1: 51 (0.0s)
+  hw vectors: n=0: 10, n+1: 25 (0.0s)
+  functionals: 33 in 1 chunks; rows A 10, B 18, G 3
+  check (attempt 0): rank per degree {0: 1} vs m_d {0: 1} -> OK
+RESULT {"N": 0, "lam": [5, 3, 0], "n": 0, "maxlen": null, "maxlen_up": null, "m": 1, "m_d": {"0": 1}, "words": 37, "words_up": 51, "rank_C_d": {"0": 1}, "check": true, "r_up": 1, "grav": 0, "grav_rows": 3, "ncols": 33, "timing": {"enumerate": 0.0, "hw": 0.0, "qimages": 0.0, "grav_hw": 0.0, "eval": 0.0, "combine": 0.0, "grav_eval": 0.0, "rank": 0.0}, "time": 0.0, "seed": 1, "group": "G2", "gen_nmax": 6}
+=== N=0 lam=(5, 3, 0) 2J=1
+  words: n=1: 51, n+1: 23 (0.0s)
+  hw vectors: n=1: 25, n+1: 18 (0.0s)
+  functionals: 36 in 1 chunks; rows A 25, B 17, G 7
+  check (attempt 0): rank per degree {1: 2} vs m_d {1: 2} -> OK
+RESULT {"N": 0, "lam": [5, 3, 0], "n": 1, "maxlen": null, "maxlen_up": null, "m": 2, "m_d": {"1": 2}, "words": 51, "words_up": 23, "rank_C_d": {"1": 2}, "check": true, "r_up": 1, "grav": 0, "grav_rows": 7, "ncols": 36, "timing": {"enumerate": 0.0, "hw": 0.0, "qimages": 0.0, "grav_hw": 0.0, "eval": 0.0, "combine": 0.0, "grav_eval": 0.0, "rank": 0.0}, "time": 0.0, "seed": 1, "group": "G2", "gen_nmax": 6}
+=== N=0 lam=(5, 3, 0) 2J=2
+  words: n=2: 23, n+1: 4 (0.0s)
+  hw vectors: n=2: 18, n+1: 4 (0.0s)
+  functionals: 45 in 1 chunks; rows A 18, B 4, G 3
+  check (attempt 0): rank per degree {2: 5} vs m_d {2: 5} -> OK
+RESULT {"N": 0, "lam": [5, 3, 0], "n": 2, "maxlen": null, "maxlen_up": null, "m": 5, "m_d": {"2": 5}, "words": 23, "words_up": 4, "rank_C_d": {"2": 5}, "check": true, "r_up": 3, "grav": 1, "grav_rows": 3, "ncols": 45, "timing": {"enumerate": 0.0, "hw": 0.0, "qimages": 0.0, "grav_hw": 0.0, "eval": 0.0, "combine": 0.0, "grav_eval": 0.0, "rank": 0.0}, "time": 0.0, "seed": 1, "group": "G2", "gen_nmax": 6}
+=== N=0 lam=(5, 3, 0) 2J=3
+  words: n=3: 4, n+1: 0 (0.0s)
+  hw vectors: n=3: 4, n+1: 0 (0.0s)
+  functionals: 40 in 1 chunks; rows A 4, B 0, G 0
+  check (attempt 0): rank per degree {3: 3} vs m_d {3: 3} -> OK
+RESULT {"N": 0, "lam": [5, 3, 0], "n": 3, "maxlen": null, "maxlen_up": null, "m": 3, "m_d": {"3": 3}, "words": 4, "words_up": 0, "rank_C_d": {"3": 3}, "check": true, "r_up": 0, "grav": 0, "ncols": 40, "timing": {"enumerate": 0.0, "hw": 0.0, "qimages": 0.0, "grav_hw": 0.0, "eval": 0.0, "combine": 0.0, "rank": 0.0}, "time": 0.0, "seed": 1, "group": "G2", "gen_nmax": 6}
+=== N=0 lam=(5, 2, 1) 2J=0
+  words: n=0: 93, n+1: 174 (0.0s)
+  hw vectors: n=0: 25, n+1: 71 (0.0s)
+  functionals: 36 in 1 chunks; rows A 25, B 67, G 2
+  check (attempt 0): rank per degree {0: 4} vs m_d {0: 4} -> OK
+RESULT {"N": 0, "lam": [5, 2, 1], "n": 0, "maxlen": null, "maxlen_up": null, "m": 4, "m_d": {"0": 4}, "words": 93, "words_up": 174, "rank_C_d": {"0": 4}, "check": true, "r_up": 4, "grav": 0, "grav_rows": 2, "ncols": 36, "timing": {"enumerate": 0.0, "hw": 0.0, "qimages": 0.0, "grav_hw": 0.0, "eval": 0.0, "combine": 0.0, "grav_eval": 0.0, "rank": 0.0}, "time": 0.0, "seed": 1, "group": "G2", "gen_nmax": 6}
+=== N=0 lam=(5, 2, 1) 2J=1
+  words: n=1: 174, n+1: 105 (0.0s)
+  hw vectors: n=1: 71, n+1: 61 (0.0s)
+  functionals: 48 in 1 chunks; rows A 71, B 61, G 10
+  check (attempt 0): rank per degree {1: 14} vs m_d {1: 14} -> OK
+RESULT {"N": 0, "lam": [5, 2, 1], "n": 1, "maxlen": null, "maxlen_up": null, "m": 14, "m_d": {"1": 14}, "words": 174, "words_up": 105, "rank_C_d": {"1": 14}, "check": true, "r_up": 10, "grav": 0, "grav_rows": 10, "ncols": 48, "timing": {"enumerate": 0.0, "hw": 0.0, "qimages": 0.0, "grav_hw": 0.1, "eval": 0.0, "combine": 0.0, "grav_eval": 0.0, "rank": 0.0}, "time": 0.1, "seed": 1, "group": "G2", "gen_nmax": 6}
+=== N=0 lam=(5, 2, 1) 2J=2
+  words: n=2: 105, n+1: 20 (0.0s)
+  hw vectors: n=2: 61, n+1: 16 (0.0s)
+  functionals: 95 in 2 chunks; rows A 61, B 16, G 9
+  check (attempt 0): rank per degree {0: 3, 2: 14} vs m_d {0: 3, 2: 14} -> OK
+RESULT {"N": 0, "lam": [5, 2, 1], "n": 2, "maxlen": null, "maxlen_up": null, "m": 17, "m_d": {"0": 3, "2": 14}, "words": 105, "words_up": 20, "rank_C_d": {"0": 3, "2": 14}, "check": true, "r_up": 4, "grav": 3, "grav_rows": 9, "ncols": 95, "timing": {"enumerate": 0.0, "hw": 0.0, "qimages": 0.0, "grav_hw": 0.1, "eval": 0.0, "combine": 0.0, "grav_eval": 0.0, "rank": 0.0}, "time": 0.1, "seed": 1, "group": "G2", "gen_nmax": 6}
+=== N=0 lam=(5, 2, 1) 2J=3
+  words: n=3: 20, n+1: 0 (0.0s)
+  hw vectors: n=3: 16, n+1: 0 (0.0s)
+  functionals: 76 in 2 chunks; rows A 16, B 0, G 2
+  check (attempt 0): rank per degree {1: 2, 3: 2} vs m_d {1: 2, 3: 2} -> OK
+RESULT {"N": 0, "lam": [5, 2, 1], "n": 3, "maxlen": null, "maxlen_up": null, "m": 4, "m_d": {"1": 2, "3": 2}, "words": 20, "words_up": 0, "rank_C_d": {"1": 2, "3": 2}, "check": true, "r_up": 0, "grav": 0, "grav_rows": 2, "ncols": 76, "timing": {"enumerate": 0.0, "hw": 0.0, "qimages": 0.0, "grav_hw": 0.1, "eval": 0.0, "combine": 0.0, "grav_eval": 0.0, "rank": 0.0}, "time": 0.1, "seed": 1, "group": "G2", "gen_nmax": 6}
+=== N=0 lam=(4, 4, 0) 2J=0
+  words: n=0: 48, n+1: 64 (0.0s)
+  hw vectors: n=0: 11, n+1: 13 (0.0s)
+  functionals: 37 in 1 chunks; rows A 11, B 10, G 4
+  check (attempt 0): rank per degree {0: 5} vs m_d {0: 5} -> OK
+RESULT {"N": 0, "lam": [4, 4, 0], "n": 0, "maxlen": null, "maxlen_up": null, "m": 5, "m_d": {"0": 5}, "words": 48, "words_up": 64, "rank_C_d": {"0": 5}, "check": true, "r_up": 4, "grav": 1, "grav_rows": 4, "ncols": 37, "timing": {"enumerate": 0.0, "hw": 0.0, "qimages": 0.0, "grav_hw": 0.0, "eval": 0.0, "combine": 0.0, "grav_eval": 0.0, "rank": 0.0}, "time": 0.0, "seed": 1, "group": "G2", "gen_nmax": 6}
+=== N=0 lam=(4, 4, 0) 2J=1
+  words: n=1: 64, n+1: 30 (0.0s)
+  hw vectors: n=1: 13, n+1: 7 (0.0s)
+  functionals: 36 in 1 chunks; rows A 13, B 7, G 2
+  check (attempt 0): rank per degree {1: 4} vs m_d {1: 4} -> OK
+RESULT {"N": 0, "lam": [4, 4, 0], "n": 1, "maxlen": null, "maxlen_up": null, "m": 4, "m_d": {"1": 4}, "words": 64, "words_up": 30, "rank_C_d": {"1": 4}, "check": true, "r_up": 0, "grav": 0, "grav_rows": 2, "ncols": 36, "timing": {"enumerate": 0.0, "hw": 0.0, "qimages": 0.0, "grav_hw": 0.0, "eval": 0.0, "combine": 0.0, "grav_eval": 0.0, "rank": 0.0}, "time": 0.0, "seed": 1, "group": "G2", "gen_nmax": 6}
+=== N=0 lam=(4, 4, 0) 2J=2
+  words: n=2: 30, n+1: 7 (0.0s)
+  hw vectors: n=2: 7, n+1: 3 (0.0s)
+  functionals: 45 in 1 chunks; rows A 7, B 3, G 0
+  check (attempt 0): rank per degree {2: 1} vs m_d {2: 1} -> OK
+RESULT {"N": 0, "lam": [4, 4, 0], "n": 2, "maxlen": null, "maxlen_up": null, "m": 1, "m_d": {"2": 1}, "words": 30, "words_up": 7, "rank_C_d": {"2": 1}, "check": true, "r_up": 1, "grav": 0, "ncols": 45, "timing": {"enumerate": 0.0, "hw": 0.0, "qimages": 0.0, "grav_hw": 0.0, "eval": 0.0, "combine": 0.0, "rank": 0.0}, "time": 0.0, "seed": 1, "group": "G2", "gen_nmax": 6}
+=== N=0 lam=(4, 4, 0) 2J=3
+  words: n=3: 7, n+1: 0 (0.0s)
+  hw vectors: n=3: 3, n+1: 0 (0.0s)
+  functionals: 40 in 1 chunks; rows A 3, B 0, G 0
+  check (attempt 0): rank per degree {3: 1} vs m_d {3: 1} -> OK
+RESULT {"N": 0, "lam": [4, 4, 0], "n": 3, "maxlen": null, "maxlen_up": null, "m": 1, "m_d": {"3": 1}, "words": 7, "words_up": 0, "rank_C_d": {"3": 1}, "check": true, "r_up": 0, "grav": 0, "ncols": 40, "timing": {"enumerate": 0.0, "hw": 0.0, "qimages": 0.0, "grav_hw": 0.0, "eval": 0.0, "combine": 0.0, "rank": 0.0}, "time": 0.0, "seed": 1, "group": "G2", "gen_nmax": 6}
+=== N=0 lam=(4, 4, 0) 2J=4
+  words: n=4: 0, n+1: 0 (0.0s)
+  hw vectors: n=4: 0, n+1: 0 (0.0s)
+RESULT {"N": 0, "lam": [4, 4, 0], "n": 4, "maxlen": null, "maxlen_up": null, "m": 0, "m_d": {}, "words": 0, "words_up": 0, "rank_C": 0, "check": true, "r_up": 0, "grav": 0, "time": 0.03066873550415039, "seed": 1, "group": "G2", "gen_nmax": 6}
+=== N=0 lam=(4, 3, 1) 2J=0
+  words: n=0: 138, n+1: 290 (0.0s)
+  hw vectors: n=0: 24, n+1: 78 (0.0s)
+  functionals: 35 in 1 chunks; rows A 24, B 78, G 1
+  check (attempt 0): rank per degree {0: 3} vs m_d {0: 3} -> OK
+RESULT {"N": 0, "lam": [4, 3, 1], "n": 0, "maxlen": null, "maxlen_up": null, "m": 3, "m_d": {"0": 3}, "words": 138, "words_up": 290, "rank_C_d": {"0": 3}, "check": true, "r_up": 3, "grav": 0, "grav_rows": 1, "ncols": 35, "timing": {"enumerate": 0.0, "hw": 0.0, "qimages": 0.0, "grav_hw": 0.0, "eval": 0.0, "combine": 0.0, "grav_eval": 0.0, "rank": 0.0}, "time": 0.1, "seed": 1, "group": "G2", "gen_nmax": 6}
+=== N=0 lam=(4, 3, 1) 2J=1
+  words: n=1: 290, n+1: 214 (0.0s)
+  hw vectors: n=1: 78, n+1: 84 (0.0s)
+  functionals: 48 in 1 chunks; rows A 78, B 84, G 7
+  check (attempt 0): rank per degree {1: 16} vs m_d {1: 16} -> OK
+RESULT {"N": 0, "lam": [4, 3, 1], "n": 1, "maxlen": null, "maxlen_up": null, "m": 16, "m_d": {"1": 16}, "words": 290, "words_up": 214, "rank_C_d": {"1": 16}, "check": true, "r_up": 13, "grav": 0, "grav_rows": 7, "ncols": 48, "timing": {"enumerate": 0.0, "hw": 0.0, "qimages": 0.0, "grav_hw": 0.1, "eval": 0.0, "combine": 0.0, "grav_eval": 0.0, "rank": 0.0}, "time": 0.1, "seed": 1, "group": "G2", "gen_nmax": 6}
+=== N=0 lam=(4, 3, 1) 2J=2
+  words: n=2: 214, n+1: 62 (0.0s)
+  hw vectors: n=2: 84, n+1: 35 (0.0s)
+  functionals: 96 in 2 chunks; rows A 84, B 35, G 8
+  check (attempt 0): rank per degree {0: 4, 2: 25} vs m_d {0: 4, 2: 25} -> OK
+RESULT {"N": 0, "lam": [4, 3, 1], "n": 2, "maxlen": null, "maxlen_up": null, "m": 29, "m_d": {"0": 4, "2": 25}, "words": 214, "words_up": 62, "rank_C_d": {"0": 4, "2": 25}, "check": true, "r_up": 12, "grav": 4, "grav_rows": 8, "ncols": 96, "timing": {"enumerate": 0.0, "hw": 0.0, "qimages": 0.0, "grav_hw": 0.1, "eval": 0.0, "combine": 0.0, "grav_eval": 0.0, "rank": 0.0}, "time": 0.1, "seed": 1, "group": "G2", "gen_nmax": 6}
+=== N=0 lam=(4, 3, 1) 2J=3
+  words: n=3: 62, n+1: 5 (0.0s)
+  hw vectors: n=3: 35, n+1: 5 (0.0s)
+  functionals: 108 in 2 chunks; rows A 35, B 5, G 2
+  check (attempt 0): rank per degree {1: 5, 3: 9} vs m_d {1: 5, 3: 9} -> OK
+RESULT {"N": 0, "lam": [4, 3, 1], "n": 3, "maxlen": null, "maxlen_up": null, "m": 14, "m_d": {"1": 5, "3": 9}, "words": 62, "words_up": 5, "rank_C_d": {"1": 5, "3": 9}, "check": true, "r_up": 2, "grav": 0, "grav_rows": 2, "ncols": 108, "timing": {"enumerate": 0.0, "hw": 0.0, "qimages": 0.0, "grav_hw": 0.1, "eval": 0.0, "combine": 0.0, "grav_eval": 0.0, "rank": 0.0}, "time": 0.1, "seed": 1, "group": "G2", "gen_nmax": 6}
+=== N=0 lam=(4, 3, 1) 2J=4
+  words: n=4: 5, n+1: 0 (0.0s)
+  hw vectors: n=4: 5, n+1: 0 (0.0s)
+  functionals: 90 in 2 chunks; rows A 5, B 0, G 0
+  check (attempt 0): rank per degree {2: 2, 4: 0} vs m_d {2: 2, 4: 0} -> OK
+RESULT {"N": 0, "lam": [4, 3, 1], "n": 4, "maxlen": null, "maxlen_up": null, "m": 2, "m_d": {"2": 2, "4": 0}, "words": 5, "words_up": 0, "rank_C_d": {"2": 2, "4": 0}, "check": true, "r_up": 0, "grav": 0, "ncols": 90, "timing": {"enumerate": 0.0, "hw": 0.0, "qimages": 0.0, "grav_hw": 0.1, "eval": 0.0, "combine": 0.0, "rank": 0.0}, "time": 0.1, "seed": 1, "group": "G2", "gen_nmax": 6}
+=== N=0 lam=(4, 2, 2) 2J=0
+  words: n=0: 206, n+1: 447 (0.0s)
+  hw vectors: n=0: 27, n+1: 67 (0.0s)
+  functionals: 42 in 1 chunks; rows A 27, B 67, G 3
+  check (attempt 0): rank per degree {0: 10} vs m_d {0: 10} -> OK
+RESULT {"N": 0, "lam": [4, 2, 2], "n": 0, "maxlen": null, "maxlen_up": null, "m": 10, "m_d": {"0": 10}, "words": 206, "words_up": 447, "rank_C_d": {"0": 10}, "check": true, "r_up": 10, "grav": 0, "grav_rows": 3, "ncols": 42, "timing": {"enumerate": 0.0, "hw": 0.0, "qimages": 0.0, "grav_hw": 0.0, "eval": 0.0, "combine": 0.0, "grav_eval": 0.0, "rank": 0.0}, "time": 0.1, "seed": 1, "group": "G2", "gen_nmax": 6}
+=== N=0 lam=(4, 2, 2) 2J=1
+  words: n=1: 447, n+1: 352 (0.0s)
+  hw vectors: n=1: 67, n+1: 72 (0.0s)
+  functionals: 60 in 1 chunks; rows A 67, B 72, G 3
+  check (attempt 0): rank per degree {1: 18} vs m_d {1: 18} -> OK
+RESULT {"N": 0, "lam": [4, 2, 2], "n": 1, "maxlen": null, "maxlen_up": null, "m": 18, "m_d": {"1": 18}, "words": 447, "words_up": 352, "rank_C_d": {"1": 18}, "check": true, "r_up": 8, "grav": 0, "grav_rows": 3, "ncols": 60, "timing": {"enumerate": 0.0, "hw": 0.0, "qimages": 0.0, "grav_hw": 0.1, "eval": 0.0, "combine": 0.0, "grav_eval": 0.0, "rank": 0.0}, "time": 0.1, "seed": 1, "group": "G2", "gen_nmax": 6}
+=== N=0 lam=(4, 2, 2) 2J=2
+  words: n=2: 352, n+1: 120 (0.0s)
+  hw vectors: n=2: 72, n+1: 42 (0.0s)
+  functionals: 79 in 2 chunks; rows A 72, B 42, G 2
+  check (attempt 0): rank per degree {0: 2, 2: 12} vs m_d {0: 2, 2: 12} -> OK
+RESULT {"N": 0, "lam": [4, 2, 2], "n": 2, "maxlen": null, "maxlen_up": null, "m": 14, "m_d": {"0": 2, "2": 12}, "words": 352, "words_up": 120, "rank_C_d": {"0": 2, "2": 12}, "check": true, "r_up": 5, "grav": 1, "grav_rows": 2, "ncols": 79, "timing": {"enumerate": 0.0, "hw": 0.0, "qimages": 0.0, "grav_hw": 0.1, "eval": 0.0, "combine": 0.0, "grav_eval": 0.0, "rank": 0.0}, "time": 0.1, "seed": 1, "group": "G2", "gen_nmax": 6}
+=== N=0 lam=(4, 2, 2) 2J=3
+  words: n=3: 120, n+1: 16 (0.0s)
+  hw vectors: n=3: 42, n+1: 11 (0.0s)
+  functionals: 88 in 2 chunks; rows A 42, B 11, G 2
+  check (attempt 0): rank per degree {1: 7, 3: 5} vs m_d {1: 7, 3: 5} -> OK
+RESULT {"N": 0, "lam": [4, 2, 2], "n": 3, "maxlen": null, "maxlen_up": null, "m": 12, "m_d": {"1": 7, "3": 5}, "words": 120, "words_up": 16, "rank_C_d": {"1": 7, "3": 5}, "check": true, "r_up": 7, "grav": 0, "grav_rows": 2, "ncols": 88, "timing": {"enumerate": 0.0, "hw": 0.0, "qimages": 0.0, "grav_hw": 0.1, "eval": 0.0, "combine": 0.0, "grav_eval": 0.0, "rank": 0.0}, "time": 0.1, "seed": 1, "group": "G2", "gen_nmax": 6}
+=== N=0 lam=(4, 2, 2) 2J=4
+  words: n=4: 16, n+1: 0 (0.0s)
+  hw vectors: n=4: 11, n+1: 0 (0.0s)
+  functionals: 125 in 3 chunks; rows A 11, B 0, G 1
+  check (attempt 0): rank per degree {0: 3, 2: 3, 4: 2} vs m_d {0: 3, 2: 3, 4: 2} -> OK
+RESULT {"N": 0, "lam": [4, 2, 2], "n": 4, "maxlen": null, "maxlen_up": null, "m": 8, "m_d": {"0": 3, "2": 3, "4": 2}, "words": 16, "words_up": 0, "rank_C_d": {"0": 3, "2": 3, "4": 2}, "check": true, "r_up": 0, "grav": 1, "grav_rows": 1, "ncols": 125, "timing": {"enumerate": 0.0, "hw": 0.0, "qimages": 0.0, "grav_hw": 0.1, "eval": 0.0, "combine": 0.0, "grav_eval": 0.0, "rank": 0.0}, "time": 0.1, "seed": 1, "group": "G2", "gen_nmax": 6}
+=== N=0 lam=(3, 3, 2) 2J=0
+  words: n=0: 252, n+1: 602 (0.0s)
+  hw vectors: n=0: 12, n+1: 52 (0.0s)
+RESULT {"N": 0, "lam": [3, 3, 2], "n": 0, "maxlen": null, "maxlen_up": null, "m": 0, "m_d": {"0": 0}, "words": 252, "words_up": 602, "rank_C": 0, "check": true, "r_up": 0, "grav": 0, "time": 0.0812690258026123, "seed": 1, "group": "G2", "gen_nmax": 6}
+=== N=0 lam=(3, 3, 2) 2J=1
+  words: n=1: 602, n+1: 529 (0.0s)
+  hw vectors: n=1: 52, n+1: 75 (0.0s)
+  functionals: 48 in 1 chunks; rows A 52, B 75, G 2
+  check (attempt 0): rank per degree {1: 10} vs m_d {1: 10} -> OK
+RESULT {"N": 0, "lam": [3, 3, 2], "n": 1, "maxlen": null, "maxlen_up": null, "m": 10, "m_d": {"1": 10}, "words": 602, "words_up": 529, "rank_C_d": {"1": 10}, "check": true, "r_up": 10, "grav": 0, "grav_rows": 2, "ncols": 48, "timing": {"enumerate": 0.0, "hw": 0.0, "qimages": 0.0, "grav_hw": 0.1, "eval": 0.0, "combine": 0.0, "grav_eval": 0.0, "rank": 0.0}, "time": 0.1, "seed": 1, "group": "G2", "gen_nmax": 6}
+=== N=0 lam=(3, 3, 2) 2J=2
+  words: n=2: 529, n+1: 202 (0.0s)
+  hw vectors: n=2: 75, n+1: 43 (0.0s)
+  functionals: 97 in 2 chunks; rows A 75, B 43, G 4
+  check (attempt 0): rank per degree {0: 5, 2: 22} vs m_d {0: 5, 2: 22} -> OK
+RESULT {"N": 0, "lam": [3, 3, 2], "n": 2, "maxlen": null, "maxlen_up": null, "m": 27, "m_d": {"0": 5, "2": 22}, "words": 529, "words_up": 202, "rank_C_d": {"0": 5, "2": 22}, "check": true, "r_up": 14, "grav": 3, "grav_rows": 4, "ncols": 97, "timing": {"enumerate": 0.0, "hw": 0.0, "qimages": 0.0, "grav_hw": 0.1, "eval": 0.0, "combine": 0.0, "grav_eval": 0.0, "rank": 0.0}, "time": 0.2, "seed": 1, "group": "G2", "gen_nmax": 6}
+=== N=0 lam=(3, 3, 2) 2J=3
+  words: n=3: 202, n+1: 31 (0.0s)
+  hw vectors: n=3: 43, n+1: 10 (0.0s)
+  functionals: 108 in 2 chunks; rows A 43, B 10, G 1
+  check (attempt 0): rank per degree {1: 9, 3: 10} vs m_d {1: 9, 3: 10} -> OK
+RESULT {"N": 0, "lam": [3, 3, 2], "n": 3, "maxlen": null, "maxlen_up": null, "m": 19, "m_d": {"1": 9, "3": 10}, "words": 202, "words_up": 31, "rank_C_d": {"1": 9, "3": 10}, "check": true, "r_up": 5, "grav": 0, "grav_rows": 1, "ncols": 108, "timing": {"enumerate": 0.0, "hw": 0.0, "qimages": 0.0, "grav_hw": 0.1, "eval": 0.0, "combine": 0.0, "grav_eval": 0.0, "rank": 0.0}, "time": 0.1, "seed": 1, "group": "G2", "gen_nmax": 6}
+=== N=0 lam=(3, 3, 2) 2J=4
+  words: n=4: 31, n+1: 1 (0.0s)
+  hw vectors: n=4: 10, n+1: 1 (0.0s)
+  functionals: 122 in 3 chunks; rows A 10, B 1, G 0
+  check (attempt 0): rank per degree {0: 0, 2: 5, 4: 0} vs m_d {0: 0, 2: 5, 4: 0} -> OK
+RESULT {"N": 0, "lam": [3, 3, 2], "n": 4, "maxlen": null, "maxlen_up": null, "m": 5, "m_d": {"0": 0, "2": 5, "4": 0}, "words": 31, "words_up": 1, "rank_C_d": {"0": 0, "2": 5, "4": 0}, "check": true, "r_up": 0, "grav": 0, "ncols": 122, "timing": {"enumerate": 0.0, "hw": 0.0, "qimages": 0.0, "grav_hw": 0.1, "eval": 0.0, "combine": 0.0, "rank": 0.0}, "time": 0.1, "seed": 1, "group": "G2", "gen_nmax": 6}
+=== N=0 lam=(3, 3, 2) 2J=5
+  words: n=5: 1, n+1: 0 (0.0s)
+  hw vectors: n=5: 1, n+1: 0 (0.0s)
+RESULT {"N": 0, "lam": [3, 3, 2], "n": 5, "maxlen": null, "maxlen_up": null, "m": 0, "m_d": {"1": 0}, "words": 1, "words_up": 0, "rank_C": 0, "check": true, "r_up": 0, "grav": 0, "time": 0.11751985549926758, "seed": 1, "group": "G2", "gen_nmax": 6}
+=== N=0 lam=(9, 0, 0) 2J=0
+  words: n=0: 8, n+1: 0 (0.0s)
+  hw vectors: n=0: 8, n+1: 0 (0.0s)
+RESULT {"N": 0, "lam": [9, 0, 0], "n": 0, "maxlen": null, "maxlen_up": null, "m": 0, "m_d": {"0": 0}, "words": 8, "words_up": 0, "rank_C": 0, "check": true, "r_up": 0, "grav": 0, "time": 0.0041391849517822266, "seed": 1, "group": "G2", "gen_nmax": 6}
+=== N=0 lam=(8, 1, 0) 2J=0
+  words: n=0: 15, n+1: 11 (0.0s)
+  hw vectors: n=0: 7, n+1: 11 (0.0s)
+RESULT {"N": 0, "lam": [8, 1, 0], "n": 0, "maxlen": null, "maxlen_up": null, "m": 0, "m_d": {"0": 0}, "words": 15, "words_up": 11, "rank_C": 0, "check": true, "r_up": 0, "grav": 0, "time": 0.010484933853149414, "seed": 1, "group": "G2", "gen_nmax": 6}
+=== N=0 lam=(8, 1, 0) 2J=1
+  words: n=1: 11, n+1: 0 (0.0s)
+  hw vectors: n=1: 11, n+1: 0 (0.0s)
+  functionals: 36 in 1 chunks; rows A 11, B 0, G 10
+  check (attempt 0): rank per degree {1: 3} vs m_d {1: 3} -> OK
+RESULT {"N": 0, "lam": [8, 1, 0], "n": 1, "maxlen": null, "maxlen_up": null, "m": 3, "m_d": {"1": 3}, "words": 11, "words_up": 0, "rank_C_d": {"1": 3}, "check": true, "r_up": 0, "grav": 3, "grav_rows": 10, "ncols": 36, "timing": {"enumerate": 0.0, "hw": 0.0, "qimages": 0.0, "grav_hw": 0.0, "eval": 0.0, "combine": 0.0, "grav_eval": 0.0, "rank": 0.0}, "time": 0.0, "seed": 1, "group": "G2", "gen_nmax": 6}
+=== N=0 lam=(7, 2, 0) 2J=0
+  words: n=0: 37, n+1: 42 (0.0s)
+  hw vectors: n=0: 22, n+1: 31 (0.0s)
+RESULT {"N": 0, "lam": [7, 2, 0], "n": 0, "maxlen": null, "maxlen_up": null, "m": 0, "m_d": {"0": 0}, "words": 37, "words_up": 42, "rank_C": 0, "check": true, "r_up": 0, "grav": 0, "time": 0.01882481575012207, "seed": 1, "group": "G2", "gen_nmax": 6}
+=== N=0 lam=(7, 2, 0) 2J=1
+  words: n=1: 42, n+1: 11 (0.0s)
+  hw vectors: n=1: 31, n+1: 11 (0.0s)
+  functionals: 48 in 1 chunks; rows A 31, B 8, G 12
+  check (attempt 0): rank per degree {1: 6} vs m_d {1: 6} -> OK
+RESULT {"N": 0, "lam": [7, 2, 0], "n": 1, "maxlen": null, "maxlen_up": null, "m": 6, "m_d": {"1": 6}, "words": 42, "words_up": 11, "rank_C_d": {"1": 6}, "check": true, "r_up": 4, "grav": 2, "grav_rows": 12, "ncols": 48, "timing": {"enumerate": 0.0, "hw": 0.0, "qimages": 0.0, "grav_hw": 0.0, "eval": 0.0, "combine": 0.0, "grav_eval": 0.0, "rank": 0.0}, "time": 0.0, "seed": 1, "group": "G2", "gen_nmax": 6}
+=== N=0 lam=(7, 2, 0) 2J=2
+  words: n=2: 11, n+1: 0 (0.0s)
+  hw vectors: n=2: 11, n+1: 0 (0.0s)
+  functionals: 45 in 1 chunks; rows A 11, B 0, G 3
+  check (attempt 0): rank per degree {2: 4} vs m_d {2: 4} -> OK
+RESULT {"N": 0, "lam": [7, 2, 0], "n": 2, "maxlen": null, "maxlen_up": null, "m": 4, "m_d": {"2": 4}, "words": 11, "words_up": 0, "rank_C_d": {"2": 4}, "check": true, "r_up": 0, "grav": 0, "grav_rows": 3, "ncols": 45, "timing": {"enumerate": 0.0, "hw": 0.0, "qimages": 0.0, "grav_hw": 0.0, "eval": 0.0, "combine": 0.0, "grav_eval": 0.0, "rank": 0.0}, "time": 0.0, "seed": 1, "group": "G2", "gen_nmax": 6}
+=== N=0 lam=(7, 1, 1) 2J=0
+  words: n=0: 64, n+1: 95 (0.0s)
+  hw vectors: n=0: 20, n+1: 42 (0.0s)
+  functionals: 38 in 1 chunks; rows A 20, B 42, G 1
+  check (attempt 0): rank per degree {0: 6} vs m_d {0: 6} -> OK
+RESULT {"N": 0, "lam": [7, 1, 1], "n": 0, "maxlen": null, "maxlen_up": null, "m": 6, "m_d": {"0": 6}, "words": 64, "words_up": 95, "rank_C_d": {"0": 6}, "check": true, "r_up": 6, "grav": 0, "grav_rows": 1, "ncols": 38, "timing": {"enumerate": 0.0, "hw": 0.0, "qimages": 0.0, "grav_hw": 0.0, "eval": 0.0, "combine": 0.0, "grav_eval": 0.0, "rank": 0.0}, "time": 0.0, "seed": 1, "group": "G2", "gen_nmax": 6}
+=== N=0 lam=(7, 1, 1) 2J=1
+  words: n=1: 95, n+1: 33 (0.0s)
+  hw vectors: n=1: 42, n+1: 22 (0.0s)
+  functionals: 48 in 1 chunks; rows A 42, B 18, G 12
+  check (attempt 0): rank per degree {1: 9} vs m_d {1: 9} -> OK
+RESULT {"N": 0, "lam": [7, 1, 1], "n": 1, "maxlen": null, "maxlen_up": null, "m": 9, "m_d": {"1": 9}, "words": 95, "words_up": 33, "rank_C_d": {"1": 9}, "check": true, "r_up": 0, "grav": 3, "grav_rows": 12, "ncols": 48, "timing": {"enumerate": 0.0, "hw": 0.0, "qimages": 0.0, "grav_hw": 0.0, "eval": 0.0, "combine": 0.0, "grav_eval": 0.0, "rank": 0.0}, "time": 0.1, "seed": 1, "group": "G2", "gen_nmax": 6}
+=== N=0 lam=(7, 1, 1) 2J=2
+  words: n=2: 33, n+1: 0 (0.0s)
+  hw vectors: n=2: 22, n+1: 0 (0.0s)
+RESULT {"N": 0, "lam": [7, 1, 1], "n": 2, "maxlen": null, "maxlen_up": null, "m": 0, "m_d": {"0": 0, "2": 0}, "words": 33, "words_up": 0, "rank_C": 0, "check": true, "r_up": 0, "grav": 0, "time": 0.04956483840942383, "seed": 1, "group": "G2", "gen_nmax": 6}
+=== N=0 lam=(6, 3, 0) 2J=0
+  words: n=0: 62, n+1: 93 (0.0s)
+  hw vectors: n=0: 25, n+1: 51 (0.0s)
+  functionals: 34 in 1 chunks; rows A 25, B 42, G 9
+  check (attempt 0): rank per degree {0: 2} vs m_d {0: 2} -> OK
+RESULT {"N": 0, "lam": [6, 3, 0], "n": 0, "maxlen": null, "maxlen_up": null, "m": 2, "m_d": {"0": 2}, "words": 62, "words_up": 93, "rank_C_d": {"0": 2}, "check": true, "r_up": 2, "grav": 0, "grav_rows": 9, "ncols": 34, "timing": {"enumerate": 0.0, "hw": 0.0, "qimages": 0.0, "grav_hw": 0.0, "eval": 0.0, "combine": 0.0, "grav_eval": 0.0, "rank": 0.0}, "time": 0.0, "seed": 1, "group": "G2", "gen_nmax": 6}
+=== N=0 lam=(6, 3, 0) 2J=1
+  words: n=1: 93, n+1: 46 (0.0s)
+  hw vectors: n=1: 51, n+1: 35 (0.0s)
+  functionals: 48 in 1 chunks; rows A 51, B 34, G 13
+  check (attempt 0): rank per degree {1: 10} vs m_d {1: 10} -> OK
+RESULT {"N": 0, "lam": [6, 3, 0], "n": 1, "maxlen": null, "maxlen_up": null, "m": 10, "m_d": {"1": 10}, "words": 93, "words_up": 46, "rank_C_d": {"1": 10}, "check": true, "r_up": 7, "grav": 1, "grav_rows": 13, "ncols": 48, "timing": {"enumerate": 0.0, "hw": 0.0, "qimages": 0.0, "grav_hw": 0.0, "eval": 0.0, "combine": 0.0, "grav_eval": 0.0, "rank": 0.0}, "time": 0.0, "seed": 1, "group": "G2", "gen_nmax": 6}
+=== N=0 lam=(6, 3, 0) 2J=2
+  words: n=2: 46, n+1: 8 (0.0s)
+  hw vectors: n=2: 35, n+1: 8 (0.0s)
+  functionals: 45 in 1 chunks; rows A 35, B 8, G 5
+  check (attempt 0): rank per degree {2: 8} vs m_d {2: 8} -> OK
+RESULT {"N": 0, "lam": [6, 3, 0], "n": 2, "maxlen": null, "maxlen_up": null, "m": 8, "m_d": {"2": 8}, "words": 46, "words_up": 8, "rank_C_d": {"2": 8}, "check": true, "r_up": 1, "grav": 0, "grav_rows": 5, "ncols": 45, "timing": {"enumerate": 0.0, "hw": 0.0, "qimages": 0.0, "grav_hw": 0.0, "eval": 0.0, "combine": 0.0, "grav_eval": 0.0, "rank": 0.0}, "time": 0.0, "seed": 1, "group": "G2", "gen_nmax": 6}
+=== N=0 lam=(6, 3, 0) 2J=3
+  words: n=3: 8, n+1: 0 (0.0s)
+  hw vectors: n=3: 8, n+1: 0 (0.0s)
+  functionals: 40 in 1 chunks; rows A 8, B 0, G 0
+  check (attempt 0): rank per degree {3: 1} vs m_d {3: 1} -> OK
+RESULT {"N": 0, "lam": [6, 3, 0], "n": 3, "maxlen": null, "maxlen_up": null, "m": 1, "m_d": {"3": 1}, "words": 8, "words_up": 0, "rank_C_d": {"3": 1}, "check": true, "r_up": 0, "grav": 0, "ncols": 40, "timing": {"enumerate": 0.0, "hw": 0.0, "qimages": 0.0, "grav_hw": 0.0, "eval": 0.0, "combine": 0.0, "rank": 0.0}, "time": 0.0, "seed": 1, "group": "G2", "gen_nmax": 6}
+=== N=0 lam=(6, 2, 1) 2J=0
+  words: n=0: 157, n+1: 310 (0.0s)
+  hw vectors: n=0: 46, n+1: 133 (0.0s)
+  functionals: 37 in 1 chunks; rows A 46, B 123, G 4
+  check (attempt 0): rank per degree {0: 5} vs m_d {0: 5} -> OK
+RESULT {"N": 0, "lam": [6, 2, 1], "n": 0, "maxlen": null, "maxlen_up": null, "m": 5, "m_d": {"0": 5}, "words": 157, "words_up": 310, "rank_C_d": {"0": 5}, "check": true, "r_up": 5, "grav": 0, "grav_rows": 4, "ncols": 37, "timing": {"enumerate": 0.0, "hw": 0.0, "qimages": 0.0, "grav_hw": 0.0, "eval": 0.0, "combine": 0.0, "grav_eval": 0.0, "rank": 0.0}, "time": 0.1, "seed": 1, "group": "G2", "gen_nmax": 6}
+=== N=0 lam=(6, 2, 1) 2J=1
+  words: n=1: 310, n+1: 195 (0.0s)
+  hw vectors: n=1: 133, n+1: 116 (0.0s)
+  functionals: 60 in 1 chunks; rows A 133, B 116, G 19
+  check (attempt 0): rank per degree {1: 22} vs m_d {1: 22} -> OK
+RESULT {"N": 0, "lam": [6, 2, 1], "n": 1, "maxlen": null, "maxlen_up": null, "m": 22, "m_d": {"1": 22}, "words": 310, "words_up": 195, "rank_C_d": {"1": 22}, "check": true, "r_up": 14, "grav": 3, "grav_rows": 19, "ncols": 60, "timing": {"enumerate": 0.0, "hw": 0.0, "qimages": 0.0, "grav_hw": 0.1, "eval": 0.0, "combine": 0.0, "grav_eval": 0.0, "rank": 0.0}, "time": 0.1, "seed": 1, "group": "G2", "gen_nmax": 6}
+=== N=0 lam=(6, 2, 1) 2J=2
+  words: n=2: 195, n+1: 39 (0.0s)
+  hw vectors: n=2: 116, n+1: 31 (0.0s)
+  functionals: 96 in 2 chunks; rows A 116, B 31, G 17
+  check (attempt 0): rank per degree {0: 4, 2: 18} vs m_d {0: 4, 2: 18} -> OK
+RESULT {"N": 0, "lam": [6, 2, 1], "n": 2, "maxlen": null, "maxlen_up": null, "m": 22, "m_d": {"0": 4, "2": 18}, "words": 195, "words_up": 39, "rank_C_d": {"0": 4, "2": 18}, "check": true, "r_up": 8, "grav": 0, "grav_rows": 17, "ncols": 96, "timing": {"enumerate": 0.0, "hw": 0.0, "qimages": 0.0, "grav_hw": 0.1, "eval": 0.0, "combine": 0.0, "grav_eval": 0.0, "rank": 0.0}, "time": 0.1, "seed": 1, "group": "G2", "gen_nmax": 6}
+=== N=0 lam=(6, 2, 1) 2J=3
+  words: n=3: 39, n+1: 0 (0.0s)
+  hw vectors: n=3: 31, n+1: 0 (0.0s)
+  functionals: 88 in 2 chunks; rows A 31, B 0, G 4
+  check (attempt 0): rank per degree {1: 5, 3: 4} vs m_d {1: 5, 3: 4} -> OK
+RESULT {"N": 0, "lam": [6, 2, 1], "n": 3, "maxlen": null, "maxlen_up": null, "m": 9, "m_d": {"1": 5, "3": 4}, "words": 39, "words_up": 0, "rank_C_d": {"1": 5, "3": 4}, "check": true, "r_up": 0, "grav": 1, "grav_rows": 4, "ncols": 88, "timing": {"enumerate": 0.0, "hw": 0.0, "qimages": 0.0, "grav_hw": 0.1, "eval": 0.0, "combine": 0.0, "grav_eval": 0.0, "rank": 0.0}, "time": 0.1, "seed": 1, "group": "G2", "gen_nmax": 6}
+=== N=0 lam=(5, 4, 0) 2J=0
+  words: n=0: 80, n+1: 138 (0.0s)
+  hw vectors: n=0: 18, n+1: 45 (0.0s)
+RESULT {"N": 0, "lam": [5, 4, 0], "n": 0, "maxlen": null, "maxlen_up": null, "m": 0, "m_d": {"0": 0}, "words": 80, "words_up": 138, "rank_C": 0, "check": true, "r_up": 0, "grav": 0, "time": 0.03516697883605957, "seed": 1, "group": "G2", "gen_nmax": 6}
+=== N=0 lam=(5, 4, 0) 2J=1
+  words: n=1: 138, n+1: 83 (0.0s)
+  hw vectors: n=1: 45, n+1: 37 (0.0s)
+  functionals: 48 in 1 chunks; rows A 45, B 37, G 8
+  check (attempt 0): rank per degree {1: 9} vs m_d {1: 9} -> OK
+RESULT {"N": 0, "lam": [5, 4, 0], "n": 1, "maxlen": null, "maxlen_up": null, "m": 9, "m_d": {"1": 9}, "words": 138, "words_up": 83, "rank_C_d": {"1": 9}, "check": true, "r_up": 8, "grav": 1, "grav_rows": 8, "ncols": 48, "timing": {"enumerate": 0.0, "hw": 0.0, "qimages": 0.0, "grav_hw": 0.0, "eval": 0.0, "combine": 0.0, "grav_eval": 0.0, "rank": 0.0}, "time": 0.1, "seed": 1, "group": "G2", "gen_nmax": 6}
+=== N=0 lam=(5, 4, 0) 2J=2
+  words: n=2: 83, n+1: 20 (0.0s)
+  hw vectors: n=2: 37, n+1: 12 (0.0s)
+  functionals: 45 in 1 chunks; rows A 37, B 12, G 3
+  check (attempt 0): rank per degree {2: 10} vs m_d {2: 10} -> OK
+RESULT {"N": 0, "lam": [5, 4, 0], "n": 2, "maxlen": null, "maxlen_up": null, "m": 10, "m_d": {"2": 10}, "words": 83, "words_up": 20, "rank_C_d": {"2": 10}, "check": true, "r_up": 2, "grav": 0, "grav_rows": 3, "ncols": 45, "timing": {"enumerate": 0.0, "hw": 0.0, "qimages": 0.0, "grav_hw": 0.1, "eval": 0.0, "combine": 0.0, "grav_eval": 0.0, "rank": 0.0}, "time": 0.1, "seed": 1, "group": "G2", "gen_nmax": 6}
+=== N=0 lam=(5, 4, 0) 2J=3
+  words: n=3: 20, n+1: 2 (0.0s)
+  hw vectors: n=3: 12, n+1: 2 (0.0s)
+  functionals: 40 in 1 chunks; rows A 12, B 2, G 0
+  check (attempt 0): rank per degree {3: 3} vs m_d {3: 3} -> OK
+RESULT {"N": 0, "lam": [5, 4, 0], "n": 3, "maxlen": null, "maxlen_up": null, "m": 3, "m_d": {"3": 3}, "words": 20, "words_up": 2, "rank_C_d": {"3": 3}, "check": true, "r_up": 1, "grav": 0, "ncols": 40, "timing": {"enumerate": 0.0, "hw": 0.0, "qimages": 0.0, "grav_hw": 0.1, "eval": 0.0, "combine": 0.0, "rank": 0.0}, "time": 0.1, "seed": 1, "group": "G2", "gen_nmax": 6}
+=== N=0 lam=(5, 4, 0) 2J=4
+  words: n=4: 2, n+1: 0 (0.0s)
+  hw vectors: n=4: 2, n+1: 0 (0.0s)
+  functionals: 45 in 1 chunks; rows A 2, B 0, G 0
+  check (attempt 0): rank per degree {4: 1} vs m_d {4: 1} -> OK
+RESULT {"N": 0, "lam": [5, 4, 0], "n": 4, "maxlen": null, "maxlen_up": null, "m": 1, "m_d": {"4": 1}, "words": 2, "words_up": 0, "rank_C_d": {"4": 1}, "check": true, "r_up": 0, "grav": 0, "ncols": 45, "timing": {"enumerate": 0.0, "hw": 0.0, "qimages": 0.0, "grav_hw": 0.1, "eval": 0.0, "combine": 0.0, "rank": 0.0}, "time": 0.1, "seed": 1, "group": "G2", "gen_nmax": 6}
+=== N=0 lam=(5, 3, 1) 2J=0
+  words: n=0: 266, n+1: 608 (0.0s)
+  hw vectors: n=0: 66, n+1: 202 (0.0s)
+  functionals: 45 in 1 chunks; rows A 66, B 202, G 3
+  check (attempt 0): rank per degree {0: 13} vs m_d {0: 13} -> OK
+RESULT {"N": 0, "lam": [5, 3, 1], "n": 0, "maxlen": null, "maxlen_up": null, "m": 13, "m_d": {"0": 13}, "words": 266, "words_up": 608, "rank_C_d": {"0": 13}, "check": true, "r_up": 13, "grav": 0, "grav_rows": 3, "ncols": 45, "timing": {"enumerate": 0.0, "hw": 0.0, "qimages": 0.0, "grav_hw": 0.1, "eval": 0.0, "combine": 0.0, "grav_eval": 0.0, "rank": 0.0}, "time": 0.1, "seed": 1, "group": "G2", "gen_nmax": 6}
+=== N=0 lam=(5, 3, 1) 2J=1
+  words: n=1: 608, n+1: 485 (0.0s)
+  hw vectors: n=1: 202, n+1: 218 (0.0s)
+  functionals: 72 in 1 chunks; rows A 202, B 218, G 17
+  check (attempt 0): rank per degree {1: 39} vs m_d {1: 39} -> OK
+RESULT {"N": 0, "lam": [5, 3, 1], "n": 1, "maxlen": null, "maxlen_up": null, "m": 39, "m_d": {"1": 39}, "words": 608, "words_up": 485, "rank_C_d": {"1": 39}, "check": true, "r_up": 24, "grav": 2, "grav_rows": 17, "ncols": 72, "timing": {"enumerate": 0.0, "hw": 0.0, "qimages": 0.0, "grav_hw": 0.1, "eval": 0.0, "combine": 0.0, "grav_eval": 0.0, "rank": 0.0}, "time": 0.2, "seed": 1, "group": "G2", "gen_nmax": 6}
+=== N=0 lam=(5, 3, 1) 2J=2
+  words: n=2: 485, n+1: 158 (0.0s)
+  hw vectors: n=2: 218, n+1: 99 (0.0s)
+  functionals: 109 in 2 chunks; rows A 218, B 98, G 19
+  check (attempt 0): rank per degree {0: 2, 2: 38} vs m_d {0: 2, 2: 38} -> OK
+RESULT {"N": 0, "lam": [5, 3, 1], "n": 2, "maxlen": null, "maxlen_up": null, "m": 40, "m_d": {"0": 2, "2": 38}, "words": 485, "words_up": 158, "rank_C_d": {"0": 2, "2": 38}, "check": true, "r_up": 16, "grav": 0, "grav_rows": 19, "ncols": 109, "timing": {"enumerate": 0.0, "hw": 0.0, "qimages": 0.0, "grav_hw": 0.1, "eval": 0.0, "combine": 0.0, "grav_eval": 0.0, "rank": 0.0}, "time": 0.2, "seed": 1, "group": "G2", "gen_nmax": 6}
+=== N=0 lam=(5, 3, 1) 2J=3
+  words: n=3: 158, n+1: 18 (0.0s)
+  hw vectors: n=3: 99, n+1: 16 (0.0s)
+  functionals: 108 in 2 chunks; rows A 99, B 16, G 6
+  check (attempt 0): rank per degree {1: 9, 3: 18} vs m_d {1: 9, 3: 18} -> OK
+RESULT {"N": 0, "lam": [5, 3, 1], "n": 3, "maxlen": null, "maxlen_up": null, "m": 27, "m_d": {"1": 9, "3": 18}, "words": 158, "words_up": 18, "rank_C_d": {"1": 9, "3": 18}, "check": true, "r_up": 8, "grav": 3, "grav_rows": 6, "ncols": 108, "timing": {"enumerate": 0.0, "hw": 0.0, "qimages": 0.0, "grav_hw": 0.1, "eval": 0.0, "combine": 0.0, "grav_eval": 0.0, "rank": 0.0}, "time": 0.2, "seed": 1, "group": "G2", "gen_nmax": 6}
+=== N=0 lam=(5, 3, 1) 2J=4
+  words: n=4: 18, n+1: 0 (0.0s)
+  hw vectors: n=4: 16, n+1: 0 (0.0s)
+  functionals: 90 in 2 chunks; rows A 16, B 0, G 0
+  check (attempt 0): rank per degree {2: 5, 4: 3} vs m_d {2: 5, 4: 3} -> OK
+RESULT {"N": 0, "lam": [5, 3, 1], "n": 4, "maxlen": null, "maxlen_up": null, "m": 8, "m_d": {"2": 5, "4": 3}, "words": 18, "words_up": 0, "rank_C_d": {"2": 5, "4": 3}, "check": true, "r_up": 0, "grav": 0, "ncols": 90, "timing": {"enumerate": 0.0, "hw": 0.0, "qimages": 0.0, "grav_hw": 0.2, "eval": 0.0, "combine": 0.0, "rank": 0.0}, "time": 0.2, "seed": 1, "group": "G2", "gen_nmax": 6}
+=== N=0 lam=(5, 2, 2) 2J=0
+  words: n=0: 386, n+1: 929 (0.0s)
+  hw vectors: n=0: 52, n+1: 157 (0.1s)
+  functionals: 34 in 1 chunks; rows A 52, B 156, G 5
+  check (attempt 0): rank per degree {0: 2} vs m_d {0: 2} -> OK
+RESULT {"N": 0, "lam": [5, 2, 2], "n": 0, "maxlen": null, "maxlen_up": null, "m": 2, "m_d": {"0": 2}, "words": 386, "words_up": 929, "rank_C_d": {"0": 2}, "check": true, "r_up": 2, "grav": 0, "grav_rows": 5, "ncols": 34, "timing": {"enumerate": 0.0, "hw": 0.1, "qimages": 0.0, "grav_hw": 0.1, "eval": 0.0, "combine": 0.0, "grav_eval": 0.0, "rank": 0.0}, "time": 0.1, "seed": 1, "group": "G2", "gen_nmax": 6}
+=== N=0 lam=(5, 2, 2) 2J=1
+  words: n=1: 929, n+1: 805 (0.0s)
+  hw vectors: n=1: 157, n+1: 193 (0.0s)
+  functionals: 60 in 1 chunks; rows A 157, B 193, G 7
+  check (attempt 0): rank per degree {1: 26} vs m_d {1: 26} -> OK
+RESULT {"N": 0, "lam": [5, 2, 2], "n": 1, "maxlen": null, "maxlen_up": null, "m": 26, "m_d": {"1": 26}, "words": 929, "words_up": 805, "rank_C_d": {"1": 26}, "check": true, "r_up": 24, "grav": 0, "grav_rows": 7, "ncols": 60, "timing": {"enumerate": 0.0, "hw": 0.0, "qimages": 0.0, "grav_hw": 0.2, "eval": 0.0, "combine": 0.0, "grav_eval": 0.0, "rank": 0.0}, "time": 0.2, "seed": 1, "group": "G2", "gen_nmax": 6}
+=== N=0 lam=(5, 2, 2) 2J=2
+  words: n=2: 805, n+1: 296 (0.0s)
+  hw vectors: n=2: 193, n+1: 107 (0.0s)
+  functionals: 130 in 2 chunks; rows A 193, B 107, G 8
+  check (attempt 0): rank per degree {0: 8, 2: 44} vs m_d {0: 8, 2: 44} -> OK
+RESULT {"N": 0, "lam": [5, 2, 2], "n": 2, "maxlen": null, "maxlen_up": null, "m": 52, "m_d": {"0": 8, "2": 44}, "words": 805, "words_up": 296, "rank_C_d": {"0": 8, "2": 44}, "check": true, "r_up": 28, "grav": 0, "grav_rows": 8, "ncols": 130, "timing": {"enumerate": 0.0, "hw": 0.0, "qimages": 0.0, "grav_hw": 0.2, "eval": 0.0, "combine": 0.0, "grav_eval": 0.0, "rank": 0.0}, "time": 0.3, "seed": 1, "group": "G2", "gen_nmax": 6}
+=== N=0 lam=(5, 2, 2) 2J=3
+  words: n=3: 296, n+1: 38 (0.0s)
+  hw vectors: n=3: 107, n+1: 20 (0.0s)
+  functionals: 108 in 2 chunks; rows A 107, B 20, G 6
+  check (attempt 0): rank per degree {1: 14, 3: 19} vs m_d {1: 14, 3: 19} -> OK
+RESULT {"N": 0, "lam": [5, 2, 2], "n": 3, "maxlen": null, "maxlen_up": null, "m": 33, "m_d": {"1": 14, "3": 19}, "words": 296, "words_up": 38, "rank_C_d": {"1": 14, "3": 19}, "check": true, "r_up": 2, "grav": 3, "grav_rows": 6, "ncols": 108, "timing": {"enumerate": 0.0, "hw": 0.0, "qimages": 0.0, "grav_hw": 0.2, "eval": 0.0, "combine": 0.0, "grav_eval": 0.0, "rank": 0.0}, "time": 0.2, "seed": 1, "group": "G2", "gen_nmax": 6}
+=== N=0 lam=(5, 2, 2) 2J=4
+  words: n=4: 38, n+1: 0 (0.0s)
+  hw vectors: n=4: 20, n+1: 0 (0.0s)
+  functionals: 122 in 3 chunks; rows A 20, B 0, G 1
+  check (attempt 0): rank per degree {0: 0, 2: 2, 4: 0} vs m_d {0: 0, 2: 2, 4: 0} -> OK
+RESULT {"N": 0, "lam": [5, 2, 2], "n": 4, "maxlen": null, "maxlen_up": null, "m": 2, "m_d": {"0": 0, "2": 2, "4": 0}, "words": 38, "words_up": 0, "rank_C_d": {"0": 0, "2": 2, "4": 0}, "check": true, "r_up": 0, "grav": 0, "grav_rows": 1, "ncols": 122, "timing": {"enumerate": 0.0, "hw": 0.0, "qimages": 0.0, "grav_hw": 0.2, "eval": 0.0, "combine": 0.0, "grav_eval": 0.0, "rank": 0.0}, "time": 0.2, "seed": 1, "group": "G2", "gen_nmax": 6}
+=== N=0 lam=(4, 4, 1) 2J=0
+  words: n=0: 316, n+1: 756 (0.0s)
+  hw vectors: n=0: 32, n+1: 103 (0.0s)
+  functionals: 34 in 1 chunks; rows A 32, B 97, G 3
+  check (attempt 0): rank per degree {0: 2} vs m_d {0: 2} -> OK
+RESULT {"N": 0, "lam": [4, 4, 1], "n": 0, "maxlen": null, "maxlen_up": null, "m": 2, "m_d": {"0": 2}, "words": 316, "words_up": 756, "rank_C_d": {"0": 2}, "check": true, "r_up": 2, "grav": 0, "grav_rows": 3, "ncols": 34, "timing": {"enumerate": 0.0, "hw": 0.0, "qimages": 0.0, "grav_hw": 0.1, "eval": 0.0, "combine": 0.0, "grav_eval": 0.0, "rank": 0.0}, "time": 0.1, "seed": 1, "group": "G2", "gen_nmax": 6}
+=== N=0 lam=(4, 4, 1) 2J=1
+  words: n=1: 756, n+1: 650 (0.0s)
+  hw vectors: n=1: 103, n+1: 128 (0.0s)
+  functionals: 60 in 1 chunks; rows A 103, B 126, G 7
+  check (attempt 0): rank per degree {1: 17} vs m_d {1: 17} -> OK
+RESULT {"N": 0, "lam": [4, 4, 1], "n": 1, "maxlen": null, "maxlen_up": null, "m": 17, "m_d": {"1": 17}, "words": 756, "words_up": 650, "rank_C_d": {"1": 17}, "check": true, "r_up": 14, "grav": 1, "grav_rows": 7, "ncols": 60, "timing": {"enumerate": 0.0, "hw": 0.0, "qimages": 0.0, "grav_hw": 0.1, "eval": 0.0, "combine": 0.0, "grav_eval": 0.0, "rank": 0.0}, "time": 0.2, "seed": 1, "group": "G2", "gen_nmax": 6}
+=== N=0 lam=(4, 4, 1) 2J=2
+  words: n=2: 650, n+1: 243 (0.0s)
+  hw vectors: n=2: 128, n+1: 73 (0.0s)
+  functionals: 96 in 2 chunks; rows A 128, B 73, G 7
+  check (attempt 0): rank per degree {0: 4, 2: 27} vs m_d {0: 4, 2: 27} -> OK
+RESULT {"N": 0, "lam": [4, 4, 1], "n": 2, "maxlen": null, "maxlen_up": null, "m": 31, "m_d": {"0": 4, "2": 27}, "words": 650, "words_up": 243, "rank_C_d": {"0": 4, "2": 27}, "check": true, "r_up": 17, "grav": 0, "grav_rows": 7, "ncols": 96, "timing": {"enumerate": 0.0, "hw": 0.0, "qimages": 0.0, "grav_hw": 0.2, "eval": 0.0, "combine": 0.0, "grav_eval": 0.0, "rank": 0.0}, "time": 0.2, "seed": 1, "group": "G2", "gen_nmax": 6}
+=== N=0 lam=(4, 4, 1) 2J=3
+  words: n=3: 243, n+1: 37 (0.0s)
+  hw vectors: n=3: 73, n+1: 17 (0.0s)
+  functionals: 108 in 2 chunks; rows A 73, B 17, G 3
+  check (attempt 0): rank per degree {1: 9, 3: 18} vs m_d {1: 9, 3: 18} -> OK
+RESULT {"N": 0, "lam": [4, 4, 1], "n": 3, "maxlen": null, "maxlen_up": null, "m": 27, "m_d": {"1": 9, "3": 18}, "words": 243, "words_up": 37, "rank_C_d": {"1": 9, "3": 18}, "check": true, "r_up": 8, "grav": 2, "grav_rows": 3, "ncols": 108, "timing": {"enumerate": 0.0, "hw": 0.0, "qimages": 0.0, "grav_hw": 0.2, "eval": 0.0, "combine": 0.0, "grav_eval": 0.0, "rank": 0.0}, "time": 0.2, "seed": 1, "group": "G2", "gen_nmax": 6}
+=== N=0 lam=(4, 4, 1) 2J=4
+  words: n=4: 37, n+1: 1 (0.0s)
+  hw vectors: n=4: 17, n+1: 1 (0.0s)
+  functionals: 90 in 2 chunks; rows A 17, B 1, G 0
+  check (attempt 0): rank per degree {2: 4, 4: 4} vs m_d {2: 4, 4: 4} -> OK
+RESULT {"N": 0, "lam": [4, 4, 1], "n": 4, "maxlen": null, "maxlen_up": null, "m": 8, "m_d": {"2": 4, "4": 4}, "words": 37, "words_up": 1, "rank_C_d": {"2": 4, "4": 4}, "check": true, "r_up": 0, "grav": 0, "ncols": 90, "timing": {"enumerate": 0.0, "hw": 0.0, "qimages": 0.0, "grav_hw": 0.2, "eval": 0.0, "combine": 0.0, "rank": 0.0}, "time": 0.2, "seed": 1, "group": "G2", "gen_nmax": 6}
+=== N=0 lam=(4, 4, 1) 2J=5
+  words: n=5: 1, n+1: 0 (0.0s)
+  hw vectors: n=5: 1, n+1: 0 (0.0s)
+RESULT {"N": 0, "lam": [4, 4, 1], "n": 5, "maxlen": null, "maxlen_up": null, "m": 0, "m_d": {"3": 0}, "words": 1, "words_up": 0, "rank_C": 0, "check": true, "r_up": 0, "grav": 0, "time": 0.16624093055725098, "seed": 1, "group": "G2", "gen_nmax": 6}
+=== N=0 lam=(4, 3, 2) 2J=0
+  words: n=0: 586, n+1: 1555 (0.0s)
+  hw vectors: n=0: 59, n+1: 225 (0.1s)
+  functionals: 39 in 1 chunks; rows A 59, B 220, G 2
+  check (attempt 0): rank per degree {0: 7} vs m_d {0: 7} -> OK
+RESULT {"N": 0, "lam": [4, 3, 2], "n": 0, "maxlen": null, "maxlen_up": null, "m": 7, "m_d": {"0": 7}, "words": 586, "words_up": 1555, "rank_C_d": {"0": 7}, "check": true, "r_up": 7, "grav": 0, "grav_rows": 2, "ncols": 39, "timing": {"enumerate": 0.0, "hw": 0.1, "qimages": 0.0, "grav_hw": 0.1, "eval": 0.0, "combine": 0.0, "grav_eval": 0.0, "rank": 0.0}, "time": 0.2, "seed": 1, "group": "G2", "gen_nmax": 6}
+=== N=0 lam=(4, 3, 2) 2J=1
+  words: n=1: 1555, n+1: 1540 (0.0s)
+  hw vectors: n=1: 225, n+1: 317 (0.0s)
+  functionals: 84 in 1 chunks; rows A 225, B 317, G 8
+  check (attempt 0): rank per degree {1: 43} vs m_d {1: 43} -> OK
+RESULT {"N": 0, "lam": [4, 3, 2], "n": 1, "maxlen": null, "maxlen_up": null, "m": 43, "m_d": {"1": 43}, "words": 1555, "words_up": 1540, "rank_C_d": {"1": 43}, "check": true, "r_up": 35, "grav": 1, "grav_rows": 8, "ncols": 84, "timing": {"enumerate": 0.0, "hw": 0.0, "qimages": 0.0, "grav_hw": 0.2, "eval": 0.0, "combine": 0.0, "grav_eval": 0.0, "rank": 0.0}, "time": 0.3, "seed": 1, "group": "G2", "gen_nmax": 6}
+=== N=0 lam=(4, 3, 2) 2J=2
+  words: n=2: 1540, n+1: 697 (0.0s)
+  hw vectors: n=2: 317, n+1: 209 (0.0s)
+  functionals: 147 in 2 chunks; rows A 317, B 209, G 10
+  check (attempt 0): rank per degree {0: 10, 2: 65} vs m_d {0: 10, 2: 65} -> OK
+RESULT {"N": 0, "lam": [4, 3, 2], "n": 2, "maxlen": null, "maxlen_up": null, "m": 75, "m_d": {"0": 10, "2": 65}, "words": 1540, "words_up": 697, "rank_C_d": {"0": 10, "2": 65}, "check": true, "r_up": 40, "grav": 0, "grav_rows": 10, "ncols": 147, "timing": {"enumerate": 0.0, "hw": 0.0, "qimages": 0.0, "grav_hw": 0.2, "eval": 0.1, "combine": 0.0, "grav_eval": 0.0, "rank": 0.0}, "time": 0.4, "seed": 1, "group": "G2", "gen_nmax": 6}
+=== N=0 lam=(4, 3, 2) 2J=3
+  words: n=3: 697, n+1: 138 (0.0s)
+  hw vectors: n=3: 209, n+1: 65 (0.0s)
+  functionals: 140 in 2 chunks; rows A 209, B 65, G 6
+  check (attempt 0): rank per degree {1: 27, 3: 35} vs m_d {1: 27, 3: 35} -> OK
+RESULT {"N": 0, "lam": [4, 3, 2], "n": 3, "maxlen": null, "maxlen_up": null, "m": 62, "m_d": {"1": 27, "3": 35}, "words": 697, "words_up": 138, "rank_C_d": {"1": 27, "3": 35}, "check": true, "r_up": 18, "grav": 4, "grav_rows": 6, "ncols": 140, "timing": {"enumerate": 0.0, "hw": 0.0, "qimages": 0.0, "grav_hw": 0.3, "eval": 0.0, "combine": 0.0, "grav_eval": 0.0, "rank": 0.0}, "time": 0.3, "seed": 1, "group": "G2", "gen_nmax": 6}
+=== N=0 lam=(4, 3, 2) 2J=4
+  words: n=4: 138, n+1: 9 (0.0s)
+  hw vectors: n=4: 65, n+1: 8 (0.0s)
+  functionals: 139 in 3 chunks; rows A 65, B 8, G 1
+  check (attempt 0): rank per degree {0: 2, 2: 16, 4: 5} vs m_d {0: 2, 2: 16, 4: 5} -> OK
+RESULT {"N": 0, "lam": [4, 3, 2], "n": 4, "maxlen": null, "maxlen_up": null, "m": 23, "m_d": {"0": 2, "2": 16, "4": 5}, "words": 138, "words_up": 9, "rank_C_d": {"0": 2, "2": 16, "4": 5}, "check": true, "r_up": 5, "grav": 0, "grav_rows": 1, "ncols": 139, "timing": {"enumerate": 0.0, "hw": 0.0, "qimages": 0.0, "grav_hw": 0.3, "eval": 0.0, "combine": 0.0, "grav_eval": 0.0, "rank": 0.0}, "time": 0.3, "seed": 1, "group": "G2", "gen_nmax": 6}
+=== N=0 lam=(4, 3, 2) 2J=5
+  words: n=5: 9, n+1: 0 (0.0s)
+  hw vectors: n=5: 8, n+1: 0 (0.0s)
+  functionals: 76 in 2 chunks; rows A 8, B 0, G 0
+  check (attempt 0): rank per degree {1: 3, 3: 2} vs m_d {1: 3, 3: 2} -> OK
+RESULT {"N": 0, "lam": [4, 3, 2], "n": 5, "maxlen": null, "maxlen_up": null, "m": 5, "m_d": {"1": 3, "3": 2}, "words": 9, "words_up": 0, "rank_C_d": {"1": 3, "3": 2}, "check": true, "r_up": 0, "grav": 0, "ncols": 76, "timing": {"enumerate": 0.0, "hw": 0.0, "qimages": 0.0, "grav_hw": 0.3, "eval": 0.0, "combine": 0.0, "rank": 0.0}, "time": 0.3, "seed": 1, "group": "G2", "gen_nmax": 6}
+=== N=0 lam=(3, 3, 3) 2J=0
+  words: n=0: 756, n+1: 2094 (0.0s)
+  hw vectors: n=0: 20, n+1: 61 (0.1s)
+  functionals: 41 in 1 chunks; rows A 20, B 61, G 0
+  check (attempt 0): rank per degree {0: 9} vs m_d {0: 9} -> OK
+RESULT {"N": 0, "lam": [3, 3, 3], "n": 0, "maxlen": null, "maxlen_up": null, "m": 9, "m_d": {"0": 9}, "words": 756, "words_up": 2094, "rank_C_d": {"0": 9}, "check": true, "r_up": 9, "grav": 0, "ncols": 41, "timing": {"enumerate": 0.0, "hw": 0.1, "qimages": 0.0, "grav_hw": 0.1, "eval": 0.0, "combine": 0.0, "rank": 0.0}, "time": 0.2, "seed": 1, "group": "G2", "gen_nmax": 6}
+=== N=0 lam=(3, 3, 3) 2J=1
+  words: n=1: 2094, n+1: 2202 (0.0s)
+  hw vectors: n=1: 61, n+1: 92 (0.1s)
+  functionals: 48 in 1 chunks; rows A 61, B 91, G 1
+  check (attempt 0): rank per degree {1: 15} vs m_d {1: 15} -> OK
+RESULT {"N": 0, "lam": [3, 3, 3], "n": 1, "maxlen": null, "maxlen_up": null, "m": 15, "m_d": {"1": 15}, "words": 2094, "words_up": 2202, "rank_C_d": {"1": 15}, "check": true, "r_up": 6, "grav": 0, "grav_rows": 1, "ncols": 48, "timing": {"enumerate": 0.0, "hw": 0.1, "qimages": 0.0, "grav_hw": 0.2, "eval": 0.0, "combine": 0.0, "grav_eval": 0.0, "rank": 0.0}, "time": 0.4, "seed": 1, "group": "G2", "gen_nmax": 6}
+=== N=0 lam=(3, 3, 3) 2J=2
+  words: n=2: 2202, n+1: 1090 (0.0s)
+  hw vectors: n=2: 92, n+1: 77 (0.0s)
+  functionals: 92 in 2 chunks; rows A 92, B 76, G 3
+  check (attempt 0): rank per degree {0: 0, 2: 14} vs m_d {0: 0, 2: 14} -> OK
+RESULT {"N": 0, "lam": [3, 3, 3], "n": 2, "maxlen": null, "maxlen_up": null, "m": 14, "m_d": {"0": 0, "2": 14}, "words": 2202, "words_up": 1090, "rank_C_d": {"0": 0, "2": 14}, "check": true, "r_up": 8, "grav": 0, "grav_rows": 3, "ncols": 92, "timing": {"enumerate": 0.0, "hw": 0.0, "qimages": 0.0, "grav_hw": 0.3, "eval": 0.1, "combine": 0.0, "grav_eval": 0.0, "rank": 0.0}, "time": 0.4, "seed": 1, "group": "G2", "gen_nmax": 6}
+=== N=0 lam=(3, 3, 3) 2J=3
+  words: n=3: 1090, n+1: 251 (0.0s)
+  hw vectors: n=3: 77, n+1: 32 (0.0s)
+  functionals: 108 in 2 chunks; rows A 77, B 32, G 2
+  check (attempt 0): rank per degree {1: 9, 3: 12} vs m_d {1: 9, 3: 12} -> OK
+RESULT {"N": 0, "lam": [3, 3, 3], "n": 3, "maxlen": null, "maxlen_up": null, "m": 21, "m_d": {"1": 9, "3": 12}, "words": 1090, "words_up": 251, "rank_C_d": {"1": 9, "3": 12}, "check": true, "r_up": 11, "grav": 2, "grav_rows": 2, "ncols": 108, "timing": {"enumerate": 0.0, "hw": 0.0, "qimages": 0.0, "grav_hw": 0.3, "eval": 0.0, "combine": 0.0, "grav_eval": 0.0, "rank": 0.0}, "time": 0.4, "seed": 1, "group": "G2", "gen_nmax": 6}
+=== N=0 lam=(3, 3, 3) 2J=4
+  words: n=4: 251, n+1: 24 (0.0s)
+  hw vectors: n=4: 32, n+1: 7 (0.0s)
+  functionals: 125 in 3 chunks; rows A 32, B 7, G 0
+  check (attempt 0): rank per degree {0: 3, 2: 10, 4: 2} vs m_d {0: 3, 2: 10, 4: 2} -> OK
+RESULT {"N": 0, "lam": [3, 3, 3], "n": 4, "maxlen": null, "maxlen_up": null, "m": 15, "m_d": {"0": 3, "2": 10, "4": 2}, "words": 251, "words_up": 24, "rank_C_d": {"0": 3, "2": 10, "4": 2}, "check": true, "r_up": 4, "grav": 0, "ncols": 125, "timing": {"enumerate": 0.0, "hw": 0.0, "qimages": 0.0, "grav_hw": 0.3, "eval": 0.0, "combine": 0.0, "rank": 0.0}, "time": 0.3, "seed": 1, "group": "G2", "gen_nmax": 6}
+=== N=0 lam=(3, 3, 3) 2J=5
+  words: n=5: 24, n+1: 1 (0.0s)
+  hw vectors: n=5: 7, n+1: 1 (0.0s)
+  functionals: 76 in 2 chunks; rows A 7, B 1, G 0
+  check (attempt 0): rank per degree {1: 3, 3: 1} vs m_d {1: 3, 3: 1} -> OK
+RESULT {"N": 0, "lam": [3, 3, 3], "n": 5, "maxlen": null, "maxlen_up": null, "m": 4, "m_d": {"1": 3, "3": 1}, "words": 24, "words_up": 1, "rank_C_d": {"1": 3, "3": 1}, "check": true, "r_up": 0, "grav": 0, "ncols": 76, "timing": {"enumerate": 0.0, "hw": 0.0, "qimages": 0.0, "grav_hw": 0.3, "eval": 0.0, "combine": 0.0, "rank": 0.0}, "time": 0.3, "seed": 1, "group": "G2", "gen_nmax": 6}
+=== N=0 lam=(3, 3, 3) 2J=6
+  words: n=6: 1, n+1: 0 (0.0s)
+  hw vectors: n=6: 1, n+1: 0 (0.0s)
+RESULT {"N": 0, "lam": [3, 3, 3], "n": 6, "maxlen": null, "maxlen_up": null, "m": 0, "m_d": {"0": 0}, "words": 1, "words_up": 0, "rank_C": 0, "check": true, "r_up": 0, "grav": 0, "time": 0.31585097312927246, "seed": 1, "group": "G2", "gen_nmax": 6}

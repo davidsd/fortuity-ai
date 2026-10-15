@@ -1,0 +1,10 @@
+{
+ "description": "SO(11) BMN Q-cohomology on SU(3)_R highest-weight vectors, columns lam = (7,3,3) ([4,0]) and (5,5,3) ([0,2]) at j = 26, 2J = 0, 1, 2 (one JSON line per sector, fortuity.hwcoh.run_sectors format). Per sector: m = hw multiplicity, r_up = rank of Q from 2J+1, grav = multi-graviton hw classes modulo exact, check = self-check rank = m. Multiplicity of the irrep in the cohomology at 2J = n is h = m_n - r_up(n-1) - r_up(n); non-graviton = h - grav. Result: 2J=1 has h=23, grav=22 in (7,3,3) and h=12, grav=11 in (5,5,3), i.e. one non-graviton class per column; nothing at 2J=0,2.",
+ "computed_by": "Fortuity collaboration (Claude agent), PI Symmetry job 564199 (node cn044, 40 workers)",
+ "date": "2026-09-27",
+ "code": "code/fortuity/hwcoh (group='SO_odd'), dims with twoJ_max=3",
+ "commit": "3981fd4",
+ "conventions": "D-006 BMN conventions; so(11) letters as random antisymmetric 11x11 matrices over F_p; graviton generators u_n, v_n, w_n up to n = 12 (GEN_NMAX=12).",
+ "command": "sbatch --export=ALL,GROUP=SO_odd,BENCH=... t020_hwcoh.sbatch (scripts/bmn/so-usp-g2-scans/cluster/), i.e. GROUP=SO_odd GEN_NMAX=12 python -m fortuity.hwcoh.run_sectors 5 dims_SO_odd5_j26_2J3.pkl hw_SO_odd5.jsonl 7,3,3:0,1,2 5,5,3:0,1,2",
+ "checked": "Per sector self-check rank of hw vectors = exact multiplicity m (check=true in all six sectors). The pipeline reproduces R-005 (SO(7) singlet column) and the dims integral with 2J truncation equals the full one on SO(7). Single seed (SEED=1); second seed not yet run. The USp(10) counterpart is computed by job 564200."
+}

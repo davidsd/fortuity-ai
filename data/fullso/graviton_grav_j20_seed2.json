@@ -1,0 +1,380 @@
+[
+ {
+  "group": "SO_odd",
+  "sec": [
+   -2,
+   2,
+   8,
+   6,
+   6
+  ],
+  "Y": 8,
+  "dim": 486,
+  "rank_words": 486,
+  "exact": 479,
+  "rank_out": 0,
+  "h": 7,
+  "graviton": 7,
+  "nongraviton": 0,
+  "n_products": 19,
+  "n_generators": 6963,
+  "time": 8.4
+ },
+ {
+  "group": "Sp",
+  "sec": [
+   -2,
+   2,
+   8,
+   6,
+   6
+  ],
+  "Y": 8,
+  "dim": 485,
+  "rank_words": 485,
+  "exact": 479,
+  "rank_out": 0,
+  "h": 6,
+  "graviton": 6,
+  "nongraviton": 0,
+  "n_products": 19,
+  "n_generators": 6963,
+  "time": 8.1
+ },
+ {
+  "group": "SO_odd",
+  "sec": [
+   -1,
+   3,
+   8,
+   6,
+   6
+  ],
+  "Y": 8,
+  "dim": 4239,
+  "rank_words": 4239,
+  "exact": 2869,
+  "rank_out": 1111,
+  "h": 259,
+  "graviton": 258,
+  "nongraviton": 1,
+  "n_products": 530,
+  "n_generators": 6963,
+  "time": 104.0
+ },
+ {
+  "group": "Sp",
+  "sec": [
+   -1,
+   3,
+   8,
+   6,
+   6
+  ],
+  "Y": 8,
+  "dim": 4236,
+  "rank_words": 4236,
+  "exact": 2869,
+  "rank_out": 1109,
+  "h": 258,
+  "graviton": 258,
+  "nongraviton": 0,
+  "n_products": 530,
+  "n_generators": 6963,
+  "time": 97.8
+ },
+ {
+  "group": "SO_odd",
+  "sec": [
+   0,
+   0,
+   8,
+   6,
+   6
+  ],
+  "Y": 8,
+  "dim": 762,
+  "rank_words": 762,
+  "exact": 739,
+  "rank_out": 0,
+  "h": 23,
+  "graviton": 23,
+  "nongraviton": 0,
+  "n_products": 60,
+  "n_generators": 6963,
+  "time": 9.9
+ },
+ {
+  "group": "Sp",
+  "sec": [
+   0,
+   0,
+   8,
+   6,
+   6
+  ],
+  "Y": 8,
+  "dim": 760,
+  "rank_words": 760,
+  "exact": 739,
+  "rank_out": 0,
+  "h": 21,
+  "graviton": 21,
+  "nongraviton": 0,
+  "n_products": 60,
+  "n_generators": 6963,
+  "time": 9.4
+ },
+ {
+  "group": "SO_odd",
+  "sec": [
+   0,
+   0,
+   8,
+   8,
+   4
+  ],
+  "Y": 8,
+  "dim": 394,
+  "rank_words": 394,
+  "exact": 378,
+  "rank_out": 0,
+  "h": 16,
+  "graviton": 16,
+  "nongraviton": 0,
+  "n_products": 40,
+  "n_generators": 6963,
+  "time": 7.9
+ },
+ {
+  "group": "Sp",
+  "sec": [
+   0,
+   0,
+   8,
+   8,
+   4
+  ],
+  "Y": 8,
+  "dim": 393,
+  "rank_words": 393,
+  "exact": 378,
+  "rank_out": 0,
+  "h": 15,
+  "graviton": 15,
+  "nongraviton": 0,
+  "n_products": 40,
+  "n_generators": 6963,
+  "time": 7.8
+ },
+ {
+  "group": "SO_odd",
+  "sec": [
+   1,
+   1,
+   8,
+   6,
+   6
+  ],
+  "Y": 8,
+  "dim": 8367,
+  "rank_words": 8367,
+  "exact": 5638,
+  "rank_out": 2106,
+  "h": 623,
+  "graviton": 621,
+  "nongraviton": 2,
+  "n_products": 1287,
+  "n_generators": 6963,
+  "time": 480.7
+ },
+ {
+  "group": "Sp",
+  "sec": [
+   1,
+   1,
+   8,
+   6,
+   6
+  ],
+  "Y": 8,
+  "dim": 8361,
+  "rank_words": 8361,
+  "exact": 5638,
+  "rank_out": 2103,
+  "h": 620,
+  "graviton": 620,
+  "nongraviton": 0,
+  "n_products": 1287,
+  "n_generators": 6963,
+  "time": 452.8
+ },
+ {
+  "group": "SO_odd",
+  "sec": [
+   1,
+   1,
+   8,
+   8,
+   4
+  ],
+  "Y": 8,
+  "dim": 5471,
+  "rank_words": 5471,
+  "exact": 3558,
+  "rank_out": 1433,
+  "h": 480,
+  "graviton": 479,
+  "nongraviton": 1,
+  "n_products": 987,
+  "n_generators": 6963,
+  "time": 176.3
+ },
+ {
+  "group": "Sp",
+  "sec": [
+   1,
+   1,
+   8,
+   8,
+   4
+  ],
+  "Y": 8,
+  "dim": 5469,
+  "rank_words": 5469,
+  "exact": 3558,
+  "rank_out": 1432,
+  "h": 479,
+  "graviton": 479,
+  "nongraviton": 0,
+  "n_products": 987,
+  "n_generators": 6963,
+  "time": 165.2
+ },
+ {
+  "group": "SO_odd",
+  "sec": [
+   2,
+   -2,
+   8,
+   6,
+   6
+  ],
+  "Y": 8,
+  "dim": 486,
+  "rank_words": 486,
+  "exact": 479,
+  "rank_out": 0,
+  "h": 7,
+  "graviton": 7,
+  "nongraviton": 0,
+  "n_products": 19,
+  "n_generators": 6963,
+  "time": 8.4
+ },
+ {
+  "group": "Sp",
+  "sec": [
+   2,
+   -2,
+   8,
+   6,
+   6
+  ],
+  "Y": 8,
+  "dim": 485,
+  "rank_words": 485,
+  "exact": 479,
+  "rank_out": 0,
+  "h": 6,
+  "graviton": 6,
+  "nongraviton": 0,
+  "n_products": 19,
+  "n_generators": 6963,
+  "time": 8.1
+ },
+ {
+  "group": "SO_odd",
+  "sec": [
+   2,
+   2,
+   8,
+   6,
+   6
+  ],
+  "Y": 8,
+  "dim": 2854,
+  "rank_words": 2854,
+  "exact": 1331,
+  "rank_out": 1309,
+  "h": 214,
+  "graviton": 213,
+  "nongraviton": 1,
+  "n_products": 423,
+  "n_generators": 6963,
+  "time": 44.9
+ },
+ {
+  "group": "Sp",
+  "sec": [
+   2,
+   2,
+   8,
+   6,
+   6
+  ],
+  "Y": 8,
+  "dim": 2853,
+  "rank_words": 2853,
+  "exact": 1331,
+  "rank_out": 1309,
+  "h": 213,
+  "graviton": 213,
+  "nongraviton": 0,
+  "n_products": 423,
+  "n_generators": 6963,
+  "time": 41.6
+ },
+ {
+  "group": "SO_odd",
+  "sec": [
+   3,
+   -1,
+   8,
+   6,
+   6
+  ],
+  "Y": 8,
+  "dim": 4239,
+  "rank_words": 4239,
+  "exact": 2869,
+  "rank_out": 1111,
+  "h": 259,
+  "graviton": 258,
+  "nongraviton": 1,
+  "n_products": 530,
+  "n_generators": 6963,
+  "time": 103.0
+ },
+ {
+  "group": "Sp",
+  "sec": [
+   3,
+   -1,
+   8,
+   6,
+   6
+  ],
+  "Y": 8,
+  "dim": 4236,
+  "rank_words": 4236,
+  "exact": 2869,
+  "rank_out": 1109,
+  "h": 258,
+  "graviton": 258,
+  "nongraviton": 0,
+  "n_products": 530,
+  "n_generators": 6963,
+  "time": 97.8
+ }
+]

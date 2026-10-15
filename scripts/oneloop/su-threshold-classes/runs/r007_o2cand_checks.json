@@ -1,0 +1,37 @@
+{
+ "prep": "prep/r007_o2_out_codd",
+ "cache": "cache/fullpar_hw_r007_o2_out_codd_cartan.pkl",
+ "nvec": 2,
+ "t_words": 6470769,
+ "t_degrees": {
+  "0": 322304,
+  "2": 2997652,
+  "4": 2783533,
+  "6": 363440,
+  "8": 3840
+ },
+ "op": "D",
+ "dt_words": 4607313,
+ "ctrl_words": [
+  18460,
+  5260,
+  21580
+ ],
+ "time": 262,
+ "t_nonzero_values": [
+  104,
+  104
+ ],
+ "t_cartan_nonzero": 0,
+ "t_cartan_values": 832,
+ "q0t_nonzero": 0,
+ "q0t_values": 356,
+ "dt_nonzero_values": [
+  104,
+  104
+ ],
+ "q0dt_nonzero": 0,
+ "q0dt_values": 356,
+ "checks_ok": true,
+ "check_time": 1081
+}

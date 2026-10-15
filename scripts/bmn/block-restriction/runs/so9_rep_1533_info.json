@@ -1,0 +1,20 @@
+{
+ "group": "SO_odd",
+ "N": 4,
+ "lam": [
+  5,
+  3,
+  3
+ ],
+ "n": 1,
+ "m": 442,
+ "closed": 311,
+ "r_exact": 305,
+ "grav": 5,
+ "h": 6,
+ "nongrav": 1,
+ "rep_terms": [
+  5863
+ ],
+ "time": 28.0
+}

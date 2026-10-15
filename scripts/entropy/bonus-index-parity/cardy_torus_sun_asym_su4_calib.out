@@ -1,0 +1,7 @@
+SU(4): |F(phi,phi,phi) - F_su_twisted| = 5.3e-16
+grid (3, 3, 12, 12, 12) = 15552 points
+classical (torus x phi_I): 17 grid local maxima; best refined:
+    0.8262379 at theta/pi = [0.5 0.5], phi_I/pi = [1. 1. 1.]
+protected slice x = 1: best refined 0.7047299 at theta/pi = [0.5 0.5], (phi_1, phi_2)/pi = [1.33333 1.33333]
+time: grid 0.1 s, total 2.5 s
+timeout 15  cardy_torus_sun_asym.py 4 1/4 1/6 3  2,54s user 0,05s system 98% cpu 2,624 total

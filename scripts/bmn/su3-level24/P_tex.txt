@@ -1,0 +1,8 @@
++ 3\,u^{XX}\,u^{YY}\,{v^{X}}_{X}\,w^{ZZ} + 3\,u^{XX}\,u^{YY}\,{v^{Y}}_{Y}\,w^{ZZ} - 3\,u^{XX}\,u^{YY}\,{v^{Z}}_{X}\,w^{XZ} - 3\,u^{XX}\,u^{YY}\,{v^{Z}}_{Y}\,w^{YZ} \\
+&\quad - \,u^{XX}\,u^{YZ}\,{v^{X}}_{X}\,w^{YZ} + 2\,u^{XX}\,u^{YZ}\,{v^{Y}}_{X}\,w^{XZ} + \,u^{XX}\,u^{YZ}\,{v^{Y}}_{Y}\,w^{YZ} + 2\,u^{XX}\,u^{YZ}\,{v^{Y}}_{Z}\,w^{ZZ} \\
+&\quad + \,u^{XX}\,u^{YZ}\,{v^{Z}}_{X}\,w^{XY} + \,u^{XX}\,u^{YZ}\,{v^{Z}}_{Y}\,w^{YY} - 3\,u^{XY}\,u^{XY}\,{v^{X}}_{X}\,w^{ZZ} - 3\,u^{XY}\,u^{XY}\,{v^{Y}}_{Y}\,w^{ZZ} \\
+&\quad + 3\,u^{XY}\,u^{XY}\,{v^{Z}}_{X}\,w^{XZ} + 3\,u^{XY}\,u^{XY}\,{v^{Z}}_{Y}\,w^{YZ} + \,u^{XY}\,u^{XZ}\,{v^{X}}_{X}\,w^{YZ} - 2\,u^{XY}\,u^{XZ}\,{v^{Y}}_{X}\,w^{XZ} \\
+&\quad - \,u^{XY}\,u^{XZ}\,{v^{Y}}_{Y}\,w^{YZ} - 2\,u^{XY}\,u^{XZ}\,{v^{Y}}_{Z}\,w^{ZZ} - \,u^{XY}\,u^{XZ}\,{v^{Z}}_{X}\,w^{XY} - \,u^{XY}\,u^{XZ}\,{v^{Z}}_{Y}\,w^{YY} \\
+&\quad - \,u^{XY}\,u^{YZ}\,{v^{X}}_{X}\,w^{XZ} - 2\,u^{XY}\,u^{YZ}\,{v^{X}}_{Y}\,w^{YZ} - 2\,u^{XY}\,u^{YZ}\,{v^{X}}_{Z}\,w^{ZZ} + \,u^{XY}\,u^{YZ}\,{v^{Y}}_{Y}\,w^{XZ} \\
+&\quad - \,u^{XY}\,u^{YZ}\,{v^{Z}}_{X}\,w^{XX} - \,u^{XY}\,u^{YZ}\,{v^{Z}}_{Y}\,w^{XY} + \,u^{XZ}\,u^{YY}\,{v^{X}}_{X}\,w^{XZ} + 2\,u^{XZ}\,u^{YY}\,{v^{X}}_{Y}\,w^{YZ} \\
+&\quad + 2\,u^{XZ}\,u^{YY}\,{v^{X}}_{Z}\,w^{ZZ} - \,u^{XZ}\,u^{YY}\,{v^{Y}}_{Y}\,w^{XZ} + \,u^{XZ}\,u^{YY}\,{v^{Z}}_{X}\,w^{XX} + \,u^{XZ}\,u^{YY}\,{v^{Z}}_{Y}\,w^{XY}

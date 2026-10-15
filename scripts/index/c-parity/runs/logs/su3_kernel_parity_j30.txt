@@ -1,0 +1,8 @@
+SU(3) diagonal graviton index vs data (j <= 30): OK
+indices done, rounding 6.1e-12  (7s)
+SU(3) columns with nonzero kernel index (T = #P+ - #P- in ker rho,  O = sum (-1)^Y over ker rho); known range: 5 rows, mismatches with prediction 0
+  j=24 lam=(4, 4, 4): T=  1  O= -1  known: total=2 BH=0 nonCoulomb=1 (T pred 1)
+  j=26 lam=(5, 4, 4): T=  1  O= -1  known: total=3 BH=0 nonCoulomb=1 (T pred 1)
+  j=28 lam=(5, 5, 4): T=  1  O= -1  known: total=4 BH=0 nonCoulomb=1 (T pred 1)
+  j=30 lam=(5, 5, 5): T=  2  O=  0  known: total=2 BH=0 nonCoulomb=2 (T pred 2)
+  j=30 lam=(7, 4, 4): T= -1  O=  1  known: total=12 BH=1 nonCoulomb=0 (T pred -1)  <-- T<0: P-odd (fortuitous) classes forced

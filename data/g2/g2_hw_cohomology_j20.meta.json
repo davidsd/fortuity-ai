@@ -1,0 +1,10 @@
+{
+ "description": "G2 BMN Q-cohomology on SU(3)_R highest-weight vectors, complete scan at j = 20 (all 14 columns q1>=q2>=q3 with q1+q2+q3 = 10, all 2J), fortuity.hwcoh.run_sectors format. Non-graviton classes: none.",
+ "computed_by": "Fortuity collaboration (Claude agent), laptop (plugged in), 2026-09-28",
+ "date": "2026-09-28",
+ "code": "code/fortuity/hwcoh (group='G2', ENGINE=par, HW_CACHE shared between SO(7) and G2)",
+ "commit": "1b92053",
+ "conventions": "D-006 BMN conventions; graviton generators up to n = 8 (GEN_NMAX=8); dims from fortuity.hwcoh.dims.partition_dims_nf(0, 26, group='G2').",
+ "command": "scripts/bmn/so-usp-g2-scans/runs/run_j20.sh (ENGINE=par GROUP=G2 GEN_NMAX=8 python -m fortuity.hwcoh.run_sectors 0 dims.pkl out.jsonl <14 columns>)",
+ "checked": "Per-sector self-check rank = m (all sectors); per column, the Euler characteristic sum_2J (-1)^2J h equals the SU(3)_R multiplicity in the exact BMN index (fortuity.bmn.groupindex) in all 14 columns. Single seed."
+}

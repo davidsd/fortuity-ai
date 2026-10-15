@@ -1,0 +1,9 @@
+SU(3) so-type: S_C(protected)/S = 0.74062 ; max_phi S_C,cl/S = 0.88998 at phi/pi = 0.9975
+SU(4) so-type: S_C(protected)/S = 0.70473 ; max_phi S_C,cl/S = 0.82618 at phi/pi = 0.9975
+SU(4) sp-type: S_C(protected)/S = 0.62996 ; max_phi S_C,cl/S = 0.67601 at phi/pi = 0.75
+SU(5) so-type: S_C(protected)/S = 0.6786 ; max_phi S_C,cl/S = 0.77747 at phi/pi = 0.9975
+SU(6) so-type: S_C(protected)/S = 0.65863 ; max_phi S_C,cl/S = 0.73853 at phi/pi = 0.9975
+SU(6) sp-type: S_C(protected)/S = 0.46416 ; max_phi S_C,cl/S = 0.55543 at phi/pi = 0.7775
+SU(8) so-type: S_C(protected)/S = 0.62996 ; max_phi S_C,cl/S = 0.67918 at phi/pi = 0.9975
+SU(8) sp-type: S_C(protected)/S = 0.32932 ; max_phi S_C,cl/S = 0.52448 at phi/pi = 0.355
+timeout 15 $PY $f  1,52s user 0,02s system 95% cpu 1,627 total

@@ -1,0 +1,4 @@
+Mg = 84: max rounding error 7.06e-10 (66s)
+Mg = 90: max rounding error 7.86e-10 (140s)
+j <= 30 validation: 172 columns, mismatches []
+{"26": {"columns": 21, "negative": 0, "min": 5}, "28": {"columns": 24, "negative": 0, "min": 8}, "30": {"columns": 27, "negative": 0, "min": 7}, "32": {"columns": 30, "negative": 0, "min": 10}, "34": {"columns": 33, "negative": 0, "min": 8}, "36": {"columns": 37, "negative": 0, "min": 12}}

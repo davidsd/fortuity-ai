@@ -1,0 +1,15 @@
+[0,2] (1;5,5,3), x1^2 y2^2: O 56021 terms; rho(O) 1113 terms in {(1, 1, 6, 6, 6)}; Q_0-closed on so(7): True
+  rho(Q_1 O) 1893 terms; Q_1 rho(O) 1934 terms; Delta 474 terms  [70s]
+  [mod exact] seed 11 x1: {'functionals': 3060, 'rank_target': 826, 'rank_exact': 741, 'rank_span': 741, 'source_words': 6027, 'target_words': 1974}
+     nonzero residue {'Delta': False, 'rho Q1 O': True, 'Q1 rho O': True, 'Q1 O18': True}
+     ratio to Q_1 O_18: {'Delta': 0, 'rho Q1 O': -60, 'Q1 rho O': -60}  rational: {'Delta': '0', 'rho Q1 O': '-60', 'Q1 rho O': '-60'}  [145s]
+  [mod exact] seed 11 x2: {'functionals': 6030, 'rank_target': 826, 'rank_exact': 741, 'rank_span': 741, 'source_words': 6027, 'target_words': 1974}
+     nonzero residue {'Delta': False, 'rho Q1 O': True, 'Q1 rho O': True, 'Q1 O18': True}
+     ratio to Q_1 O_18: {'Delta': 0, 'rho Q1 O': -60, 'Q1 rho O': -60}  rational: {'Delta': '0', 'rho Q1 O': '-60', 'Q1 rho O': '-60'}  [275s]
+  [mod exact] seed 12 x1: {'functionals': 3060, 'rank_target': 826, 'rank_exact': 741, 'rank_span': 741, 'source_words': 6027, 'target_words': 1974}
+     nonzero residue {'Delta': False, 'rho Q1 O': True, 'Q1 rho O': True, 'Q1 O18': True}
+     ratio to Q_1 O_18: {'Delta': 0, 'rho Q1 O': -60, 'Q1 rho O': -60}  rational: {'Delta': '0', 'rho Q1 O': '-60', 'Q1 rho O': '-60'}  [328s]
+  [mod exact] seed 12 x2: {'functionals': 6030, 'rank_target': 826, 'rank_exact': 741, 'rank_span': 741, 'source_words': 6027, 'target_words': 1974}
+     nonzero residue {'Delta': False, 'rho Q1 O': True, 'Q1 rho O': True, 'Q1 O18': True}
+     ratio to Q_1 O_18: {'Delta': 0, 'rho Q1 O': -60, 'Q1 rho O': -60}  rational: {'Delta': '0', 'rho Q1 O': '-60', 'Q1 rho O': '-60'}  [434s]
+EXIT 0

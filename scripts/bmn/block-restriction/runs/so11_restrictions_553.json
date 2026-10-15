@@ -1,0 +1,121 @@
+{
+ "description": "SO(11) fortuitous classes (R-011) restricted to SO(7) x SO(2)^2; target SO(7) (1;3,3,3) dim 903, exact 559, graviton 123; ratios = non-graviton components relative to the first non-graviton case (mod p, symmetric representative)",
+ "results": {
+  "553": [
+   {
+    "case": "x^(2,0,0) y^(0,2,0)",
+    "targets": [
+     [
+      2,
+      0,
+      0
+     ],
+     [
+      0,
+      2,
+      0
+     ]
+    ],
+    "terms": 1113,
+    "verdict": "NON-GRAVITON",
+    "nonzero": true,
+    "closed": true,
+    "not_exact": true,
+    "non_graviton_component": true,
+    "ratio_to_first_nongraviton": 1,
+    "graviton_controls": [
+     "zero",
+     "zero",
+     "zero",
+     "zero"
+    ]
+   },
+   {
+    "case": "x^(1,1,0) y^(1,1,0)",
+    "targets": [
+     [
+      1,
+      1,
+      0
+     ],
+     [
+      1,
+      1,
+      0
+     ]
+    ],
+    "terms": 1255,
+    "verdict": "NON-GRAVITON",
+    "nonzero": true,
+    "closed": true,
+    "not_exact": true,
+    "non_graviton_component": true,
+    "ratio_to_first_nongraviton": -2,
+    "proportional": true,
+    "graviton_controls": [
+     "zero",
+     "zero",
+     "zero",
+     "zero"
+    ]
+   },
+   {
+    "case": "x^(0,2,0) y^(2,0,0)",
+    "targets": [
+     [
+      0,
+      2,
+      0
+     ],
+     [
+      2,
+      0,
+      0
+     ]
+    ],
+    "terms": 1113,
+    "verdict": "NON-GRAVITON",
+    "nonzero": true,
+    "closed": true,
+    "not_exact": true,
+    "non_graviton_component": true,
+    "ratio_to_first_nongraviton": 1,
+    "proportional": true,
+    "graviton_controls": [
+     "zero",
+     "zero",
+     "zero",
+     "zero"
+    ]
+   },
+   {
+    "case": "x^(2,2,0) y^0 (one brane carries everything)",
+    "targets": [
+     [
+      2,
+      2,
+      0
+     ],
+     [
+      0,
+      0,
+      0
+     ]
+    ],
+    "terms": 690,
+    "verdict": "graviton (mod exact)",
+    "nonzero": true,
+    "closed": true,
+    "not_exact": true,
+    "non_graviton_component": false,
+    "graviton_controls": [
+     "zero",
+     "zero",
+     "zero",
+     "zero"
+    ]
+   }
+  ]
+ },
+ "time": 41
+}

@@ -1,0 +1,11 @@
+{
+ "description": "SU(4) BMN-sector Q-cohomology for all dominant SU(3)_R weights and all 2J, j <= 28: per (j, lam, 2J) the multiplicity of the SU(3)_R irrep lam in cohomology (h), multi-graviton part (grav, products of u_n, v_n, w_n with n <= 4, modulo Q-exact, full 4x4 matrices) and non-graviton part (BH); per column Euler characteristic and exact index multiplicity",
+ "computed_by": "Fortuity collaboration (Claude agent) on SDSC Expanse",
+ "date": "2026-09-26",
+ "code": "code/fortuity/hwcoh (run_sectors, to_json); runs used the identical workspace copy scripts/bmn/hw-scans-cluster/hwcoh",
+ "commit": "code 44c66a3; production at workspace commits ed8c05b (array 54466743) and 84e261b (per-sector runs of the five largest j=28 columns, array 54468072)",
+ "conventions": "D-006; sector (2J; q1,q2,q3), j = 2 sum q, E = j/2 - J; rep [a,b] = [q1-q2, q2-q3]",
+ "command": "sbatch cluster/hw_columns.sbatch with N=4 JD=28 MAXLEN=10 over cluster/tasks_su4_j28.txt (+ tasks_su4_j28_heavy.txt); python -m fortuity.hwcoh.to_json '<results>/*.jsonl' 4 OUT",
+ "checked": "every sector: rank of hw vectors = exact hw multiplicity per fermion degree; every column: Euler characteristic = exact index multiplicity (145/145). MAXLEN=10 verified per sector by the rank check (MAXLEN=8 fails and is caught by it).",
+ "caveat": "classical cohomology; non-graviton in the sense of D-005 (proposed)"
+}

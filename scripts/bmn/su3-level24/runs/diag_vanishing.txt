@@ -1,0 +1,71 @@
+parts A, C: N = 3, diagonal traceless, 6 independent Grassmann eigenvalues
+  R_24 = E_a W^a,  E_a = eps_{bca} u^{bd} v^c_d,  W^a = v^{ac}_d v^d_c: 0
+     E_a - 3 (G_21 - G_12) n_a   (n = x_1 cross x_2: E is along the normal of the plane): 0
+     n_a W^a   (W lies in the plane): 0
+  tr v^3: nonzero (18 monomials)
+     tr v^3 - 3 (m_11 - m_22) m_12 m_21: 0
+  R_30 [0,0] = tr v^5: 0
+     [3,0] prefactor (eta^3 component) - (1/D) sum_AB eta_A eta_B det(eta; alpha_A; alpha_B): 0
+     m_AB tr v^3 + 3 Omega delta_AB, Omega = m_11 m_22 m_12 m_21: 0
+     Omega itself: nonzero (9 monomials)
+  R_26^1 = v^i_a v^a_b v^d_c v^{bc}_d: 0
+  R_26^2 = v^i_a v^a_b v^d_c v^{bc}_d: 0
+  R_26^3 = v^i_a v^a_b v^d_c v^{bc}_d: 0
+  R_30 [3,0] = eps^{ab(i} v^j_a v^{k)}_b tr v^3, all 10 components: 0
+     its prefactor eps^{ab1} v^1_a v^1_b alone: nonzero (4 monomials)
+  C [0,0] (6,3,0): eps_{abc} u^{ade} M^b_d M^c_f M^f_e: 0
+  C [0,0] (6,3,0): eps_{abc} u^{ad} M^b_d t^c tau: 0
+  C [0,0] (7,1,1): eps eps u u tr(phi phi phi^a psi_a f): 0
+  C [0,0] (5,5,0): sum_k G_kk (G^4)_kk: 0
+  C [0,0] (5,5,0): tau sum_k (G^2)_kk (G^2)_kk: 0
+  C [1,0] (5,4,0): sum_k x_k (G^4)_kk: 0
+  C [1,0] (5,4,0): sum_k x_k G_kk (G^3)_kk: 0
+  C [1,0] (5,4,0): sum_k x_k (G^2)_kk (G^2)_kk: 0
+  C [1,0] (5,4,0): sum_kl x_k G_kl G_ll (G^2)_ll: 0
+  C [3,0] (5,5,0), component 111: sum_k (x^1_k)^3 (th_k cross th_k)^c sum_l th_{c,l} (G^2)_ll: nonzero (6 monomials)
+  C [3,0] (5,5,0), component 111: u^{11} sum_l (th_l cross th_l)^1 (G^3)_ll: nonzero (6 monomials)
+parts A, C: N = 4, diagonal traceless, 9 independent Grassmann eigenvalues
+  R_24 = E_a W^a,  E_a = eps_{bca} u^{bd} v^c_d,  W^a = v^{ac}_d v^d_c: nonzero (81 monomials)
+  tr v^3: nonzero (78 monomials)
+  R_30 [0,0] = tr v^5: nonzero (81 monomials)
+  R_26^1 = v^i_a v^a_b v^d_c v^{bc}_d: nonzero (117 monomials)
+  R_26^2 = v^i_a v^a_b v^d_c v^{bc}_d: nonzero (117 monomials)
+  R_26^3 = v^i_a v^a_b v^d_c v^{bc}_d: nonzero (117 monomials)
+  R_30 [3,0] = eps^{ab(i} v^j_a v^{k)}_b tr v^3, all 10 components: nonzero
+     its prefactor eps^{ab1} v^1_a v^1_b alone: nonzero (9 monomials)
+  C [0,0] (6,3,0): eps_{abc} u^{ade} M^b_d M^c_f M^f_e: nonzero (81 monomials)
+  C [0,0] (6,3,0): eps_{abc} u^{ad} M^b_d t^c tau: nonzero (81 monomials)
+  C [0,0] (7,1,1): eps eps u u tr(phi phi phi^a psi_a f): nonzero (9 monomials)
+  C [0,0] (5,5,0): sum_k G_kk (G^4)_kk: nonzero (126 monomials)
+  C [0,0] (5,5,0): tau sum_k (G^2)_kk (G^2)_kk: nonzero (126 monomials)
+  C [1,0] (5,4,0): sum_k x_k (G^4)_kk: nonzero
+  C [1,0] (5,4,0): sum_k x_k G_kk (G^3)_kk: nonzero
+  C [1,0] (5,4,0): sum_k x_k (G^2)_kk (G^2)_kk: nonzero
+  C [1,0] (5,4,0): sum_kl x_k G_kl G_ll (G^2)_ll: nonzero
+  C [3,0] (5,5,0), component 111: sum_k (x^1_k)^3 (th_k cross th_k)^c sum_l th_{c,l} (G^2)_ll: nonzero (108 monomials)
+  C [3,0] (5,5,0), component 111: u^{11} sum_l (th_l cross th_l)^1 (G^3)_ll: nonzero (99 monomials)
+part B: N = 3, all functions of the eigenvalues in the charge sector of each entry of (A.4);
+        per letter content (n_phi, n_psi, n_f): highest-weight vectors / S_3-invariant highest-weight vectors
+  t^18 [0,0] control: sector of tr v^3  S_3-invariant functions   1   (3, 3, 0): 4/1  (4, 1, 1): 0/0
+  t^10 [1,2] R_10^(0,0)                 S_3-invariant functions   0   (5, 0, 0): 2/0
+  t^12 [0,0] R_12^(0,0)                 S_3-invariant functions   0   (6, 0, 0): 0/0
+  t^12 [2,2] R_12^(0,0)                 S_3-invariant functions   1   (6, 0, 0): 3/1
+  t^12 [0,3] R_12^(0,1)                 S_3-invariant functions   0   (4, 1, 0): 2/0
+  t^12 [1,1] R_12^(0,1)                 S_3-invariant functions   1   (4, 1, 0): 8/1
+  t^12 [2,2] R_12^(0,1)                 S_3-invariant functions   1   (4, 1, 0): 6/1
+  t^14 [1,0] R_14^(0,1)                 S_3-invariant functions   0   (5, 1, 0): 0/0
+  t^14 [0,2] R_14^(0,1)                 S_3-invariant functions   1   (5, 1, 0): 4/1
+  t^14 [2,1] R_14^(0,1)                 S_3-invariant functions   2   (5, 1, 0): 12/2
+  t^14 [1,3] R_14^(0,1)                 S_3-invariant functions   1   (5, 1, 0): 4/1
+  t^14 [3,2] R_14^(0,1)                 S_3-invariant functions   1   (5, 1, 0): 8/1
+  t^14 [1,3] R_14^(0,2)                 S_3-invariant functions   0   (3, 2, 0): 2/0  (4, 0, 1): 0/0
+  t^16 [0,1] R_16^(0,2)                 S_3-invariant functions   2   (4, 2, 0): 6/2  (5, 0, 1): 0/0
+  t^16 [1,2] R_16^(0,2)                 S_3-invariant functions   4   (4, 2, 0): 16/3  (5, 0, 1): 4/1
+  t^16 [2,3] R_16^(0,2)                 S_3-invariant functions   1   (4, 2, 0): 3/1  (5, 0, 1): 0/0
+  t^18 [0,0] R_18^(0,2)                 S_3-invariant functions   0   (5, 2, 0): 0/0  (6, 0, 1): 0/0
+  t^20 [1,0] R_20^(0,3)                 S_3-invariant functions   1   (4, 3, 0): 8/1  (5, 1, 1): 0/0
+  t^22 [2,0] R_22^(0,3)                 S_3-invariant functions   2   (5, 3, 0): 12/2  (6, 1, 1): 0/0
+  t^24 [0,0] R_24^(0,3)                 S_3-invariant functions   0   (6, 3, 0): 0/0  (7, 1, 1): 0/0
+  t^26 [1,0] R_26^(0,4)                 S_3-invariant functions   0   (5, 4, 0): 2/0  (6, 2, 1): 0/0  (7, 0, 2): 0/0
+  t^30 [0,0] R_30^(0,5)                 S_3-invariant functions   0   (5, 5, 0): 0/0  (6, 3, 1): 0/0  (7, 1, 2): 0/0
+  t^30 [3,0] R_30^(0,5)                 S_3-invariant functions   6   (5, 5, 0): 8/1  (6, 3, 1): 32/5  (7, 1, 2): 0/0

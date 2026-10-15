@@ -1,0 +1,41 @@
+[      1s] loaded R-007 representative: 201564 terms, sector (5, 7, 4, 4)
+[      2s] 569 graviton monomials in (5, 7, 4, 4); using 6 as controls
+[      3s] k=0: restricted image has 201564 SU(2) terms (target sector (5, 7, 4, 4))
+[      6s]   target SU N=2 (5, 7, 4, 4): npts=2 ncols=438 rank(words)=220
+[     10s]   target SU N=2 (5, 7, 4, 4): npts=4 ncols=876 rank(words)=296
+[     17s]   target SU N=2 (5, 7, 4, 4): npts=8 ncols=1752 rank(words)=335
+[     33s]   target SU N=2 (5, 7, 4, 4): npts=16 ncols=3504 rank(words)=347
+[     94s]   target SU N=2 (5, 7, 4, 4): dim=347 exact=141 graviton=4 (91s)
+[    446s] k=0: {'k': 0, 'sector': (5, 7, 4, 4), 'terms': 201564, 'dim': 347, 'exact_rank': 141, 'grav': 4, 'nonzero': True, 'closed': True, 'not_exact': False, 'non_graviton_component': False, 'verdict': 'Q-exact', 'controls': ['zero', 'zero', 'zero', 'zero', 'zero', 'zero']}
+[    448s] k=1: restricted image has 74166 SU(2) terms (target sector (5, 6, 4, 4))
+[    450s]   target SU N=2 (5, 6, 4, 4): npts=2 ncols=438 rank(words)=216
+[    452s]   target SU N=2 (5, 6, 4, 4): npts=4 ncols=876 rank(words)=283
+[    456s]   target SU N=2 (5, 6, 4, 4): npts=8 ncols=1752 rank(words)=314
+[    475s]   target SU N=2 (5, 6, 4, 4): dim=314 exact=123 graviton=0 (26s)
+[    581s] k=1: {'k': 1, 'sector': (5, 6, 4, 4), 'terms': 74166, 'dim': 314, 'exact_rank': 123, 'grav': 0, 'nonzero': True, 'closed': True, 'not_exact': False, 'non_graviton_component': False, 'verdict': 'Q-exact', 'controls': ['zero', 'zero', 'zero', 'zero', 'zero', 'zero']}
+[    584s] k=2: restricted image has 25632 SU(2) terms (target sector (5, 5, 4, 4))
+[    585s]   target SU N=2 (5, 5, 4, 4): npts=2 ncols=438 rank(words)=185
+[    586s]   target SU N=2 (5, 5, 4, 4): npts=4 ncols=876 rank(words)=221
+[    588s]   target SU N=2 (5, 5, 4, 4): npts=8 ncols=1752 rank(words)=245
+[    594s]   target SU N=2 (5, 5, 4, 4): dim=245 exact=90 graviton=4 (9s)
+[    650s] k=2: {'k': 2, 'sector': (5, 5, 4, 4), 'terms': 25632, 'dim': 245, 'exact_rank': 90, 'grav': 4, 'nonzero': True, 'closed': True, 'not_exact': False, 'non_graviton_component': False, 'verdict': 'Q-exact', 'controls': ['zero', 'graviton', 'graviton', 'zero', 'graviton', 'zero']}
+[    652s] k=3: restricted image has 4845 SU(2) terms (target sector (5, 4, 4, 4))
+[    652s]   target SU N=2 (5, 4, 4, 4): npts=2 ncols=438 rank(words)=134
+[    653s]   target SU N=2 (5, 4, 4, 4): npts=4 ncols=876 rank(words)=153
+[    654s]   target SU N=2 (5, 4, 4, 4): dim=153 exact=47 graviton=0 (2s)
+[    660s] k=3: {'k': 3, 'sector': (5, 4, 4, 4), 'terms': 4845, 'dim': 153, 'exact_rank': 47, 'grav': 0, 'nonzero': True, 'closed': True, 'not_exact': True, 'non_graviton_component': True, 'verdict': 'non-graviton', 'controls': ['zero', 'zero', 'zero', 'zero', 'zero', 'zero']}
+[    662s] k=4: restricted image has 1101 SU(2) terms (target sector (5, 3, 4, 4))
+[    662s]   target SU N=2 (5, 3, 4, 4): npts=2 ncols=438 rank(words)=58
+[    662s]   target SU N=2 (5, 3, 4, 4): npts=4 ncols=876 rank(words)=61
+[    663s]   target SU N=2 (5, 3, 4, 4): dim=61 exact=11 graviton=3 (0s)
+[    666s] k=4: {'k': 4, 'sector': (5, 3, 4, 4), 'terms': 1101, 'dim': 61, 'exact_rank': 11, 'grav': 3, 'nonzero': True, 'closed': True, 'not_exact': False, 'non_graviton_component': False, 'verdict': 'Q-exact', 'controls': ['zero', 'zero', 'zero', 'zero', 'zero', 'zero']}
+[    667s] k=5: restricted image has 78 SU(2) terms (target sector (5, 2, 4, 4))
+[    667s]   target SU N=2 (5, 2, 4, 4): npts=2 ncols=438 rank(words)=11
+[    667s]   target SU N=2 (5, 2, 4, 4): dim=11 exact=0 graviton=0 (0s)
+[    668s] k=5: {'k': 5, 'sector': (5, 2, 4, 4), 'terms': 78, 'dim': 11, 'exact_rank': 0, 'grav': 0, 'nonzero': False, 'closed': True, 'not_exact': False, 'non_graviton_component': False, 'verdict': 'zero at N=2', 'controls': ['zero', 'zero', 'zero', 'zero', 'zero', 'zero']}
+[    669s] k=6: restricted image has 1 SU(2) terms (target sector (5, 1, 4, 4))
+[    669s]   target SU N=2 (5, 1, 4, 4): npts=2 ncols=70 rank(words)=0
+[    669s]   target SU N=2 (5, 1, 4, 4): dim=0 exact=0 graviton=0 (0s)
+[    669s] k=6: {'k': 6, 'sector': (5, 1, 4, 4), 'terms': 1, 'dim': 0, 'exact_rank': 0, 'grav': 0, 'nonzero': False, 'closed': True, 'not_exact': False, 'non_graviton_component': False, 'verdict': 'zero at N=2', 'controls': ['zero', 'zero', 'zero', 'zero', 'zero', 'zero']}
+[    671s] k=7: restricted image has 0 SU(2) terms (target sector (5, 0, 4, 4))
+[    671s] done

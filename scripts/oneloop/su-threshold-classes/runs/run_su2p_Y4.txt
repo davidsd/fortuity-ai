@@ -1,0 +1,7 @@
+[su2p_Y4] SEC (4, 4, 8, 8, 8) Y=4: words 51, hw rows 51, independent 51 vs exact m 51 {4: 51} -> SPAN (0s)
+exact: UP (5, 5, 8, 8, 8) Y=3: words 51, hw rows 51 (exact m_up 29); rank of Q_0 images 19 (0s)
+closedness: Q_0 image rank 28 (m_low 36); closed hw combinations 23 (125s)
+cohomology dimension h = 4 = closed 23 - exact rank 19 (125s)
+representative sizes (words): [10, 19, 24, 23]
+closedness at fresh points: nonzero entries 0 of 84 (must be 0)
+Coulomb: rank of the Cartan values of the 4 classes = 4; non-Coulomb combinations 0 (functionals 2800)

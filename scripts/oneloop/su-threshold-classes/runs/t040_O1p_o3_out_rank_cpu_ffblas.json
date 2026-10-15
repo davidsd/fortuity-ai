@@ -1,0 +1,15 @@
+{
+ "backend": "cpu_ffblas",
+ "nB": 100998,
+ "nV": 0,
+ "ncols": 92000,
+ "ncart_used": 0,
+ "n_ctrl": 0,
+ "rank_B": 49944,
+ "rank_after_controls": 49944,
+ "controls_exact": true,
+ "lifted_increments": [],
+ "n_lifted": 0,
+ "time": 1551,
+ "case": "rank:2:8,8,12,12,12:8"
+}

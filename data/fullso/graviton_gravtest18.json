@@ -1,0 +1,86 @@
+[
+ {
+  "group": "SO_odd",
+  "sec": [
+   1,
+   1,
+   6,
+   6,
+   6
+  ],
+  "Y": 8,
+  "dim": 903,
+  "rank_words": 903,
+  "exact": 559,
+  "rank_out": 220,
+  "h": 124,
+  "graviton": 123,
+  "nongraviton": 1,
+  "n_products": 258,
+  "n_generators": 4392,
+  "time": 9.2
+ },
+ {
+  "group": "SO_odd",
+  "sec": [
+   0,
+   0,
+   6,
+   6,
+   6
+  ],
+  "Y": 8,
+  "dim": 826,
+  "rank_words": 826,
+  "exact": 741,
+  "rank_out": 0,
+  "h": 85,
+  "graviton": 85,
+  "nongraviton": 0,
+  "n_products": 199,
+  "n_generators": 4392,
+  "time": 6.0
+ },
+ {
+  "group": "Sp",
+  "sec": [
+   1,
+   1,
+   6,
+   6,
+   6
+  ],
+  "Y": 8,
+  "dim": 903,
+  "rank_words": 903,
+  "exact": 559,
+  "rank_out": 221,
+  "h": 123,
+  "graviton": 123,
+  "nongraviton": 0,
+  "n_products": 258,
+  "n_generators": 4392,
+  "time": 9.1
+ },
+ {
+  "group": "Sp",
+  "sec": [
+   0,
+   0,
+   6,
+   6,
+   6
+  ],
+  "Y": 8,
+  "dim": 825,
+  "rank_words": 825,
+  "exact": 741,
+  "rank_out": 0,
+  "h": 84,
+  "graviton": 84,
+  "nongraviton": 0,
+  "n_products": 199,
+  "n_generators": 4392,
+  "time": 5.8
+ }
+]

@@ -1,0 +1,10 @@
+{
+ "description": "dMK (O^3_30)^{111} in the BMN sector (2J; q) = (5; 7,4,4), j = 30: a Q-closed [3,0] highest-weight representative of the R-007 class (modulo gravitons and exact terms, up to normalization; R-016)",
+ "computed_by": "Fortuity collaboration (Claude agent), laptop",
+ "date": "2026-10-02",
+ "code": "code/fortuity/bmn/dmk.py (o330, save_rational_json); tests code/tests/test_dmk.py",
+ "commit": "cf7d295",
+ "conventions": "summary/fortuity-summary.pdf (section 2); letters and Q of fortuity.bmn.words (Q psi_m = eps_{mnp} phi_n phi_p, Q f = sum_m [phi_m, psi_m]); dMK index 1,2,3 -> 0,1,2",
+ "command": "PYTHONPATH=code python3 -c \"from fortuity.bmn import dmk; dmk.save_rational_json(dmk.o330(), 'data/su3/dmk_o330_hw.json', ...)\"",
+ "checked": "code/tests/test_dmk.py: equals the builder output; Q-closed at N=3 and not at N=4 (random evaluation over F_p, p = 2^26-5; re-checked closed at N=3 at a second prime 33554393, two seeds, 992 functionals each, on 2026-10-02 with this module); formally highest weight; restriction to SU(2)xU(1): x1^3 coefficient = -648/5 O^2_24 identically at N=2 (dMK eq. (2.25)), O^2_24 non-graviton in the certified SU(2) sector (5;4,4,4) (dim 153); x1^0, x1^2 coefficients vanish at N=2. Relation (2.20) holds identically with traceless R; as printed it does not."
+}

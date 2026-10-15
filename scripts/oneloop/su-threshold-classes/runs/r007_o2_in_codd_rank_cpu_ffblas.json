@@ -1,0 +1,15 @@
+{
+ "backend": "cpu_ffblas",
+ "nB": 179567,
+ "nV": 0,
+ "ncols": 218360,
+ "ncart_used": 0,
+ "n_ctrl": 0,
+ "rank_B": 112730,
+ "rank_after_controls": 112730,
+ "controls_exact": true,
+ "lifted_increments": [],
+ "n_lifted": 0,
+ "time": 7154,
+ "case": "r007_o2_in"
+}

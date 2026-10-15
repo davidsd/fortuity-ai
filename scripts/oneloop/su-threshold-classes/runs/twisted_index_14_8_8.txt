@@ -1,0 +1,40 @@
+jacobian: min 1.2e-31, mean 4
+(1) 240 random words: failures {'C2': 0, 'Q0': 0, 'Q1_N2': 0, 'Q1_N3': 0}
+(2) C = (-1)^Y on Cartan-valued letters: 300/300 words
+(3) su3_j30: C matrix on the 5 classes (rows: C v_k in the basis v_j, mod exact) =
+[[      -1        0        0        0        0]
+ [28298723        1        0        0        0]
+ [-5734665        0        1        0        0]
+ [ 8361448        0        0        1        0]
+ [-9663087        0        0        0        1]]
+    consistent on all functionals: True; eigenvalues {-1: 1, 1: 4}
+(3) su3_j24: C matrix on the 1 classes (rows: C v_k in the basis v_j, mod exact) =
+[[-1]]
+    consistent on all functionals: True; eigenvalues {-1: 1}
+  content with 4 letters: dim 1 (C-even+C-odd from words 1), Tr C brute -1, twisted integral -1
+  content with 4 letters: dim 8 (C-even+C-odd from words 8), Tr C brute 2, twisted integral 2
+  content with 4 letters: dim 8 (C-even+C-odd from words 8), Tr C brute 2, twisted integral 2
+  content with 4 letters: dim 8 (C-even+C-odd from words 8), Tr C brute 2, twisted integral 2
+  content with 4 letters: dim 1 (C-even+C-odd from words 1), Tr C brute -1, twisted integral -1
+  content with 4 letters: dim 8 (C-even+C-odd from words 8), Tr C brute 2, twisted integral 2
+  content with 4 letters: dim 1 (C-even+C-odd from words 1), Tr C brute -1, twisted integral -1
+  content with 3 letters: dim 2 (C-even+C-odd from words 2), Tr C brute 0, twisted integral 0
+  content with 3 letters: dim 2 (C-even+C-odd from words 2), Tr C brute 0, twisted integral 0
+  content with 3 letters: dim 2 (C-even+C-odd from words 2), Tr C brute 0, twisted integral 0
+  content with 3 letters: dim 2 (C-even+C-odd from words 2), Tr C brute 0, twisted integral 0
+  content with 5 letters: dim 16 (C-even+C-odd from words 16), Tr C brute -2, twisted integral -2
+validation OK (12 contents)
+
+[BMN letters only] weight 2q=(14, 8, 8), J1=J2, hw multiplicity: index I = 0, C-twisted I_C = -10, C-even part (I+I_C)/2 = -5.0, C-odd part (I-I_C)/2 = 5.0
+   2J1=2J2=  8  Y= 7  d_BMN=0:  I    72   I_C   -32
+   2J1=2J2=  7  Y= 8  d_BMN=0:  I  -747   I_C   -55
+   2J1=2J2=  6  Y= 9  d_BMN=0:  I  2865   I_C   121
+   2J1=2J2=  5  Y=10  d_BMN=0:  I -5664   I_C   128
+   2J1=2J2=  4  Y=11  d_BMN=0:  I  6572   I_C  -170
+   2J1=2J2=  3  Y=12  d_BMN=0:  I -4705   I_C  -103
+   2J1=2J2=  2  Y=13  d_BMN=0:  I  2072   I_C   106
+   2J1=2J2=  1  Y=14  d_BMN=0:  I  -526   I_C    24
+   2J1=2J2=  0  Y=15  d_BMN=0:  I    61   I_C   -29
+
+[all letters] weight 2q=(14, 8, 8), J1=J2, hw multiplicity: index I = 35, C-twisted I_C = -565, C-even part (I+I_C)/2 = -265.0, C-odd part (I-I_C)/2 = 300.0
+   2J1=2J2=  8  Y= 7  d_BMN=0:  I    72   I_C   -32

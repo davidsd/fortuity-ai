@@ -1,0 +1,10 @@
+{
+ "description": "BMN-sector index of SO(7) and Sp(3) N=4 SYM (unrefined, x=y=1) to j=40, their difference, and the SU(3)_R representation content of the refined difference to j=28. Negative multiplicity = net fermionic excess in SO(7).",
+ "computed_by": "Fortuity collaboration (Claude agent)",
+ "date": "2026-09-26",
+ "code": "code/fortuity/bmn/groupindex.py",
+ "commit": "eebc909",
+ "conventions": "BMN letters and index as in code/fortuity/bmn/fullindex.py (D-006): phi_I -> t^2 x_I, psi_I -> -t^4/x_I, f -> t^6, j = 2 sum_I (R_I + J). SO(7) = B_3 (roots +-e_i+-e_j, +-e_i), Sp(3) = USp(6) = C_3 (roots +-e_i+-e_j, +-2e_i), Weyl integration formula with |W| = 48. SU(3)_R reps [p,q] as in fullindex.su3_multiplicities.",
+ "command": "cd code && python -m fortuity.bmn.groupindex 3 40 28 ../data/so_sp/so7_sp3_bmn_index.json",
+ "checked": "Unrefined SO(7) and Sp(3) series agree with the series expansion of the closed forms of arXiv:2506.13887 (numerator terms printed to t^18, denominators in full) through j=18; the difference agrees with their eq. for I_SO(7)-I_Sp(3) (numerator printed to t^12) through j=30; the common graviton index of their eq. (4.13) is reproduced through j=16 and equals Sp(3) at j=18 while SO(7) has one extra fermion (-2654 vs -2653). Same code reproduces fullindex.full_index for SU(2), SU(3) (refined) and data/su2, data/su3; so(3)=sp(1)=su(2) and so(5)=sp(2) give identical indices. Haar integral exact (grid size exceeds all exponents; rounding error < 1e-4 asserted). Tests: code/tests/test_groupindex.py."
+}

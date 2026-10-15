@@ -1,0 +1,11 @@
+{
+ "description": "Which 'fundamental trace relations' of eq. (A.4) of arXiv:2312.16443 are Q-exact at N=3 (levels 18-30), with (4.8) and O_1 as controls",
+ "computed_by": "Fortuity collaboration (Claude agent)",
+ "date": "2026-09-27",
+ "code": "code/fortuity/hwcoh (Sector) driven by scripts/bmn/su3-level24/hw_relation_test.py",
+ "commit": "bc72c71",
+ "conventions": "D-006 (Chang-Lin / Choi et al. BMN conventions as in fortuity.bmn.words); Q_paper = -i Q_code; sector (2J; q1,q2,q3), q_I = R_I + J, j = 2 sum q",
+ "command": "python3 hw_relation_test.py R24,O48,O1; python3 hw_relation_test.py R26 (etc.)",
+ "checked": "per sector the rank of the hw vectors at the functionals equals the exact hw multiplicity per fermion degree; verdicts on R_24, (4.8), O_1 agree with two independent computations (Weyl-symmetric subspace at two primes; full complex with 11316-dimensional sector certified)",
+ "caveat": "level-30 sectors computed with traces of length <= 6 (MAXLEN=6, as in the R-007 production runs); spanning certified by the rank = multiplicity check"
+}

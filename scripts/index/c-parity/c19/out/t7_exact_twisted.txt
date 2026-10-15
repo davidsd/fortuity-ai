@@ -1,0 +1,4 @@
+eigenvalue check max diff: 4.577566798522237e-16
+exact twisted index == library numerical (all weights |q|<=22): True 2297 2297
+I_C(7,4,4) = -1133  s(7,4,4)= 10  s(9,6,6)= -4  s(10,6,6)= -10
+all SU(3) columns |lam|<=22 with s<0: [((9, 6, 6), np.int64(-4)), ((10, 6, 6), np.int64(-10))]

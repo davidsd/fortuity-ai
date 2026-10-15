@@ -1,0 +1,10 @@
+{
+ "description": "BMN-sector index of SO(13) and Sp(6) N=4 SYM, unrefined (x=y=1) to j=32, their difference, and the SU(3)_R content of the difference at j=30 determined by evaluation at three random unit-circle fugacities.",
+ "computed_by": "Fortuity collaboration (Claude agent)",
+ "date": "2026-10-04",
+ "code": "code/fortuity/bmn/groupindex.py (unrefined_series, chunk=4096); code/fortuity/bmn/fugacityindex.py (SU(3)_R content)",
+ "commit": "dd5296d",
+ "command": "cd code && FORTUITY_WORKERS=8 python -c \"from fortuity.bmn.groupindex import unrefined_series as u; print(u('SO_odd',6,32,chunk=4096), u('Sp',6,32,chunk=4096))\"; FORTUITY_WORKERS=8 python -m fortuity.bmn.fugacityindex 6 30 3",
+ "conventions": "As in data/so_sp/so7_sp3_bmn_index.meta.json; SO(13) = B_6, Sp(6) = USp(12) = C_6, |W| = 46080.",
+ "checked": "Exact Haar integrals (max rounding error 1.8e-7). Same code reproduces the N=5 unrefined difference (-21 t^26 + 63 t^28) in the same session. The fugacity evaluation is tested against the fully refined index (SO(7), j<=12) and R-004 (N=3,4) in code/tests/test_fugacityindex.py, and reproduces the N=5 content -([4,0]+[0,2]) to 1e-10. At N=6 the j=30 difference equals -(chi[6,0]+chi[2,2]+chi[0,0]) at three random points to <6e-9; same-dimension alternatives (conjugate [0,6]; [6,0]+[3,0]+[0,3]+[1,1]+[0,0]) miss by ~5. Three points plus the unrefined -56 = -(28+27+1) are strong evidence, not a proof, of the content; a full refined run (~1000x cost) was not done."
+}

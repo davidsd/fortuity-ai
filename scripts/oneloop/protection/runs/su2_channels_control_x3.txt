@@ -1,0 +1,4 @@
+20:34:51 [control_x3] SEC (4, 4, 8, 8, 8) Y=5: words 8265, hw rows 1929, independent 609 vs exact m 609 {2: 260, 4: 349} -> SPAN
+20:37:59 [control_x3] m 609, rank in (Q_0 from (5, 5, 8, 8, 8) Y=4) 363, rank out (to (3, 3, 8, 8, 8) Y=6) 246, closed 363 -> h = 0  (189s)
+20:37:59 SUMMARY [('control_x3', 609, 0)]
+EXIT 0

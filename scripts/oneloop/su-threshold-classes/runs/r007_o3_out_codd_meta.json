@@ -1,0 +1,37 @@
+{
+ "N": 3,
+ "SEC": [
+  4,
+  4,
+  14,
+  8,
+  8
+ ],
+ "Y": 9,
+ "maxlen": 6,
+ "seed": 41,
+ "n_vecs": 0,
+ "n_ctrl": 0,
+ "p": 67108859,
+ "case": "r007_o3_out",
+ "tp_words": 1759378,
+ "tp_m": 131048,
+ "tp_rows": 133072,
+ "tp_raw_rows": 712657,
+ "q0_nnz": 14719198,
+ "q0_max_row_l1": 30.0,
+ "target_words": 2403829,
+ "csec": -1,
+ "target_m_d": {
+  "3": 46668,
+  "5": 44484,
+  "7": 2806
+ },
+ "ncols": 94182,
+ "timing_eval": 3948,
+ "timing_combine": 10990,
+ "nB": 133072,
+ "nV": 0,
+ "prep_dir": "prep/r007_o3_out_codd",
+ "time": 15303
+}

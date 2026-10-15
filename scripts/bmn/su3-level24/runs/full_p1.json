@@ -1,0 +1,14 @@
+{
+ "prime": 67108859,
+ "seed": 778,
+ "npts": 480,
+ "ncols": 20160,
+ "dim_sector": 11316,
+ "rank_exact_full": 5439,
+ "targets": {
+  "(4.8) of 2312.16443": true,
+  "O_1^{(0,3)} (exact by construction)": true,
+  "R-002 polynomial P": false,
+  "Sym(P)": false
+ }
+}

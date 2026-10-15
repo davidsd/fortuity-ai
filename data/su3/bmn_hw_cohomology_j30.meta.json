@@ -1,0 +1,11 @@
+{
+ "description": "SU(3) BMN-sector Q-cohomology for all dominant SU(3)_R weights and all 2J, j <= 30: per (j, lam, 2J) the multiplicity of the SU(3)_R irrep with highest weight lam in cohomology (h), its multi-graviton part (grav, products of u_n, v_n, w_n with n <= 3, modulo Q-exact, full 3x3 matrices) and non-graviton part (BH = h - grav); per column the Euler characteristic and the exact Haar-integral index multiplicity",
+ "computed_by": "Fortuity collaboration (Claude agent) on SDSC Expanse",
+ "date": "2026-09-26",
+ "code": "code/fortuity/hwcoh (run_sectors, to_json); runs used the identical workspace copy scripts/bmn/hw-scans-cluster/hwcoh",
+ "commit": "code 44c66a3 (promotion); production runs at workspace commits d06f336 (array 54466357) and 84e261b (per-sector reruns of the three largest j=30 columns, array 54468081)",
+ "conventions": "D-006 (Chang-Lin / Choi et al. BMN conventions as in fortuity.bmn.words); sector (2J; q1,q2,q3), q_I = R_I + J, j = 2 sum q, E = j/2 - J; rep [a,b] = [q1-q2, q2-q3]",
+ "command": "sbatch cluster/hw_columns.sbatch with N=3 MAXLEN=6 over cluster/tasks_su3_j30.txt (+ tasks_su3_j30_heavy.txt); then python -m fortuity.hwcoh.to_json '<results>/*.jsonl' 3 OUT",
+ "checked": "every sector: rank of hw vectors at the sector's functionals equals the exact hw multiplicity (per fermion degree; two-sided); every column: sum_2J (-1)^2J h = SU(3)_R multiplicity in the exact index (172/172). The one non-graviton entry (j=30, [3,0], 2J=5) reproduced with an independent seed (sectors 2J=4,5,6) and with graviton generators up to n=4 (grav unchanged, 4). Method validated against fortuity.bmn.symdirect (code/tests/test_hwcoh.py) and reproduces R-001 and R-002.",
+ "caveat": "traces restricted to length <= 6 (MAXLEN=6); spanning verified per sector by the rank = m check. Classical (tree-level) cohomology; 'non-graviton' in the sense of D-005 (proposed); T-010 (operational definition of fortuity) still open."
+}

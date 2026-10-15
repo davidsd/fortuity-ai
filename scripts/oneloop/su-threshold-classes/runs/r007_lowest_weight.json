@@ -1,0 +1,30 @@
+{
+ "what": "R-007 representative x (classes/su3_j30/reps.pkl, vector 0, 14,658 words, derivative-free): K and T annihilate it identically; the two highest-weight components of S_a x ([3,1]: S_2 x; [2,0]: S_20 x) tested for Q_0-exactness with a positive control (Q_0 of a compressed hw row) and a negative control (one coefficient of the test vector changed).",
+ "p": 67108859,
+ "seed": 41,
+ "date": "2026-10-06",
+ "tests": {
+  "S_2": {
+   "target_sector": "(4,4;14,8,6), Y=10",
+   "case": "rank:3:5,5,14,8,6:10",
+   "multiplicity": 4507,
+   "rank_in": 2033,
+   "controls_exact": true,
+   "increments_test_then_corrupted": [
+    0,
+    1
+   ]
+  },
+  "S_20": {
+   "target_sector": "(4,4;12,8,8), Y=10",
+   "case": "rank:3:5,5,12,8,8:10",
+   "multiplicity": 3466,
+   "rank_in": 1769,
+   "controls_exact": true,
+   "increments_test_then_corrupted": [
+    0,
+    1
+   ]
+  }
+ }
+}

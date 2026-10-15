@@ -1,0 +1,11 @@
+{
+ "description": "SO(7) and G2 BMN Q-cohomology on SU(3)_R highest-weight vectors, complete scans at j = 22 and 24 (all 35 columns, all 2J): files so7_hw_cohomology_j22_j24.jsonl and g2_hw_cohomology_j22_j24.jsonl (fortuity.hwcoh.run_sectors format, 182 sectors each), and so7_to_g2_restriction_j22_j24.jsonl (fortuity.hwcoh.restrict on the SO(7) non-graviton sectors). Findings: SO(7) non-graviton classes only at (4,4,3) 2J=3 (j=22, [0,1]) and (4,4,4) 2J=4 (j=24, singlet), the SU(1|3) descendants of the j=18 class of R-005; G2 has no non-graviton class; both SO(7) classes restrict to G2 gravitons (bh_G=1 -> bh_G_to_H=0 in each).",
+ "computed_by": "Fortuity collaboration (Claude agent), PI Symmetry job 564304 (node cn051, 26 parallel column tasks x 3 workers)",
+ "date": "2026-09-28",
+ "code": "code/fortuity/hwcoh (ENGINE=par, group='SO_odd' / 'G2', HW_CACHE shared), hwcoh.restrict; scripts scripts/bmn/so-usp-g2-scans/cluster/t023_scan.sbatch, scripts/bmn/so-usp-g2-scans/restrict_scan.py",
+ "commit": "6b25304",
+ "conventions": "D-006 BMN conventions; graviton generators up to n = 8; dims from partition_dims_nf(N, 26, group) computed on the cluster (job 564221).",
+ "command": "sbatch t023_scan.sbatch (JS='22 24', PAR=26, WPT=3)",
+ "checked": "Per-sector self-check rank = m in all 364 sectors; per column, the Euler characteristic sum_2J (-1)^2J h equals the SU(3)_R multiplicity in the exact BMN index (fortuity.bmn.groupindex) in all 35 columns for both groups. The restriction code is validated on (1;3,3,3) (1 -> 0 into G2, agreeing with R-010's explicit-operator route; 1 -> 1 into SO(7) itself). NOT yet done: second seed and graviton-generator robustness (GEN_NMAX) on the non-graviton sectors, so these results are preliminary.",
+ "note_2026-10-01": "The SO(7)->G2 restriction file of this entry was produced by fortuity.hwcoh.restrict before commit d869d37, which added a faithfulness check to _lower_q_rows (review B.1). The claim it supports (no G2 non-graviton image, 1 -> 0) does not depend on that check: the certified G2 scans have no non-graviton class in these sectors."
+}

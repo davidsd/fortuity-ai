@@ -1,0 +1,10 @@
+{
+ "description": "SO(5) = Sp(2) BMN sector: SU(3)_R highest-weight Q-cohomology per sector (2J, lam) for all dominant weights with j<=24; h = classes, grav = multi-graviton (products of single-trace generators up to length 8 modulo Q-exact, full matrices), nongrav = h - grav",
+ "computed_by": "Fortuity collaboration (Claude agent)",
+ "date": "2026-09-27",
+ "code": "code/fortuity/hwcoh (run_sectors, GROUP=SO_odd, N=2, GEN_NMAX=8, SEED=1)",
+ "commit": "5649169",
+ "conventions": "summary/fortuity-summary.pdf (section 2) D-005/D-006; sector (2J, q1,q2,q3), E = sum(q) - J",
+ "command": "scripts/bmn/so5-scan/run_so5.sh (JMAX=24); equivalently GROUP=SO_odd GEN_NMAX=8 SEED=1 python3 -m fortuity.hwcoh.run_sectors 2 auto:<JMAX> hw_SO_odd2.jsonl <all dominant columns>. Note 2026-10-02: the original run_so5.sh was never committed and is lost; the file now at that path is a reconstruction that reproduces the stored records for all sectors with j <= 20 (check_so5_driver.py)",
+ "checked": "per-sector exact-dimension self-check (rank of hw vectors = exact hw multiplicity per fermion degree) passed in all 410 sectors; four j=24 columns (30 sectors) recomputed with the Sp(2) symplectic 4x4 letters (GROUP=Sp): identical m, ranks, classes and graviton counts"
+}

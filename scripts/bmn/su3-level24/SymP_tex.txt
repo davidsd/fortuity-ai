@@ -1,0 +1,22 @@
++ 6\,u^{XX}\,u^{YY}\,{v^{X}}_{X}\,w^{ZZ} + 6\,u^{XX}\,u^{YY}\,{v^{Y}}_{Y}\,w^{ZZ} - 6\,u^{XX}\,u^{YY}\,{v^{Z}}_{X}\,w^{XZ} \\
+&\quad - 6\,u^{XX}\,u^{YY}\,{v^{Z}}_{Y}\,w^{YZ} - 4\,u^{XX}\,u^{YZ}\,{v^{X}}_{X}\,w^{YZ} + 6\,u^{XX}\,u^{YZ}\,{v^{Y}}_{X}\,w^{XZ} \\
+&\quad + 2\,u^{XX}\,u^{YZ}\,{v^{Y}}_{Y}\,w^{YZ} + 6\,u^{XX}\,u^{YZ}\,{v^{Y}}_{Z}\,w^{ZZ} + 6\,u^{XX}\,u^{YZ}\,{v^{Z}}_{X}\,w^{XY} \\
+&\quad + 6\,u^{XX}\,u^{YZ}\,{v^{Z}}_{Y}\,w^{YY} + 2\,u^{XX}\,u^{YZ}\,{v^{Z}}_{Z}\,w^{YZ} + 6\,u^{XX}\,u^{ZZ}\,{v^{X}}_{X}\,w^{YY} \\
+&\quad - 6\,u^{XX}\,u^{ZZ}\,{v^{Y}}_{X}\,w^{XY} - 6\,u^{XX}\,u^{ZZ}\,{v^{Y}}_{Z}\,w^{YZ} + 6\,u^{XX}\,u^{ZZ}\,{v^{Z}}_{Z}\,w^{YY} \\
+&\quad - 6\,u^{XY}\,u^{XY}\,{v^{X}}_{X}\,w^{ZZ} - 6\,u^{XY}\,u^{XY}\,{v^{Y}}_{Y}\,w^{ZZ} + 6\,u^{XY}\,u^{XY}\,{v^{Z}}_{X}\,w^{XZ} \\
+&\quad + 6\,u^{XY}\,u^{XY}\,{v^{Z}}_{Y}\,w^{YZ} + 4\,u^{XY}\,u^{XZ}\,{v^{X}}_{X}\,w^{YZ} - 6\,u^{XY}\,u^{XZ}\,{v^{Y}}_{X}\,w^{XZ} \\
+&\quad - 2\,u^{XY}\,u^{XZ}\,{v^{Y}}_{Y}\,w^{YZ} - 6\,u^{XY}\,u^{XZ}\,{v^{Y}}_{Z}\,w^{ZZ} - 6\,u^{XY}\,u^{XZ}\,{v^{Z}}_{X}\,w^{XY} \\
+&\quad - 6\,u^{XY}\,u^{XZ}\,{v^{Z}}_{Y}\,w^{YY} - 2\,u^{XY}\,u^{XZ}\,{v^{Z}}_{Z}\,w^{YZ} - 2\,u^{XY}\,u^{YZ}\,{v^{X}}_{X}\,w^{XZ} \\
+&\quad - 6\,u^{XY}\,u^{YZ}\,{v^{X}}_{Y}\,w^{YZ} - 6\,u^{XY}\,u^{YZ}\,{v^{X}}_{Z}\,w^{ZZ} + 4\,u^{XY}\,u^{YZ}\,{v^{Y}}_{Y}\,w^{XZ} \\
+&\quad - 6\,u^{XY}\,u^{YZ}\,{v^{Z}}_{X}\,w^{XX} - 6\,u^{XY}\,u^{YZ}\,{v^{Z}}_{Y}\,w^{XY} - 2\,u^{XY}\,u^{YZ}\,{v^{Z}}_{Z}\,w^{XZ} \\
+&\quad + 2\,u^{XY}\,u^{ZZ}\,{v^{X}}_{X}\,w^{XY} + 6\,u^{XY}\,u^{ZZ}\,{v^{X}}_{Y}\,w^{YY} + 6\,u^{XY}\,u^{ZZ}\,{v^{X}}_{Z}\,w^{YZ} \\
+&\quad + 6\,u^{XY}\,u^{ZZ}\,{v^{Y}}_{X}\,w^{XX} + 2\,u^{XY}\,u^{ZZ}\,{v^{Y}}_{Y}\,w^{XY} + 6\,u^{XY}\,u^{ZZ}\,{v^{Y}}_{Z}\,w^{XZ} \\
+&\quad - 4\,u^{XY}\,u^{ZZ}\,{v^{Z}}_{Z}\,w^{XY} - 6\,u^{XZ}\,u^{XZ}\,{v^{X}}_{X}\,w^{YY} + 6\,u^{XZ}\,u^{XZ}\,{v^{Y}}_{X}\,w^{XY} \\
+&\quad + 6\,u^{XZ}\,u^{XZ}\,{v^{Y}}_{Z}\,w^{YZ} - 6\,u^{XZ}\,u^{XZ}\,{v^{Z}}_{Z}\,w^{YY} + 2\,u^{XZ}\,u^{YY}\,{v^{X}}_{X}\,w^{XZ} \\
+&\quad + 6\,u^{XZ}\,u^{YY}\,{v^{X}}_{Y}\,w^{YZ} + 6\,u^{XZ}\,u^{YY}\,{v^{X}}_{Z}\,w^{ZZ} - 4\,u^{XZ}\,u^{YY}\,{v^{Y}}_{Y}\,w^{XZ} \\
+&\quad + 6\,u^{XZ}\,u^{YY}\,{v^{Z}}_{X}\,w^{XX} + 6\,u^{XZ}\,u^{YY}\,{v^{Z}}_{Y}\,w^{XY} + 2\,u^{XZ}\,u^{YY}\,{v^{Z}}_{Z}\,w^{XZ} \\
+&\quad - 2\,u^{XZ}\,u^{YZ}\,{v^{X}}_{X}\,w^{XY} - 6\,u^{XZ}\,u^{YZ}\,{v^{X}}_{Y}\,w^{YY} - 6\,u^{XZ}\,u^{YZ}\,{v^{X}}_{Z}\,w^{YZ} \\
+&\quad - 6\,u^{XZ}\,u^{YZ}\,{v^{Y}}_{X}\,w^{XX} - 2\,u^{XZ}\,u^{YZ}\,{v^{Y}}_{Y}\,w^{XY} - 6\,u^{XZ}\,u^{YZ}\,{v^{Y}}_{Z}\,w^{XZ} \\
+&\quad + 4\,u^{XZ}\,u^{YZ}\,{v^{Z}}_{Z}\,w^{XY} - 6\,u^{YY}\,u^{ZZ}\,{v^{X}}_{Y}\,w^{XY} - 6\,u^{YY}\,u^{ZZ}\,{v^{X}}_{Z}\,w^{XZ} \\
+&\quad + 6\,u^{YY}\,u^{ZZ}\,{v^{Y}}_{Y}\,w^{XX} + 6\,u^{YY}\,u^{ZZ}\,{v^{Z}}_{Z}\,w^{XX} + 6\,u^{YZ}\,u^{YZ}\,{v^{X}}_{Y}\,w^{XY} \\
+&\quad + 6\,u^{YZ}\,u^{YZ}\,{v^{X}}_{Z}\,w^{XZ} - 6\,u^{YZ}\,u^{YZ}\,{v^{Y}}_{Y}\,w^{XX} - 6\,u^{YZ}\,u^{YZ}\,{v^{Z}}_{Z}\,w^{XX}

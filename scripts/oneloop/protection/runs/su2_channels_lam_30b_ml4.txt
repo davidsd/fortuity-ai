@@ -1,0 +1,10 @@
+20:40:36 [lam_30b] SEC (3, 5, 13, 7, 7) Y=7: words 112477, hw rows 48006, independent 3043 vs exact m 3044 {1: 686, 3: 2044, 5: 314} -> NO SPAN
+Traceback (most recent call last):
+  File "${REPO}/scripts/oneloop/protection/code/su2_channels.py", line 172, in <module>
+    res = [cohomology(l, *SECTORS[l]) for l in labels]
+           ~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "${REPO}/scripts/oneloop/protection/code/su2_channels.py", line 145, in cohomology
+    assert len(sel) == m, "hw vectors do not span"
+           ^^^^^^^^^^^^^
+AssertionError: hw vectors do not span
+EXIT 1

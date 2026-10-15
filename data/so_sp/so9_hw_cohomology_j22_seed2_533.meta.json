@@ -1,0 +1,8 @@
+{
+ "description": "Second-seed run (SEED = 2) of the SO(9) column (5,3,3) at j = 22, all 2J: identical m, r_up, grav to so9_hw_cohomology_j22.jsonl. T-044.",
+ "computed_by": "Fortuity collaboration (Claude agent), laptop, 2026-10-06 (50 s)",
+ "code": "code/fortuity/hwcoh (run_sectors, numpy engine, GROUP=SO_odd, N=4, SEED=2, default GEN_NMAX = 8)",
+ "commit": "dd5296d",
+ "command": "cd code && GROUP=SO_odd SEED=2 python -m fortuity.hwcoh.run_sectors 4 dims_so9_j22.pkl ../data/so_sp/so9_hw_cohomology_j22_seed2_533.jsonl 5,3,3",
+ "checked": "self-check true in all 7 sectors; identical to the seed-1 rows."
+}

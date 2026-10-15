@@ -1,0 +1,23 @@
+{
+ "lam": [
+  5,
+  4,
+  4
+ ],
+ "n": 4,
+ "check": true,
+ "r_up": 658,
+ "grav": 1,
+ "targets": {
+  "QR24_1": {
+   "nonzero": true,
+   "exact": false,
+   "in_graviton_plus_exact": true
+  },
+  "R26": {
+   "nonzero": true,
+   "exact": false,
+   "in_graviton_plus_exact": true
+  }
+ }
+}

@@ -1,0 +1,11 @@
+{
+ "description": "G2 vs SO(7) in the BMN sector (1;3,3,3) (j=18): G2 direct cohomology counts; the SO(7) fortuitous class (eq. (4.14) of arXiv:2506.13887, without its graviton projection) checked in SO(7) and restricted to g2; and the check that multi-trace words span all G2 invariants for j <= 18.",
+ "computed_by": "Fortuity collaboration (Claude agent), laptop",
+ "date": "2026-09-27",
+ "code": "code/fortuity/bmn/{evaluate,symdirect}.py (group='G2'), scripts/bmn/so-usp-g2-scans/{restrict_so7_class,completeness}.py",
+ "commit": "e892bfc",
+ "conventions": "D-006 BMN conventions; g2 = stabiliser of the octonion 3-form phi (evaluate.g2_phi) inside antisymmetric 7x7 matrices, random elements by the projection X - phi phi X / 6 over F_p; graviton generators u_n, v_n, w_n up to n = 8.",
+ "command": "cd code && python ../code/fortuity/bmn/g2_checks.py ; python ../code/fortuity/bmn/g2_checks.py 18 ; SymDirect(N, gen_nmax=8, symmetrize=False, group=G, seed=s).analyse((1,3,3,3)) for (G,N) in (G2,0),(SO_odd,3), s in 777, 4242",
+ "checked": "Two seeds for the cohomology counts and for the restriction classification (identical). The SO(7) counts reproduce arXiv:2510.24008 (R-005). g2 letters tested: antisymmetric, annihilate phi, span 14 dimensions (code/tests/test_groupindex.py). Trace-word ranks equal the exact G2 sector dimensions in all 145 sectors with j <= 18.",
+ "command_2026-10-02": "cd code && python -m fortuity.bmn.g2_checks restriction ; python -m fortuity.bmn.g2_checks completeness 18 (the same computations, promoted from the workspace scripts; review C14)"
+}

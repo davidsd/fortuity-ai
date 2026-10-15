@@ -1,0 +1,18 @@
+SU(4): rank of twisted torus r=2; grouped-vs-library |dF| = 4.4e-16; symmetry violations max 9.2e-16
+grid: 1681 torus points x 481 phi values = 808561 evaluations
+  th=0 (sp-type)                     protected 0.629961 | max over phi 0.676013 at phi/pi = 0.74960
+  th=pi/2 (so-type)                  protected 0.704730 | max over phi 0.826238 at phi/pi = 1.00000
+  th=(pi/2)^1,0^1 (not involutive)   protected 0.464159 | max over phi 0.464236 at phi/pi = 0.66885
+protected slice phi = 2pi/3: 2 grid local maxima (incl. permutation images); refined:
+    0.7047299 at theta/pi = (0.500000, 0.500000), phi/pi = 0.666667
+    0.6299605 at theta/pi = (0.000000, 0.000000), phi/pi = 0.666667
+classical (torus x phi): 9 grid local maxima (incl. permutation images); refined:
+    0.8262379 at theta/pi = (0.500000, 0.500000), phi/pi = 1.000000
+    0.6760129 at theta/pi = (0.000039, 0.000029), phi/pi = 0.749609
+    0.5566562 at theta/pi = (0.006400, 0.004839), phi/pi = 0.369285
+    0.4882244 at theta/pi = (0.500000, 0.500000), phi/pi = 0.356768
+    0.2581551 at theta/pi = (0.270475, 0.270474), phi/pi = 0.185340
+    0.2536027 at theta/pi = (0.500000, 0.000076), phi/pi = 0.174896
+    0.1627416 at theta/pi = (0.500000, 0.166769), phi/pi = 0.118922
+time: grid 4.10 s, total 5.51 s
+$PY cardy_torus_sun.py $N 1/80 1/480  3,46s user 2,14s system 99% cpu 5,598 total

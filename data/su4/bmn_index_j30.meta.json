@@ -1,0 +1,11 @@
+{
+ "description": "SU(4) BMN index, eigenvalue graviton index and difference through j=30, SU(3)_R rep content",
+ "computed_by": "Fortuity collaboration (Claude agent)",
+ "date": "2026-09-26",
+ "code": "code/fortuity/bmn/fullindex.py, gravindex.py",
+ "commit": "07cc88d",
+ "conventions": "BMN sector of SU(N); sector = (2J, q1, q2, q3) with q_I = R_I + J, j = 2 sum q; Chang-Lin / Choi et al. conventions (summary/fortuity-summary.pdf, section 2)",
+ "command": "PYTHONPATH=. python3 scripts/run_index_levels.py 4 30 4 2 6",
+ "checked": "Z - Zgrav = -chi[2,0] t^28 + chi[1,1] t^30 reproduces eq. (3.15) of arXiv:2312.16443 (core -[2,0] at 28, -[3,0] at 30) with descendant weight t^2 x_I",
+ "caveat": "diagonal graviton count; the j=28 term may be an artifact (see R-002, R-003)"
+}

@@ -1,0 +1,22 @@
+20:52:53 hw: (3, 3, 8, 8, 8) Y=8: 298561 words (1s)
+20:52:53 hw: exact multiplicities (C sector 1) of 17 stripped contents, total 2409 (1s)
+20:53:10 hw: 17 stripped contents, 2357 shapes; raw hw rows 12802, exact multiplicity 2409, compressed rows 2545 (17s)
+20:53:18 Q_0: 298327 preimage words -> 422316 target words in play (8s)
+20:53:19 functionals 1418 in 3 chunks (target hw multiplicity 1218 {0: 94, 2: 708, 4: 416}); B rows 2545, V rows 4; workers 1
+20:53:20   chunk d=0 cols 0:158 done (eval 1s, combine 0s)
+20:53:48   chunk d=2 cols 158:938 done (eval 26s, combine 3s)
+20:54:05   chunk d=4 cols 938:1418 done (eval 41s, combine 4s)
+20:54:05 rank B (Q_0-exact subspace of the target, hw) = 927 (1s)
+20:54:05 controls: rank 927 -> 927 (exact, OK); Q_1 v rank increments per class [0]
+20:54:05 wrote classes/su3_j24/fullpar_seed41_ceven.json (73s)
+20:54:07 hw: (3, 3, 8, 8, 8) Y=8: 298561 words (1s)
+20:54:07 hw: exact multiplicities (C sector -1) of 17 stripped contents, total 2338 (1s)
+20:54:24 hw: 17 stripped contents, 2357 shapes; raw hw rows 12802, exact multiplicity 2338, compressed rows 2474 (17s)
+20:54:32 Q_0: 298327 preimage words -> 422316 target words in play (8s)
+20:54:32 functionals 1503 in 3 chunks (target hw multiplicity 1285 {0: 89, 2: 762, 4: 434}); B rows 2474, V rows 4; workers 1
+20:54:34   chunk d=0 cols 0:153 done (eval 1s, combine 0s)
+20:55:03   chunk d=2 cols 153:993 done (eval 27s, combine 3s)
+20:55:21   chunk d=4 cols 993:1503 done (eval 44s, combine 4s)
+20:55:22 rank B (Q_0-exact subspace of the target, hw) = 970 (1s)
+20:55:22 controls: rank 970 -> 970 (exact, OK); Q_1 v rank increments per class [0]
+20:55:22 wrote classes/su3_j24/fullpar_seed41_codd.json (76s)

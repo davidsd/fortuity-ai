@@ -1,0 +1,57 @@
+{
+ "note": "R-007 order 2: spanning certificate of the T_2 = (4,4;14,8,8) Y=9 C-odd hw rows, 8 slices (Torch 19109525_0-7)",
+ "case": "r007_o2_out",
+ "slices": [
+  {
+   "rank": 37363,
+   "m": 37363,
+   "spans": true,
+   "deficits": []
+  },
+  {
+   "rank": 30228,
+   "m": 30228,
+   "spans": true,
+   "deficits": []
+  },
+  {
+   "rank": 31177,
+   "m": 31177,
+   "spans": true,
+   "deficits": []
+  },
+  {
+   "rank": 26703,
+   "m": 26703,
+   "spans": true,
+   "deficits": []
+  },
+  {
+   "rank": 27107,
+   "m": 27107,
+   "spans": true,
+   "deficits": []
+  },
+  {
+   "rank": 22687,
+   "m": 22687,
+   "spans": true,
+   "deficits": []
+  },
+  {
+   "rank": 22877,
+   "m": 22877,
+   "spans": true,
+   "deficits": []
+  },
+  {
+   "rank": 19866,
+   "m": 19866,
+   "spans": true,
+   "deficits": []
+  }
+ ],
+ "rank": 218008,
+ "m": 218008,
+ "spans": true
+}

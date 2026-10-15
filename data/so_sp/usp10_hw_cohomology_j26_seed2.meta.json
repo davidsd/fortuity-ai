@@ -1,0 +1,10 @@
+{
+ "description": "Second-seed (SEED=2) recomputation of data/so_sp/usp10_hw_cohomology_j26.jsonl: USp(10) hw cohomology, columns (7,3,3) and (5,5,3), 2J = 0,1,2. Identical to seed 1 in all six sectors.",
+ "computed_by": "Fortuity collaboration (Claude agent), PI Symmetry job 564204 (6 parallel sector processes)",
+ "date": "2026-09-27",
+ "code": "code/fortuity/hwcoh (group='Sp')",
+ "commit": "3981fd4",
+ "conventions": "As in usp10_hw_cohomology_j26.meta.json.",
+ "command": "sbatch --export=ALL,GROUP=Sp,SEED=2 --dependency=afterok:564200 t020_sectors_parallel.sbatch, reusing dims_Sp5_j26_2J3.pkl of job 564200",
+ "checked": "Agrees with seed 1 sector by sector; self-check rank = m in all sectors."
+}

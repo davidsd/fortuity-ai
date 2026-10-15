@@ -1,0 +1,4 @@
+SU(3) ordinary index (validation, j <= 30): max rounding error 4.44e-14; columns compared 172; mismatches 0 []  (8s)
+SU(3) twisted index (j <= 30): max rounding error 6.14e-12; mean weight 4.0000  (8s)
+SU(3) twisted vs prediction: 172 columns, mismatches 0 []; twisted content outside the data columns: []
+  P-odd column: {'lam': (7, 4, 4), 'j': 30, 'total_cohomology': 12, 'ordinary_index': 0, 'twisted_index': -10, 'predicted_signed': 10, 'ok': True}

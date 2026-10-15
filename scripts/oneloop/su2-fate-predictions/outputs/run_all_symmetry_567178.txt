@@ -1,0 +1,75 @@
+host cn085; start Thu Oct  1 06:05:24 PM EDT 2026
+numpy 1.24.3 sympy 1.11.1
+work dir /tmp/tmp.WZj9bNVDSU; Python 3.11.4
+=== a_scope
+24 (4, 4, 4) [0, 0] 2J=5 Y=7 E=9.5 m=11 h=1 grav=0 BH=1
+26 (5, 4, 4) [1, 0] 2J=6 Y=7 E=10.0 m=25 h=1 grav=0 BH=1
+28 (5, 5, 4) [0, 1] 2J=7 Y=7 E=10.5 m=21 h=1 grav=0 BH=1
+30 (5, 5, 5) [0, 0] 2J=8 Y=7 E=11.0 m=12 h=1 grav=0 BH=1
+32 (6, 5, 5) [1, 0] 2J=7 Y=9 E=12.5 m=42 h=1 grav=0 BH=1
+34 (6, 6, 5) [0, 1] 2J=8 Y=9 E=13.0 m=36 h=1 grav=0 BH=1
+34 (7, 5, 5) [2, 0] 2J=8 Y=9 E=13.0 m=62 h=1 grav=0 BH=1
+36 (6, 6, 6) [0, 0] 2J=9 Y=9 E=13.5 m=25 h=2 grav=0 BH=2
+36 (7, 6, 5) [1, 1] 2J=9 Y=9 E=13.5 m=59 h=1 grav=0 BH=1
+38 (7, 6, 6) [1, 0] 2J=10 Y=9 E=14.0 m=40 h=2 grav=0 BH=2
+40 (7, 7, 6) [0, 1] 2J=11 Y=9 E=14.5 m=27 h=1 grav=0 BH=1
+40 (8, 6, 6) [2, 0] 2J=9 Y=11 E=15.5 m=98 h=1 grav=0 BH=1
+42 (7, 7, 7) [0, 0] 2J=12 Y=9 E=15.0 m=14 h=1 grav=0 BH=1
+42 (8, 7, 6) [1, 1] 2J=10 Y=11 E=16.0 m=112 h=1 grav=0 BH=1
+42 (9, 6, 6) [3, 0] 2J=10 Y=11 E=16.0 m=104 h=1 grav=0 BH=1
+incomplete: 44 [8, 7, 7] sectors 2J = [0, 1, 2] euler 0 index -2
+44 (9, 7, 6) [2, 1] 2J=11 Y=11 E=16.5 m=116 h=1 grav=0 BH=1
+--- a_scope: 0 s
+=== b_hair_model
+j=24 lam=(4, 4, 4) 2J=5 Y=7 x1  [O0 Q+^0 w2^0]
+j=32 lam=(6, 5, 5) 2J=7 Y=9 x1  [O0 Q+^0 w2^1]
+j=40 lam=(8, 6, 6) 2J=9 Y=11 x1  [O0 Q+^0 w2^2]
+j=26 lam=(5, 4, 4) 2J=6 Y=7 x1  [O0 Q+^1 w2^0]
+j=34 lam=(7, 5, 5) 2J=8 Y=9 x1  [O0 Q+^1 w2^1]
+j=34 lam=(6, 6, 5) 2J=8 Y=9 x1  [O0 Q+^1 w2^1]
+j=42 lam=(9, 6, 6) 2J=10 Y=11 x1  [O0 Q+^1 w2^2]
+j=42 lam=(8, 7, 6) 2J=10 Y=11 x1  [O0 Q+^1 w2^2]
+j=28 lam=(5, 5, 4) 2J=7 Y=7 x1  [O0 Q+^2 w2^0]
+j=36 lam=(7, 6, 5) 2J=9 Y=9 x1  [O0 Q+^2 w2^1]
+j=36 lam=(6, 6, 6) 2J=9 Y=9 x1  [O0 Q+^2 w2^1]
+j=44 lam=(9, 7, 6) 2J=11 Y=11 x1  [O0 Q+^2 w2^2]
+j=44 lam=(8, 7, 7) 2J=11 Y=11 x1  [O0 Q+^2 w2^2]
+j=30 lam=(5, 5, 5) 2J=8 Y=7 x1  [O0 Q+^3 w2^0]
+j=38 lam=(7, 6, 6) 2J=10 Y=9 x1  [O0 Q+^3 w2^1]
+j=36 lam=(6, 6, 6) 2J=9 Y=9 x1  [O1 Q+^0 w2^0]
+j=44 lam=(8, 7, 7) 2J=11 Y=11 x1  [O1 Q+^0 w2^1]
+j=38 lam=(7, 6, 6) 2J=10 Y=9 x1  [O1 Q+^1 w2^0]
+j=40 lam=(7, 7, 6) 2J=11 Y=9 x1  [O1 Q+^2 w2^0]
+j=42 lam=(7, 7, 7) 2J=12 Y=9 x1  [O1 Q+^3 w2^0]
+mismatches (pred, obs): {(44, (8, 7, 7), 11, 11): (2, 0)}
+--- b_hair_model: 0 s
+=== c_partner_sizes
+{1: 231, 2: 884, 3: 609, 4: 51}
+{4: 5441, 6: 2693, 2: 2090, 0: 73, 8: 244, 10: 3}
+{4: 10528, 2: 4271, 6: 5581, 0: 160, 8: 662, 10: 6}
+{4: 6009, 2: 2638, 6: 2889, 0: 104, 8: 303, 10: 2}
+--- c_partner_sizes: 5 s
+=== d_L1_qplus
+{Q_0,Q_+} != 0 in 0 of 900 cases; {Q_1,Q_+} != 0 in 0 of 1800 cases
+--- d_L1_qplus: 15 s
+=== e_L2_inputs
+Q_1 w2 = {} {}
+seed 5, 1344 functionals: dim V_T = 95, exact rank 13, with {w2,w2} 13 -> exact: True
+seed 6, 2688 functionals: dim V_T = 95, exact rank 13, with {w2,w2} 13 -> exact: True
+seed 7, 5376 functionals: dim V_T = 95, exact rank 13, with {w2,w2} 13 -> exact: True
+--- e_L2_inputs: 14 s
+=== f_labels_j28_j30
+seed 12345 margin 16: O_0 in (5, 4, 4, 4): closed True, exact rank 47, with it 48 -> non-exact: True
+seed 12345 margin 16: Q+^2Q+^1 O_0 in (7, 5, 5, 4): closed True, exact rank 14, with it 15 -> non-exact: True
+seed 12345 margin 16: Q+^3Q+^2Q+^1 O_0 in (8, 5, 5, 5): closed True, exact rank 10, with it 11 -> non-exact: True
+seed 777 margin 16: O_0 in (5, 4, 4, 4): closed True, exact rank 47, with it 48 -> non-exact: True
+seed 777 margin 16: Q+^2Q+^1 O_0 in (7, 5, 5, 4): closed True, exact rank 14, with it 15 -> non-exact: True
+seed 777 margin 16: Q+^3Q+^2Q+^1 O_0 in (8, 5, 5, 5): closed True, exact rank 10, with it 11 -> non-exact: True
+seed 4242 margin 3000: O_0 in (5, 4, 4, 4): closed True, exact rank 47, with it 48 -> non-exact: True
+seed 4242 margin 3000: Q+^2Q+^1 O_0 in (7, 5, 5, 4): closed True, exact rank 14, with it 15 -> non-exact: True
+seed 4242 margin 3000: Q+^3Q+^2Q+^1 O_0 in (8, 5, 5, 5): closed True, exact rank 10, with it 11 -> non-exact: True
+--- f_labels_j28_j30: 10 s
+=== g_h_T1_QplusO0
+m=855 r_in=453 r_out=401 h=1 checks True True
+--- g_h_T1_QplusO0: 89 s
+end Thu Oct  1 06:07:38 PM EDT 2026

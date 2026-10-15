@@ -1,0 +1,2250 @@
+{
+ "description": "SU(4) BMN C-twisted index per SU(3)_R hw column vs the prediction from the cohomology data and graviton parity: (-1)^|lam| I_C = total cohomology - 2 #(P-odd classes)",
+ "N": 4,
+ "qmax": 15,
+ "ordinary_index_check": {
+  "qmax": 10,
+  "columns": 65,
+  "mismatches": []
+ },
+ "rows": [
+  {
+   "lam": [
+    1,
+    1,
+    0
+   ],
+   "j": 4,
+   "total_cohomology": 0,
+   "ordinary_index": 0,
+   "twisted_index": 0,
+   "predicted_signed": 0,
+   "ok": true
+  },
+  {
+   "lam": [
+    2,
+    0,
+    0
+   ],
+   "j": 4,
+   "total_cohomology": 1,
+   "ordinary_index": 1,
+   "twisted_index": 1,
+   "predicted_signed": 1,
+   "ok": true
+  },
+  {
+   "lam": [
+    1,
+    1,
+    1
+   ],
+   "j": 6,
+   "total_cohomology": 0,
+   "ordinary_index": 0,
+   "twisted_index": 0,
+   "predicted_signed": 0,
+   "ok": true
+  },
+  {
+   "lam": [
+    2,
+    1,
+    0
+   ],
+   "j": 6,
+   "total_cohomology": 1,
+   "ordinary_index": -1,
+   "twisted_index": -1,
+   "predicted_signed": 1,
+   "ok": true
+  },
+  {
+   "lam": [
+    3,
+    0,
+    0
+   ],
+   "j": 6,
+   "total_cohomology": 1,
+   "ordinary_index": 1,
+   "twisted_index": -1,
+   "predicted_signed": 1,
+   "ok": true
+  },
+  {
+   "lam": [
+    2,
+    1,
+    1
+   ],
+   "j": 8,
+   "total_cohomology": 1,
+   "ordinary_index": 1,
+   "twisted_index": 1,
+   "predicted_signed": 1,
+   "ok": true
+  },
+  {
+   "lam": [
+    2,
+    2,
+    0
+   ],
+   "j": 8,
+   "total_cohomology": 1,
+   "ordinary_index": 1,
+   "twisted_index": 1,
+   "predicted_signed": 1,
+   "ok": true
+  },
+  {
+   "lam": [
+    3,
+    1,
+    0
+   ],
+   "j": 8,
+   "total_cohomology": 1,
+   "ordinary_index": -1,
+   "twisted_index": 1,
+   "predicted_signed": 1,
+   "ok": true
+  },
+  {
+   "lam": [
+    4,
+    0,
+    0
+   ],
+   "j": 8,
+   "total_cohomology": 2,
+   "ordinary_index": 2,
+   "twisted_index": 2,
+   "predicted_signed": 2,
+   "ok": true
+  },
+  {
+   "lam": [
+    2,
+    2,
+    1
+   ],
+   "j": 10,
+   "total_cohomology": 1,
+   "ordinary_index": -1,
+   "twisted_index": -1,
+   "predicted_signed": 1,
+   "ok": true
+  },
+  {
+   "lam": [
+    3,
+    1,
+    1
+   ],
+   "j": 10,
+   "total_cohomology": 2,
+   "ordinary_index": 0,
+   "twisted_index": -2,
+   "predicted_signed": 2,
+   "ok": true
+  },
+  {
+   "lam": [
+    3,
+    2,
+    0
+   ],
+   "j": 10,
+   "total_cohomology": 2,
+   "ordinary_index": 0,
+   "twisted_index": -2,
+   "predicted_signed": 2,
+   "ok": true
+  },
+  {
+   "lam": [
+    4,
+    1,
+    0
+   ],
+   "j": 10,
+   "total_cohomology": 3,
+   "ordinary_index": -1,
+   "twisted_index": -3,
+   "predicted_signed": 3,
+   "ok": true
+  },
+  {
+   "lam": [
+    5,
+    0,
+    0
+   ],
+   "j": 10,
+   "total_cohomology": 1,
+   "ordinary_index": 1,
+   "twisted_index": -1,
+   "predicted_signed": 1,
+   "ok": true
+  },
+  {
+   "lam": [
+    2,
+    2,
+    2
+   ],
+   "j": 12,
+   "total_cohomology": 1,
+   "ordinary_index": 1,
+   "twisted_index": 1,
+   "predicted_signed": 1,
+   "ok": true
+  },
+  {
+   "lam": [
+    3,
+    2,
+    1
+   ],
+   "j": 12,
+   "total_cohomology": 4,
+   "ordinary_index": 0,
+   "twisted_index": 4,
+   "predicted_signed": 4,
+   "ok": true
+  },
+  {
+   "lam": [
+    3,
+    3,
+    0
+   ],
+   "j": 12,
+   "total_cohomology": 2,
+   "ordinary_index": 0,
+   "twisted_index": 2,
+   "predicted_signed": 2,
+   "ok": true
+  },
+  {
+   "lam": [
+    4,
+    1,
+    1
+   ],
+   "j": 12,
+   "total_cohomology": 5,
+   "ordinary_index": 1,
+   "twisted_index": 5,
+   "predicted_signed": 5,
+   "ok": true
+  },
+  {
+   "lam": [
+    4,
+    2,
+    0
+   ],
+   "j": 12,
+   "total_cohomology": 4,
+   "ordinary_index": 0,
+   "twisted_index": 4,
+   "predicted_signed": 4,
+   "ok": true
+  },
+  {
+   "lam": [
+    5,
+    1,
+    0
+   ],
+   "j": 12,
+   "total_cohomology": 3,
+   "ordinary_index": -1,
+   "twisted_index": 3,
+   "predicted_signed": 3,
+   "ok": true
+  },
+  {
+   "lam": [
+    6,
+    0,
+    0
+   ],
+   "j": 12,
+   "total_cohomology": 3,
+   "ordinary_index": 3,
+   "twisted_index": 3,
+   "predicted_signed": 3,
+   "ok": true
+  },
+  {
+   "lam": [
+    3,
+    2,
+    2
+   ],
+   "j": 14,
+   "total_cohomology": 3,
+   "ordinary_index": -1,
+   "twisted_index": -3,
+   "predicted_signed": 3,
+   "ok": true
+  },
+  {
+   "lam": [
+    3,
+    3,
+    1
+   ],
+   "j": 14,
+   "total_cohomology": 5,
+   "ordinary_index": -1,
+   "twisted_index": -5,
+   "predicted_signed": 5,
+   "ok": true
+  },
+  {
+   "lam": [
+    4,
+    2,
+    1
+   ],
+   "j": 14,
+   "total_cohomology": 10,
+   "ordinary_index": 0,
+   "twisted_index": -10,
+   "predicted_signed": 10,
+   "ok": true
+  },
+  {
+   "lam": [
+    4,
+    3,
+    0
+   ],
+   "j": 14,
+   "total_cohomology": 4,
+   "ordinary_index": 0,
+   "twisted_index": -4,
+   "predicted_signed": 4,
+   "ok": true
+  },
+  {
+   "lam": [
+    5,
+    1,
+    1
+   ],
+   "j": 14,
+   "total_cohomology": 7,
+   "ordinary_index": -1,
+   "twisted_index": -7,
+   "predicted_signed": 7,
+   "ok": true
+  },
+  {
+   "lam": [
+    5,
+    2,
+    0
+   ],
+   "j": 14,
+   "total_cohomology": 6,
+   "ordinary_index": 0,
+   "twisted_index": -6,
+   "predicted_signed": 6,
+   "ok": true
+  },
+  {
+   "lam": [
+    6,
+    1,
+    0
+   ],
+   "j": 14,
+   "total_cohomology": 6,
+   "ordinary_index": -2,
+   "twisted_index": -6,
+   "predicted_signed": 6,
+   "ok": true
+  },
+  {
+   "lam": [
+    7,
+    0,
+    0
+   ],
+   "j": 14,
+   "total_cohomology": 2,
+   "ordinary_index": 2,
+   "twisted_index": -2,
+   "predicted_signed": 2,
+   "ok": true
+  },
+  {
+   "lam": [
+    3,
+    3,
+    2
+   ],
+   "j": 16,
+   "total_cohomology": 6,
+   "ordinary_index": 2,
+   "twisted_index": 6,
+   "predicted_signed": 6,
+   "ok": true
+  },
+  {
+   "lam": [
+    4,
+    2,
+    2
+   ],
+   "j": 16,
+   "total_cohomology": 8,
+   "ordinary_index": 0,
+   "twisted_index": 8,
+   "predicted_signed": 8,
+   "ok": true
+  },
+  {
+   "lam": [
+    4,
+    3,
+    1
+   ],
+   "j": 16,
+   "total_cohomology": 14,
+   "ordinary_index": 0,
+   "twisted_index": 14,
+   "predicted_signed": 14,
+   "ok": true
+  },
+  {
+   "lam": [
+    4,
+    4,
+    0
+   ],
+   "j": 16,
+   "total_cohomology": 3,
+   "ordinary_index": 1,
+   "twisted_index": 3,
+   "predicted_signed": 3,
+   "ok": true
+  },
+  {
+   "lam": [
+    5,
+    2,
+    1
+   ],
+   "j": 16,
+   "total_cohomology": 18,
+   "ordinary_index": 0,
+   "twisted_index": 18,
+   "predicted_signed": 18,
+   "ok": true
+  },
+  {
+   "lam": [
+    5,
+    3,
+    0
+   ],
+   "j": 16,
+   "total_cohomology": 7,
+   "ordinary_index": -1,
+   "twisted_index": 7,
+   "predicted_signed": 7,
+   "ok": true
+  },
+  {
+   "lam": [
+    6,
+    1,
+    1
+   ],
+   "j": 16,
+   "total_cohomology": 12,
+   "ordinary_index": 2,
+   "twisted_index": 12,
+   "predicted_signed": 12,
+   "ok": true
+  },
+  {
+   "lam": [
+    6,
+    2,
+    0
+   ],
+   "j": 16,
+   "total_cohomology": 9,
+   "ordinary_index": 1,
+   "twisted_index": 9,
+   "predicted_signed": 9,
+   "ok": true
+  },
+  {
+   "lam": [
+    7,
+    1,
+    0
+   ],
+   "j": 16,
+   "total_cohomology": 6,
+   "ordinary_index": -2,
+   "twisted_index": 6,
+   "predicted_signed": 6,
+   "ok": true
+  },
+  {
+   "lam": [
+    8,
+    0,
+    0
+   ],
+   "j": 16,
+   "total_cohomology": 4,
+   "ordinary_index": 4,
+   "twisted_index": 4,
+   "predicted_signed": 4,
+   "ok": true
+  },
+  {
+   "lam": [
+    3,
+    3,
+    3
+   ],
+   "j": 18,
+   "total_cohomology": 5,
+   "ordinary_index": -1,
+   "twisted_index": -5,
+   "predicted_signed": 5,
+   "ok": true
+  },
+  {
+   "lam": [
+    4,
+    3,
+    2
+   ],
+   "j": 18,
+   "total_cohomology": 18,
+   "ordinary_index": 0,
+   "twisted_index": -18,
+   "predicted_signed": 18,
+   "ok": true
+  },
+  {
+   "lam": [
+    4,
+    4,
+    1
+   ],
+   "j": 18,
+   "total_cohomology": 12,
+   "ordinary_index": 0,
+   "twisted_index": -12,
+   "predicted_signed": 12,
+   "ok": true
+  },
+  {
+   "lam": [
+    5,
+    2,
+    2
+   ],
+   "j": 18,
+   "total_cohomology": 18,
+   "ordinary_index": 0,
+   "twisted_index": -18,
+   "predicted_signed": 18,
+   "ok": true
+  },
+  {
+   "lam": [
+    5,
+    3,
+    1
+   ],
+   "j": 18,
+   "total_cohomology": 29,
+   "ordinary_index": 1,
+   "twisted_index": -29,
+   "predicted_signed": 29,
+   "ok": true
+  },
+  {
+   "lam": [
+    5,
+    4,
+    0
+   ],
+   "j": 18,
+   "total_cohomology": 6,
+   "ordinary_index": 0,
+   "twisted_index": -6,
+   "predicted_signed": 6,
+   "ok": true
+  },
+  {
+   "lam": [
+    6,
+    2,
+    1
+   ],
+   "j": 18,
+   "total_cohomology": 28,
+   "ordinary_index": -2,
+   "twisted_index": -28,
+   "predicted_signed": 28,
+   "ok": true
+  },
+  {
+   "lam": [
+    6,
+    3,
+    0
+   ],
+   "j": 18,
+   "total_cohomology": 12,
+   "ordinary_index": 0,
+   "twisted_index": -12,
+   "predicted_signed": 12,
+   "ok": true
+  },
+  {
+   "lam": [
+    7,
+    1,
+    1
+   ],
+   "j": 18,
+   "total_cohomology": 16,
+   "ordinary_index": 0,
+   "twisted_index": -16,
+   "predicted_signed": 16,
+   "ok": true
+  },
+  {
+   "lam": [
+    7,
+    2,
+    0
+   ],
+   "j": 18,
+   "total_cohomology": 12,
+   "ordinary_index": 0,
+   "twisted_index": -12,
+   "predicted_signed": 12,
+   "ok": true
+  },
+  {
+   "lam": [
+    8,
+    1,
+    0
+   ],
+   "j": 18,
+   "total_cohomology": 9,
+   "ordinary_index": -3,
+   "twisted_index": -9,
+   "predicted_signed": 9,
+   "ok": true
+  },
+  {
+   "lam": [
+    9,
+    0,
+    0
+   ],
+   "j": 18,
+   "total_cohomology": 3,
+   "ordinary_index": 3,
+   "twisted_index": -3,
+   "predicted_signed": 3,
+   "ok": true
+  },
+  {
+   "lam": [
+    4,
+    3,
+    3
+   ],
+   "j": 20,
+   "total_cohomology": 14,
+   "ordinary_index": 2,
+   "twisted_index": 14,
+   "predicted_signed": 14,
+   "ok": true
+  },
+  {
+   "lam": [
+    4,
+    4,
+    2
+   ],
+   "j": 20,
+   "total_cohomology": 19,
+   "ordinary_index": -1,
+   "twisted_index": 19,
+   "predicted_signed": 19,
+   "ok": true
+  },
+  {
+   "lam": [
+    5,
+    3,
+    2
+   ],
+   "j": 20,
+   "total_cohomology": 43,
+   "ordinary_index": 1,
+   "twisted_index": 43,
+   "predicted_signed": 43,
+   "ok": true
+  },
+  {
+   "lam": [
+    5,
+    4,
+    1
+   ],
+   "j": 20,
+   "total_cohomology": 32,
+   "ordinary_index": 0,
+   "twisted_index": 32,
+   "predicted_signed": 32,
+   "ok": true
+  },
+  {
+   "lam": [
+    5,
+    5,
+    0
+   ],
+   "j": 20,
+   "total_cohomology": 4,
+   "ordinary_index": 0,
+   "twisted_index": 4,
+   "predicted_signed": 4,
+   "ok": true
+  },
+  {
+   "lam": [
+    6,
+    2,
+    2
+   ],
+   "j": 20,
+   "total_cohomology": 31,
+   "ordinary_index": 1,
+   "twisted_index": 31,
+   "predicted_signed": 31,
+   "ok": true
+  },
+  {
+   "lam": [
+    6,
+    3,
+    1
+   ],
+   "j": 20,
+   "total_cohomology": 49,
+   "ordinary_index": 1,
+   "twisted_index": 49,
+   "predicted_signed": 49,
+   "ok": true
+  },
+  {
+   "lam": [
+    6,
+    4,
+    0
+   ],
+   "j": 20,
+   "total_cohomology": 12,
+   "ordinary_index": 0,
+   "twisted_index": 12,
+   "predicted_signed": 12,
+   "ok": true
+  },
+  {
+   "lam": [
+    7,
+    2,
+    1
+   ],
+   "j": 20,
+   "total_cohomology": 43,
+   "ordinary_index": 1,
+   "twisted_index": 43,
+   "predicted_signed": 43,
+   "ok": true
+  },
+  {
+   "lam": [
+    7,
+    3,
+    0
+   ],
+   "j": 20,
+   "total_cohomology": 16,
+   "ordinary_index": 0,
+   "twisted_index": 16,
+   "predicted_signed": 16,
+   "ok": true
+  },
+  {
+   "lam": [
+    8,
+    1,
+    1
+   ],
+   "j": 20,
+   "total_cohomology": 22,
+   "ordinary_index": 2,
+   "twisted_index": 22,
+   "predicted_signed": 22,
+   "ok": true
+  },
+  {
+   "lam": [
+    8,
+    2,
+    0
+   ],
+   "j": 20,
+   "total_cohomology": 16,
+   "ordinary_index": 0,
+   "twisted_index": 16,
+   "predicted_signed": 16,
+   "ok": true
+  },
+  {
+   "lam": [
+    9,
+    1,
+    0
+   ],
+   "j": 20,
+   "total_cohomology": 10,
+   "ordinary_index": -2,
+   "twisted_index": 10,
+   "predicted_signed": 10,
+   "ok": true
+  },
+  {
+   "lam": [
+    10,
+    0,
+    0
+   ],
+   "j": 20,
+   "total_cohomology": 5,
+   "ordinary_index": 5,
+   "twisted_index": 5,
+   "predicted_signed": 5,
+   "ok": true
+  },
+  {
+   "lam": [
+    4,
+    4,
+    3
+   ],
+   "j": 22,
+   "total_cohomology": 20,
+   "ordinary_index": -2,
+   "twisted_index": -20,
+   "predicted_signed": 20,
+   "ok": true
+  },
+  {
+   "lam": [
+    5,
+    3,
+    3
+   ],
+   "j": 22,
+   "total_cohomology": 33,
+   "ordinary_index": -1,
+   "twisted_index": -33,
+   "predicted_signed": 33,
+   "ok": true
+  },
+  {
+   "lam": [
+    5,
+    4,
+    2
+   ],
+   "j": 22,
+   "total_cohomology": 60,
+   "ordinary_index": 0,
+   "twisted_index": -60,
+   "predicted_signed": 60,
+   "ok": true
+  },
+  {
+   "lam": [
+    5,
+    5,
+    1
+   ],
+   "j": 22,
+   "total_cohomology": 23,
+   "ordinary_index": -1,
+   "twisted_index": -23,
+   "predicted_signed": 23,
+   "ok": true
+  },
+  {
+   "lam": [
+    6,
+    3,
+    2
+   ],
+   "j": 22,
+   "total_cohomology": 80,
+   "ordinary_index": 0,
+   "twisted_index": -80,
+   "predicted_signed": 80,
+   "ok": true
+  },
+  {
+   "lam": [
+    6,
+    4,
+    1
+   ],
+   "j": 22,
+   "total_cohomology": 61,
+   "ordinary_index": 1,
+   "twisted_index": -61,
+   "predicted_signed": 61,
+   "ok": true
+  },
+  {
+   "lam": [
+    6,
+    5,
+    0
+   ],
+   "j": 22,
+   "total_cohomology": 10,
+   "ordinary_index": 0,
+   "twisted_index": -10,
+   "predicted_signed": 10,
+   "ok": true
+  },
+  {
+   "lam": [
+    7,
+    2,
+    2
+   ],
+   "j": 22,
+   "total_cohomology": 51,
+   "ordinary_index": -1,
+   "twisted_index": -51,
+   "predicted_signed": 51,
+   "ok": true
+  },
+  {
+   "lam": [
+    7,
+    3,
+    1
+   ],
+   "j": 22,
+   "total_cohomology": 75,
+   "ordinary_index": -1,
+   "twisted_index": -75,
+   "predicted_signed": 75,
+   "ok": true
+  },
+  {
+   "lam": [
+    7,
+    4,
+    0
+   ],
+   "j": 22,
+   "total_cohomology": 18,
+   "ordinary_index": 0,
+   "twisted_index": -18,
+   "predicted_signed": 18,
+   "ok": true
+  },
+  {
+   "lam": [
+    8,
+    2,
+    1
+   ],
+   "j": 22,
+   "total_cohomology": 60,
+   "ordinary_index": 0,
+   "twisted_index": -60,
+   "predicted_signed": 60,
+   "ok": true
+  },
+  {
+   "lam": [
+    8,
+    3,
+    0
+   ],
+   "j": 22,
+   "total_cohomology": 22,
+   "ordinary_index": 0,
+   "twisted_index": -22,
+   "predicted_signed": 22,
+   "ok": true
+  },
+  {
+   "lam": [
+    9,
+    1,
+    1
+   ],
+   "j": 22,
+   "total_cohomology": 27,
+   "ordinary_index": -1,
+   "twisted_index": -27,
+   "predicted_signed": 27,
+   "ok": true
+  },
+  {
+   "lam": [
+    9,
+    2,
+    0
+   ],
+   "j": 22,
+   "total_cohomology": 20,
+   "ordinary_index": 0,
+   "twisted_index": -20,
+   "predicted_signed": 20,
+   "ok": true
+  },
+  {
+   "lam": [
+    10,
+    1,
+    0
+   ],
+   "j": 22,
+   "total_cohomology": 14,
+   "ordinary_index": -4,
+   "twisted_index": -14,
+   "predicted_signed": 14,
+   "ok": true
+  },
+  {
+   "lam": [
+    11,
+    0,
+    0
+   ],
+   "j": 22,
+   "total_cohomology": 4,
+   "ordinary_index": 4,
+   "twisted_index": -4,
+   "predicted_signed": 4,
+   "ok": true
+  },
+  {
+   "lam": [
+    4,
+    4,
+    4
+   ],
+   "j": 24,
+   "total_cohomology": 14,
+   "ordinary_index": 0,
+   "twisted_index": 14,
+   "predicted_signed": 14,
+   "ok": true
+  },
+  {
+   "lam": [
+    5,
+    4,
+    3
+   ],
+   "j": 24,
+   "total_cohomology": 64,
+   "ordinary_index": 0,
+   "twisted_index": 64,
+   "predicted_signed": 64,
+   "ok": true
+  },
+  {
+   "lam": [
+    5,
+    5,
+    2
+   ],
+   "j": 24,
+   "total_cohomology": 51,
+   "ordinary_index": 1,
+   "twisted_index": 51,
+   "predicted_signed": 51,
+   "ok": true
+  },
+  {
+   "lam": [
+    6,
+    3,
+    3
+   ],
+   "j": 24,
+   "total_cohomology": 67,
+   "ordinary_index": -1,
+   "twisted_index": 67,
+   "predicted_signed": 67,
+   "ok": true
+  },
+  {
+   "lam": [
+    6,
+    4,
+    2
+   ],
+   "j": 24,
+   "total_cohomology": 125,
+   "ordinary_index": -3,
+   "twisted_index": 125,
+   "predicted_signed": 125,
+   "ok": true
+  },
+  {
+   "lam": [
+    6,
+    5,
+    1
+   ],
+   "j": 24,
+   "total_cohomology": 58,
+   "ordinary_index": 0,
+   "twisted_index": 58,
+   "predicted_signed": 58,
+   "ok": true
+  },
+  {
+   "lam": [
+    6,
+    6,
+    0
+   ],
+   "j": 24,
+   "total_cohomology": 7,
+   "ordinary_index": 1,
+   "twisted_index": 7,
+   "predicted_signed": 7,
+   "ok": true
+  },
+  {
+   "lam": [
+    7,
+    3,
+    2
+   ],
+   "j": 24,
+   "total_cohomology": 132,
+   "ordinary_index": 2,
+   "twisted_index": 132,
+   "predicted_signed": 132,
+   "ok": true
+  },
+  {
+   "lam": [
+    7,
+    4,
+    1
+   ],
+   "j": 24,
+   "total_cohomology": 100,
+   "ordinary_index": 0,
+   "twisted_index": 100,
+   "predicted_signed": 100,
+   "ok": true
+  },
+  {
+   "lam": [
+    7,
+    5,
+    0
+   ],
+   "j": 24,
+   "total_cohomology": 17,
+   "ordinary_index": -1,
+   "twisted_index": 17,
+   "predicted_signed": 17,
+   "ok": true
+  },
+  {
+   "lam": [
+    8,
+    2,
+    2
+   ],
+   "j": 24,
+   "total_cohomology": 76,
+   "ordinary_index": 0,
+   "twisted_index": 76,
+   "predicted_signed": 76,
+   "ok": true
+  },
+  {
+   "lam": [
+    8,
+    3,
+    1
+   ],
+   "j": 24,
+   "total_cohomology": 107,
+   "ordinary_index": 1,
+   "twisted_index": 107,
+   "predicted_signed": 107,
+   "ok": true
+  },
+  {
+   "lam": [
+    8,
+    4,
+    0
+   ],
+   "j": 24,
+   "total_cohomology": 25,
+   "ordinary_index": 1,
+   "twisted_index": 25,
+   "predicted_signed": 25,
+   "ok": true
+  },
+  {
+   "lam": [
+    9,
+    2,
+    1
+   ],
+   "j": 24,
+   "total_cohomology": 79,
+   "ordinary_index": 1,
+   "twisted_index": 79,
+   "predicted_signed": 79,
+   "ok": true
+  },
+  {
+   "lam": [
+    9,
+    3,
+    0
+   ],
+   "j": 24,
+   "total_cohomology": 29,
+   "ordinary_index": -1,
+   "twisted_index": 29,
+   "predicted_signed": 29,
+   "ok": true
+  },
+  {
+   "lam": [
+    10,
+    1,
+    1
+   ],
+   "j": 24,
+   "total_cohomology": 36,
+   "ordinary_index": 4,
+   "twisted_index": 36,
+   "predicted_signed": 36,
+   "ok": true
+  },
+  {
+   "lam": [
+    10,
+    2,
+    0
+   ],
+   "j": 24,
+   "total_cohomology": 25,
+   "ordinary_index": 1,
+   "twisted_index": 25,
+   "predicted_signed": 25,
+   "ok": true
+  },
+  {
+   "lam": [
+    11,
+    1,
+    0
+   ],
+   "j": 24,
+   "total_cohomology": 14,
+   "ordinary_index": -4,
+   "twisted_index": 14,
+   "predicted_signed": 14,
+   "ok": true
+  },
+  {
+   "lam": [
+    12,
+    0,
+    0
+   ],
+   "j": 24,
+   "total_cohomology": 7,
+   "ordinary_index": 7,
+   "twisted_index": 7,
+   "predicted_signed": 7,
+   "ok": true
+  },
+  {
+   "lam": [
+    5,
+    4,
+    4
+   ],
+   "j": 26,
+   "total_cohomology": 45,
+   "ordinary_index": -1,
+   "twisted_index": -45,
+   "predicted_signed": 45,
+   "ok": true
+  },
+  {
+   "lam": [
+    5,
+    5,
+    3
+   ],
+   "j": 26,
+   "total_cohomology": 63,
+   "ordinary_index": 1,
+   "twisted_index": -63,
+   "predicted_signed": 63,
+   "ok": true
+  },
+  {
+   "lam": [
+    6,
+    4,
+    3
+   ],
+   "j": 26,
+   "total_cohomology": 146,
+   "ordinary_index": 0,
+   "twisted_index": -146,
+   "predicted_signed": 146,
+   "ok": true
+  },
+  {
+   "lam": [
+    6,
+    5,
+    2
+   ],
+   "j": 26,
+   "total_cohomology": 140,
+   "ordinary_index": 0,
+   "twisted_index": -140,
+   "predicted_signed": 140,
+   "ok": true
+  },
+  {
+   "lam": [
+    6,
+    6,
+    1
+   ],
+   "j": 26,
+   "total_cohomology": 39,
+   "ordinary_index": -1,
+   "twisted_index": -39,
+   "predicted_signed": 39,
+   "ok": true
+  },
+  {
+   "lam": [
+    7,
+    3,
+    3
+   ],
+   "j": 26,
+   "total_cohomology": 114,
+   "ordinary_index": -2,
+   "twisted_index": -114,
+   "predicted_signed": 114,
+   "ok": true
+  },
+  {
+   "lam": [
+    7,
+    4,
+    2
+   ],
+   "j": 26,
+   "total_cohomology": 220,
+   "ordinary_index": -2,
+   "twisted_index": -220,
+   "predicted_signed": 220,
+   "ok": true
+  },
+  {
+   "lam": [
+    7,
+    5,
+    1
+   ],
+   "j": 26,
+   "total_cohomology": 107,
+   "ordinary_index": 1,
+   "twisted_index": -107,
+   "predicted_signed": 107,
+   "ok": true
+  },
+  {
+   "lam": [
+    7,
+    6,
+    0
+   ],
+   "j": 26,
+   "total_cohomology": 14,
+   "ordinary_index": 0,
+   "twisted_index": -14,
+   "predicted_signed": 14,
+   "ok": true
+  },
+  {
+   "lam": [
+    8,
+    3,
+    2
+   ],
+   "j": 26,
+   "total_cohomology": 201,
+   "ordinary_index": -1,
+   "twisted_index": -201,
+   "predicted_signed": 201,
+   "ok": true
+  },
+  {
+   "lam": [
+    8,
+    4,
+    1
+   ],
+   "j": 26,
+   "total_cohomology": 147,
+   "ordinary_index": -1,
+   "twisted_index": -147,
+   "predicted_signed": 147,
+   "ok": true
+  },
+  {
+   "lam": [
+    8,
+    5,
+    0
+   ],
+   "j": 26,
+   "total_cohomology": 26,
+   "ordinary_index": 0,
+   "twisted_index": -26,
+   "predicted_signed": 26,
+   "ok": true
+  },
+  {
+   "lam": [
+    9,
+    2,
+    2
+   ],
+   "j": 26,
+   "total_cohomology": 107,
+   "ordinary_index": -1,
+   "twisted_index": -107,
+   "predicted_signed": 107,
+   "ok": true
+  },
+  {
+   "lam": [
+    9,
+    3,
+    1
+   ],
+   "j": 26,
+   "total_cohomology": 145,
+   "ordinary_index": 1,
+   "twisted_index": -145,
+   "predicted_signed": 145,
+   "ok": true
+  },
+  {
+   "lam": [
+    9,
+    4,
+    0
+   ],
+   "j": 26,
+   "total_cohomology": 34,
+   "ordinary_index": 0,
+   "twisted_index": -34,
+   "predicted_signed": 34,
+   "ok": true
+  },
+  {
+   "lam": [
+    10,
+    2,
+    1
+   ],
+   "j": 26,
+   "total_cohomology": 102,
+   "ordinary_index": -2,
+   "twisted_index": -102,
+   "predicted_signed": 102,
+   "ok": true
+  },
+  {
+   "lam": [
+    10,
+    3,
+    0
+   ],
+   "j": 26,
+   "total_cohomology": 36,
+   "ordinary_index": 0,
+   "twisted_index": -36,
+   "predicted_signed": 36,
+   "ok": true
+  },
+  {
+   "lam": [
+    11,
+    1,
+    1
+   ],
+   "j": 26,
+   "total_cohomology": 42,
+   "ordinary_index": 0,
+   "twisted_index": -42,
+   "predicted_signed": 42,
+   "ok": true
+  },
+  {
+   "lam": [
+    11,
+    2,
+    0
+   ],
+   "j": 26,
+   "total_cohomology": 30,
+   "ordinary_index": 0,
+   "twisted_index": -30,
+   "predicted_signed": 30,
+   "ok": true
+  },
+  {
+   "lam": [
+    12,
+    1,
+    0
+   ],
+   "j": 26,
+   "total_cohomology": 19,
+   "ordinary_index": -5,
+   "twisted_index": -19,
+   "predicted_signed": 19,
+   "ok": true
+  },
+  {
+   "lam": [
+    13,
+    0,
+    0
+   ],
+   "j": 26,
+   "total_cohomology": 5,
+   "ordinary_index": 5,
+   "twisted_index": -5,
+   "predicted_signed": 5,
+   "ok": true
+  },
+  {
+   "lam": [
+    5,
+    5,
+    4
+   ],
+   "j": 28,
+   "total_cohomology": 57,
+   "ordinary_index": 1,
+   "twisted_index": 57,
+   "predicted_signed": 57,
+   "ok": true
+  },
+  {
+   "lam": [
+    6,
+    4,
+    4
+   ],
+   "j": 28,
+   "total_cohomology": 105,
+   "ordinary_index": 3,
+   "twisted_index": 105,
+   "predicted_signed": 105,
+   "ok": true
+  },
+  {
+   "lam": [
+    6,
+    5,
+    3
+   ],
+   "j": 28,
+   "total_cohomology": 192,
+   "ordinary_index": 0,
+   "twisted_index": 192,
+   "predicted_signed": 192,
+   "ok": true
+  },
+  {
+   "lam": [
+    6,
+    6,
+    2
+   ],
+   "j": 28,
+   "total_cohomology": 104,
+   "ordinary_index": 0,
+   "twisted_index": 104,
+   "predicted_signed": 104,
+   "ok": true
+  },
+  {
+   "lam": [
+    7,
+    4,
+    3
+   ],
+   "j": 28,
+   "total_cohomology": 270,
+   "ordinary_index": 2,
+   "twisted_index": 270,
+   "predicted_signed": 270,
+   "ok": true
+  },
+  {
+   "lam": [
+    7,
+    5,
+    2
+   ],
+   "j": 28,
+   "total_cohomology": 275,
+   "ordinary_index": 1,
+   "twisted_index": 275,
+   "predicted_signed": 275,
+   "ok": true
+  },
+  {
+   "lam": [
+    7,
+    6,
+    1
+   ],
+   "j": 28,
+   "total_cohomology": 94,
+   "ordinary_index": 0,
+   "twisted_index": 94,
+   "predicted_signed": 94,
+   "ok": true
+  },
+  {
+   "lam": [
+    7,
+    7,
+    0
+   ],
+   "j": 28,
+   "total_cohomology": 8,
+   "ordinary_index": 0,
+   "twisted_index": 8,
+   "predicted_signed": 8,
+   "ok": true
+  },
+  {
+   "lam": [
+    8,
+    3,
+    3
+   ],
+   "j": 28,
+   "total_cohomology": 182,
+   "ordinary_index": 0,
+   "twisted_index": 182,
+   "predicted_signed": 182,
+   "ok": true
+  },
+  {
+   "lam": [
+    8,
+    4,
+    2
+   ],
+   "j": 28,
+   "total_cohomology": 345,
+   "ordinary_index": -1,
+   "twisted_index": 345,
+   "predicted_signed": 345,
+   "ok": true
+  },
+  {
+   "lam": [
+    8,
+    5,
+    1
+   ],
+   "j": 28,
+   "total_cohomology": 168,
+   "ordinary_index": 0,
+   "twisted_index": 168,
+   "predicted_signed": 168,
+   "ok": true
+  },
+  {
+   "lam": [
+    8,
+    6,
+    0
+   ],
+   "j": 28,
+   "total_cohomology": 24,
+   "ordinary_index": 0,
+   "twisted_index": 24,
+   "predicted_signed": 24,
+   "ok": true
+  },
+  {
+   "lam": [
+    9,
+    3,
+    2
+   ],
+   "j": 28,
+   "total_cohomology": 288,
+   "ordinary_index": 0,
+   "twisted_index": 288,
+   "predicted_signed": 288,
+   "ok": true
+  },
+  {
+   "lam": [
+    9,
+    4,
+    1
+   ],
+   "j": 28,
+   "total_cohomology": 204,
+   "ordinary_index": 0,
+   "twisted_index": 204,
+   "predicted_signed": 204,
+   "ok": true
+  },
+  {
+   "lam": [
+    9,
+    5,
+    0
+   ],
+   "j": 28,
+   "total_cohomology": 36,
+   "ordinary_index": 0,
+   "twisted_index": 36,
+   "predicted_signed": 36,
+   "ok": true
+  },
+  {
+   "lam": [
+    10,
+    2,
+    2
+   ],
+   "j": 28,
+   "total_cohomology": 143,
+   "ordinary_index": 1,
+   "twisted_index": 143,
+   "predicted_signed": 143,
+   "ok": true
+  },
+  {
+   "lam": [
+    10,
+    3,
+    1
+   ],
+   "j": 28,
+   "total_cohomology": 189,
+   "ordinary_index": 1,
+   "twisted_index": 189,
+   "predicted_signed": 189,
+   "ok": true
+  },
+  {
+   "lam": [
+    10,
+    4,
+    0
+   ],
+   "j": 28,
+   "total_cohomology": 44,
+   "ordinary_index": 0,
+   "twisted_index": 44,
+   "predicted_signed": 44,
+   "ok": true
+  },
+  {
+   "lam": [
+    11,
+    2,
+    1
+   ],
+   "j": 28,
+   "total_cohomology": 128,
+   "ordinary_index": 2,
+   "twisted_index": 128,
+   "predicted_signed": 128,
+   "ok": true
+  },
+  {
+   "lam": [
+    11,
+    3,
+    0
+   ],
+   "j": 28,
+   "total_cohomology": 44,
+   "ordinary_index": 0,
+   "twisted_index": 44,
+   "predicted_signed": 44,
+   "ok": true
+  },
+  {
+   "lam": [
+    12,
+    1,
+    1
+   ],
+   "j": 28,
+   "total_cohomology": 52,
+   "ordinary_index": 4,
+   "twisted_index": 52,
+   "predicted_signed": 52,
+   "ok": true
+  },
+  {
+   "lam": [
+    12,
+    2,
+    0
+   ],
+   "j": 28,
+   "total_cohomology": 36,
+   "ordinary_index": 0,
+   "twisted_index": 36,
+   "predicted_signed": 36,
+   "ok": true
+  },
+  {
+   "lam": [
+    13,
+    1,
+    0
+   ],
+   "j": 28,
+   "total_cohomology": 20,
+   "ordinary_index": -4,
+   "twisted_index": 20,
+   "predicted_signed": 20,
+   "ok": true
+  },
+  {
+   "lam": [
+    14,
+    0,
+    0
+   ],
+   "j": 28,
+   "total_cohomology": 8,
+   "ordinary_index": 8,
+   "twisted_index": 8,
+   "predicted_signed": 8,
+   "ok": true
+  },
+  {
+   "lam": [
+    5,
+    5,
+    5
+   ],
+   "j": 30,
+   "total_cohomology": 32,
+   "ordinary_index": -2,
+   "twisted_index": -32,
+   "predicted_signed": 32,
+   "ok": true
+  },
+  {
+   "lam": [
+    6,
+    5,
+    4
+   ],
+   "j": 30,
+   "total_cohomology": 182,
+   "ordinary_index": 2,
+   "twisted_index": -182,
+   "predicted_signed": 182,
+   "ok": true
+  },
+  {
+   "lam": [
+    6,
+    6,
+    3
+   ],
+   "j": 30,
+   "total_cohomology": 162,
+   "ordinary_index": 0,
+   "twisted_index": -162,
+   "predicted_signed": 162,
+   "ok": true
+  },
+  {
+   "lam": [
+    7,
+    4,
+    4
+   ],
+   "j": 30,
+   "total_cohomology": 200,
+   "ordinary_index": 0,
+   "twisted_index": -200,
+   "predicted_signed": 200,
+   "ok": true
+  },
+  {
+   "lam": [
+    7,
+    5,
+    3
+   ],
+   "j": 30,
+   "total_cohomology": 401,
+   "ordinary_index": 3,
+   "twisted_index": -401,
+   "predicted_signed": 401,
+   "ok": true
+  },
+  {
+   "lam": [
+    7,
+    6,
+    2
+   ],
+   "j": 30,
+   "total_cohomology": 268,
+   "ordinary_index": 0,
+   "twisted_index": -268,
+   "predicted_signed": 268,
+   "ok": true
+  },
+  {
+   "lam": [
+    7,
+    7,
+    1
+   ],
+   "j": 30,
+   "total_cohomology": 59,
+   "ordinary_index": -1,
+   "twisted_index": -59,
+   "predicted_signed": 59,
+   "ok": true
+  },
+  {
+   "lam": [
+    8,
+    4,
+    3
+   ],
+   "j": 30,
+   "total_cohomology": 444,
+   "ordinary_index": 2,
+   "twisted_index": -444,
+   "predicted_signed": 444,
+   "ok": true
+  },
+  {
+   "lam": [
+    8,
+    5,
+    2
+   ],
+   "j": 30,
+   "total_cohomology": 457,
+   "ordinary_index": 1,
+   "twisted_index": -457,
+   "predicted_signed": 457,
+   "ok": true
+  },
+  {
+   "lam": [
+    8,
+    6,
+    1
+   ],
+   "j": 30,
+   "total_cohomology": 165,
+   "ordinary_index": 1,
+   "twisted_index": -165,
+   "predicted_signed": 165,
+   "ok": true
+  },
+  {
+   "lam": [
+    8,
+    7,
+    0
+   ],
+   "j": 30,
+   "total_cohomology": 18,
+   "ordinary_index": 0,
+   "twisted_index": -18,
+   "predicted_signed": 18,
+   "ok": true
+  },
+  {
+   "lam": [
+    9,
+    3,
+    3
+   ],
+   "j": 30,
+   "total_cohomology": 273,
+   "ordinary_index": -1,
+   "twisted_index": -273,
+   "predicted_signed": 273,
+   "ok": true
+  },
+  {
+   "lam": [
+    9,
+    4,
+    2
+   ],
+   "j": 30,
+   "total_cohomology": 503,
+   "ordinary_index": -1,
+   "twisted_index": -503,
+   "predicted_signed": 503,
+   "ok": true
+  },
+  {
+   "lam": [
+    9,
+    5,
+    1
+   ],
+   "j": 30,
+   "total_cohomology": 241,
+   "ordinary_index": -1,
+   "twisted_index": -241,
+   "predicted_signed": 241,
+   "ok": true
+  },
+  {
+   "lam": [
+    9,
+    6,
+    0
+   ],
+   "j": 30,
+   "total_cohomology": 36,
+   "ordinary_index": 0,
+   "twisted_index": -36,
+   "predicted_signed": 36,
+   "ok": true
+  },
+  {
+   "lam": [
+    10,
+    3,
+    2
+   ],
+   "j": 30,
+   "total_cohomology": 391,
+   "ordinary_index": -1,
+   "twisted_index": -391,
+   "predicted_signed": 391,
+   "ok": true
+  },
+  {
+   "lam": [
+    10,
+    4,
+    1
+   ],
+   "j": 30,
+   "total_cohomology": 271,
+   "ordinary_index": 1,
+   "twisted_index": -271,
+   "predicted_signed": 271,
+   "ok": true
+  },
+  {
+   "lam": [
+    10,
+    5,
+    0
+   ],
+   "j": 30,
+   "total_cohomology": 48,
+   "ordinary_index": 0,
+   "twisted_index": -48,
+   "predicted_signed": 48,
+   "ok": true
+  },
+  {
+   "lam": [
+    11,
+    2,
+    2
+   ],
+   "j": 30,
+   "total_cohomology": 187,
+   "ordinary_index": -3,
+   "twisted_index": -187,
+   "predicted_signed": 187,
+   "ok": true
+  },
+  {
+   "lam": [
+    11,
+    3,
+    1
+   ],
+   "j": 30,
+   "total_cohomology": 239,
+   "ordinary_index": -1,
+   "twisted_index": -239,
+   "predicted_signed": 239,
+   "ok": true
+  },
+  {
+   "lam": [
+    11,
+    4,
+    0
+   ],
+   "j": 30,
+   "total_cohomology": 54,
+   "ordinary_index": 0,
+   "twisted_index": -54,
+   "predicted_signed": 54,
+   "ok": true
+  },
+  {
+   "lam": [
+    12,
+    2,
+    1
+   ],
+   "j": 30,
+   "total_cohomology": 156,
+   "ordinary_index": 0,
+   "twisted_index": -156,
+   "predicted_signed": 156,
+   "ok": true
+  },
+  {
+   "lam": [
+    12,
+    3,
+    0
+   ],
+   "j": 30,
+   "total_cohomology": 54,
+   "ordinary_index": 0,
+   "twisted_index": -54,
+   "predicted_signed": 54,
+   "ok": true
+  },
+  {
+   "lam": [
+    13,
+    1,
+    1
+   ],
+   "j": 30,
+   "total_cohomology": 60,
+   "ordinary_index": 0,
+   "twisted_index": -60,
+   "predicted_signed": 60,
+   "ok": true
+  },
+  {
+   "lam": [
+    13,
+    2,
+    0
+   ],
+   "j": 30,
+   "total_cohomology": 42,
+   "ordinary_index": 0,
+   "twisted_index": -42,
+   "predicted_signed": 42,
+   "ok": true
+  },
+  {
+   "lam": [
+    14,
+    1,
+    0
+   ],
+   "j": 30,
+   "total_cohomology": 25,
+   "ordinary_index": -7,
+   "twisted_index": -25,
+   "predicted_signed": 25,
+   "ok": true
+  },
+  {
+   "lam": [
+    15,
+    0,
+    0
+   ],
+   "j": 30,
+   "total_cohomology": 7,
+   "ordinary_index": 7,
+   "twisted_index": -7,
+   "predicted_signed": 7,
+   "ok": true
+  }
+ ],
+ "mismatches": [],
+ "outside": []
+}

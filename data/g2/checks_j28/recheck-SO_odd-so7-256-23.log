@@ -1,0 +1,1 @@
+COULOMB {'group': 'SO_odd', 'lam': [8, 3, 3], 'n': 2, 'graviton_classes': 41, 'coulomb_graviton_classes': 40} npts_extra=256 seed=23

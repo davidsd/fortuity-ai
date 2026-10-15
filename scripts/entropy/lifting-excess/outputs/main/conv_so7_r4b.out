@@ -1,0 +1,30 @@
+== point r4b
+so7 xi = (0.14142, 0.0, -0.14142): Phi*/pi = 2.1068, Re S_prot/K = 1.3020449341, Re S_cl/K = 1.3137461876 (delta0 = 0.008987); grid 35937 pts; saddle 0.0 s
+  protected R1 (fixed potentials): max over other holonomies 0.3537641 -> identity dominates
+      1.0000000 at theta/pi = [-0. -0.  0.]   [identity/central: max|alpha.theta| mod 2 pi = 6.16e-08]
+      0.3537641 at theta/pi = [0.8147 0.8147 0.8147]
+      0.3372038 at theta/pi = [1.     0.8147 0.8147]
+      0.3206435 at theta/pi = [1.     1.     0.8147]
+      0.3040832 at theta/pi = [1. 1. 1.]
+  protected R2 (KKLP level): max over other holonomies 0.6452038 -> identity dominates
+      1.0000000 at theta/pi = [-0. -0. -0.]   [identity/central: max|alpha.theta| mod 2 pi = 8.29e-08]
+      0.6452038 at theta/pi = [0.8147 0.8147 0.8147]
+      0.6315009 at theta/pi = [1.     0.8147 0.8147]
+      0.6173684 at theta/pi = [0.8147 1.     1.    ]
+      0.6027749 at theta/pi = [1. 1. 1.]
+  classical: x = e^{i Phi*} != 1, Re(1/r^2) = +0.1636 -> rim of the identity at |alpha.theta| ~ theta* = exp(-B-1/2) = 9.07e-04 (B = 6.506)
+  classical R1 (fixed potentials): max over other holonomies 0.3399415 -> identity dominates; identity's rim max 1 + 1.17e-08
+      1.0000000 at theta/pi = [ 0.0003 -0.0002 -0.    ]   [identity/central: max|alpha.theta| mod 2 pi = 1.35e-03]
+      0.3399415 at theta/pi = [0.9973 1.     1.0011]
+      0.3341326 at theta/pi = [0.9997 0.743  1.    ]
+      0.3161710 at theta/pi = [0.743 1.    0.743]
+      0.2860558 at theta/pi = [0.743 0.743 0.743]
+  classical: identity's own max over delta at delta/(3 pi) = 0.00000 (0 expected), value/(r + sum m xi) = 1.000000000
+  classical R2 (KKLP level, max over bonus): max over other holonomies 0.7386575 -> identity dominates; identity's rim max 1 + 4.77e-09
+      1.0000000 at theta/pi = [-0.0003 -0.0002 -0.    ], delta/(3 pi) = 0.0000   [identity/central: max|alpha.theta| mod 2 pi = 1.35e-03]
+      0.9324518 at theta/pi = [0. 0. 0.], delta/(3 pi) = -0.5880   [identity/central: max|alpha.theta| mod 2 pi = 5.54e-07]
+      0.8081812 at theta/pi = [0. 0. 0.], delta/(3 pi) = 0.4908   [identity/central: max|alpha.theta| mod 2 pi = 0.00e+00]
+      0.7386575 at theta/pi = [0.1394 0.     0.1394], delta/(3 pi) = 0.3513
+      0.7061802 at theta/pi = [1. 1. 1.], delta/(3 pi) = -0.5092
+  time 327.8 s
+# exit 0 after 338 s

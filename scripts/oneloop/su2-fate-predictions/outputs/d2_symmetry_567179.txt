@@ -1,0 +1,4 @@
+work dir /tmp/tmp.oME95i4al6; Python 3.11.4
+=== d2_L1_qplus_f
+400 words (340 with two or more f): {Q_0,Q_+} != 0 in 0 of 1200 cases; {Q_1,Q_+} != 0 in 0 of 2400 cases
+--- d2_L1_qplus_f: 25 s

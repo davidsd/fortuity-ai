@@ -1,0 +1,10 @@
+{
+ "description": "SU(2), j <= 44: per highest-weight sector with graviton classes (125 sectors), the number of graviton classes (grav, from data/su2/bmn_hw_cohomology_j44.json) and of Coulomb-type ones (coulomb = rank of the graviton hw vectors on Cartan-valued letters, where Q-exact operators vanish); noncoulomb = grav - coulomb. Result: 166 graviton classes, all Coulomb-type; no non-Coulomb graviton in SU(2) through j = 44.",
+ "computed_by": "Fortuity collaboration (Claude agent)",
+ "date": "2026-10-02",
+ "code": "fortuity.hwcoh.noncoulomb (GROUP SU, N = 2, GEN_NMAX = 2)",
+ "commit": "c902a67",
+ "command": "cd code; python -m fortuity.hwcoh.noncoulomb SU 2 2 OUT ../data/su2/bmn_hw_cohomology_j44.json",
+ "checked": "a zero non-Coulomb count is exact (random evaluation can only lower the Cartan rank); the same module reproduces the other files of data/noncoulomb (README.meta.json)",
+ "caveat": "classical Q; BMN sector only"
+}

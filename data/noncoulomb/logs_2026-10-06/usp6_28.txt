@@ -1,0 +1,1 @@
+[866s] Sp N=3: 62 sectors with graviton classes; non-Coulomb graviton classes in 2 new sectors: [(28, [7, 4, 3], 2, 1), (28, [8, 3, 3], 2, 1)]

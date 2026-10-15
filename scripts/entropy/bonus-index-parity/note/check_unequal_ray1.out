@@ -1,0 +1,6 @@
+# python check_unequal.py 0.25 -0.125   (default s = 0,0.25,0.5,0.75,1; 14 s on the local M1 Max; output copied from the terminal)
+xi=(+0.0000,-0.0000,-0.0000)  BH fractions=(0.333,0.333,0.333)  ReS_prot/K=1.4396135094 (polylog form 1.4396135094)  2pi*sqrt(Q1Q2+Q2Q3+Q3Q1)/K=1.4396135094  Phi*/pi=2.1245  delta0=0.012134
+xi=(+0.0625,-0.0312,-0.0312)  BH fractions=(0.488,0.256,0.256)  ReS_prot/K=1.4211289330 (polylog form 1.4211289330)  2pi*sqrt(Q1Q2+Q2Q3+Q3Q1)/K=1.4211289330  Phi*/pi=2.1215  delta0=0.011602
+xi=(+0.1250,-0.0625,-0.0625)  BH fractions=(0.629,0.185,0.185)  ReS_prot/K=1.3724258391 (polylog form 1.3724258391)  2pi*sqrt(Q1Q2+Q2Q3+Q3Q1)/K=1.3724258391  Phi*/pi=2.1111  delta0=0.010010
+xi=(+0.1875,-0.0938,-0.0938)  BH fractions=(0.744,0.128,0.128)  ReS_prot/K=1.3044833269 (polylog form 1.3044833269)  2pi*sqrt(Q1Q2+Q2Q3+Q3Q1)/K=1.3044833269  Phi*/pi=2.0936  delta0=0.007713
+xi=(+0.2500,-0.1250,-0.1250)  BH fractions=(0.828,0.086,0.086)  ReS_prot/K=1.2282589587 (polylog form 1.2282589587)  2pi*sqrt(Q1Q2+Q2Q3+Q3Q1)/K=1.2282589587  Phi*/pi=2.0728  delta0=0.005365

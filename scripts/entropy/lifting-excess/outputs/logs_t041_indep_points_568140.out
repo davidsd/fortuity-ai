@@ -1,0 +1,10 @@
+host cn107  start Fri Oct  2 01:46:44 PM EDT 2026  python 3.11.4  mpmath 1.3.0
+==> ${SCRATCH}/t041/indep/selftest.out <==
+selftest PASSED, 9.2 s
+
+==> ${SCRATCH}/t041/indep/verify_freeenergy.out <==
+verify_freeenergy: ALL PASS  (2.9 s)
+
+==> ${SCRATCH}/t041/indep/indep_wedge.tsv <==
+# total 61.0 s
+end Fri Oct  2 01:47:58 PM EDT 2026

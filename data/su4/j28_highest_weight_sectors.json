@@ -1,0 +1,52 @@
+{
+ "sector_dimensions_q_6_4_4": {
+  "0": 15770,
+  "1": 89224,
+  "2": 213013,
+  "3": 274891,
+  "4": 204873,
+  "5": 87578,
+  "6": 20148,
+  "7": 2178,
+  "8": 85
+ },
+ "direct_cohomology": [
+  {
+   "sector": [
+    8,
+    6,
+    4,
+    4
+   ],
+   "j": 28,
+   "nsym": 96,
+   "basis": 85,
+   "closed": 0,
+   "exact": 0,
+   "coh": 0,
+   "grav": 0,
+   "BH": 0,
+   "nmono": 0,
+   "time": 35.7
+  },
+  {
+   "sector": [
+    7,
+    6,
+    4,
+    4
+   ],
+   "j": 28,
+   "nsym": 2606,
+   "basis": 2178,
+   "closed": 85,
+   "exact": 85,
+   "coh": 0,
+   "grav": 0,
+   "BH": 0,
+   "nmono": 0,
+   "time": 2402.0
+  }
+ ],
+ "conclusion": "sectors (8;6,4,4) and (7;6,4,4) (E = 21/2 candidate) have no cohomology; if the [2,0] index term at j=28 is a genuine fortuitous state its energy is >= 23/2; sectors 2J<=5 (dim >= 87578) not computed"
+}

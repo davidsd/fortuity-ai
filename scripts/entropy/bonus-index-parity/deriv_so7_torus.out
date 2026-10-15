@@ -1,0 +1,4 @@
+chamber points: 455 ; protected point: identity 3.97178, max 3.97178 at t/pi = [0. 0. 0.]
+classical: max over chamber and phi grid 4.01991 at phi/pi = 0.7100, t/pi = [0. 0. 0.] ; identity value there 4.01991
+ratio max_classical / max_protected = 1.01212 (KKLP 1.01213)
+time 9.4s

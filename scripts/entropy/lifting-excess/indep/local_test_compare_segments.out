@@ -1,0 +1,33 @@
+unchanged                                          exit 0 (want 0) ok
+   all 245 points agree with ${REPO}/scripts/entropy/lifting-excess/indep/../outputs/extended to its printed precision
+delta0 +0.5 unit at the smallest delta0            exit 0 (want 0) ok
+   all 245 points agree with ${REPO}/scripts/entropy/lifting-excess/indep/../outputs/extended to its printed precision
+delta0 +1 unit at the smallest delta0 (floor: passes) exit 0 (want 0) ok
+   all 245 points agree with ${REPO}/scripts/entropy/lifting-excess/indep/../outputs/extended to its printed precision
+delta0 +1.2 units at the smallest delta0           exit 1 (want 1) ok
+   245 points: 1 disagree, 0 without exactly one independent row, 0 independent rows unmatched, 0 independent rows without numeric theta and r
+delta0 +1 unit at a typical point (row 0)          exit 1 (want 1) ok
+   245 points: 1 disagree, 0 without exactly one independent row, 0 independent rows unmatched, 0 independent rows without numeric theta and r
+Q3/sQ +0.61 unit at the most negative Q3           exit 1 (want 1) ok
+   245 points: 1 disagree, 0 without exactly one independent row, 0 independent rows unmatched, 0 independent rows without numeric theta and r
+Q3/sQ -0.5 unit at the most negative Q3            exit 0 (want 0) ok
+   all 245 points agree with ${REPO}/scripts/entropy/lifting-excess/indep/../outputs/extended to its printed precision
+finite-eps r1 alone +1 unit (r1_env unchanged)     exit 1 (want 1) ok
+   245 points: 1 disagree, 0 without exactly one independent row, 0 independent rows unmatched, 0 independent rows without numeric theta and r
+r1_env alone +1 unit (r1 unchanged)                exit 1 (want 1) ok
+   245 points: 1 disagree, 0 without exactly one independent row, 0 independent rows unmatched, 0 independent rows without numeric theta and r
+'-' in r1                                          exit 1 (want 1) ok
+   245 points: 1 disagree, 0 without exactly one independent row, 0 independent rows unmatched, 0 independent rows without numeric theta and r
+ncross = 1                                         exit 1 (want 1) ok
+   245 points: 1 disagree, 0 without exactly one independent row, 0 independent rows unmatched, 0 independent rows without numeric theta and r
+d2ReS/dbeta2 = +0.1                                exit 1 (want 1) ok
+   245 points: 1 disagree, 0 without exactly one independent row, 0 independent rows unmatched, 0 independent rows without numeric theta and r
+a dropped row                                      exit 1 (want 1) ok
+   245 points: 0 disagree, 1 without exactly one independent row, 0 independent rows unmatched, 0 independent rows without numeric theta and r
+a duplicated row                                   exit 1 (want 1) ok
+   245 points: 0 disagree, 1 without exactly one independent row, 0 independent rows unmatched, 0 independent rows without numeric theta and r
+a traceback line in the input                      exit 1 (want 1) ok
+   245 points: 0 disagree, 0 without exactly one independent row, 0 independent rows unmatched, 1 independent rows without numeric theta and r
+ray7.tsv missing                                   exit 1 (want 1) ok
+   compare_segments: <tmp>/ext/ray7.tsv is missing
+test_compare_segments PASSED

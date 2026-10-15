@@ -1,0 +1,10 @@
+{
+ "computed_by": "Fortuity collaboration (Claude agent), laptop",
+ "date": "2026-09-29",
+ "code": "code/fortuity/bmn/blockrestrict.py (restriction maps), code/fortuity/bmn/classify.py (TargetSector), code/fortuity/hwcoh/classreps.py (hw representatives); tests code/tests/test_blockrestrict.py",
+ "commit": "c2e1c3f",
+ "conventions": "summary/fortuity-summary.pdf (section 2); BMN sector (2J; q1,q2,q3), letters 0,1,2 = phi_m, 3,4,5 = psi_m, 6 = f (fortuity.bmn.words); coefficients mod p = 2^26-5; SU(N) > SU(N-1)xU(1) with D = diag(1,..,1,-(N-1)), SO(2N+1) > SO(2N+1-2b)xSO(2)^b with blocks x eps, eps = [[0,1],[-1,0]]; abelian parts on the scalars only",
+ "description": "SU(2) image of the R-007 class under the x1^3 coefficient map (R-016 (a))",
+ "command": "PYTHONPATH=code:scripts/bmn/block-restriction/code python3 scripts/bmn/block-restriction/code/run_su3_to_su2.py (k = 3)",
+ "checked": "classified in SU(2) (5;4,4,4) at two target seeds: closed, not exact, non-graviton"
+}

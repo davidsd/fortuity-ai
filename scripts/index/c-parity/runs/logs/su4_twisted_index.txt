@@ -1,0 +1,3 @@
+SU(4) ordinary index (validation, j <= 20): max rounding error 4.75e-13; columns compared 65; mismatches 0 []  (88s)
+SU(4) twisted index (j <= 30): max rounding error 7.28e-11; mean weight 16.0000  (97s)
+SU(4) twisted vs prediction: 172 columns, mismatches 0 []; twisted content outside the data columns: []

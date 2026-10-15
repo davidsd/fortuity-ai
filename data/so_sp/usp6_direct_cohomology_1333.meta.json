@@ -1,0 +1,10 @@
+{
+ "description": "Direct Q-cohomology of USp(6) N=4 SYM in the BMN sector (2J;q1,q2,q3) = (1;3,3,3) (j=18, 8 letters, E=17/2): dim of the sector, closed, Q-exact, cohomology, monotone (span of products of single-trace graviton generators u_n, v_n, w_n, n<=8, modulo exact; D-005) and fortuitous (= coh - monotone).",
+ "computed_by": "Fortuity collaboration (Claude agent)",
+ "date": "2026-09-26",
+ "code": "code/fortuity/bmn/symdirect.py, evaluate.py (group option)",
+ "commit": "3debc98",
+ "conventions": "D-006 BMN conventions (code/fortuity/bmn/words.py); letters evaluated as random elements of so(7) (antisymmetric 7x7) or usp(6) (X = -Omega S, S symmetric 6x6) over F_p, p = 2^26-5; full sector, not Weyl-symmetrised.",
+ "command": "cd code && python -m fortuity.bmn.symdirect Sp 3 ../data/so_sp/usp6_direct_cohomology_1333.json --sector 1,3,3,3 --gen-nmax 8",
+ "checked": "Agrees entry by entry with arXiv:2510.24008 Table 1 and arXiv:2506.13887 sec. 4.3 (SO(7): 903 / 220 non-closed / 559 exact / 123 monotone / 1 fortuitous; USp(6): 903 / 221 / 559 / 123 / 0). Same numbers with a second seed (4242). Control: SO(9) and USp(8) in the same sector both give 936 / 699 closed / 559 exact / 140 coh / 140 monotone / 0 fortuitous. Code check: SO(3) reproduces the SU(2) threshold sector (5;4,4,4) (153 / 48 closed / 47 exact / 1 class, non-graviton), cf. R-001. Random evaluation can only underestimate ranks; ranks stabilised under point doubling."
+}

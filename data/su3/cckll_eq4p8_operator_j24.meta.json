@@ -1,0 +1,10 @@
+{
+ "description": "Eq. (4.8) of arXiv:2312.16443, O = -6 O_6^{(0,3)} (SU(3) 'threshold' representative, sector (3;4,4,4), E=21/2), as a canonical multi-trace expression; stored = 12 * O as printed; 3747 terms. Built two ways (printed expansion; r-definitions of (A.6) with the traceless projections of (A.3)), identical term by term.",
+ "computed_by": "Fortuity collaboration (Claude agent)",
+ "date": "2026-09-26",
+ "code": "scripts/bmn/su3-level24/build_O.py, build_O6.py, gens_util.py (on code/fortuity/bmn)",
+ "commit": "bc72c71",
+ "conventions": "D-006 (Chang-Lin / Choi et al. BMN conventions as in fortuity.bmn.words); Q_paper = -i Q_code; sector (2J; q1,q2,q3), q_I = R_I + J, j = 2 sum q",
+ "command": "python3 build_O.py O_cckll.json; python3 build_O6.py",
+ "checked": "Q-closed on random 3x3 matrices, not closed formally nor at N=4,5; closure destroyed by rescaling any one of the ten coefficient groups; R = Q_code r verified for every r used (triple_check.py)"
+}

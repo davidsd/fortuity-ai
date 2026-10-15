@@ -1,0 +1,4 @@
+20:48:31 [x_31] SEC (4, 4, 14, 8, 6) Y=7: words 15992, hw rows 13591, independent 2470 vs exact m 2470 {2: 1475, 4: 995} -> SPAN
+20:50:59 [x_31] m 2470, rank in (Q_0 from (5, 5, 14, 8, 6) Y=6) 1580, rank out (to (3, 3, 14, 8, 6) Y=8) 890, closed 1580 -> h = 0  (162s)
+20:50:59 SUMMARY [('x_31', 2470, 0)]
+EXIT 0

@@ -1,0 +1,308 @@
+[
+ {
+  "lam": [
+   4,
+   4,
+   4
+  ],
+  "j": 24,
+  "T": -1,
+  "signedIC": -1,
+  "D_comp": 0,
+  "D_rig": -4,
+  "T_rig": 3,
+  "D_rig2": 0,
+  "T_rig2": -1,
+  "T_triv": -1,
+  "T_best": -1,
+  "minus_gap_min": 0
+ },
+ {
+  "lam": [
+   5,
+   4,
+   4
+  ],
+  "j": 26,
+  "T": -1,
+  "signedIC": -1,
+  "D_comp": 0,
+  "D_rig": -2,
+  "T_rig": 1,
+  "D_rig2": 0,
+  "T_rig2": -1,
+  "T_triv": -1,
+  "T_best": -1,
+  "minus_gap_min": 0
+ },
+ {
+  "lam": [
+   5,
+   5,
+   4
+  ],
+  "j": 28,
+  "T": -1,
+  "signedIC": -1,
+  "D_comp": 0,
+  "D_rig": -2,
+  "T_rig": 1,
+  "D_rig2": 0,
+  "T_rig2": -1,
+  "T_triv": -1,
+  "T_best": -1,
+  "minus_gap_min": 0
+ },
+ {
+  "lam": [
+   5,
+   5,
+   5
+  ],
+  "j": 30,
+  "T": -1,
+  "signedIC": -1,
+  "D_comp": 0,
+  "D_rig": -4,
+  "T_rig": 3,
+  "D_rig2": -2,
+  "T_rig2": 1,
+  "T_triv": -1,
+  "T_best": -1,
+  "minus_gap_min": 2
+ },
+ {
+  "lam": [
+   6,
+   5,
+   5
+  ],
+  "j": 32,
+  "T": -1,
+  "signedIC": -1,
+  "D_comp": 0,
+  "D_rig": -4,
+  "T_rig": 3,
+  "D_rig2": 0,
+  "T_rig2": -1,
+  "T_triv": -1,
+  "T_best": -1,
+  "minus_gap_min": 0
+ },
+ {
+  "lam": [
+   6,
+   6,
+   5
+  ],
+  "j": 34,
+  "T": -1,
+  "signedIC": -1,
+  "D_comp": 0,
+  "D_rig": -5,
+  "T_rig": 4,
+  "D_rig2": 0,
+  "T_rig2": -1,
+  "T_triv": -1,
+  "T_best": -1,
+  "minus_gap_min": 0
+ },
+ {
+  "lam": [
+   7,
+   5,
+   5
+  ],
+  "j": 34,
+  "T": -1,
+  "signedIC": -1,
+  "D_comp": 0,
+  "D_rig": -2,
+  "T_rig": 1,
+  "D_rig2": 0,
+  "T_rig2": -1,
+  "T_triv": -1,
+  "T_best": -1,
+  "minus_gap_min": 0
+ },
+ {
+  "lam": [
+   6,
+   6,
+   6
+  ],
+  "j": 36,
+  "T": -2,
+  "signedIC": -2,
+  "D_comp": 0,
+  "D_rig": -6,
+  "T_rig": 4,
+  "D_rig2": 0,
+  "T_rig2": -2,
+  "T_triv": -2,
+  "T_best": -2,
+  "minus_gap_min": 0
+ },
+ {
+  "lam": [
+   7,
+   6,
+   5
+  ],
+  "j": 36,
+  "T": -1,
+  "signedIC": -1,
+  "D_comp": 0,
+  "D_rig": -2,
+  "T_rig": 1,
+  "D_rig2": 0,
+  "T_rig2": -1,
+  "T_triv": -1,
+  "T_best": -1,
+  "minus_gap_min": 0
+ },
+ {
+  "lam": [
+   7,
+   6,
+   6
+  ],
+  "j": 38,
+  "T": -2,
+  "signedIC": -2,
+  "D_comp": 0,
+  "D_rig": -4,
+  "T_rig": 2,
+  "D_rig2": -2,
+  "T_rig2": 0,
+  "T_triv": -2,
+  "T_best": -2,
+  "minus_gap_min": 2
+ },
+ {
+  "lam": [
+   7,
+   7,
+   6
+  ],
+  "j": 40,
+  "T": -1,
+  "signedIC": -1,
+  "D_comp": 0,
+  "D_rig": -7,
+  "T_rig": 6,
+  "D_rig2": 0,
+  "T_rig2": -1,
+  "T_triv": -1,
+  "T_best": -1,
+  "minus_gap_min": 0
+ },
+ {
+  "lam": [
+   8,
+   6,
+   6
+  ],
+  "j": 40,
+  "T": -1,
+  "signedIC": -1,
+  "D_comp": 0,
+  "D_rig": -4,
+  "T_rig": 3,
+  "D_rig2": 0,
+  "T_rig2": -1,
+  "T_triv": -1,
+  "T_best": -1,
+  "minus_gap_min": 0
+ },
+ {
+  "lam": [
+   7,
+   7,
+   7
+  ],
+  "j": 42,
+  "T": -1,
+  "signedIC": -1,
+  "D_comp": 0,
+  "D_rig": -11,
+  "T_rig": 10,
+  "D_rig2": 0,
+  "T_rig2": -1,
+  "T_triv": -1,
+  "T_best": -1,
+  "minus_gap_min": 0
+ },
+ {
+  "lam": [
+   8,
+   7,
+   6
+  ],
+  "j": 42,
+  "T": -1,
+  "signedIC": -1,
+  "D_comp": 0,
+  "D_rig": -5,
+  "T_rig": 4,
+  "D_rig2": 0,
+  "T_rig2": -1,
+  "T_triv": -1,
+  "T_best": -1,
+  "minus_gap_min": 0
+ },
+ {
+  "lam": [
+   9,
+   6,
+   6
+  ],
+  "j": 42,
+  "T": -1,
+  "signedIC": -1,
+  "D_comp": 0,
+  "D_rig": -2,
+  "T_rig": 1,
+  "D_rig2": 0,
+  "T_rig2": -1,
+  "T_triv": -1,
+  "T_best": -1,
+  "minus_gap_min": 0
+ },
+ {
+  "lam": [
+   8,
+   7,
+   7
+  ],
+  "j": 44,
+  "T": -2,
+  "signedIC": -2,
+  "D_comp": 0,
+  "D_rig": -6,
+  "T_rig": 4,
+  "D_rig2": 0,
+  "T_rig2": -2,
+  "T_triv": -2,
+  "T_best": -2,
+  "minus_gap_min": 0
+ },
+ {
+  "lam": [
+   9,
+   7,
+   6
+  ],
+  "j": 44,
+  "T": -1,
+  "signedIC": -1,
+  "D_comp": 0,
+  "D_rig": -2,
+  "T_rig": 1,
+  "D_rig2": 0,
+  "T_rig2": -1,
+  "T_triv": -1,
+  "T_best": -1,
+  "minus_gap_min": 0
+ }
+]

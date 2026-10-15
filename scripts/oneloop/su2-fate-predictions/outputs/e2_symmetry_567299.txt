@@ -1,0 +1,6 @@
+=== T-037 e2
+work dir /tmp/tmp.eOVk7yUuYA; Python 3.11.4
+=== e2_dimV_certificate
+exact dim V_T, SU(2), (3,3,8,4,4), Y=4: 95
+--- e2_dimV_certificate: 4 s
+

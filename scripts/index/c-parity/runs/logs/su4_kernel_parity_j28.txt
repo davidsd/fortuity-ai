@@ -1,0 +1,4 @@
+SU(4) diagonal graviton index vs data (j <= 28): OK
+indices done, rounding 8.0e-11  (7s)
+SU(4) columns with nonzero kernel index (T = #P+ - #P- in ker rho,  O = sum (-1)^Y over ker rho); known range: 1 rows, mismatches with prediction 0
+  j=28 lam=(6, 4, 4): T=  1  O=  -  known: total=105 BH=0 nonCoulomb=1 (T pred 1)

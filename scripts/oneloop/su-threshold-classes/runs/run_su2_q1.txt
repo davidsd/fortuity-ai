@@ -1,0 +1,20 @@
+rep 0: 558 words -> Q_1 v: 154332 words (4s)
+rep 1: 510 words -> Q_1 v: 144006 words (0s)
+        4.07 real         4.00 user         0.04 sys
+           144949248  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+                9704  page reclaims
+                  40  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                   1  voluntary context switches
+                1824  involuntary context switches
+         77935339611  instructions retired
+         15984446271  cycles elapsed
+           134545912  peak memory footprint

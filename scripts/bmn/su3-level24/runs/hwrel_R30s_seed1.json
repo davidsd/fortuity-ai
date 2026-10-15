@@ -1,0 +1,18 @@
+{
+ "lam": [
+  5,
+  5,
+  5
+ ],
+ "n": 5,
+ "check": true,
+ "r_up": 973,
+ "grav": 1,
+ "targets": {
+  "R30s": {
+   "nonzero": true,
+   "exact": false,
+   "in_graviton_plus_exact": true
+  }
+ }
+}

@@ -1,0 +1,303 @@
+{
+ "sector": [
+  3,
+  4,
+  4,
+  4
+ ],
+ "R": 2.5,
+ "J": 1.5,
+ "E": 10.5,
+ "generators": "u^{ij}=tr(phi_i phi_j); v^i_j = 3 tr(phi_i psi_j) - delta^i_j tr(phi_a psi_a); w^{ij} = sum over orderings of [2 tr(f phi_i phi_j) + eps^{ab i} tr(psi_a phi_j psi_b) + eps^{ab j} tr(phi_i psi_a psi_b)] with Q psi_m = eps_{mnp} phi_n phi_p, Q f = sum_m [phi_m, psi_m] (see code/fortuity/bmn/words.py: u_gen, v_gen, w_gen)",
+ "operator": [
+  {
+   "coeff": 3,
+   "monomial": [
+    "u^{XX}",
+    "u^{YY}",
+    "v^{X}_{X}",
+    "w^{ZZ}"
+   ]
+  },
+  {
+   "coeff": 3,
+   "monomial": [
+    "u^{XX}",
+    "u^{YY}",
+    "v^{Y}_{Y}",
+    "w^{ZZ}"
+   ]
+  },
+  {
+   "coeff": -3,
+   "monomial": [
+    "u^{XX}",
+    "u^{YY}",
+    "v^{Z}_{X}",
+    "w^{XZ}"
+   ]
+  },
+  {
+   "coeff": -3,
+   "monomial": [
+    "u^{XX}",
+    "u^{YY}",
+    "v^{Z}_{Y}",
+    "w^{YZ}"
+   ]
+  },
+  {
+   "coeff": -1,
+   "monomial": [
+    "u^{XX}",
+    "u^{YZ}",
+    "v^{X}_{X}",
+    "w^{YZ}"
+   ]
+  },
+  {
+   "coeff": 2,
+   "monomial": [
+    "u^{XX}",
+    "u^{YZ}",
+    "v^{Y}_{X}",
+    "w^{XZ}"
+   ]
+  },
+  {
+   "coeff": 1,
+   "monomial": [
+    "u^{XX}",
+    "u^{YZ}",
+    "v^{Y}_{Y}",
+    "w^{YZ}"
+   ]
+  },
+  {
+   "coeff": 2,
+   "monomial": [
+    "u^{XX}",
+    "u^{YZ}",
+    "v^{Y}_{Z}",
+    "w^{ZZ}"
+   ]
+  },
+  {
+   "coeff": 1,
+   "monomial": [
+    "u^{XX}",
+    "u^{YZ}",
+    "v^{Z}_{X}",
+    "w^{XY}"
+   ]
+  },
+  {
+   "coeff": 1,
+   "monomial": [
+    "u^{XX}",
+    "u^{YZ}",
+    "v^{Z}_{Y}",
+    "w^{YY}"
+   ]
+  },
+  {
+   "coeff": -3,
+   "monomial": [
+    "u^{XY}",
+    "u^{XY}",
+    "v^{X}_{X}",
+    "w^{ZZ}"
+   ]
+  },
+  {
+   "coeff": -3,
+   "monomial": [
+    "u^{XY}",
+    "u^{XY}",
+    "v^{Y}_{Y}",
+    "w^{ZZ}"
+   ]
+  },
+  {
+   "coeff": 3,
+   "monomial": [
+    "u^{XY}",
+    "u^{XY}",
+    "v^{Z}_{X}",
+    "w^{XZ}"
+   ]
+  },
+  {
+   "coeff": 3,
+   "monomial": [
+    "u^{XY}",
+    "u^{XY}",
+    "v^{Z}_{Y}",
+    "w^{YZ}"
+   ]
+  },
+  {
+   "coeff": 1,
+   "monomial": [
+    "u^{XY}",
+    "u^{XZ}",
+    "v^{X}_{X}",
+    "w^{YZ}"
+   ]
+  },
+  {
+   "coeff": -2,
+   "monomial": [
+    "u^{XY}",
+    "u^{XZ}",
+    "v^{Y}_{X}",
+    "w^{XZ}"
+   ]
+  },
+  {
+   "coeff": -1,
+   "monomial": [
+    "u^{XY}",
+    "u^{XZ}",
+    "v^{Y}_{Y}",
+    "w^{YZ}"
+   ]
+  },
+  {
+   "coeff": -2,
+   "monomial": [
+    "u^{XY}",
+    "u^{XZ}",
+    "v^{Y}_{Z}",
+    "w^{ZZ}"
+   ]
+  },
+  {
+   "coeff": -1,
+   "monomial": [
+    "u^{XY}",
+    "u^{XZ}",
+    "v^{Z}_{X}",
+    "w^{XY}"
+   ]
+  },
+  {
+   "coeff": -1,
+   "monomial": [
+    "u^{XY}",
+    "u^{XZ}",
+    "v^{Z}_{Y}",
+    "w^{YY}"
+   ]
+  },
+  {
+   "coeff": -1,
+   "monomial": [
+    "u^{XY}",
+    "u^{YZ}",
+    "v^{X}_{X}",
+    "w^{XZ}"
+   ]
+  },
+  {
+   "coeff": -2,
+   "monomial": [
+    "u^{XY}",
+    "u^{YZ}",
+    "v^{X}_{Y}",
+    "w^{YZ}"
+   ]
+  },
+  {
+   "coeff": -2,
+   "monomial": [
+    "u^{XY}",
+    "u^{YZ}",
+    "v^{X}_{Z}",
+    "w^{ZZ}"
+   ]
+  },
+  {
+   "coeff": 1,
+   "monomial": [
+    "u^{XY}",
+    "u^{YZ}",
+    "v^{Y}_{Y}",
+    "w^{XZ}"
+   ]
+  },
+  {
+   "coeff": -1,
+   "monomial": [
+    "u^{XY}",
+    "u^{YZ}",
+    "v^{Z}_{X}",
+    "w^{XX}"
+   ]
+  },
+  {
+   "coeff": -1,
+   "monomial": [
+    "u^{XY}",
+    "u^{YZ}",
+    "v^{Z}_{Y}",
+    "w^{XY}"
+   ]
+  },
+  {
+   "coeff": 1,
+   "monomial": [
+    "u^{XZ}",
+    "u^{YY}",
+    "v^{X}_{X}",
+    "w^{XZ}"
+   ]
+  },
+  {
+   "coeff": 2,
+   "monomial": [
+    "u^{XZ}",
+    "u^{YY}",
+    "v^{X}_{Y}",
+    "w^{YZ}"
+   ]
+  },
+  {
+   "coeff": 2,
+   "monomial": [
+    "u^{XZ}",
+    "u^{YY}",
+    "v^{X}_{Z}",
+    "w^{ZZ}"
+   ]
+  },
+  {
+   "coeff": -1,
+   "monomial": [
+    "u^{XZ}",
+    "u^{YY}",
+    "v^{Y}_{Y}",
+    "w^{XZ}"
+   ]
+  },
+  {
+   "coeff": 1,
+   "monomial": [
+    "u^{XZ}",
+    "u^{YY}",
+    "v^{Z}_{X}",
+    "w^{XX}"
+   ]
+  },
+  {
+   "coeff": 1,
+   "monomial": [
+    "u^{XZ}",
+    "u^{YY}",
+    "v^{Z}_{Y}",
+    "w^{XY}"
+   ]
+  }
+ ],
+ "properties": "Q-closed; vanishes identically on diagonal matrices; nonzero on generic matrices; its Weyl symmetrization (342 multi-trace terms) is independent of the 924 Q-exact operators of the Weyl-symmetric subspace (fresh random seed)"
+}

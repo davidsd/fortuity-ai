@@ -1,0 +1,10 @@
+{
+ "computed_by": "Fortuity collaboration (Claude agent), laptop",
+ "date": "2026-09-29",
+ "code": "code/fortuity/bmn/blockrestrict.py (restriction maps), code/fortuity/bmn/classify.py (TargetSector), code/fortuity/hwcoh/classreps.py (hw representatives); tests code/tests/test_blockrestrict.py",
+ "commit": "c2e1c3f",
+ "conventions": "summary/fortuity-summary.pdf (section 2); BMN sector (2J; q1,q2,q3), letters 0,1,2 = phi_m, 3,4,5 = psi_m, 6 = f (fortuity.bmn.words); coefficients mod p = 2^26-5; SU(N) > SU(N-1)xU(1) with D = diag(1,..,1,-(N-1)), SO(2N+1) > SO(2N+1-2b)xSO(2)^b with blocks x eps, eps = [[0,1],[-1,0]]; abelian parts on the scalars only",
+ "description": "SO(11) BMN non-graviton representative, sector (1;5,5,3), [0,2] highest weight (R-011 class)",
+ "command": "PYTHONPATH=code:scripts/bmn/block-restriction/code GEN_NMAX=10 python3 scripts/bmn/block-restriction/code/run_so_tower.py rep11 5,5,3",
+ "checked": "hw sector m=2354, closed=1820, exact=1808, h=12, graviton=11, non-graviton=1 (as R-011); Q(rep) = 0 at fresh random so(11) points; two-block restriction non-graviton with ratios 1 : -2 : 1"
+}

@@ -1,0 +1,4 @@
+xi=0: delta0 = 0.012134 (KKLP 1.01213 -> 0.012134), r1 = 0.055071, Phi*/pi = 2.12448
+xi=(0.1, -0.1, 0.0): Q/sumQ=(0.574,0.093,0.333) delta0=0.010485 r1=0.052672 | checks: ReS_prot - 2pi sqrt(e2) = 2.2e-16, H - cubic = 1.8e-15
+xi=(0.25, -0.125, -0.125): Q/sumQ=(0.828,0.086,0.086) delta0=0.005365 r1=0.042390 | checks: ReS_prot - 2pi sqrt(e2) = 0.0e+00, H - cubic = 1.4e-14
+selftest 7.2 s

@@ -1,0 +1,5 @@
+classical max over torus x phi: 1.012134 at th/pi = 0.0000, phi/pi = 0.70799
+protected slice: max 1.000000 at th/pi = 0.0000 (identity 1.000000)
+element th = pi: max over phi 0.979613 at phi/pi = 1.00000; protected 0.793701; at phi = pi 0.979613
+phi/pi = 0.3333: identity 0.654714, max over torus 0.664989 at th/pi = 0.1764
+phi/pi = 1.0000: identity 0.706423, max over torus 0.979613 at th/pi = 1.0000

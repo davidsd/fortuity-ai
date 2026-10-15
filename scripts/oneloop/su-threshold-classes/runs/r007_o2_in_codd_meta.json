@@ -1,0 +1,40 @@
+{
+ "N": 3,
+ "SEC": [
+  5,
+  5,
+  14,
+  8,
+  8
+ ],
+ "Y": 9,
+ "maxlen": 6,
+ "seed": 41,
+ "n_vecs": 0,
+ "n_ctrl": 0,
+ "p": 67108859,
+ "case": "r007_o2_in",
+ "tp_words": 3647776,
+ "tp_m": 177903,
+ "tp_rows": 179567,
+ "tp_raw_rows": 974471,
+ "q0_nnz": 43711973,
+ "q0_max_row_l1": 46.0,
+ "target_words": 8913988,
+ "csec": -1,
+ "target_m_d": {
+  "0": 7174,
+  "2": 89670,
+  "4": 105246,
+  "6": 15728,
+  "8": 190
+ },
+ "ncart": 0,
+ "ncols": 218360,
+ "timing_eval": 27844,
+ "timing_combine": 35791,
+ "nB": 179567,
+ "nV": 0,
+ "prep_dir": "prep/r007_o2_in_codd",
+ "time": 65171
+}

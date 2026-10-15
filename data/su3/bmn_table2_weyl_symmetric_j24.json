@@ -1,0 +1,176 @@
+{
+ "note": "Weyl(S3)-symmetric subspace of sectors (2J;4,4,4) at j=24 (the 'permutation property' of arXiv:2312.16443 Table 2). basis/closed/exact/coh agree with their Table 2 in every row; grav is the multi-graviton count modulo Q-exact with full matrices (their '#gravitons' is the rank on diagonal matrices: identical except in the (3;4,4,4) row where theirs is 28 and the true count is 29).",
+ "rows": [
+  {
+   "sector": [
+    0,
+    4,
+    4,
+    4
+   ],
+   "j": 24,
+   "nsym": 2850,
+   "basis": 136,
+   "closed": 136,
+   "exact": 128,
+   "coh": 8,
+   "grav": 8,
+   "BH": 0,
+   "time": 83.8,
+   "R": 4.0,
+   "J": 0.0
+  },
+  {
+   "sector": [
+    1,
+    4,
+    4,
+    4
+   ],
+   "j": 24,
+   "nsym": 10002,
+   "basis": 633,
+   "closed": 505,
+   "exact": 495,
+   "coh": 10,
+   "grav": 10,
+   "BH": 0,
+   "time": 182.8,
+   "R": 3.5,
+   "J": 0.5
+  },
+  {
+   "sector": [
+    2,
+    4,
+    4,
+    4
+   ],
+   "j": 24,
+   "nsym": 15126,
+   "basis": 1456,
+   "closed": 961,
+   "exact": 945,
+   "coh": 16,
+   "grav": 16,
+   "BH": 0,
+   "time": 442.1,
+   "R": 3.0,
+   "J": 1.0
+  },
+  {
+   "sector": [
+    3,
+    4,
+    4,
+    4
+   ],
+   "j": 24,
+   "nsym": 12304,
+   "basis": 1898,
+   "closed": 953,
+   "exact": 924,
+   "coh": 29,
+   "grav": 29,
+   "BH": 0,
+   "time": 1039.9,
+   "R": 2.5,
+   "J": 1.5
+  },
+  {
+   "sector": [
+    4,
+    4,
+    4,
+    4
+   ],
+   "j": 24,
+   "nsym": 5570,
+   "basis": 1369,
+   "closed": 445,
+   "exact": 426,
+   "coh": 19,
+   "grav": 19,
+   "BH": 0,
+   "time": 773.4,
+   "R": 2.0,
+   "J": 2.0
+  },
+  {
+   "sector": [
+    5,
+    4,
+    4,
+    4
+   ],
+   "j": 24,
+   "nsym": 1350,
+   "basis": 511,
+   "closed": 85,
+   "exact": 83,
+   "coh": 2,
+   "grav": 2,
+   "BH": 0,
+   "time": 125.9,
+   "R": 1.5,
+   "J": 2.5
+  },
+  {
+   "sector": [
+    6,
+    4,
+    4,
+    4
+   ],
+   "j": 24,
+   "nsym": 166,
+   "basis": 91,
+   "closed": 8,
+   "exact": 8,
+   "coh": 0,
+   "grav": 0,
+   "BH": 0,
+   "time": 15.1,
+   "R": 1.0,
+   "J": 3.0
+  },
+  {
+   "sector": [
+    7,
+    4,
+    4,
+    4
+   ],
+   "j": 24,
+   "nsym": 14,
+   "basis": 9,
+   "closed": 1,
+   "exact": 1,
+   "coh": 0,
+   "grav": 0,
+   "BH": 0,
+   "time": 0.4,
+   "R": 0.5,
+   "J": 3.5
+  },
+  {
+   "sector": [
+    8,
+    4,
+    4,
+    4
+   ],
+   "j": 24,
+   "nsym": 2,
+   "basis": 1,
+   "closed": 0,
+   "exact": 0,
+   "coh": 0,
+   "grav": 0,
+   "BH": 0,
+   "time": 0.4,
+   "R": 0.0,
+   "J": 4.0
+  }
+ ]
+}

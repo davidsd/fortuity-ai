@@ -1,0 +1,10 @@
+{
+ "description": "PI Symmetry job 564448 (t023-extra), files in data/g2/extra_564448/. (A) rob_so7_544.jsonl: SO(7) column (5,4,4) at j=26, 2J=2,3,4, with SEED=2 and GEN_NMAX=10: identical m, r_up, graviton counts to the seed-1/GEN_NMAX=8 scan (data/g2/so7_hw_cohomology_j26.jsonl), so h(2J=3) = 4482-2253-2215 = 14 with 13 gravitons: one non-graviton class, robust. hairy.log: the product of the j=18 SO(7) class (eq. (4.14) of arXiv:2506.13887) with w_2 is nonzero and a non-graviton class of SO(7) in (3;5,4,4) (63 formal terms). (B) rob_so7_633.jsonl, rob_sp3_633.jsonl: column (6,3,3) at j=24, 2J=1,2,3, SEED=2, GEN_NMAX=10, SO(7) and Sp(3): identical to seed 1 (SO(7) 2J=2: m=1837, h=21, grav=21; Sp(3): m=1832, h=20, grav=20). coulso7.log, coulsp3.log: graviton classes at (6,3,3) 2J=2 that stay independent on Cartan-valued letters: SO(7) 20 of 21, Sp(3) 20 of 20.",
+ "computed_by": "Fortuity collaboration (Claude agent), PI Symmetry job 564448 (6 parallel tasks, 32 cores, 32 min)",
+ "date": "2026-09-28",
+ "code": "code/fortuity/hwcoh (ENGINE=par, HW_CACHE; evalg.Frame cartan=True), scripts/bmn/so-usp-g2-scans/extra_checks.py, scripts/bmn/so-usp-g2-scans/cluster/t023_extra.sbatch",
+ "commit": "28c0073",
+ "conventions": "D-006; dims partition_dims_nf(3, 26, 'SO_odd') and (3, 24, 'Sp').",
+ "command": "sbatch t023_extra.sbatch",
+ "checked": "Self-check rank = m in all 9 sectors; the Cartan-letter count is validated on SU(3) ((3;4,4,4) j=24: 1 graviton class, 0 Coulomb-type, R-002; (0;4,2,0): 1 of 1)."
+}

@@ -1,0 +1,16 @@
+20:55:07 hw: loading cache/fullpar_hw_r007_o4_in.pkl
+20:55:09 Q_0: 34206 preimage words -> 67358 target words in play (2s)
+20:55:09 functionals 25965 in 2 chunks (target hw multiplicity 25889 {4: 25889}); B rows 21024, V rows 0; workers 1
+20:58:11   chunk d=4 cols 0:14835 done (eval 159s, combine 24s)
+21:00:28   chunk d=4 cols 14835:25965 done (eval 278s, combine 41s)
+21:09:25 rank B (Q_0-exact subspace of the target, hw) = 12602 (536s)
+21:09:25 controls: rank 12602 -> 12602 (exact, OK); Q_1 v rank increments per class []
+21:09:25 wrote classes/r007_o4_in/fullpar_seed41.json (858s)
+21:09:25 hw: loading cache/fullpar_hw_r007_o4_out.pkl
+21:09:27 Q_0: 41600 preimage words -> 53414 target words in play (1s)
+21:09:27 functionals 19782 in 2 chunks (target hw multiplicity 19714 {5: 19714}); B rows 27265, V rows 0; workers 1
+21:12:13   chunk d=5 cols 0:18711 done (eval 130s, combine 36s)
+21:12:25   chunk d=5 cols 18711:19782 done (eval 139s, combine 39s)
+21:19:51 rank B (Q_0-exact subspace of the target, hw) = 13110 (446s)
+21:19:51 controls: rank 13110 -> 13110 (exact, OK); Q_1 v rank increments per class []
+21:19:51 wrote classes/r007_o4_out/fullpar_seed41.json (626s)

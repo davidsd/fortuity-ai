@@ -1,0 +1,18 @@
+S0 = 1.439613509
+U(2) so-type at phi=pi, rank 2/dim 4: 1.121377
+U(2) trace multiplet alone, 1/dim 4  : 0.8900378
+U(2) so-type protected (11/16)^(1/3) : 0.8825871
+SU(2) Coulomb gas: 0.9796133
+SU(3) Coulomb gas: 0.8900378
+SU(4) Coulomb gas: 0.8262379
+SU(5) Coulomb gas: 0.7775196
+KKLP - SU(2) gas margin: 0.032521
+SU(3): twisted max/protected = 0.8900378/0.740624 = 1.20174
+SU(4): twisted max/protected = 0.8262379/0.7047299 = 1.17242
+SU(5): twisted max/protected = 0.7775196/0.6786044 = 1.14576
+large N: 0.5060672/0.5 = 1.012134
+SO(7): 1.0121344/0.738577 = 1.37038
+q_B*/X = 3.1624145  (imag part 1.81e-14 )
+untwisted check: Re S(q_B*)/S = 1.01213443
+SU(3) so-type at q_B*: mu = (0.0716486 - 1.12666j), Re S_C/S = 0.48031, |dS| = 8.5e-32
+SU(5) so-type at q_B*: mu = (0.0480205 - 1.12197j), Re S_C/S = 0.488185, |dS| = 2.4e-32

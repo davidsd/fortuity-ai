@@ -1,0 +1,10 @@
+=== su3_j30 Wed Sep 30 06:54:12 EDT 2026
+  rows 4096/123364: rank 4096 (1055s)
+  rows 24576/123364: rank 24563 (7903s)
+  rows 45056/123364: rank 44473 (14723s)
+  rows 65536/123364: rank 58399 (18606s)
+  rows 86016/123364: rank 64437 (22433s)
+  rows 106496/123364: rank 72913 (26706s)
+  rows 123364/123364: rank 76781 (29851s)
+{"backend": "cpu_ffblas", "nB": 123364, "nV": 9, "ncols": 145475, "n_ctrl": 3, "rank_B": 76781, "rank_after_controls": 76781, "controls_exact": true, "lifted_increments": [0, 0, 0, 0, 0, 0], "n_lifted": 0, "time": 30108, "case": "su3_j30"}
+CPU RANK DONE Wed Sep 30 15:16:08 EDT 2026

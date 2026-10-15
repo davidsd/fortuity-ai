@@ -1,0 +1,10 @@
+{
+ "description": "Per-sector records of the SU(2) highest-weight scan to j = 44 (T-027), one JSON line per sector (N, lam, n = 2J) as written by fortuity.hwcoh.run_sectors: m, m_d, r_up (rank of Q from 2J+1 into the sector), grav, check, words, timings, seed. su2_t<k>.jsonl are the array tasks of su2_scan.sbatch; su2_c_<q1>_<q2>_<q3>.jsonl are single heavy columns rerun with su2_col.sbatch (ENGINE=par). The assembled form is data/su2/bmn_hw_cohomology_j44.json.",
+ "computed_by": "Fortuity collaboration (Claude agents)",
+ "date": "2026-09-28 to 2026-10-02",
+ "code": "fortuity.hwcoh.run_sectors, MAXLEN = MAXLEN_UP = 3, GEN_NMAX = 2, SEED = 1",
+ "commit": "c902a67",
+ "command": "scripts/bmn/su2-level44-scan: setup.sbatch (exact dims to j = 44), su2_scan.sbatch (array over tasks_su2_j44.txt), su2_col.sbatch (single columns), watch_su2*.sbatch (resubmission)",
+ "checked": "see data/su2/bmn_hw_cohomology_j44.meta.json; 62 sectors were computed twice (in an array task and in a column rerun), with identical m, r_up, grav and check (verified 2026-10-14)",
+ "caveat": "classical Q; ranks over F_p"
+}

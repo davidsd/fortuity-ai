@@ -1,0 +1,2 @@
+N=3 |q|<=11: 3367 weights checked (1236 nonzero, total dim 17757), mismatches 0 [], 38.2s
+$PY validate_brute.py 3 11  38.08s user 0.07s system 99% cpu 38.215 total

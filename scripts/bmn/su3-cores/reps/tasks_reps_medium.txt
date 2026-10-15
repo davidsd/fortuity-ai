@@ -1,0 +1,5 @@
+8,5,4 7 3,0,0 inputs/su3_8_5_4.jsonl
+7,5,4 6 2,1,0;3,0,0 ../../../../data/su3/hw_cohomology_j32_records/su3_c_7_5_4.jsonl
+8,4,4 5 4,0,0 ../../../../data/su3/hw_cohomology_j32_records/su3_c_8_4_4.jsonl
+8,4,4 6 3,0,0 ../../../../data/su3/hw_cohomology_j32_records/su3_c_8_4_4.jsonl
+7,4,4 5 3,0,0 inputs/su3_7_4_4_j30.jsonl

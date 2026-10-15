@@ -1,0 +1,10 @@
+{
+ "description": "USp(10) BMN Q-cohomology on SU(3)_R highest-weight vectors, columns lam = (7,3,3) ([4,0]) and (5,5,3) ([0,2]) at j = 26, 2J = 0, 1, 2; counterpart of data/so_sp/so11_hw_cohomology_j26.jsonl. Result: no non-graviton class in any of the six sectors (at 2J=1: h = 22 and 11, all multi-graviton, against 23 and 12 with one non-graviton each for SO(11)).",
+ "computed_by": "Fortuity collaboration (Claude agent), PI Symmetry job 564200 (node cn050)",
+ "date": "2026-09-27",
+ "code": "code/fortuity/hwcoh (group='Sp'), dims with twoJ_max=3",
+ "commit": "3981fd4",
+ "conventions": "As in so11_hw_cohomology_j26.meta.json; usp(10) letters as X = -Omega S, S symmetric 10x10, over F_p.",
+ "command": "sbatch --export=ALL,GROUP=Sp,BENCH=... t020_hwcoh.sbatch (scripts/bmn/so-usp-g2-scans/cluster/)",
+ "checked": "Self-check rank = m in all six sectors. Seed 2 (job 564204) running at the time of writing."
+}

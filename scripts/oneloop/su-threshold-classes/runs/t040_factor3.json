@@ -1,0 +1,199 @@
+{
+ "note": "T-040 rank-stability reruns at 3x evaluation points (fullpar --factor 3) vs the 1x runs; Torch array 19129924, finished 2026-10-03/04",
+ "cases": {
+  "su2:9:6,6,6": {
+   "x1": {
+    "ncols": 2379,
+    "ncart": 0,
+    "rank_B": 912,
+    "rank_B_with_cartan": null,
+    "coulomb_rank": null,
+    "lifted_increments": [
+     1,
+     0
+    ],
+    "controls_exact": true,
+    "time": 161,
+    "file": "classes/su2_9_6-6-6/fullpar_seed41.json"
+   },
+   "x3": {
+    "ncols": 7069,
+    "ncart": 0,
+    "rank_B": 912,
+    "rank_B_with_cartan": null,
+    "coulomb_rank": null,
+    "lifted_increments": [
+     1,
+     0
+    ],
+    "controls_exact": true,
+    "time": 336,
+    "file": "classes/su2_9_6-6-6_f3/fullpar_seed41.json"
+   }
+  },
+  "su2:10:7,6,6": {
+   "x1": {
+    "ncols": 5037,
+    "ncart": 0,
+    "rank_B": 1686,
+    "rank_B_with_cartan": null,
+    "coulomb_rank": null,
+    "lifted_increments": [
+     1,
+     0
+    ],
+    "controls_exact": true,
+    "time": 152,
+    "file": "classes/su2_10_7-6-6/fullpar_seed41.json"
+   },
+   "x3": {
+    "ncols": 15033,
+    "ncart": 0,
+    "rank_B": 1686,
+    "rank_B_with_cartan": null,
+    "coulomb_rank": null,
+    "lifted_increments": [
+     1,
+     0
+    ],
+    "controls_exact": true,
+    "time": 1424,
+    "file": "classes/su2_10_7-6-6_f3/fullpar_seed41.json"
+   }
+  },
+  "su2:11:7,7,6": {
+   "x1": {
+    "ncols": 4453,
+    "ncart": 0,
+    "rank_B": 1195,
+    "rank_B_with_cartan": null,
+    "coulomb_rank": null,
+    "lifted_increments": [
+     1
+    ],
+    "controls_exact": true,
+    "time": 90,
+    "file": "classes/su2_11_7-7-6/fullpar_seed41.json"
+   },
+   "x3": {
+    "ncols": 13331,
+    "ncart": 0,
+    "rank_B": 1195,
+    "rank_B_with_cartan": null,
+    "coulomb_rank": null,
+    "lifted_increments": [
+     1
+    ],
+    "controls_exact": true,
+    "time": 160,
+    "file": "classes/su2_11_7-7-6_f3/fullpar_seed41.json"
+   }
+  },
+  "su2:12:7,7,7": {
+   "x1": {
+    "ncols": 2257,
+    "ncart": 0,
+    "rank_B": 490,
+    "rank_B_with_cartan": null,
+    "coulomb_rank": null,
+    "lifted_increments": [
+     1
+    ],
+    "controls_exact": true,
+    "time": 41,
+    "file": "classes/su2_12_7-7-7/fullpar_seed41.json"
+   },
+   "x3": {
+    "ncols": 6675,
+    "ncart": 0,
+    "rank_B": 490,
+    "rank_B_with_cartan": null,
+    "coulomb_rank": null,
+    "lifted_increments": [
+     1
+    ],
+    "controls_exact": true,
+    "time": 80,
+    "file": "classes/su2_12_7-7-7_f3/fullpar_seed41.json"
+   }
+  },
+  "su2:11:8,7,7": {
+   "x1": {
+    "ncols": 11065,
+    "ncart": 0,
+    "rank_B": 4728,
+    "rank_B_with_cartan": null,
+    "coulomb_rank": null,
+    "lifted_increments": [
+     1,
+     0
+    ],
+    "controls_exact": true,
+    "time": 8695,
+    "file": "classes/su2_11_8-7-7/fullpar_seed41.json"
+   },
+   "x3": {
+    "ncols": 32943,
+    "ncart": 0,
+    "rank_B": 4728,
+    "rank_B_with_cartan": null,
+    "coulomb_rank": null,
+    "lifted_increments": [
+     1,
+     0
+    ],
+    "controls_exact": true,
+    "time": 11279,
+    "file": "classes/su2_11_8-7-7_f3/fullpar_seed41.json"
+   }
+  },
+  "rank:2:7,7,12,10,10:7": {
+   "x1": {
+    "ncols": 43169,
+    "ncart": 0,
+    "rank_B": 23094,
+    "rank_B_with_cartan": null,
+    "coulomb_rank": null,
+    "lifted_increments": [],
+    "controls_exact": true,
+    "time": 2522,
+    "file": "classes/rank_2_7-7-12-10-10_7/fullpar_seed41.json"
+   },
+   "x3": {
+    "ncols": 129479,
+    "ncart": 0,
+    "rank_B": 23094,
+    "rank_B_with_cartan": null,
+    "coulomb_rank": null,
+    "lifted_increments": [],
+    "controls_exact": true,
+    "time": 5955,
+    "file": "classes/rank_2_7-7-12-10-10_7_f3/fullpar_seed41.json"
+   }
+  },
+  "rank:2:6,6,12,10,10:8": {
+   "x1": {
+    "ncols": 28613,
+    "ncart": 8276,
+    "rank_B": 19797,
+    "rank_B_with_cartan": 19797,
+    "coulomb_rank": 0,
+    "lifted_increments": [],
+    "controls_exact": true,
+    "time": 3131,
+    "file": "classes/rank_2_6-6-12-10-10_8/fullpar_seed41_cartan.json"
+   },
+   "x3": {
+    "ncols": 85724,
+    "ncart": 8276,
+    "rank_B": 19797,
+    "rank_B_with_cartan": 19797,
+    "coulomb_rank": 0,
+    "lifted_increments": [],
+    "controls_exact": true,
+    "time": 6735,
+    "file": "classes/rank_2_6-6-12-10-10_8_f3/fullpar_seed41_cartan.json"
+   }
+  }
+ }
+}

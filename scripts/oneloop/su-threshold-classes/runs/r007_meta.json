@@ -1,0 +1,37 @@
+{
+ "N": 3,
+ "SEC": [
+  5,
+  5,
+  14,
+  8,
+  8
+ ],
+ "Y": 10,
+ "maxlen": 6,
+ "seed": 41,
+ "n_vecs": 6,
+ "n_ctrl": 3,
+ "p": 67108859,
+ "case": "su3_j30",
+ "tp_words": 2235760,
+ "tp_m": 123076,
+ "tp_rows": 123364,
+ "tp_raw_rows": 416901,
+ "q0_nnz": 26066656,
+ "q0_max_row_l1": 32.0,
+ "target_words": 6948393,
+ "target_m_d": {
+  "2": 65558,
+  "4": 67257,
+  "0": 4107,
+  "6": 8275
+ },
+ "ncols": 145475,
+ "timing_eval": 8206,
+ "timing_combine": 23394,
+ "nB": 123364,
+ "nV": 9,
+ "prep_dir": "prep/su3_j30",
+ "time": 32049
+}

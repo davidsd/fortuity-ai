@@ -1,0 +1,4 @@
+20:49:58 [lam_30] SEC (5, 3, 13, 7, 7) Y=7: words 40079, hw rows 16748, independent 3044 vs exact m 3044 {1: 686, 3: 2044, 5: 314} -> SPAN
+21:01:32 [lam_30] m 3044, rank in (Q_0 from (6, 4, 13, 7, 7) Y=6) 1951, rank out (to (4, 2, 13, 7, 7) Y=8) 1093, closed 1951 -> h = 0  (796s)
+21:01:32 SUMMARY [('lam_30', 3044, 0)]
+EXIT 0

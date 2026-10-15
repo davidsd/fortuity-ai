@@ -1,0 +1,70 @@
+{
+ "prime": 67108859,
+ "seed": 20260928,
+ "rank_exact": 924,
+ "graviton_classes": 29,
+ "targets": {
+  "O_cckll.json": {
+   "nonexact": false,
+   "in_span": true,
+   "coeffs": []
+  },
+  "O1_control.json": {
+   "nonexact": false,
+   "in_span": true,
+   "coeffs": []
+  },
+  "QLambda_control.json": {
+   "nonexact": false,
+   "in_span": true,
+   "coeffs": []
+  },
+  "Sym(R-002 polynomial)": {
+   "nonexact": true,
+   "in_span": true,
+   "coeffs": [
+    [
+     3,
+     "6"
+    ],
+    [
+     4,
+     "-6"
+    ],
+    [
+     7,
+     "-3"
+    ],
+    [
+     8,
+     "6"
+    ],
+    [
+     9,
+     "6"
+    ],
+    [
+     18,
+     "-6"
+    ],
+    [
+     19,
+     "6"
+    ],
+    [
+     22,
+     "3"
+    ],
+    [
+     23,
+     "-6"
+    ],
+    [
+     24,
+     "-6"
+    ]
+   ]
+  }
+ },
+ "class_span_rank": 1
+}

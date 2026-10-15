@@ -1,0 +1,26 @@
+{
+ "lam": [
+  7,
+  4,
+  4
+ ],
+ "twoJ": 5,
+ "nmax": 5,
+ "seed": 11,
+ "m5": 5664,
+ "r5": 3473,
+ "r6": 2186,
+ "closed": 2191,
+ "h5": 5,
+ "grav": 4,
+ "nongrav": 1,
+ "rep_words": 201564,
+ "formal_Q_terms": 608344,
+ "hw": true,
+ "Q_nonzero_at_N": {
+  "3": false,
+  "4": true,
+  "5": true
+ },
+ "rep_nonzero_N3": true
+}

@@ -1,0 +1,180 @@
+== point eq
+g2 xi = (0.0, 0.0, 0.0): Phi*/pi = 2.1245, Re S_prot/K = 1.4396135094, Re S_cl/K = 1.4570824039 (delta0 = 0.012134); grid 1024 pts; saddle 2.1 s
+  protected R1 (fixed potentials): max 1.0000000 -> identity dominates
+      1.0000000 at theta/pi = [-0. -0.]
+      0.3571429 at theta/pi = [0.6667 1.3333]
+  protected R2 (KKLP level): max 1.0000000 -> identity dominates
+      1.0000000 at theta/pi = [-0. -0.]
+      0.7094917 at theta/pi = [1.3333 0.6667]
+      0.6586338 at theta/pi = [1. 1.]
+  classical R1 (fixed potentials): max 1.0000000 -> identity dominates
+      1.0000000 at theta/pi = [-0. -0.]
+      0.3575309 at theta/pi = [1.3333 0.6667]
+  classical: identity's own max over delta at delta/(3 pi) = 0.00000 (0 expected), value/(r + sum m xi) = 1.000000000
+  classical R2 (KKLP level, max over bonus): max 1.0000000 -> identity dominates
+      1.0000000 at theta/pi = [-0. -0.], delta/(3 pi) = 0.0000
+      0.7297222 at theta/pi = [0. 1.], delta/(3 pi) = -0.2918
+      0.7097601 at theta/pi = [0.6667 1.3333], delta/(3 pi) = -0.5819
+      0.4864644 at theta/pi = [1. 0.], delta/(3 pi) = 0.3525
+      0.3975366 at theta/pi = [1.3076 0.6391], delta/(3 pi) = 0.4576
+  time 46.2 s
+== point r1a
+g2 xi = (0.0625, -0.03125, -0.03125): Phi*/pi = 2.1215, Re S_prot/K = 1.4211289330, Re S_cl/K = 1.4376162709 (delta0 = 0.011602); grid 1024 pts; saddle 2.8 s
+  protected R1 (fixed potentials): max 1.0000000 -> identity dominates
+      1.0000000 at theta/pi = [0. 0.]
+      0.3522919 at theta/pi = [0.6667 1.3333]
+  protected R2 (KKLP level): max 1.0000000 -> identity dominates
+      1.0000000 at theta/pi = [-0. -0.]
+      0.6990019 at theta/pi = [1.3333 0.6667]
+      0.6362023 at theta/pi = [1. 1.]
+  classical R1 (fixed potentials): max 1.0000000 -> identity dominates
+      1.0000000 at theta/pi = [-0. -0.]
+      0.3435908 at theta/pi = [0.6912 1.3823]
+  classical: identity's own max over delta at delta/(3 pi) = 0.00000 (0 expected), value/(r + sum m xi) = 1.000000000
+  classical R2 (KKLP level, max over bonus): max 1.0000000 -> identity dominates
+      1.0000000 at theta/pi = [-0. -0.], delta/(3 pi) = 0.0000
+      0.9845424 at theta/pi = [-0. -0.], delta/(3 pi) = -0.5839
+      0.7214122 at theta/pi = [0. 1.], delta/(3 pi) = -0.3823
+      0.7117759 at theta/pi = [1.1188 1.1188], delta/(3 pi) = -0.2635
+      0.7117756 at theta/pi = [0.8816 0.    ], delta/(3 pi) = -0.2639
+  time 35.7 s
+== point r1b
+g2 xi = (0.125, -0.0625, -0.0625): Phi*/pi = 2.1111, Re S_prot/K = 1.3724258391, Re S_cl/K = 1.3861637439 (delta0 = 0.010010); grid 1024 pts; saddle 6.8 s
+  protected R1 (fixed potentials): max 1.0000000 -> identity dominates
+      1.0000000 at theta/pi = [-0. -0.]
+      0.3504815 at theta/pi = [0.6667 1.3333]
+  protected R2 (KKLP level): max 1.0000000 -> identity dominates
+      1.0000000 at theta/pi = [-0. -0.]
+      0.6795362 at theta/pi = [1.3333 0.6667]
+      0.5650488 at theta/pi = [1. 1.]
+  classical R1 (fixed potentials): max 1.0000000 -> identity dominates
+      1.0000000 at theta/pi = [-0.0001 -0.0001]
+      0.3393399 at theta/pi = [1.3333 0.6666]
+  classical: identity's own max over delta at delta/(3 pi) = 0.00000 (0 expected), value/(r + sum m xi) = 1.000000000
+  classical R2 (KKLP level, max over bonus): max 1.0000000 -> identity dominates
+      1.0000000 at theta/pi = [-0.0001 -0.0001], delta/(3 pi) = 0.0000
+      0.9362714 at theta/pi = [-0. -0.], delta/(3 pi) = -0.5850
+      0.7356561 at theta/pi = [0. 0.], delta/(3 pi) = 0.5076
+      0.7082058 at theta/pi = [1. 1.], delta/(3 pi) = -0.4924
+      0.6742011 at theta/pi = [0.6666 1.3333], delta/(3 pi) = 0.0198
+  time 31.4 s
+== point r1c
+g2 xi = (0.1875, -0.09375, -0.09375): Phi*/pi = 2.0936, Re S_prot/K = 1.3044833269, Re S_cl/K = 1.3145442753 (delta0 = 0.007713); grid 1024 pts; saddle 10.8 s
+  protected R1 (fixed potentials): max 1.0000000 -> identity dominates
+      1.0000000 at theta/pi = [-0.  0.]
+      0.3589722 at theta/pi = [1.3333 0.6667]
+  protected R2 (KKLP level): max 1.0000000 -> identity dominates
+      1.0000000 at theta/pi = [-0. -0.]
+      0.6624378 at theta/pi = [1.3333 0.6667]
+      0.4572172 at theta/pi = [1. 1.]
+  classical R1 (fixed potentials): max 1.0000000 -> identity dominates
+      1.0000000 at theta/pi = [-0.0004 -0.0004]
+      0.3531338 at theta/pi = [1.333  0.6667]
+  classical: identity's own max over delta at delta/(3 pi) = 0.00000 (0 expected), value/(r + sum m xi) = 1.000000000
+  classical R2 (KKLP level, max over bonus): max 1.0000000 -> identity dominates
+      1.0000000 at theta/pi = [-0.0004 -0.0004], delta/(3 pi) = 0.0000
+      0.8665295 at theta/pi = [-0. -0.], delta/(3 pi) = -0.5884
+      0.8627176 at theta/pi = [0. 0.], delta/(3 pi) = 0.3908
+      0.7052529 at theta/pi = [1. 1.], delta/(3 pi) = -0.6092
+      0.6584237 at theta/pi = [0.6667 1.3332], delta/(3 pi) = 0.0146
+  time 45.2 s
+== point r1d
+g2 xi = (0.25, -0.125, -0.125): Phi*/pi = 2.0728, Re S_prot/K = 1.2282589587, Re S_cl/K = 1.2348485004 (delta0 = 0.005365); grid 1024 pts; saddle 15.4 s
+  protected R1 (fixed potentials): max 1.0000000 -> identity dominates
+      1.0000000 at theta/pi = [-0.  0.]
+      0.3733862 at theta/pi = [0.6667 1.3333]
+  protected R2 (KKLP level): max 1.0000000 -> identity dominates
+      1.0000000 at theta/pi = [-0. -0.]
+      0.6507506 at theta/pi = [0.6667 1.3333]
+      0.3377139 at theta/pi = [1. 1.]
+  classical R1 (fixed potentials): max 1.0000008 -> IDENTITY NOT DOMINANT
+      1.0000008 at theta/pi = [-0.0001 -0.0013]
+      0.3713127 at theta/pi = [1.3322 0.6667]
+  classical: identity's own max over delta at delta/(3 pi) = -0.00000 (0 expected), value/(r + sum m xi) = 1.000000000
+  classical R2 (KKLP level, max over bonus): max 1.0000003 -> IDENTITY NOT DOMINANT
+      1.0000003 at theta/pi = [-0.0013 -0.0013], delta/(3 pi) = -0.0000
+      0.9319659 at theta/pi = [0. 0.], delta/(3 pi) = 0.2849
+      0.7993234 at theta/pi = [-0. -0.], delta/(3 pi) = -0.5942
+      0.6590897 at theta/pi = [1. 0.], delta/(3 pi) = -0.7151
+      0.6482266 at theta/pi = [0.6662 1.3329], delta/(3 pi) = 0.0103
+  time 40.1 s
+== point r2a
+g2 xi = (0.0826, -0.0413, -0.0413): Phi*/pi = 2.1190, Re S_prot/K = 1.4082554125, Re S_cl/K = 1.4240247470 (delta0 = 0.011198); grid 1024 pts; saddle 5.6 s
+  protected R1 (fixed potentials): max 1.0000000 -> identity dominates
+      1.0000000 at theta/pi = [-0.  0.]
+      0.3506993 at theta/pi = [0.6667 1.3333]
+  protected R2 (KKLP level): max 1.0000000 -> identity dominates
+      1.0000000 at theta/pi = [-0. -0.]
+      0.6929822 at theta/pi = [1.3333 0.6667]
+      0.6184625 at theta/pi = [1. 1.]
+  classical R1 (fixed potentials): max 1.0000000 -> identity dominates
+      1.0000000 at theta/pi = [-0. -0.]
+      0.3339126 at theta/pi = [1.3515 0.6485]
+  classical: identity's own max over delta at delta/(3 pi) = -0.00000 (0 expected), value/(r + sum m xi) = 1.000000000
+  classical R2 (KKLP level, max over bonus): max 1.0000000 -> identity dominates
+      1.0000000 at theta/pi = [-0. -0.], delta/(3 pi) = -0.0000
+      0.9724349 at theta/pi = [-0. -0.], delta/(3 pi) = -0.5841
+      0.7169450 at theta/pi = [1. 1.], delta/(3 pi) = -0.4160
+      0.6964487 at theta/pi = [0.8514 0.8514], delta/(3 pi) = -0.2547
+      0.6873505 at theta/pi = [0.6667 1.3333], delta/(3 pi) = 0.0227
+  time 39.8 s
+== point r2b
+g2 xi = (0.1652, -0.0826, -0.0826): Phi*/pi = 2.1005, Re S_prot/K = 1.3302179224, Re S_cl/K = 1.3416228429 (delta0 = 0.008574); grid 1024 pts; saddle 10.9 s
+  protected R1 (fixed potentials): max 1.0000000 -> identity dominates
+      1.0000000 at theta/pi = [0. 0.]
+      0.3549072 at theta/pi = [0.6667 1.3333]
+  protected R2 (KKLP level): max 1.0000000 -> identity dominates
+      1.0000000 at theta/pi = [-0. -0.]
+      0.6679412 at theta/pi = [1.3333 0.6667]
+      0.4984404 at theta/pi = [1. 1.]
+  classical R1 (fixed potentials): max 1.0000000 -> identity dominates
+      1.0000000 at theta/pi = [-0.0002 -0.0002]
+      0.3472631 at theta/pi = [1.3332 0.6665]
+  classical: identity's own max over delta at delta/(3 pi) = 0.00000 (0 expected), value/(r + sum m xi) = 1.000000000
+  classical R2 (KKLP level, max over bonus): max 1.0000000 -> identity dominates
+      1.0000000 at theta/pi = [-0.0002 -0.0002], delta/(3 pi) = 0.0000
+      0.8924646 at theta/pi = [-0. -0.], delta/(3 pi) = -0.5869
+      0.8254878 at theta/pi = [0. 0.], delta/(3 pi) = 0.4321
+      0.7049680 at theta/pi = [1. 0.], delta/(3 pi) = -0.5679
+      0.6633869 at theta/pi = [1.3333 0.6666], delta/(3 pi) = 0.0164
+  time 43.8 s
+== point r3a
+g2 xi = (0.031, 0.031, -0.062): Phi*/pi = 2.1224, Re S_prot/K = 1.4182803154, Re S_cl/K = 1.4348424169 (delta0 = 0.011678); grid 1024 pts; saddle 2.9 s
+  protected R1 (fixed potentials): max 1.0000000 -> identity dominates
+      1.0000000 at theta/pi = [-0. -0.]
+      0.3695670 at theta/pi = [1.3679 0.684 ]
+  protected R2 (KKLP level): max 1.0000000 -> identity dominates
+      1.0000000 at theta/pi = [-0. -0.]
+      0.7088567 at theta/pi = [1.316 0.684]
+      0.6469667 at theta/pi = [1. 1.]
+  classical R1 (fixed potentials): max 1.0000000 -> identity dominates
+      1.0000000 at theta/pi = [-0. -0.]
+      0.3653749 at theta/pi = [0.6537 1.3463]
+  classical: identity's own max over delta at delta/(3 pi) = -0.00000 (0 expected), value/(r + sum m xi) = 1.000000000
+  classical R2 (KKLP level, max over bonus): max 1.0000000 -> identity dominates
+      1.0000000 at theta/pi = [-0. -0.], delta/(3 pi) = -0.0000
+      0.9895038 at theta/pi = [-0. -0.], delta/(3 pi) = -0.5840
+      0.7347705 at theta/pi = [0.9843 0.9843], delta/(3 pi) = -0.2871
+      0.7102476 at theta/pi = [1.3354 0.6677], delta/(3 pi) = 0.0086
+      0.7101931 at theta/pi = [0.6629 1.3315], delta/(3 pi) = 0.0102
+  time 41.1 s
+== point r3b
+g2 xi = (0.062, 0.062, -0.124): Phi*/pi = 2.1174, Re S_prot/K = 1.3473162134, Re S_cl/K = 1.3614052883 (delta0 = 0.010457); grid 1024 pts; saddle 5.6 s
+  protected R1 (fixed potentials): max 1.0000000 -> identity dominates
+      1.0000000 at theta/pi = [-0. -0.]
+      0.4118178 at theta/pi = [1.3028 0.6057]
+  protected R2 (KKLP level): max 1.0000000 -> identity dominates
+      1.0000000 at theta/pi = [-0. -0.]
+      0.7068213 at theta/pi = [0.6057 1.3028]
+      0.6413065 at theta/pi = [-0.  1.]
+  classical R1 (fixed potentials): max 1.0000000 -> identity dominates
+      1.0000000 at theta/pi = [-0.0001 -0.0001]
+      0.4234086 at theta/pi = [1.3229 0.677 ]
+  classical: identity's own max over delta at delta/(3 pi) = 0.00000 (0 expected), value/(r + sum m xi) = 1.000000000
+  classical R2 (KKLP level, max over bonus): max 1.0000000 -> identity dominates
+      1.0000000 at theta/pi = [-0.0001 -0.0001], delta/(3 pi) = 0.0000
+      0.9709267 at theta/pi = [-0. -0.], delta/(3 pi) = -0.5858
+      0.7422311 at theta/pi = [0.     1.0288], delta/(3 pi) = -0.2829
+      0.7134389 at theta/pi = [1.3577 0.6788], delta/(3 pi) = 0.0036
+      0.6633301 at theta/pi = [0.6667 1.3333], delta/(3 pi) = -0.5649
+  time 57.6 s

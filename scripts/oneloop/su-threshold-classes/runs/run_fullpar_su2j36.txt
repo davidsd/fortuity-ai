@@ -1,0 +1,18 @@
+su2_j36 UP words 728 controls [111456, 116664, 117384]
+19:53:10 hw: (9, 9, 12, 12, 12) Y=8: 240235 words (3s)
+19:53:23   hw: 50/65 stripped contents, 235181/240235 words (13s)
+19:53:23 hw: 65 stripped contents, 4660 shapes; raw hw rows 15610, exact multiplicity 1258, compressed rows 1759 (13s)
+19:53:45 Q_0: 239415 preimage words -> 3526665 target words in play (22s)
+19:53:45 functionals 2379 in 7 chunks (target hw multiplicity 2015 {4: 1076, 6: 417, 2: 477, 0: 17, 8: 28}); B rows 1759, V rows 5; workers 6
+19:53:50   chunk d=0 cols 0:81 done (eval 0s, combine 0s)
+19:53:58   chunk d=2 cols 81:636 done (eval 4s, combine 5s)
+19:54:16   chunk d=4 cols 636:1026 done (eval 14s, combine 11s)
+19:54:35   chunk d=4 cols 1026:1416 done (eval 27s, combine 18s)
+19:54:52   chunk d=4 cols 1416:1776 done (eval 38s, combine 24s)
+19:55:11   chunk d=6 cols 1776:2280 done (eval 53s, combine 28s)
+19:55:13   chunk d=8 cols 2280:2379 done (eval 55s, combine 28s)
+19:55:13 prep done: B 1759 x 2379, V 5 x 2379 in prep/su2_j36 (126s)
+      126.18 real       346.74 user        10.20 sys
+  rows 1024/1759: rank 817 (4s)
+rank B = 912 (4s)
+{"backend": "cpu", "nB": 1759, "nV": 5, "ncols": 2379, "n_ctrl": 3, "rank_B": 912, "rank_after_controls": 912, "controls_exact": true, "lifted_increments": [1, 0], "n_lifted": 1, "time": 4, "case": "su2_j36"}

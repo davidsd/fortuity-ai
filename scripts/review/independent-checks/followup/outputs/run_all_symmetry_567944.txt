@@ -1,0 +1,153 @@
+# symmetry amddebugq job 567944 (2026-10-02): REPO=/path/to/repo-copy SKIP_NET=1 bash run_all.sh
+work dir /tmp/tmp.8ajf4saTwg; Python 3.11.4
+=== $REPO/scripts/review/independent-checks/followup/c19/indep_index.py
+eigs N=3 twist=True: max diff 7.2e-01
+eigs N=2 twist=False: max diff 2.2e-16
+SU(2): -J X^T J^-1 == X ? True
+SU(3) twisted, one bosonic adjoint  == 1/((1-t^2)(1+t^3)) : True
+SU(3) twisted, one fermionic adjoint == (1-t^3)(1+t^5)     : True [1, 0, 0, -1, 0, 1, 0, 0, -1, 0]
+SU(2), one bosonic adjoint == 1/(1-t^2): True
+PE built in 0.4s; max unsigned coefficient (int64 overflow guard, must be < 9.2e18): SU(3) 8.933e+11, SU(2) 1.024e+06
+number of weights with nonzero I_C: 2297
+SU(3) s = (-1)^|lam| I_C^hw at (7,4,4), (8,5,4), (9,6,6), (10,6,6): 10 31 -4 -10
+SU(3) columns |lam|<=22 with s<0: [((9, 6, 6), -4), ((10, 6, 6), -10)]
+weight multiplicities entering (9,6,6): [((9, 6, 6), -6576), ((10, 5, 6), -5568), ((9, 7, 5), -6152), ((11, 5, 5), -4660), ((10, 7, 4), -4666), ((11, 6, 4), -4186)]
+weight multiplicities entering (10,6,6): [((10, 6, 6), 7686), ((11, 5, 6), 6379), ((10, 7, 5), 7182), ((12, 5, 5), 5256), ((11, 7, 4), 5304), ((12, 6, 4), 4695)]
+twisted_index_j30: rows 172 mismatches with my I_C^hw: []
+  predicted_signed == (-1)^|lam| twisted_index in all rows: True ; P-odd counts implied (total - signed)/2 != 0 at: [([7, 4, 4], 12, 1)]
+kernel_parity_j40: rows 31 T + D == my s in all rows: True []
+  T<0 rows: 20  of which s<0 (index alone negative): []  min s among T<0 rows: 2
+SU(2) columns |lam|<=22 with (-1)^|lam| I^hw < 0: 17 sum -20
+  == stored SU(2) T<0 rows (lam and value): True
+SU(2) full index level sums == data full_index_unrefined (j<=40): True
+(3.4) == data graviton_index_unrefined (j<=40): True
+(3.4) coefficients j=42,44: -2020 2346  sign pattern (-1)^(j/2) for all even j: True  odd j zero: True
+SU(2) T from stored nongraviton reps (j<=40): [((4, 4, 4), -1), ((5, 4, 4), -1), ((5, 5, 4), -1), ((5, 5, 5), -1), ((6, 5, 5), -1), ((6, 6, 5), -1), ((7, 5, 5), -1), ((6, 6, 6), -2), ((7, 6, 5), -1), ((7, 6, 6), -2), ((7, 7, 6), -1), ((8, 6, 6), -1)]
+  never positive: True ; equals stored T<0 rows with j<=40: True
+--- 2 s
+=== $REPO/scripts/review/independent-checks/followup/c19/su2_coulomb_exact.py
+generators: 18 (6 u, 9 v rows of which 8 independent, 3 w)
+exact SU(2) Coulomb graviton dims computed for 40249 sectors in 1.6s; nonzero sectors: 5532
+all nonzero sectors have even Y = |q| - 2J: True
+exact level sums == (3.4) for all j <= 44: True
+  exact level sums: [1, 0, 6, -8, 18, -30, 56, -81, 117, -163, 231, -300, 382, -483, 615, -749, 897, -1074, 1292, -1512, 1746, -2020, 2346]
+per-2J hw multiplicities all >= 0: True
+exact T: negative columns 17 sum -20 ; positive columns 0 {}
+exact T<0 columns == stored kernel_parity_j44 rows: True
+exact D in the 17 negative columns: {(4, 4, 4): 0, (5, 4, 4): 0, (5, 5, 4): 0, (5, 5, 5): 0, (6, 5, 5): 0, (6, 6, 5): 0, (7, 5, 5): 0, (6, 6, 6): 0, (7, 6, 5): 0, (7, 6, 6): 0, (7, 7, 6): 0, (8, 6, 6): 0, (7, 7, 7): 0, (8, 7, 6): 0, (9, 6, 6): 0, (8, 7, 7): 0, (9, 7, 6): 0}
+   (4, 4, 4) [(1, 10), (-1, 10), (-1, 10), (1, 10), (1, 8), (-1, 8)]
+   (6, 6, 6) [(1, 17), (-1, 17), (-1, 17), (1, 17), (1, 16), (-1, 16)]
+   (7, 7, 7) [(1, 19), (-1, 19), (-1, 19), (1, 19), (1, 19), (-1, 19)]
+   (9, 6, 6) [(1, 19), (-1, 19), (-1, 19), (1, 19), (1, 16), (-1, 16)]
+   (9, 7, 6) [(1, 21), (-1, 21), (-1, 20), (1, 20), (1, 16), (-1, 16)]
+--- 5 s
+=== $REPO/scripts/review/independent-checks/followup/c19/cmp_a3.py
+SU(2) columns compared: 17  mismatches in the six per-weight unsigned dims: 0
+--- 4 s
+=== $REPO/scripts/review/independent-checks/followup/c19/tw22.py
+rounding err 5.275489746722624e-11 time 0.7 nonzero weights 2297
+(9, 6, 6) [((9, 6, 6), 1, -6576), ((10, 5, 6), -1, -5568), ((9, 7, 5), -1, -6152), ((11, 5, 5), 1, -4660), ((10, 7, 4), 1, -4666), ((11, 6, 4), -1, -4186)]
+(10, 6, 6) [((10, 6, 6), 1, 7686), ((11, 5, 6), -1, 6379), ((10, 7, 5), -1, 7182), ((12, 5, 5), 1, 5256), ((11, 7, 4), 1, 5304), ((12, 6, 4), -1, 4695)]
+(7, 4, 4) [((7, 4, 4), 1, -1133), ((8, 3, 4), -1, -835), ((7, 5, 3), -1, -984), ((9, 3, 3), 1, -613), ((8, 5, 2), 1, -554), ((9, 4, 2), -1, -471)]
+(8, 5, 4) [((8, 5, 4), 1, -1997), ((9, 4, 4), -1, -1624), ((8, 6, 3), -1, -1553), ((10, 4, 3), 1, -1126), ((9, 6, 2), 1, -810), ((10, 5, 2), -1, -725)]
+columns with (-1)^|lam| I_C^hw < 0: [(42, (9, 6, 6), -4), (44, (10, 6, 6), -10)]
+--- 1 s
+=== $REPO/scripts/review/independent-checks/followup/c19/t027_cmp.py
+columns with euler == index: 445 agree: 445 disagree: 0 total BH: 18
+incomplete (euler != index): [(44, (8, 7, 7), [0, 1, 2], 0, -2)]
+--- 0 s
+=== $REPO/scripts/review/independent-checks/followup/c8/exact_checks.py
+A1 repo canon_word sign convention vs direct N=3 trace (300 random words): mismatches = 0
+A2 repo Q_expr vs independent symbolic Q at N=3 (20 random expressions): mismatches = 0
+B1 independent exact x1^3 restriction: 35 SU(2) multitraces; equals repo restrict_u1 mod p: True
+B2 independent O^2_24 (eq. 2.6) at N=2: 117 monomials; equals repo dmk.o2_24() at N=2: True
+B3 exact x1^3 coefficient at N=2: 117 monomials; ratio on first monomial = -648/5; x1^3 coeff == ratio * O^2_24 identically: True
+B4 exact x1^0 coefficient at N=2: formal terms 6139, value at N=2 has 0 monomials
+B4 exact x1^1 coefficient at N=2: formal terms 2629, value at N=2 has 584 monomials
+B4 exact x1^2 coefficient at N=2: formal terms 455, value at N=2 has 0 monomials
+time 8.4s
+C1 gravitons u2,u3,v2,v3: components with Q != 0 (formal or at N=3): 0
+C2 r12_03  hw component (2, 2, 2): Q r - R at N=3 has 0 monomials (exact); |Q r| = 448 monomials
+C2 r12_11  hw component (0, 2): Q r - R at N=3 has 0 monomials (exact); |Q r| = 2006 monomials
+C2 r12_22  hw component (0, 0, 2, 2): Q r - R at N=3 has 0 monomials (exact); |Q r| = 350 monomials
+C2 r14_13  hw component (0, 2, 2, 2): Q r - R at N=3 has 0 monomials (exact); |Q r| = 384 monomials
+C2 r16_01  hw component (2,): Q r - R at N=3 has 0 monomials (exact); |Q r| = 19272 monomials
+C2 r16_23  hw component (0, 0, 2, 2, 2): Q r - R at N=3 has 0 monomials (exact); |Q r| = 860 monomials
+C3 printed r12_11 trace component (0,0): Q r - R at N=3 has 2304 monomials
+time 9.8s
+--- 10 s
+=== $REPO/scripts/review/independent-checks/followup/c8/exact_allcomp.py
+r12_03  components  27: Q r - R != 0 at N=3 on   0 projected components (raw as printed:   0)  [0.7s]
+r12_11  components   9: Q r - R != 0 at N=3 on   0 projected components (raw as printed:   3)  [1.5s]
+r12_22  components  81: Q r - R != 0 at N=3 on   0 projected components (raw as printed:  63)  [6.3s]
+r14_13  components  81: Q r - R != 0 at N=3 on   0 projected components (raw as printed:  57)  [13.8s]
+r16_01  components   3: Q r - R != 0 at N=3 on   0 projected components (raw as printed:   0)  [16.2s]
+r16_23  components 243: Q r - R != 0 at N=3 on   0 projected components (raw as printed: 213)  [306.9s]
+printed r12_11 : formal trace nonzero on 1 of 1 components
+printed r12_22 : formal trace nonzero on 9 of 9 components
+printed r14_13 : formal trace nonzero on 9 of 9 components
+printed r16_12 : formal trace nonzero on 3 of 3 components
+printed r16_23 : formal trace nonzero on 27 of 27 components
+printed R12_11 : formal trace nonzero on 0 of 1 components
+printed R12_22 : formal trace nonzero on 9 of 9 components
+printed R14_13 : formal trace nonzero on 9 of 9 components
+printed R16_12 : formal trace nonzero on 3 of 3 components
+printed R16_23 : formal trace nonzero on 27 of 27 components
+time 307.0s
+--- 308 s
+=== $REPO/scripts/review/independent-checks/followup/c8/check_modp.py
+terms in O: 6139  sector (5, 7, 4, 4)
+data file == builder: True
+distinct denominators in O: [1, 2, 3, 5, 6, 7, 9, 14, 15, 18, 21, 35, 42, 63, 70, 105, 126, 210, 315, 630] ... max 630
+N=3 Q O at p=33554393 seed=101: functionals=372 nonzero=0
+N=3 Q O at p=33554393 seed=202: functionals=372 nonzero=0
+N=4 Q O at p=33554393: functionals=124 nonzero=60
+time so far 9.3s
+readings 1+2+3             seed=41: n_terms(img)=35 proportional to O224: True; ratio = -648/5 (== -648/5: True)
+readings 1+2+3             seed=43: n_terms(img)=35 proportional to O224: True; ratio = -648/5 (== -648/5: True)
+no traceless projection    seed=41: n_terms(img)=37 proportional to O224: False; ratio = -70391/2 (== -648/5: False)
+no traceless projection    seed=43: n_terms(img)=37 proportional to O224: False; ratio = -839899/17 (== -648/5: False)
+no Koszul sign             seed=41: n_terms(img)=35 proportional to O224: True; ratio = -648/5 (== -648/5: True)
+no Koszul sign             seed=43: n_terms(img)=35 proportional to O224: True; ratio = -648/5 (== -648/5: True)
+time 10.7s
+--- 12 s
+=== $REPO/scripts/review/independent-checks/followup/c8/check_modp_p3.py
+terms in O: 6139  sector (5, 7, 4, 4)
+data file == builder: True
+distinct denominators in O: [1, 2, 3, 5, 6, 7, 9, 14, 15, 18, 21, 35, 42, 63, 70, 105, 126, 210, 315, 630] ... max 630
+N=3 Q O at p=50331653 seed=7: functionals=372 nonzero=0
+N=3 Q O at p=50331653 seed=8: functionals=372 nonzero=0
+N=4 Q O at p=50331653: functionals=124 nonzero=60
+time so far 9.1s
+readings 1+2+3             seed=41: n_terms(img)=35 proportional to O224: True; ratio = -648/5 (== -648/5: True)
+readings 1+2+3             seed=43: n_terms(img)=35 proportional to O224: True; ratio = -648/5 (== -648/5: True)
+no traceless projection    seed=41: n_terms(img)=37 proportional to O224: False; ratio = -931545/19 (== -648/5: False)
+no traceless projection    seed=43: n_terms(img)=37 proportional to O224: False; ratio = 859488/23 (== -648/5: False)
+no Koszul sign             seed=41: n_terms(img)=35 proportional to O224: True; ratio = -648/5 (== -648/5: True)
+no Koszul sign             seed=43: n_terms(img)=35 proportional to O224: True; ratio = -648/5 (== -648/5: True)
+time 10.5s
+--- 11 s
+=== $REPO/scripts/review/independent-checks/followup/c8/singlet_T.py
+T (singlet), readings 1+2 (repo operator)        proportional to O^2_24: True; ratio mod p -> -648/5   [32.9s]
+T (singlet), printed r/R (no reading 1)          proportional to O^2_24: True; ratio mod p -> 377477/32   [47.9s]
+T (singlet), no Koszul sign (no reading 2)       proportional to O^2_24: True; ratio mod p -> -648/5   [79.8s]
+x1^3 coeff of hw comp., readings 1+2             proportional to O^2_24: True; ratio mod p -> -648/5   [80.5s]
+x1^3 coeff of hw comp., printed r/R              proportional to O^2_24: False; ratio mod p -> -   [80.9s]
+--- 81 s
+=== $REPO/scripts/review/independent-checks/followup/c8/crt_ratio.py
+RESIDUE 8915694
+p=33554393 seed=7 project=False: T proportional to O^2_24: True; ratio None (Wang); -648/5 mod p? False  [15.1s]
+RESIDUE 40696549
+p=50331653 seed=7 project=False: T proportional to O^2_24: True; ratio 3691/747 (Wang); -648/5 mod p? False  [15.2s]
+CRT over primes (33554393, 50331653): T / O^2_24 without reading 1 = -65649/350 (with reading 1: -648/5)
+--- 30 s
+=== $REPO/scripts/review/independent-checks/followup/c8/spot_qr.py
+r14_13  (1, 1, 0, 0): projected Q r - R: 0 monomials; as printed: 1852 monomials  [0.5s]
+r14_13  (0, 0, 1, 2): projected Q r - R: 0 monomials; as printed: 3516 monomials  [0.6s]
+r14_13  (2, 2, 2, 1): projected Q r - R: 0 monomials; as printed: 3516 monomials  [0.7s]
+r12_22  (0, 1, 1, 0): projected Q r - R: 0 monomials; as printed: 2524 monomials  [0.9s]
+r12_22  (1, 1, 1, 2): projected Q r - R: 0 monomials; as printed: 1710 monomials  [1.0s]
+r16_23  (0, 1, 1, 0, 2): projected Q r - R: 0 monomials; as printed: 19926 monomials  [2.4s]
+r16_23  (2, 2, 2, 0, 1): projected Q r - R: 0 monomials; as printed: 12652 monomials  [3.1s]
+--- 3 s
+

@@ -1,0 +1,47 @@
+##### su2:5:4,4,4
+[su2:5:4,4,4] SEC (5, 5, 8, 8, 8) Y=7: words 897, hw rows 52, independent 11 vs exact m 11 {3: 6, 5: 3, 1: 2} -> SPAN (0s)
+exact: UP (6, 6, 8, 8, 8) Y=6: words 197, hw rows 19 (exact m_up 4); rank of Q_0 images 4 (0s)
+closedness: Q_0 image rank 6 (m_low 9); closed hw combinations 5 (0s)
+cohomology dimension h = 1 = closed 5 - exact rank 4 (0s)
+representative sizes (words): [84]
+closedness at fresh points: nonzero entries 0 of 43 (must be 0)
+Coulomb: rank of the Cartan values of the 1 classes = 0; non-Coulomb combinations 1 (functionals 6440)
+rep 0: 84 words -> Q_1 v: 5910 words (0s)
+target (4, 4, 8, 8, 8) Y=7: singlet mult 231 {2: 120, 4: 96, 0: 9, 6: 6}; preimage (5, 5, 8, 8, 8) Y=6: words 11735, hw rows 1025, singlet mult 262 {3: 171, 1: 63, 5: 28} (0s)
+(a) preimage hw rank per degree {1: 63, 3: 171, 5: 28} vs {3: 171, 1: 63, 5: 28} -> SPAN (1s)
+(b) target words in play 89212; exact rows 1025; Q_1 v sizes [5910]; controls [13608, 13740, 16284] (2s)
+[seed 41] target functionals 591; exact rank 149 (4s)
+[seed 41] Q_1 v residual nonzero entries per class: [0]
+[seed 41] RANK of residuals = number of classes lifted at one loop: 0
+[seed 41] controls Q_1 Q_0 u residuals (must be 0): [0, 0, 0]
+[seed 41] residual on the non-Coulomb combinations: nonzero entries [0]
+[seed 43] target functionals 591; exact rank 149 (5s)
+[seed 43] Q_1 v residual nonzero entries per class: [0]
+[seed 43] RANK of residuals = number of classes lifted at one loop: 0
+[seed 43] controls Q_1 Q_0 u residuals (must be 0): [0, 0, 0]
+[seed 43] residual on the non-Coulomb combinations: nonzero entries [0]
+done (5s)
+##### su2:9:6,6,6
+[su2:9:6,6,6] SEC (9, 9, 12, 12, 12) Y=9: words 5665, hw rows 300, independent 25 vs exact m 25 {3: 11, 5: 9, 1: 2, 7: 2, 9: 1} -> SPAN (0s)
+exact: UP (10, 10, 12, 12, 12) Y=8: words 728, hw rows 73 (exact m_up 6); rank of Q_0 images 6 (0s)
+closedness: Q_0 image rank 17 (m_low 26); closed hw combinations 8 (1s)
+cohomology dimension h = 2 = closed 8 - exact rank 6 (1s)
+representative sizes (words): [558, 510]
+closedness at fresh points: nonzero entries 0 of 178 (must be 0)
+Coulomb: rank of the Cartan values of the 2 classes = 0; non-Coulomb combinations 2 (functionals 48240)
+rep 0: 558 words -> Q_1 v: 154332 words (4s)
+rep 1: 510 words -> Q_1 v: 144006 words (0s)
+target (8, 8, 12, 12, 12) Y=9: singlet mult 2015 {4: 1076, 6: 417, 2: 477, 0: 17, 8: 28}; preimage (9, 9, 12, 12, 12) Y=8: words 240235, hw rows 15610, singlet mult 1258 {3: 676, 5: 413, 1: 127, 7: 42} (8s)
+(a) preimage hw rank per degree {1: 127, 3: 676, 5: 413, 7: 42} vs {3: 676, 5: 413, 1: 127, 7: 42} -> SPAN (17s)
+(b) target words in play 3527103; exact rows 15610; Q_1 v sizes [154332, 144006]; controls [111456, 116664, 117384] (44s)
+[seed 41] target functionals 2842; exact rank 912 (284s)
+[seed 41] Q_1 v residual nonzero entries per class: [1547, 1547]
+[seed 41] RANK of residuals = number of classes lifted at one loop: 1
+[seed 41] controls Q_1 Q_0 u residuals (must be 0): [0, 0, 0]
+[seed 41] residual on the non-Coulomb combinations: nonzero entries [1547, 1547]
+[seed 43] target functionals 2842; exact rank 912 (519s)
+[seed 43] Q_1 v residual nonzero entries per class: [1547, 1547]
+[seed 43] RANK of residuals = number of classes lifted at one loop: 1
+[seed 43] controls Q_1 Q_0 u residuals (must be 0): [0, 0, 0]
+[seed 43] residual on the non-Coulomb combinations: nonzero entries [1547, 1547]
+done (519s)

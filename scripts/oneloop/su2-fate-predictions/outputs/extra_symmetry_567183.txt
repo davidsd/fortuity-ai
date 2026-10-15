@@ -1,0 +1,12 @@
+work dir /tmp/tmp.N4d0PQC2Yv; Python 3.11.4
+=== c3_degree10_allorders
+su2:10:8,7,6 one-loop target (9, 9, 16, 14, 12) Y=11: {1: 894, 3: 6428, 5: 7540, 7: 1981, 9: 90}; degree >= 10: 0
+su2:9:8,6,6 order-2 target T_2 (8, 8, 16, 12, 12) Y=10: {0: 1678, 2: 41487, 4: 98392, 6: 39654, 8: 2843, 10: 17}; degree >= 10: 17
+su2:10:8,7,6 order-2 outbound target (8, 8, 16, 14, 12) Y=11: {0: 2417, 2: 66781, 4: 179374, 6: 90509, 8: 9384, 10: 140}; degree >= 10: 140
+--- c3_degree10_allorders: 26 s
+=== d3_L1_full_letters
+w(1) closed with relative sign 1 ; Q_+^m w = [{}, {}, {}]
+w(2) closed with relative sign 1 ; Q_+^m w = [{}, {}, {}]
+w(3) closed with relative sign 1 ; Q_+^m w = [{}, {}, {}]
+{Q_0,Q_+} != 0 on 0 of 1200 (word, m) cases; 1170 of them with derivative letters or gauginos
+--- d3_L1_full_letters: 1 s

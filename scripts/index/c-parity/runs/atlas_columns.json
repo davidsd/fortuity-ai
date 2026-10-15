@@ -1,0 +1,581 @@
+{
+ "description": "T-029 atlas: per-group column statistics and all columns with non-graviton classes (read from data/ of the collaboration)",
+ "summary": [
+  {
+   "group": "G2",
+   "columns": 70,
+   "complete": 70,
+   "with_BH": 0,
+   "BH_classes": 0,
+   "BH_multi_2J": 0,
+   "BH_cancel": 0,
+   "grav_columns": 68,
+   "grav_multi_2J": 36,
+   "grav_cancel": 0
+  },
+  {
+   "group": "SO(5)",
+   "columns": 139,
+   "complete": 139,
+   "with_BH": 0,
+   "BH_classes": 0,
+   "BH_multi_2J": 0,
+   "BH_cancel": 0,
+   "grav_columns": 135,
+   "grav_multi_2J": 61,
+   "grav_cancel": 0
+  },
+  {
+   "group": "SO(7)",
+   "columns": 71,
+   "complete": 71,
+   "with_BH": 5,
+   "BH_classes": 5,
+   "BH_multi_2J": 0,
+   "BH_cancel": 0,
+   "grav_columns": 69,
+   "grav_multi_2J": 53,
+   "grav_cancel": 0
+  },
+  {
+   "group": "SO(9)",
+   "columns": 1,
+   "complete": 1,
+   "with_BH": 1,
+   "BH_classes": 1,
+   "BH_multi_2J": 0,
+   "BH_cancel": 0,
+   "grav_columns": 1,
+   "grav_multi_2J": 1,
+   "grav_cancel": 0
+  },
+  {
+   "group": "SO(11)",
+   "columns": 2,
+   "complete": 0,
+   "with_BH": 0,
+   "BH_classes": 0,
+   "BH_multi_2J": 0,
+   "BH_cancel": 0,
+   "grav_columns": 0,
+   "grav_multi_2J": 0,
+   "grav_cancel": 0
+  },
+  {
+   "group": "SU(2)",
+   "columns": 147,
+   "complete": 147,
+   "with_BH": 4,
+   "BH_classes": 5,
+   "BH_multi_2J": 0,
+   "BH_cancel": 0,
+   "grav_columns": 139,
+   "grav_multi_2J": 76,
+   "grav_cancel": 0
+  },
+  {
+   "group": "SU(3)",
+   "columns": 172,
+   "complete": 172,
+   "with_BH": 1,
+   "BH_classes": 1,
+   "BH_multi_2J": 0,
+   "BH_cancel": 0,
+   "grav_columns": 169,
+   "grav_multi_2J": 137,
+   "grav_cancel": 137
+  },
+  {
+   "group": "SU(4)",
+   "columns": 172,
+   "complete": 172,
+   "with_BH": 0,
+   "BH_classes": 0,
+   "BH_multi_2J": 0,
+   "BH_cancel": 0,
+   "grav_columns": 170,
+   "grav_multi_2J": 150,
+   "grav_cancel": 150
+  },
+  {
+   "group": "USp(6)",
+   "columns": 49,
+   "complete": 49,
+   "with_BH": 0,
+   "BH_classes": 0,
+   "BH_multi_2J": 0,
+   "BH_cancel": 0,
+   "grav_columns": 48,
+   "grav_multi_2J": 37,
+   "grav_cancel": 0
+  },
+  {
+   "group": "USp(10)",
+   "columns": 2,
+   "complete": 0,
+   "with_BH": 0,
+   "BH_classes": 0,
+   "BH_multi_2J": 0,
+   "BH_cancel": 0,
+   "grav_columns": 0,
+   "grav_multi_2J": 0,
+   "grav_cancel": 0
+  }
+ ],
+ "bh_columns": [
+  {
+   "group": "SO(7)",
+   "j": 18,
+   "lam": [
+    3,
+    3,
+    3
+   ],
+   "bh": {
+    "1": 1
+   },
+   "grav": {
+    "3": 2
+   },
+   "m": {
+    "0": 16,
+    "1": 33,
+    "2": 29,
+    "3": 30,
+    "4": 21,
+    "5": 6,
+    "6": 0
+   },
+   "m_peak": 1,
+   "complete": true,
+   "source": "scripts/index/c-parity/runs/so7_col333_j18.jsonl"
+  },
+  {
+   "group": "SO(7)",
+   "j": 20,
+   "lam": [
+    4,
+    3,
+    3
+   ],
+   "bh": {
+    "2": 1
+   },
+   "grav": {
+    "2": 6,
+    "4": 1
+   },
+   "m": {
+    "0": 11,
+    "1": 109,
+    "2": 256,
+    "3": 218,
+    "4": 82,
+    "5": 20,
+    "6": 6
+   },
+   "m_peak": 2,
+   "complete": true,
+   "source": "data/g2/so7_hw_cohomology_j20.jsonl"
+  },
+  {
+   "group": "SO(7)",
+   "j": 22,
+   "lam": [
+    4,
+    4,
+    3
+   ],
+   "bh": {
+    "3": 1
+   },
+   "grav": {
+    "1": 1,
+    "3": 6,
+    "5": 1
+   },
+   "m": {
+    "0": 33,
+    "1": 242,
+    "2": 553,
+    "3": 596,
+    "4": 326,
+    "5": 97,
+    "6": 16,
+    "7": 2
+   },
+   "m_peak": 3,
+   "complete": true,
+   "source": "data/g2/so7_hw_cohomology_j22_j24.jsonl"
+  },
+  {
+   "group": "SO(7)",
+   "j": 24,
+   "lam": [
+    4,
+    4,
+    4
+   ],
+   "bh": {
+    "4": 1
+   },
+   "grav": {
+    "0": 1,
+    "4": 4
+   },
+   "m": {
+    "0": 88,
+    "1": 276,
+    "2": 502,
+    "3": 691,
+    "4": 598,
+    "5": 253,
+    "6": 39,
+    "7": 3,
+    "8": 2
+   },
+   "m_peak": 3,
+   "complete": true,
+   "source": "data/g2/so7_hw_cohomology_j22_j24.jsonl"
+  },
+  {
+   "group": "SO(7)",
+   "j": 26,
+   "lam": [
+    5,
+    4,
+    4
+   ],
+   "bh": {
+    "3": 1
+   },
+   "grav": {
+    "1": 1,
+    "3": 13,
+    "5": 5
+   },
+   "m": {
+    "0": 140,
+    "1": 1183,
+    "2": 3295,
+    "3": 4482,
+    "4": 3393,
+    "5": 1584,
+    "6": 474,
+    "7": 73,
+    "8": 0
+   },
+   "m_peak": 3,
+   "complete": true,
+   "source": "data/g2/so7_hw_cohomology_j26.jsonl"
+  },
+  {
+   "group": "SO(9)",
+   "j": 22,
+   "lam": [
+    5,
+    3,
+    3
+   ],
+   "bh": {
+    "1": 1
+   },
+   "grav": {
+    "1": 5,
+    "3": 12,
+    "5": 1
+   },
+   "m": {
+    "0": 131,
+    "1": 442,
+    "2": 664,
+    "3": 665,
+    "4": 404,
+    "5": 114,
+    "6": 3
+   },
+   "m_peak": 3,
+   "complete": true,
+   "source": "scripts/index/c-parity/runs/so9_col533_j22.jsonl"
+  },
+  {
+   "group": "SO(11)",
+   "j": 26,
+   "lam": [
+    5,
+    5,
+    3
+   ],
+   "bh": {
+    "1": 1
+   },
+   "grav": {
+    "1": 11
+   },
+   "m": {
+    "0": 534,
+    "1": 2354,
+    "2": 4710
+   },
+   "m_peak": 2,
+   "complete": false,
+   "source": "data/so_sp/so11_hw_cohomology_j26.jsonl"
+  },
+  {
+   "group": "SO(11)",
+   "j": 26,
+   "lam": [
+    7,
+    3,
+    3
+   ],
+   "bh": {
+    "1": 1
+   },
+   "grav": {
+    "1": 22
+   },
+   "m": {
+    "0": 607,
+    "1": 2387,
+    "2": 4109
+   },
+   "m_peak": 2,
+   "complete": false,
+   "source": "data/so_sp/so11_hw_cohomology_j26.jsonl"
+  },
+  {
+   "group": "SU(2)",
+   "j": 24,
+   "lam": [
+    4,
+    4,
+    4
+   ],
+   "bh": {
+    "5": 1
+   },
+   "grav": {
+    "0": 1,
+    "2": 4,
+    "4": 4,
+    "6": 1
+   },
+   "m": {
+    "0": 15,
+    "1": 54,
+    "2": 147,
+    "3": 226,
+    "4": 232,
+    "5": 153,
+    "6": 53,
+    "7": 6,
+    "8": 1
+   },
+   "m_peak": 4,
+   "complete": true,
+   "source": "data/su2/bmn_direct_cohomology_j28.json"
+  },
+  {
+   "group": "SU(2)",
+   "j": 26,
+   "lam": [
+    5,
+    4,
+    4
+   ],
+   "bh": {
+    "6": 1
+   },
+   "grav": {
+    "1": 3,
+    "3": 4,
+    "5": 4
+   },
+   "m": {
+    "0": 9,
+    "1": 77,
+    "2": 181,
+    "3": 289,
+    "4": 320,
+    "5": 245,
+    "6": 119,
+    "7": 29,
+    "8": 1
+   },
+   "m_peak": 4,
+   "complete": true,
+   "source": "data/su2/bmn_direct_cohomology_j28.json"
+  },
+  {
+   "group": "SU(2)",
+   "j": 28,
+   "lam": [
+    5,
+    5,
+    4
+   ],
+   "bh": {
+    "7": 1
+   },
+   "grav": {
+    "0": 1,
+    "2": 4,
+    "4": 4,
+    "6": 4
+   },
+   "m": {
+    "0": 18,
+    "1": 77,
+    "2": 235,
+    "3": 398,
+    "4": 462,
+    "5": 397,
+    "6": 243,
+    "7": 88,
+    "8": 14,
+    "9": 0
+   },
+   "m_peak": 4,
+   "complete": true,
+   "source": "data/su2/bmn_direct_cohomology_j28.json"
+  },
+  {
+   "group": "SU(2)",
+   "j": 36,
+   "lam": [
+    6,
+    6,
+    6
+   ],
+   "bh": {
+    "9": 2
+   },
+   "grav": {},
+   "m": {
+    "0": 1,
+    "1": 1,
+    "2": 0,
+    "3": 3,
+    "4": 9,
+    "5": 12,
+    "6": 9,
+    "7": 12,
+    "8": 26,
+    "9": 25,
+    "10": 6,
+    "11": 1,
+    "12": 1
+   },
+   "m_peak": 8,
+   "complete": true,
+   "source": "scripts/index/c-parity/runs/su2_col666_j36.jsonl"
+  },
+  {
+   "group": "SU(3)",
+   "j": 30,
+   "lam": [
+    7,
+    4,
+    4
+   ],
+   "bh": {
+    "5": 1
+   },
+   "grav": {
+    "4": 1,
+    "5": 4,
+    "6": 5,
+    "7": 1
+   },
+   "m": {
+    "0": 61,
+    "1": 526,
+    "2": 2072,
+    "3": 4705,
+    "4": 6572,
+    "5": 5664,
+    "6": 2865,
+    "7": 747,
+    "8": 72,
+    "9": 0,
+    "10": 0
+   },
+   "m_peak": 4,
+   "complete": true,
+   "source": "data/su3/bmn_hw_cohomology_j30.json"
+  }
+ ],
+ "parity": [
+  {
+   "group": "G2",
+   "grav_Y_even": 380,
+   "grav_Y_odd": 0,
+   "BH_Y_even": 0,
+   "BH_Y_odd": 0
+  },
+  {
+   "group": "SO(5)",
+   "grav_Y_even": 960,
+   "grav_Y_odd": 0,
+   "BH_Y_even": 0,
+   "BH_Y_odd": 0
+  },
+  {
+   "group": "SO(7)",
+   "grav_Y_even": 1633,
+   "grav_Y_odd": 0,
+   "BH_Y_even": 5,
+   "BH_Y_odd": 0
+  },
+  {
+   "group": "SO(9)",
+   "grav_Y_even": 18,
+   "grav_Y_odd": 0,
+   "BH_Y_even": 1,
+   "BH_Y_odd": 0
+  },
+  {
+   "group": "SO(11)",
+   "grav_Y_even": 33,
+   "grav_Y_odd": 0,
+   "BH_Y_even": 2,
+   "BH_Y_odd": 0
+  },
+  {
+   "group": "SU(2)",
+   "grav_Y_even": 564,
+   "grav_Y_odd": 0,
+   "BH_Y_even": 0,
+   "BH_Y_odd": 5
+  },
+  {
+   "group": "SU(3)",
+   "grav_Y_even": 977,
+   "grav_Y_odd": 950,
+   "BH_Y_even": 1,
+   "BH_Y_odd": 0
+  },
+  {
+   "group": "SU(4)",
+   "grav_Y_even": 6055,
+   "grav_Y_odd": 5982,
+   "BH_Y_even": 0,
+   "BH_Y_odd": 0
+  },
+  {
+   "group": "USp(6)",
+   "grav_Y_even": 854,
+   "grav_Y_odd": 0,
+   "BH_Y_even": 0,
+   "BH_Y_odd": 0
+  },
+  {
+   "group": "USp(10)",
+   "grav_Y_even": 33,
+   "grav_Y_odd": 0,
+   "BH_Y_even": 0,
+   "BH_Y_odd": 0
+  }
+ ]
+}

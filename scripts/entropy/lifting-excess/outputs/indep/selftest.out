@@ -1,0 +1,30 @@
+KKLP (4.15): phi_0 (1D golden section, independent)            2.2247468715391        ref 2.2247         PASS
+KKLP (4.15): ratio at phi_0                                    1.0121344335407        ref 1.01213        PASS
+xi=0: delta0 (Newton A) = 1D ratio - 1                         0.012134433540673      ref 0.01213443354  PASS
+xi=0: Phi*/pi = 3 phi_0/pi                                     2.1244767704021        ref 2.12447677     PASS
+xi=0: r1 (finite-eps slope) vs note sec. 7.1 (0.0551)          0.055071173298445      ref 0.0551         PASS
+xi=0: r1 - r1_env                                              -8.0478018808505e-13   ref 0              PASS
+xi=0: q_B*/(dim G j1 j2)^{1/3} = 9 beta* (note sec. 5.2: 3.1624) 3.1624145090985        ref 3.1624         PASS
+xi=0, j1/j2 = 4: r1 equals the j1 = j2 value                   0.055071173311065      ref 0.0550711733   PASS
+xi=(0.1,-0.1,0): delta0 vs pilot selftest                      0.010485363980117      ref 0.010485       PASS
+xi=(0.1,-0.1,0): r1 vs pilot selftest                          0.05267158905498       ref 0.052672       PASS
+xi=(0.1,-0.1,0): r1 - r1_env                                   -9.8917365138401e-13   ref 0              PASS
+xi=(0.1,-0.1,0): explicit-omega delta0 - cube-root delta0      0.0                    ref 0              PASS
+xi=(0.1,-0.1,0): protected: BH formula + constraint            5.1698788284564e-26    ref 0              PASS
+xi=(0.1,-0.1,0): protected: f, H = cubic forms                 2.4283301138109e-25    ref 0              PASS
+xi=(0.1,-0.1,0): protected, finite eps: exact-cubic BH formula 5.1698788284564e-26    ref 0              PASS
+xi=(0.1,-0.1,0): r1 with exact-cubic protected side - r1       1.1158272466089e-12    ref 0              PASS
+xi=(0.1,-0.1,0): maximum over the bonus: d2 Re S/d beta2 < 0   -5.4387466432496       ref -5.438746643   PASS
+xi=(0.1,-0.1,0): polylog cut crossings along the path          0                      ref 0              PASS
+xi=(0.25,-0.125,-0.125): delta0 vs pilot selftest              0.005364944961585      ref 0.005365       PASS
+xi=(0.25,-0.125,-0.125): r1 vs pilot selftest                  0.04238991609541       ref 0.04239        PASS
+xi=(0.25,-0.125,-0.125): r1 - r1_env                           -1.282686997605e-12    ref 0              PASS
+xi=(0.25,-0.125,-0.125): explicit-omega delta0 - cube-root delta0 -2.5849394142282e-26   ref 0              PASS
+xi=(0.25,-0.125,-0.125): protected: BH formula + constraint    7.7548182426846e-26    ref 0              PASS
+xi=(0.25,-0.125,-0.125): protected: f, H = cubic forms         2.3120400991731e-25    ref 0              PASS
+xi=(0.25,-0.125,-0.125): protected, finite eps: exact-cubic BH formula 7.7548182426846e-26    ref 0              PASS
+xi=(0.25,-0.125,-0.125): r1 with exact-cubic protected side - r1 1.6461629369376e-12    ref 0              PASS
+xi=(0.25,-0.125,-0.125): maximum over the bonus: d2 Re S/d beta2 < 0 -4.4339432481321       ref -4.433943248   PASS
+xi=(0.25,-0.125,-0.125): polylog cut crossings along the path  0                      ref 0              PASS
+permuted xi=(-0.1,0,0.1): delta0 equals the (0.1,-0.1,0) value 0.010485363980117      ref 0.01048536398  PASS
+selftest PASSED, 9.2 s

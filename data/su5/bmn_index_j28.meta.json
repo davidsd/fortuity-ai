@@ -1,0 +1,10 @@
+{
+ "description": "SU(5) BMN index, eigenvalue graviton index and difference through j=28 (identically zero difference)",
+ "computed_by": "Fortuity collaboration (Claude agent)",
+ "date": "2026-09-26",
+ "code": "code/fortuity/bmn/fullindex.py, gravindex.py",
+ "commit": "07cc88d",
+ "conventions": "BMN sector of SU(N); sector = (2J, q1, q2, q3) with q_I = R_I + J, j = 2 sum q; Chang-Lin / Choi et al. conventions (summary/fortuity-summary.pdf, section 2)",
+ "command": "PYTHONPATH=. python3 scripts/run_index_levels.py 5 28 6 2 6",
+ "caveat": "diagonal graviton count (see R-002)"
+}

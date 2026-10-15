@@ -1,0 +1,10 @@
+{
+ "description": "PI Symmetry job 564310 (t023-checks). (1) so7_robustness_seed2_gen10.jsonl: the SO(7) non-graviton sectors (4,3,3) 2J=2, (4,4,3) 2J=3, (4,4,4) 2J=4 and their 2J neighbours, recomputed with SEED=2 and GEN_NMAX=10 (graviton generators up to n=10): identical h, graviton count and non-graviton count to the seed-1, GEN_NMAX=8 run. (3) usp6_hw_cohomology_j20_j24.jsonl: complete Sp(3) = USp(6) hw scan at j = 20, 22, 24 (49 columns, 246 sectors): no non-graviton class. Compared with SO(7): all differences are the SO(7) descendants of the j=18 class, plus one extra SO(7) cohomology class in column (6,3,3) ([3,0]) at j=24, 2J=2 (SO(7): 21 classes, 21 multi-graviton; Sp(3): 20, 20), bosonic, which accounts for the +[3,0] t^24 in the SO(7)-Sp(3) BMN index difference (R-004).",
+ "computed_by": "Fortuity collaboration (Claude agent), PI Symmetry job 564310",
+ "date": "2026-09-28",
+ "code": "code/fortuity/hwcoh (ENGINE=par), scripts/bmn/so-usp-g2-scans/cluster/t023_checks.sbatch",
+ "commit": "6b25304",
+ "conventions": "D-006; Sp(3) letters X = -Omega S; dims partition_dims_nf(3, 24, group='Sp').",
+ "command": "sbatch t023_checks.sbatch",
+ "checked": "Self-check rank = m in all sectors; Sp(3) Euler characteristic = exact index in all 49 columns. NOT yet checked: second seed and GEN_NMAX robustness of the (6,3,3) column for both groups (an underestimated rank would raise h at 2J=2 and 3 together, invisible to the Euler check), and whether the extra SO(7) graviton class vanishes on diagonal (Cartan) matrices (expected, since Coulomb-branch classes match between SO(2N+1) and USp(2N))."
+}

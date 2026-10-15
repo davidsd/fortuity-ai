@@ -1,0 +1,401 @@
+{
+ "description": "lower bounds on P-odd SU(3) cores: forced (-T, R-017) minus the fused capacity from SU(2) odd-Y black holes (Sym^n[1,0] x H^{P-}_{SU(2)}); SU(2) counts = -T_SU(2) (exact for j <= 28 and (6,6,6); elsewhere assumes all SU(2) black holes odd-Y and no non-Coulomb gravitons)",
+ "rows": [
+  {
+   "lam": [
+    7,
+    4,
+    4
+   ],
+   "j": 30,
+   "forced": 1,
+   "capacity": 2,
+   "core_lower_bound": 0
+  },
+  {
+   "lam": [
+    7,
+    5,
+    4
+   ],
+   "j": 32,
+   "forced": 1,
+   "capacity": 2,
+   "core_lower_bound": 0
+  },
+  {
+   "lam": [
+    8,
+    4,
+    4
+   ],
+   "j": 32,
+   "forced": 2,
+   "capacity": 2,
+   "core_lower_bound": 0
+  },
+  {
+   "lam": [
+    8,
+    5,
+    4
+   ],
+   "j": 34,
+   "forced": 3,
+   "capacity": 2,
+   "core_lower_bound": 1
+  },
+  {
+   "lam": [
+    9,
+    4,
+    4
+   ],
+   "j": 34,
+   "forced": 2,
+   "capacity": 2,
+   "core_lower_bound": 0
+  },
+  {
+   "lam": [
+    8,
+    5,
+    5
+   ],
+   "j": 36,
+   "forced": 4,
+   "capacity": 4,
+   "core_lower_bound": 0
+  },
+  {
+   "lam": [
+    8,
+    6,
+    4
+   ],
+   "j": 36,
+   "forced": 1,
+   "capacity": 0,
+   "core_lower_bound": 1
+  },
+  {
+   "lam": [
+    9,
+    5,
+    4
+   ],
+   "j": 36,
+   "forced": 4,
+   "capacity": 2,
+   "core_lower_bound": 2
+  },
+  {
+   "lam": [
+    10,
+    4,
+    4
+   ],
+   "j": 36,
+   "forced": 2,
+   "capacity": 2,
+   "core_lower_bound": 0
+  },
+  {
+   "lam": [
+    8,
+    6,
+    5
+   ],
+   "j": 38,
+   "forced": 3,
+   "capacity": 4,
+   "core_lower_bound": 0
+  },
+  {
+   "lam": [
+    9,
+    5,
+    5
+   ],
+   "j": 38,
+   "forced": 8,
+   "capacity": 4,
+   "core_lower_bound": 4
+  },
+  {
+   "lam": [
+    9,
+    6,
+    4
+   ],
+   "j": 38,
+   "forced": 2,
+   "capacity": 0,
+   "core_lower_bound": 2
+  },
+  {
+   "lam": [
+    10,
+    5,
+    4
+   ],
+   "j": 38,
+   "forced": 4,
+   "capacity": 2,
+   "core_lower_bound": 2
+  },
+  {
+   "lam": [
+    11,
+    4,
+    4
+   ],
+   "j": 38,
+   "forced": 2,
+   "capacity": 2,
+   "core_lower_bound": 0
+  },
+  {
+   "lam": [
+    8,
+    7,
+    5
+   ],
+   "j": 40,
+   "forced": 1,
+   "capacity": 2,
+   "core_lower_bound": 0
+  },
+  {
+   "lam": [
+    9,
+    6,
+    5
+   ],
+   "j": 40,
+   "forced": 9,
+   "capacity": 4,
+   "core_lower_bound": 5
+  },
+  {
+   "lam": [
+    10,
+    5,
+    5
+   ],
+   "j": 40,
+   "forced": 11,
+   "capacity": 4,
+   "core_lower_bound": 7
+  },
+  {
+   "lam": [
+    10,
+    6,
+    4
+   ],
+   "j": 40,
+   "forced": 2,
+   "capacity": 0,
+   "core_lower_bound": 2
+  },
+  {
+   "lam": [
+    11,
+    5,
+    4
+   ],
+   "j": 40,
+   "forced": 4,
+   "capacity": 2,
+   "core_lower_bound": 2
+  },
+  {
+   "lam": [
+    12,
+    4,
+    4
+   ],
+   "j": 40,
+   "forced": 2,
+   "capacity": 2,
+   "core_lower_bound": 0
+  },
+  {
+   "lam": [
+    9,
+    6,
+    6
+   ],
+   "j": 42,
+   "forced": 7,
+   "capacity": 8,
+   "core_lower_bound": 0
+  },
+  {
+   "lam": [
+    9,
+    7,
+    5
+   ],
+   "j": 42,
+   "forced": 4,
+   "capacity": 2,
+   "core_lower_bound": 2
+  },
+  {
+   "lam": [
+    10,
+    6,
+    5
+   ],
+   "j": 42,
+   "forced": 14,
+   "capacity": 4,
+   "core_lower_bound": 10
+  },
+  {
+   "lam": [
+    11,
+    5,
+    5
+   ],
+   "j": 42,
+   "forced": 12,
+   "capacity": 4,
+   "core_lower_bound": 8
+  },
+  {
+   "lam": [
+    11,
+    6,
+    4
+   ],
+   "j": 42,
+   "forced": 2,
+   "capacity": 0,
+   "core_lower_bound": 2
+  },
+  {
+   "lam": [
+    12,
+    5,
+    4
+   ],
+   "j": 42,
+   "forced": 4,
+   "capacity": 2,
+   "core_lower_bound": 2
+  },
+  {
+   "lam": [
+    13,
+    4,
+    4
+   ],
+   "j": 42,
+   "forced": 2,
+   "capacity": 2,
+   "core_lower_bound": 0
+  },
+  {
+   "lam": [
+    9,
+    7,
+    6
+   ],
+   "j": 44,
+   "forced": 4,
+   "capacity": 8,
+   "core_lower_bound": 0
+  },
+  {
+   "lam": [
+    9,
+    8,
+    5
+   ],
+   "j": 44,
+   "forced": 1,
+   "capacity": 0,
+   "core_lower_bound": 1
+  },
+  {
+   "lam": [
+    10,
+    6,
+    6
+   ],
+   "j": 44,
+   "forced": 17,
+   "capacity": 8,
+   "core_lower_bound": 9
+  },
+  {
+   "lam": [
+    10,
+    7,
+    5
+   ],
+   "j": 44,
+   "forced": 7,
+   "capacity": 2,
+   "core_lower_bound": 5
+  },
+  {
+   "lam": [
+    11,
+    6,
+    5
+   ],
+   "j": 44,
+   "forced": 17,
+   "capacity": 4,
+   "core_lower_bound": 13
+  },
+  {
+   "lam": [
+    12,
+    5,
+    5
+   ],
+   "j": 44,
+   "forced": 12,
+   "capacity": 4,
+   "core_lower_bound": 8
+  },
+  {
+   "lam": [
+    12,
+    6,
+    4
+   ],
+   "j": 44,
+   "forced": 2,
+   "capacity": 0,
+   "core_lower_bound": 2
+  },
+  {
+   "lam": [
+    13,
+    5,
+    4
+   ],
+   "j": 44,
+   "forced": 4,
+   "capacity": 2,
+   "core_lower_bound": 2
+  },
+  {
+   "lam": [
+    14,
+    4,
+    4
+   ],
+   "j": 44,
+   "forced": 2,
+   "capacity": 2,
+   "core_lower_bound": 0
+  }
+ ]
+}

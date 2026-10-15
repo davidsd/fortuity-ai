@@ -1,0 +1,2 @@
+closed forms of Re mu_I, Im mu_I vs reconstructed saddle: 40 points, max |diff| = 7.89e-31
+first-order margin at xi = 0: (2/3) S0 = 0.959742 ;  e_c/eps = (2 S0/3)/(pi/sqrt(3)) = 0.529134

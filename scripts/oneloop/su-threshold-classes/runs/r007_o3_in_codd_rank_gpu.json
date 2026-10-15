@@ -1,0 +1,15 @@
+{
+ "backend": "gpu",
+ "nB": 105711,
+ "nV": 0,
+ "ncols": 131278,
+ "ncart": 0,
+ "n_ctrl": 0,
+ "rank_B": 67869,
+ "rank_after_controls": 67869,
+ "controls_exact": true,
+ "lifted_increments": [],
+ "n_lifted": 0,
+ "time": 728,
+ "case": "r007_o3_in"
+}

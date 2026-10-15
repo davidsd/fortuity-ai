@@ -1,0 +1,651 @@
+{
+ "core (descendants and w_2 hairs removed)": {
+  "24": [
+   {
+    "dynkin": "[0,0]",
+    "lam": [
+     4,
+     4,
+     4
+    ],
+    "T": 1,
+    "O": -1,
+    "signed_index": -1
+   }
+  ],
+  "30": [
+   {
+    "dynkin": "[0,0]",
+    "lam": [
+     5,
+     5,
+     5
+    ],
+    "T": 1,
+    "O": 1,
+    "signed_index": -1
+   },
+   {
+    "dynkin": "[3,0]",
+    "lam": [
+     7,
+     4,
+     4
+    ],
+    "T": -1,
+    "O": 1,
+    "signed_index": -1
+   }
+  ],
+  "32": [
+   {
+    "dynkin": "[4,0]",
+    "lam": [
+     8,
+     4,
+     4
+    ],
+    "T": -1,
+    "O": -1,
+    "signed_index": -1
+   }
+  ],
+  "34": [
+   {
+    "dynkin": "[3,1]",
+    "lam": [
+     8,
+     5,
+     4
+    ],
+    "T": -1,
+    "O": -1,
+    "signed_index": 1
+   },
+   {
+    "dynkin": "[5,0]",
+    "lam": [
+     9,
+     4,
+     4
+    ],
+    "T": -1,
+    "O": 1,
+    "signed_index": -1
+   }
+  ],
+  "36": [
+   {
+    "dynkin": "[0,0]",
+    "lam": [
+     6,
+     6,
+     6
+    ],
+    "T": 1,
+    "O": -1,
+    "signed_index": -1
+   },
+   {
+    "dynkin": "[3,0]",
+    "lam": [
+     8,
+     5,
+     5
+    ],
+    "T": -1,
+    "O": 1,
+    "signed_index": 1
+   },
+   {
+    "dynkin": "[4,1]",
+    "lam": [
+     9,
+     5,
+     4
+    ],
+    "T": -1,
+    "O": 1,
+    "signed_index": 1
+   },
+   {
+    "dynkin": "[6,0]",
+    "lam": [
+     10,
+     4,
+     4
+    ],
+    "T": -1,
+    "O": -1,
+    "signed_index": -1
+   }
+  ],
+  "38": [
+   {
+    "dynkin": "[1,0]",
+    "lam": [
+     7,
+     6,
+     6
+    ],
+    "T": 1,
+    "O": 1,
+    "signed_index": -1
+   },
+   {
+    "dynkin": "[4,0]",
+    "lam": [
+     9,
+     5,
+     5
+    ],
+    "T": -2,
+    "O": 0,
+    "signed_index": 0
+   },
+   {
+    "dynkin": "[5,1]",
+    "lam": [
+     10,
+     5,
+     4
+    ],
+    "T": -1,
+    "O": -1,
+    "signed_index": 1
+   },
+   {
+    "dynkin": "[7,0]",
+    "lam": [
+     11,
+     4,
+     4
+    ],
+    "T": -1,
+    "O": 1,
+    "signed_index": -1
+   }
+  ],
+  "40": [
+   {
+    "dynkin": "[3,1]",
+    "lam": [
+     9,
+     6,
+     5
+    ],
+    "T": -1,
+    "O": -1,
+    "signed_index": -1
+   },
+   {
+    "dynkin": "[5,0]",
+    "lam": [
+     10,
+     5,
+     5
+    ],
+    "T": -3,
+    "O": -1,
+    "signed_index": -1
+   },
+   {
+    "dynkin": "[6,1]",
+    "lam": [
+     11,
+     5,
+     4
+    ],
+    "T": -1,
+    "O": 1,
+    "signed_index": 1
+   },
+   {
+    "dynkin": "[8,0]",
+    "lam": [
+     12,
+     4,
+     4
+    ],
+    "T": -1,
+    "O": -1,
+    "signed_index": -1
+   }
+  ]
+ },
+ "primaries (descendants removed only)": {
+  "24": [
+   {
+    "dynkin": "[0,0]",
+    "lam": [
+     4,
+     4,
+     4
+    ],
+    "T": 1,
+    "O": -1,
+    "signed_index": -1
+   }
+  ],
+  "30": [
+   {
+    "dynkin": "[0,0]",
+    "lam": [
+     5,
+     5,
+     5
+    ],
+    "T": 1,
+    "O": 1,
+    "signed_index": -1
+   },
+   {
+    "dynkin": "[3,0]",
+    "lam": [
+     7,
+     4,
+     4
+    ],
+    "T": -1,
+    "O": 1,
+    "signed_index": -1
+   }
+  ],
+  "32": [
+   {
+    "dynkin": "[1,0]",
+    "lam": [
+     6,
+     5,
+     5
+    ],
+    "T": 1,
+    "O": -1,
+    "signed_index": -1
+   },
+   {
+    "dynkin": "[4,0]",
+    "lam": [
+     8,
+     4,
+     4
+    ],
+    "T": -1,
+    "O": -1,
+    "signed_index": -1
+   }
+  ],
+  "34": [
+   {
+    "dynkin": "[3,1]",
+    "lam": [
+     8,
+     5,
+     4
+    ],
+    "T": -1,
+    "O": -1,
+    "signed_index": 1
+   },
+   {
+    "dynkin": "[5,0]",
+    "lam": [
+     9,
+     4,
+     4
+    ],
+    "T": -1,
+    "O": 1,
+    "signed_index": -1
+   }
+  ],
+  "36": [
+   {
+    "dynkin": "[0,0]",
+    "lam": [
+     6,
+     6,
+     6
+    ],
+    "T": 1,
+    "O": -1,
+    "signed_index": -1
+   },
+   {
+    "dynkin": "[3,0]",
+    "lam": [
+     8,
+     5,
+     5
+    ],
+    "T": -1,
+    "O": 1,
+    "signed_index": 1
+   },
+   {
+    "dynkin": "[4,1]",
+    "lam": [
+     9,
+     5,
+     4
+    ],
+    "T": -1,
+    "O": 1,
+    "signed_index": 1
+   },
+   {
+    "dynkin": "[6,0]",
+    "lam": [
+     10,
+     4,
+     4
+    ],
+    "T": -1,
+    "O": -1,
+    "signed_index": -1
+   }
+  ],
+  "38": [
+   {
+    "dynkin": "[1,0]",
+    "lam": [
+     7,
+     6,
+     6
+    ],
+    "T": 2,
+    "O": 2,
+    "signed_index": -2
+   },
+   {
+    "dynkin": "[2,1]",
+    "lam": [
+     8,
+     6,
+     5
+    ],
+    "T": -1,
+    "O": 1,
+    "signed_index": -1
+   },
+   {
+    "dynkin": "[4,0]",
+    "lam": [
+     9,
+     5,
+     5
+    ],
+    "T": -3,
+    "O": 1,
+    "signed_index": -1
+   },
+   {
+    "dynkin": "[5,1]",
+    "lam": [
+     10,
+     5,
+     4
+    ],
+    "T": -1,
+    "O": -1,
+    "signed_index": 1
+   },
+   {
+    "dynkin": "[7,0]",
+    "lam": [
+     11,
+     4,
+     4
+    ],
+    "T": -1,
+    "O": 1,
+    "signed_index": -1
+   }
+  ],
+  "40": [
+   {
+    "dynkin": "[2,0]",
+    "lam": [
+     8,
+     6,
+     6
+    ],
+    "T": 1,
+    "O": -1,
+    "signed_index": -1
+   },
+   {
+    "dynkin": "[3,1]",
+    "lam": [
+     9,
+     6,
+     5
+    ],
+    "T": -2,
+    "O": -2,
+    "signed_index": -2
+   },
+   {
+    "dynkin": "[5,0]",
+    "lam": [
+     10,
+     5,
+     5
+    ],
+    "T": -4,
+    "O": -2,
+    "signed_index": -2
+   },
+   {
+    "dynkin": "[6,1]",
+    "lam": [
+     11,
+     5,
+     4
+    ],
+    "T": -1,
+    "O": 1,
+    "signed_index": 1
+   },
+   {
+    "dynkin": "[8,0]",
+    "lam": [
+     12,
+     4,
+     4
+    ],
+    "T": -1,
+    "O": -1,
+    "signed_index": -1
+   }
+  ]
+ },
+ "signed core with prod_I (1 - t^2 x_I)": {
+  "24": [
+   {
+    "dynkin": "[0,0]",
+    "signed_index": -1
+   }
+  ],
+  "30": [
+   {
+    "dynkin": "[0,0]",
+    "signed_index": -1
+   },
+   {
+    "dynkin": "[3,0]",
+    "signed_index": -1
+   }
+  ],
+  "32": [
+   {
+    "dynkin": "[4,0]",
+    "signed_index": -1
+   }
+  ],
+  "34": [
+   {
+    "dynkin": "[3,1]",
+    "signed_index": 1
+   },
+   {
+    "dynkin": "[5,0]",
+    "signed_index": -1
+   }
+  ],
+  "36": [
+   {
+    "dynkin": "[0,0]",
+    "signed_index": -1
+   },
+   {
+    "dynkin": "[3,0]",
+    "signed_index": 1
+   },
+   {
+    "dynkin": "[4,1]",
+    "signed_index": 1
+   },
+   {
+    "dynkin": "[6,0]",
+    "signed_index": -1
+   }
+  ],
+  "38": [
+   {
+    "dynkin": "[1,0]",
+    "signed_index": -1
+   },
+   {
+    "dynkin": "[5,1]",
+    "signed_index": 1
+   },
+   {
+    "dynkin": "[7,0]",
+    "signed_index": -1
+   }
+  ],
+  "40": [
+   {
+    "dynkin": "[3,1]",
+    "signed_index": -1
+   },
+   {
+    "dynkin": "[5,0]",
+    "signed_index": -1
+   },
+   {
+    "dynkin": "[6,1]",
+    "signed_index": 1
+   },
+   {
+    "dynkin": "[8,0]",
+    "signed_index": -1
+   }
+  ]
+ },
+ "signed core with the printed prod_{I<J} (1 - t^4 x_I x_J)": {
+  "24": [
+   {
+    "dynkin": "[0,0]",
+    "signed_index": -1
+   }
+  ],
+  "26": [
+   {
+    "dynkin": "[1,0]",
+    "signed_index": 1
+   }
+  ],
+  "28": [
+   {
+    "dynkin": "[0,1]",
+    "signed_index": -2
+   }
+  ],
+  "30": [
+   {
+    "dynkin": "[0,0]",
+    "signed_index": 1
+   },
+   {
+    "dynkin": "[1,1]",
+    "signed_index": 1
+   },
+   {
+    "dynkin": "[3,0]",
+    "signed_index": -1
+   }
+  ],
+  "32": [
+   {
+    "dynkin": "[0,2]",
+    "signed_index": -2
+   },
+   {
+    "dynkin": "[2,1]",
+    "signed_index": 1
+   }
+  ],
+  "34": [
+   {
+    "dynkin": "[2,0]",
+    "signed_index": -2
+   },
+   {
+    "dynkin": "[1,2]",
+    "signed_index": 1
+   }
+  ],
+  "36": [
+   {
+    "dynkin": "[0,0]",
+    "signed_index": 1
+   },
+   {
+    "dynkin": "[1,1]",
+    "signed_index": 1
+   },
+   {
+    "dynkin": "[0,3]",
+    "signed_index": -2
+   },
+   {
+    "dynkin": "[3,0]",
+    "signed_index": 1
+   }
+  ],
+  "38": [
+   {
+    "dynkin": "[1,0]",
+    "signed_index": -3
+   },
+   {
+    "dynkin": "[2,1]",
+    "signed_index": -1
+   },
+   {
+    "dynkin": "[1,3]",
+    "signed_index": 1
+   }
+  ],
+  "40": [
+   {
+    "dynkin": "[0,1]",
+    "signed_index": 2
+   },
+   {
+    "dynkin": "[2,0]",
+    "signed_index": 3
+   },
+   {
+    "dynkin": "[0,4]",
+    "signed_index": -2
+   },
+   {
+    "dynkin": "[5,0]",
+    "signed_index": -1
+   }
+  ]
+ }
+}

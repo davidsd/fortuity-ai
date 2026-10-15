@@ -1,0 +1,1 @@
+448 graviton generators (n <= 7) checked: 448 satisfy C = (-1)^Y

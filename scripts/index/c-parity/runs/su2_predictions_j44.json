@@ -1,0 +1,243 @@
+{
+ "description": "SU(2) index-only predictions: T = (-1)^|lam| I - D (diagonal count) per hw column, j <= 44; T < 0 forces odd-Y black holes; = -#BH if all BH have odd Y and no non-Coulomb gravitons",
+ "rows": [
+  {
+   "j": 24,
+   "lam": [
+    4,
+    4,
+    4
+   ],
+   "irrep": [
+    0,
+    0
+   ],
+   "T": -1,
+   "predicted_BH_if_odd_Y": 1
+  },
+  {
+   "j": 26,
+   "lam": [
+    5,
+    4,
+    4
+   ],
+   "irrep": [
+    1,
+    0
+   ],
+   "T": -1,
+   "predicted_BH_if_odd_Y": 1
+  },
+  {
+   "j": 28,
+   "lam": [
+    5,
+    5,
+    4
+   ],
+   "irrep": [
+    0,
+    1
+   ],
+   "T": -1,
+   "predicted_BH_if_odd_Y": 1
+  },
+  {
+   "j": 30,
+   "lam": [
+    5,
+    5,
+    5
+   ],
+   "irrep": [
+    0,
+    0
+   ],
+   "T": -1,
+   "predicted_BH_if_odd_Y": 1
+  },
+  {
+   "j": 32,
+   "lam": [
+    6,
+    5,
+    5
+   ],
+   "irrep": [
+    1,
+    0
+   ],
+   "T": -1,
+   "predicted_BH_if_odd_Y": 1
+  },
+  {
+   "j": 34,
+   "lam": [
+    6,
+    6,
+    5
+   ],
+   "irrep": [
+    0,
+    1
+   ],
+   "T": -1,
+   "predicted_BH_if_odd_Y": 1
+  },
+  {
+   "j": 34,
+   "lam": [
+    7,
+    5,
+    5
+   ],
+   "irrep": [
+    2,
+    0
+   ],
+   "T": -1,
+   "predicted_BH_if_odd_Y": 1
+  },
+  {
+   "j": 36,
+   "lam": [
+    6,
+    6,
+    6
+   ],
+   "irrep": [
+    0,
+    0
+   ],
+   "T": -2,
+   "predicted_BH_if_odd_Y": 2
+  },
+  {
+   "j": 36,
+   "lam": [
+    7,
+    6,
+    5
+   ],
+   "irrep": [
+    1,
+    1
+   ],
+   "T": -1,
+   "predicted_BH_if_odd_Y": 1
+  },
+  {
+   "j": 38,
+   "lam": [
+    7,
+    6,
+    6
+   ],
+   "irrep": [
+    1,
+    0
+   ],
+   "T": -2,
+   "predicted_BH_if_odd_Y": 2
+  },
+  {
+   "j": 40,
+   "lam": [
+    7,
+    7,
+    6
+   ],
+   "irrep": [
+    0,
+    1
+   ],
+   "T": -1,
+   "predicted_BH_if_odd_Y": 1
+  },
+  {
+   "j": 40,
+   "lam": [
+    8,
+    6,
+    6
+   ],
+   "irrep": [
+    2,
+    0
+   ],
+   "T": -1,
+   "predicted_BH_if_odd_Y": 1
+  },
+  {
+   "j": 42,
+   "lam": [
+    7,
+    7,
+    7
+   ],
+   "irrep": [
+    0,
+    0
+   ],
+   "T": -1,
+   "predicted_BH_if_odd_Y": 1
+  },
+  {
+   "j": 42,
+   "lam": [
+    8,
+    7,
+    6
+   ],
+   "irrep": [
+    1,
+    1
+   ],
+   "T": -1,
+   "predicted_BH_if_odd_Y": 1
+  },
+  {
+   "j": 42,
+   "lam": [
+    9,
+    6,
+    6
+   ],
+   "irrep": [
+    3,
+    0
+   ],
+   "T": -1,
+   "predicted_BH_if_odd_Y": 1
+  },
+  {
+   "j": 44,
+   "lam": [
+    8,
+    7,
+    7
+   ],
+   "irrep": [
+    1,
+    0
+   ],
+   "T": -2,
+   "predicted_BH_if_odd_Y": 2
+  },
+  {
+   "j": 44,
+   "lam": [
+    9,
+    7,
+    6
+   ],
+   "irrep": [
+    2,
+    1
+   ],
+   "T": -1,
+   "predicted_BH_if_odd_Y": 1
+  }
+ ]
+}

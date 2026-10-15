@@ -1,0 +1,4 @@
+20:38:18 [psi_21] SEC (3, 3, 12, 8, 6) Y=7: words 7024, hw rows 5454, independent 923 vs exact m 923 {3: 700, 5: 223} -> SPAN
+20:43:57 [psi_21] m 923, rank in (Q_0 from (4, 4, 12, 8, 6) Y=6) 728, rank out (to (2, 2, 12, 8, 6) Y=8) 195, closed 728 -> h = 0  (342s)
+20:43:57 SUMMARY [('psi_21', 923, 0)]
+EXIT 0

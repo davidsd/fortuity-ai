@@ -1,0 +1,61 @@
+PART 1: single-letter index from the letter charges
+  letters from: fortuity.full.letters (${SCRATCH}/fortuity-t037/code/fortuity/full/letters.py)
+  199 letters (a,b<=4): exponents = (a,b,[j in S]), spin-statistics       0.00e+00  (tol 0e+00) PASS
+  sum over letters = 1 - prod(1-u)/((1-p)(1-q)) through p^4 q^4 (sympy, exact)  0.00e+00  (tol 0e+00) PASS
+  29767 letters (a,b<=60) at 3 random complex points, |sum - closed form|  1.26e-15  (tol 1e-13) PASS
+PART 2: small-omega fits of L = sum_n (1/n) i_s at complex points
+  L_exact vs plain plethystic sum (generic point, t = 0.05)               1.14e-13  (tol 1e-09) PASS
+ point: KKLP classical saddle, m = -i phi0 (1,1,1), w = (1.0, 1.0)
+  f_fit - f(m)                                                            1.49e-12  (tol 1e-10) PASS
+  H_fit - [h + (1/3) sum_I d_I f](m)   (fixed m, shift (w1+w2)/3)         1.26e-09  (tol 1e-07) PASS
+  h_fit - [-(1/2) Li2-combination](mu)   (fixed mu)                       1.29e-09  (tol 1e-07) PASS
+  log-coefficient d_fit - d_pred                                          7.20e-07  (tol 1e-04) PASS
+  remainder (Y - f - sHt)/t^2 = a + b log t + O(t): max deviation         2.67e-08  (tol 1e-04) PASS
+ point: same, complex w, w = ((0.7+0.4j), (1.3-0.2j))
+  f_fit - f(m)                                                            3.95e-12  (tol 1e-10) PASS
+  H_fit - [h + (1/3) sum_I d_I f](m)   (fixed m, shift (w1+w2)/3)         3.29e-09  (tol 1e-07) PASS
+  h_fit - [-(1/2) Li2-combination](mu)   (fixed mu)                       3.30e-09  (tol 1e-07) PASS
+  log-coefficient d_fit - d_pred                                          1.91e-06  (tol 1e-04) PASS
+  remainder (Y - f - sHt)/t^2 = a + b log t + O(t): max deviation         8.32e-08  (tol 1e-04) PASS
+ point: protected, m = -2 pi i/3 (1,1,1), w = (1.0, 1.7)
+  f_fit - f(m)                                                            1.07e-12  (tol 1e-10) PASS
+  H_fit - [h + (1/3) sum_I d_I f](m)   (fixed m, shift (w1+w2)/3)         6.84e-10  (tol 1e-07) PASS
+  h_fit - [-(1/2) Li2-combination](mu)   (fixed mu)                       6.74e-10  (tol 1e-07) PASS
+  log-coefficient d_fit - d_pred (protected: -w1 w2)                      5.32e-07  (tol 1e-04) PASS
+  remainder (Y - f - sHt)/t^2 = a + b log t + O(t): max deviation         2.23e-08  (tol 1e-04) PASS
+  protected surface: f(m) - m1 m2 m3/2                                    1.40e-15  (tol 1e-12) PASS
+  protected surface: H_fit - (m1m2+m2m3+m3m1)/6                           6.84e-10  (tol 1e-07) PASS
+ point: protected unequal, m = -i (1.7, 2.2, 2pi-3.9), w = ((0.8+0.35j), (1.1-0.25j))
+  f_fit - f(m)                                                            1.64e-12  (tol 1e-10) PASS
+  H_fit - [h + (1/3) sum_I d_I f](m)   (fixed m, shift (w1+w2)/3)         1.46e-09  (tol 1e-07) PASS
+  h_fit - [-(1/2) Li2-combination](mu)   (fixed mu)                       1.46e-09  (tol 1e-07) PASS
+  log-coefficient d_fit - d_pred (protected: -w1 w2)                      8.09e-07  (tol 1e-04) PASS
+  remainder (Y - f - sHt)/t^2 = a + b log t + O(t): max deviation         2.43e-08  (tol 1e-04) PASS
+  protected surface: f(m) - m1 m2 m3/2                                    4.56e-17  (tol 1e-12) PASS
+  protected surface: H_fit - (m1m2+m2m3+m3m1)/6                           1.46e-09  (tol 1e-07) PASS
+ point: classical-type unequal, m = -i (2.0, 2.3, 2.4), w = (1.0, 2.5)
+  f_fit - f(m)                                                            2.78e-13  (tol 1e-10) PASS
+  H_fit - [h + (1/3) sum_I d_I f](m)   (fixed m, shift (w1+w2)/3)         1.60e-10  (tol 1e-07) PASS
+  h_fit - [-(1/2) Li2-combination](mu)   (fixed mu)                       3.75e-10  (tol 1e-07) PASS
+  log-coefficient d_fit - d_pred                                          1.72e-07  (tol 1e-04) PASS
+  remainder (Y - f - sHt)/t^2 = a + b log t + O(t): max deviation         9.59e-08  (tol 1e-04) PASS
+ point: generic, Re m > 0, w = ((0.9-0.3j), (1.2+0.4j))
+  f_fit - f(m)                                                            1.96e-12  (tol 1e-10) PASS
+  H_fit - [h + (1/3) sum_I d_I f](m)   (fixed m, shift (w1+w2)/3)         1.62e-09  (tol 1e-07) PASS
+  h_fit - [-(1/2) Li2-combination](mu)   (fixed mu)                       1.63e-09  (tol 1e-07) PASS
+  log-coefficient d_fit - d_pred                                          9.96e-07  (tol 1e-04) PASS
+  remainder (Y - f - sHt)/t^2 = a + b log t + O(t): max deviation         5.80e-08  (tol 1e-04) PASS
+PART 3: negative controls (the wrong forms must miss the fitted data by O(1))
+  KKLP classical saddle, m = -i phi0 (1,1,1)
+    shift (w1+w2)/2: |H_fit - H| = 1.6149 (must be O(1)); |H_fit - (h + sum_I d_I f/2)| = 3.1e-09 (shift mechanism)
+    h normalised as -G2 instead of -G2/2: |h_fit - (-G2)| = 2.5715 (must be O(1))  -> controls fail as they should
+  shift-mechanism check: H_fit(shift/2) - (h + (1/2) sum_I d_I f)         3.13e-09  (tol 1e-07) PASS
+  same, complex w
+    shift (w1+w2)/2: |H_fit - H| = 1.6149 (must be O(1)); |H_fit - (h + sum_I d_I f/2)| = 6.4e-09 (shift mechanism)
+    h normalised as -G2 instead of -G2/2: |h_fit - (-G2)| = 2.5715 (must be O(1))  -> controls fail as they should
+  shift-mechanism check: H_fit(shift/2) - (h + (1/2) sum_I d_I f)         6.38e-09  (tol 1e-07) PASS
+  protected, m = -2 pi i/3 (1,1,1)
+    shift (w1+w2)/2: |H_fit - H| = 1.4942 (must be O(1)); |H_fit - (h + sum_I d_I f/2)| = 6.9e-10 (shift mechanism)
+    h normalised as -G2 instead of -G2/2: |h_fit - (-G2)| = 2.0299 (must be O(1))  -> controls fail as they should
+  shift-mechanism check: H_fit(shift/2) - (h + (1/2) sum_I d_I f)         6.85e-10  (tol 1e-07) PASS
+verify_freeenergy: ALL PASS  (2.9 s)

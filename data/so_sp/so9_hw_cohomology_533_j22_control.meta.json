@@ -1,0 +1,10 @@
+{
+ "description": "SO(9) column (5,3,3) ([2,0]) at j = 22, all 2J: the positive control run together with so9_hw_cohomology_j20.jsonl (same code, dims and settings). One JSON line per sector, fortuity.hwcoh.run_sectors format: m = exact hw multiplicity, r_up = rank of Q from 2J to 2J+1, grav = multi-graviton hw classes modulo exact, check = self-check (rank of the hw vectors at the chosen functionals = m). The irrep lam occurs in the cohomology at 2J = n with multiplicity h = m_n - r_up(n-1) - r_up(n); non-graviton = h - grav. Result: h = 0/6/0/12/0/1/0 for 2J = 0..6 with grav = 5 at 2J = 1: the one non-graviton class of R-006.",
+ "computed_by": "Fortuity collaboration (Claude agent), NYU Torch (partition cs, account ${ACCOUNT})",
+ "date": "2026-09-30",
+ "code": "code/fortuity/hwcoh (run_sectors, ENGINE=par, group='SO_odd'); exact multiplicities from hwcoh.dims.partition_dims_nf (all 2J); MKL build of the ffblas kernel",
+ "commit": "809059f",
+ "conventions": "As in so9_hw_cohomology_j20.meta.json.",
+ "command": "As in so9_hw_cohomology_j20.meta.json (first line of tasks_so9.txt), job 18887926_1",
+ "checked": "Equal to R-006 and to an independent column run, sector by sector."
+}

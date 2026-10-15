@@ -1,0 +1,18 @@
+SU(2) columns with T != 0 (j <= 44):
+  j=24 lam=(4, 4, 4) [0,0]: T= -1  -> 1 black hole(s) if all odd-Y
+  j=26 lam=(5, 4, 4) [1,0]: T= -1  -> 1 black hole(s) if all odd-Y
+  j=28 lam=(5, 5, 4) [0,1]: T= -1  -> 1 black hole(s) if all odd-Y
+  j=30 lam=(5, 5, 5) [0,0]: T= -1  -> 1 black hole(s) if all odd-Y
+  j=32 lam=(6, 5, 5) [1,0]: T= -1  -> 1 black hole(s) if all odd-Y
+  j=34 lam=(6, 6, 5) [0,1]: T= -1  -> 1 black hole(s) if all odd-Y
+  j=34 lam=(7, 5, 5) [2,0]: T= -1  -> 1 black hole(s) if all odd-Y
+  j=36 lam=(6, 6, 6) [0,0]: T= -2  -> 2 black hole(s) if all odd-Y
+  j=36 lam=(7, 6, 5) [1,1]: T= -1  -> 1 black hole(s) if all odd-Y
+  j=38 lam=(7, 6, 6) [1,0]: T= -2  -> 2 black hole(s) if all odd-Y
+  j=40 lam=(7, 7, 6) [0,1]: T= -1  -> 1 black hole(s) if all odd-Y
+  j=40 lam=(8, 6, 6) [2,0]: T= -1  -> 1 black hole(s) if all odd-Y
+  j=42 lam=(7, 7, 7) [0,0]: T= -1  -> 1 black hole(s) if all odd-Y
+  j=42 lam=(8, 7, 6) [1,1]: T= -1  -> 1 black hole(s) if all odd-Y
+  j=42 lam=(9, 6, 6) [3,0]: T= -1  -> 1 black hole(s) if all odd-Y
+  j=44 lam=(8, 7, 7) [1,0]: T= -2  -> 2 black hole(s) if all odd-Y
+  j=44 lam=(9, 7, 6) [2,1]: T= -1  -> 1 black hole(s) if all odd-Y

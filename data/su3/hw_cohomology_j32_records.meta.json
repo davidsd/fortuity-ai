@@ -1,0 +1,11 @@
+{
+ "description": "SU(3) BMN-sector Q-cohomology on SU(3)_R highest-weight vectors at level j = 32 (T-042): all 30 dominant columns, every nonempty 2J (207 sectors), one JSON line per sector as written by fortuity.hwcoh.run_sectors (m, m_d, r_up = rank of Q from 2J+1 into the sector, grav, check, words, timings). su3_c_<q1>_<q2>_<q3>.jsonl hold the eight heavy columns, su3_light_<k>.jsonl the other 22 in four bundles. Result: 760 multiplets, 757 multi-graviton, 3 non-graviton: (2J; q) = (6; 7,5,4) [2,1], (5; 8,4,4) [4,0], (6; 8,4,4) [4,0].",
+ "computed_by": "Fortuity collaboration (Claude agents)",
+ "date": "2026-10-03",
+ "code": "fortuity.hwcoh.run_sectors with ENGINE=par, GROUP=SU, MAXLEN = MAXLEN_UP = 6, GEN_NMAX = 3 (the settings of the j <= 30 scan of R-007), MKL build of the ffblas kernel",
+ "commit": "b08e01f (data); job files in scripts/bmn/su3-level32-scan",
+ "conventions": "summary/fortuity-summary.pdf, section 2",
+ "command": "scripts/bmn/su3-level32-scan: dims.sbatch (exact dims to j = 32), col.sbatch over tasks_heavy.txt and tasks_light.txt; assembly and Euler check: PYTHONPATH=code python3 -m fortuity.hwcoh.to_json 'data/su3/hw_cohomology_j32_records/*.jsonl' 3 OUT.json",
+ "checked": "per-sector exact-dimension self-check in all 207 sectors (certifies faithful functionals and that traces of length <= 6 span); Euler characteristic = exact index in all 30 columns (re-run 2026-10-14: 30 columns, 0 problems); the three non-graviton classes are exactly the count forced by the kernel parity index of R-017 (T = -1 at (7,5,4), T = -2 at (8,4,4)); explicit representatives of all three classes were built and restricted under SU(3) > SU(2) x U(1), all fused (data/su3/core_restrictions_j30_j34.json, R-024 (iv)).",
+ "caveat": "classical Q; ranks over F_p, p = 2^26 - 5; one seed (null statements need none, positive ones are confirmed by the index and by the explicit representatives)"
+}

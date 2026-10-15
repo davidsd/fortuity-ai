@@ -1,0 +1,40 @@
+=== N=3 lam=(3, 3, 3) 2J=0
+  words: n=0: 756, n+1: 2094 (0.0s)
+  hw vectors: n=0: 20, n+1: 61 (0.2s)
+  functionals: 48 in 1 chunks; rows A 20, B 61, G 0
+  check (attempt 0): rank per degree {0: 16} vs m_d {0: 16} -> OK
+RESULT {"N": 3, "lam": [3, 3, 3], "n": 0, "maxlen": null, "maxlen_up": null, "m": 16, "m_d": {"0": 16}, "words": 756, "words_up": 2094, "rank_C_d": {"0": 16}, "check": true, "r_up": 16, "grav": 0, "ncols": 48, "timing": {"enumerate": 0.0, "hw": 0.2, "qimages": 0.0, "grav_hw": 0.3, "eval": 0.0, "combine": 0.0, "rank": 0.0}, "time": 0.6, "seed": 1, "group": "SO_odd"}
+=== N=3 lam=(3, 3, 3) 2J=1
+  words: n=1: 2094, n+1: 2202 (0.0s)
+  hw vectors: n=1: 61, n+1: 92 (0.1s)
+  functionals: 72 in 1 chunks; rows A 61, B 91, G 1
+  check (attempt 0): rank per degree {1: 33} vs m_d {1: 33} -> OK
+RESULT {"N": 3, "lam": [3, 3, 3], "n": 1, "maxlen": null, "maxlen_up": null, "m": 33, "m_d": {"1": 33}, "words": 2094, "words_up": 2202, "rank_C_d": {"1": 33}, "check": true, "r_up": 16, "grav": 0, "grav_rows": 1, "ncols": 72, "timing": {"enumerate": 0.0, "hw": 0.1, "qimages": 0.0, "grav_hw": 0.8, "eval": 0.1, "combine": 0.0, "grav_eval": 0.0, "rank": 0.0}, "time": 1.0, "seed": 1, "group": "SO_odd"}
+=== N=3 lam=(3, 3, 3) 2J=2
+  words: n=2: 2202, n+1: 1090 (0.0s)
+  hw vectors: n=2: 92, n+1: 77 (0.1s)
+  functionals: 93 in 2 chunks; rows A 92, B 76, G 3
+  check (attempt 0): rank per degree {0: 1, 2: 28} vs m_d {0: 1, 2: 28} -> OK
+RESULT {"N": 3, "lam": [3, 3, 3], "n": 2, "maxlen": null, "maxlen_up": null, "m": 29, "m_d": {"0": 1, "2": 28}, "words": 2202, "words_up": 1090, "rank_C_d": {"0": 1, "2": 28}, "check": true, "r_up": 13, "grav": 0, "grav_rows": 3, "ncols": 93, "timing": {"enumerate": 0.0, "hw": 0.1, "qimages": 0.0, "grav_hw": 1.0, "eval": 0.1, "combine": 0.0, "grav_eval": 0.0, "rank": 0.0}, "time": 1.2, "seed": 1, "group": "SO_odd"}
+=== N=3 lam=(3, 3, 3) 2J=3
+  words: n=3: 1090, n+1: 251 (0.0s)
+  hw vectors: n=3: 77, n+1: 32 (0.0s)
+  functionals: 108 in 2 chunks; rows A 77, B 32, G 2
+  check (attempt 0): rank per degree {1: 13, 3: 17} vs m_d {1: 13, 3: 17} -> OK
+RESULT {"N": 3, "lam": [3, 3, 3], "n": 3, "maxlen": null, "maxlen_up": null, "m": 30, "m_d": {"1": 13, "3": 17}, "words": 1090, "words_up": 251, "rank_C_d": {"1": 13, "3": 17}, "check": true, "r_up": 15, "grav": 2, "grav_rows": 2, "ncols": 108, "timing": {"enumerate": 0.0, "hw": 0.0, "qimages": 0.0, "grav_hw": 1.0, "eval": 0.1, "combine": 0.0, "grav_eval": 0.0, "rank": 0.0}, "time": 1.1, "seed": 1, "group": "SO_odd"}
+=== N=3 lam=(3, 3, 3) 2J=4
+  words: n=4: 251, n+1: 24 (0.0s)
+  hw vectors: n=4: 32, n+1: 7 (0.0s)
+  functionals: 141 in 3 chunks; rows A 32, B 7, G 0
+  check (attempt 0): rank per degree {0: 4, 2: 14, 4: 3} vs m_d {0: 4, 2: 14, 4: 3} -> OK
+RESULT {"N": 3, "lam": [3, 3, 3], "n": 4, "maxlen": null, "maxlen_up": null, "m": 21, "m_d": {"0": 4, "2": 14, "4": 3}, "words": 251, "words_up": 24, "rank_C_d": {"0": 4, "2": 14, "4": 3}, "check": true, "r_up": 6, "grav": 0, "ncols": 141, "timing": {"enumerate": 0.0, "hw": 0.0, "qimages": 0.0, "grav_hw": 1.0, "eval": 0.0, "combine": 0.0, "rank": 0.0}, "time": 1.0, "seed": 1, "group": "SO_odd"}
+=== N=3 lam=(3, 3, 3) 2J=5
+  words: n=5: 24, n+1: 1 (0.0s)
+  hw vectors: n=5: 7, n+1: 1 (0.0s)
+  functionals: 76 in 2 chunks; rows A 7, B 1, G 0
+  check (attempt 0): rank per degree {1: 4, 3: 2} vs m_d {1: 4, 3: 2} -> OK
+RESULT {"N": 3, "lam": [3, 3, 3], "n": 5, "maxlen": null, "maxlen_up": null, "m": 6, "m_d": {"1": 4, "3": 2}, "words": 24, "words_up": 1, "rank_C_d": {"1": 4, "3": 2}, "check": true, "r_up": 0, "grav": 0, "ncols": 76, "timing": {"enumerate": 0.0, "hw": 0.0, "qimages": 0.0, "grav_hw": 1.0, "eval": 0.0, "combine": 0.0, "rank": 0.0}, "time": 1.0, "seed": 1, "group": "SO_odd"}
+=== N=3 lam=(3, 3, 3) 2J=6
+  words: n=6: 1, n+1: 0 (0.0s)
+  hw vectors: n=6: 1, n+1: 0 (0.0s)
+RESULT {"N": 3, "lam": [3, 3, 3], "n": 6, "maxlen": null, "maxlen_up": null, "m": 0, "m_d": {"0": 0}, "words": 1, "words_up": 0, "rank_C": 0, "check": true, "r_up": 0, "grav": 0, "time": 1.0279109477996826, "seed": 1, "group": "SO_odd"}

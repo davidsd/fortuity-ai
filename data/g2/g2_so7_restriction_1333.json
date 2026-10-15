@@ -1,0 +1,12 @@
+{
+ "sector": [1, 3, 3, 3],
+ "j": 18,
+ "G2_cohomology": {"basis": 396, "closed": 306, "exact": 270, "coh": 36, "grav": 36, "BH": 0, "seeds": [777, 4242]},
+ "SO7_cohomology": {"basis": 903, "closed": 683, "exact": 559, "coh": 124, "grav": 123, "BH": 1, "seeds": [777, 4242]},
+ "SO7_class_eq_4_14_of_2506_13887": {
+   "SO7": {"Q_closed": true, "Q_closed_at_SO9": false, "zero": false, "exact": false, "in_exact_plus_graviton": false},
+   "restricted_to_G2": {"Q_closed": true, "zero": false, "exact": false, "in_exact_plus_graviton": true},
+   "seeds": [777, 4242]
+ },
+ "trace_word_completeness_G2": {"jmax": 18, "sectors_checked": 145, "mismatches": []}
+}

@@ -1,0 +1,130 @@
+{
+ "sector": {
+  "N": 3,
+  "lam": [
+   7,
+   4,
+   4
+  ],
+  "twoJ": 5
+ },
+ "expect": {
+  "m": 5664,
+  "r_up": 2186,
+  "grav": 4,
+  "h": 5,
+  "bh": 1
+ },
+ "info": {
+  "N": 3,
+  "group": "SU",
+  "lam": [
+   7,
+   4,
+   4
+  ],
+  "n": 5,
+  "seed": 1,
+  "maxlen": 6,
+  "maxlen_up": 6,
+  "r_down": 3473,
+  "lower_rows": 28523,
+  "lower_ncols": 6681,
+  "lower_timing": {
+   "enumerate": 1.4,
+   "hw": 109.7,
+   "qimages": 3.5,
+   "eval_cpu": 263.6,
+   "eval": 54.8,
+   "combine": 131.9
+  },
+  "m": 5664,
+  "m_d": {
+   "1": 646,
+   "3": 3079,
+   "5": 1939
+  },
+  "words": 202252,
+  "hw_rows": 28523,
+  "ncols": 5778,
+  "r_up": 2186,
+  "grav": 4,
+  "h": 5,
+  "nongrav": 1,
+  "rep_terms": [
+   201564
+  ],
+  "extra": 16,
+  "timing": {
+   "enumerate": 0.4,
+   "hw": 5.9,
+   "qimages": 1.2,
+   "grav_hw": 1.6,
+   "eval_cpu": 86.3,
+   "eval": 17.2,
+   "combine": 13.6
+  },
+  "time": 671.0
+ },
+ "channels": [
+  {
+   "alpha": [
+    3,
+    0,
+    0
+   ],
+   "sector": [
+    5,
+    4,
+    4,
+    4
+   ],
+   "dim": 153,
+   "r_exact": 47,
+   "grav": 0,
+   "terms": [
+    4845
+   ],
+   "classify": [
+    {
+     "nonzero": true,
+     "closed": true,
+     "not_exact": true,
+     "non_graviton_component": true
+    }
+   ],
+   "residue_nonzero": [
+    true
+   ]
+  }
+ ],
+ "restriction_rank": 1,
+ "cores": 0,
+ "core_coefficients": [],
+ "core_terms": [],
+ "core_residues_nonzero": [],
+ "rep_content": [
+  {
+   "(1, 2, 2)": 5744,
+   "(1, 2, 3)": 9882,
+   "(1, 2, 4)": 1906,
+   "(1, 2, 5)": 64,
+   "(3, 1, 2)": 36756,
+   "(3, 1, 3)": 56808,
+   "(3, 1, 4)": 9311,
+   "(3, 1, 5)": 210,
+   "(5, 0, 2)": 31181,
+   "(5, 0, 3)": 43451,
+   "(5, 0, 4)": 6155,
+   "(5, 0, 5)": 96
+  }
+ ],
+ "core_content": [],
+ "checks": {
+  "rep0_closed_N3": true
+ },
+ "prime": 67108859,
+ "seed": 1,
+ "target_seed": 17,
+ "time": 705.9
+}

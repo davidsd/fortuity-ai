@@ -1,0 +1,4 @@
+words checked: 411; (a) (-1)^(F+Y) = (-1)^(|q|-3d) failures: 0
+(b) Q_0 output terms: 191; selection-rule failures: 0; C Q_0 != Q_0 C on 30 words
+(c) Q_1 output terms (N=3, BMN words): 1486; selection-rule failures: 0; C Q_1 != Q_1 C on 12 words
+time 7.9s

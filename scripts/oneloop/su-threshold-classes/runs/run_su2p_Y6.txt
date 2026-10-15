@@ -1,0 +1,7 @@
+[su2p_Y6] SEC (4, 4, 8, 8, 8) Y=6: words 34170, hw rows 3561, independent 884 vs exact m 884 {0: 48, 2: 433, 4: 391, 6: 12} -> SPAN (4s)
+exact: UP (5, 5, 8, 8, 8) Y=5: words 21199, hw rows 2925 (exact m_up 905); rank of Q_0 images 532 (10s)
+closedness: Q_0 image rank 325 (m_low 408); closed hw combinations 559 (139s)
+cohomology dimension h = 27 = closed 559 - exact rank 532 (140s)
+representative sizes (words): [396, 1398, 864, 1500, 1992, 2733, 3144, 540, 3069, 3213, 3168, 3636, 3555, 3723, 36, 3555, 27, 3357, 3789, 3942, 4014, 3552, 3669, 3906, 3201, 3621, 3570]
+closedness at fresh points: nonzero entries 0 of 4995 (must be 0)
+Coulomb: rank of the Cartan values of the 27 classes = 27; non-Coulomb combinations 0 (functionals 11840)

@@ -1,0 +1,5 @@
+N=2 sec=(9, 9, 12, 12, 12) Y=9: weight-space dim 303, singlet hw mult 25 {3: 11, 5: 9, 1: 2, 7: 2, 9: 1}, words(ml=3) 5665 (0s)
+N=2 sec=(10, 10, 12, 12, 12) Y=8: weight-space dim 67, singlet hw mult 6 {2: 2, 4: 4}, words(ml=3) 728 (0s)
+N=2 sec=(8, 8, 12, 12, 12) Y=10: weight-space dim 736, singlet hw mult 26 {4: 13, 6: 5, 2: 6, 8: 1, 0: 1}, words(ml=3) 31544 (1s)
+N=2 sec=(8, 8, 12, 12, 12) Y=9: weight-space dim 49786, singlet hw mult 2015 {4: 1076, 6: 417, 2: 477, 0: 17, 8: 28}, words(ml=3) 1014936 (12s)
+N=2 sec=(9, 9, 12, 12, 12) Y=8: weight-space dim 17871, singlet hw mult 1258 {3: 676, 5: 413, 1: 127, 7: 42}, words(ml=3) 240235 (3s)

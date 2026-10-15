@@ -1,0 +1,14 @@
+__pycache__/
+*.pyc
+*.egg-info/
+.pytest_cache/
+.DS_Store
+# dimension tables and caches written by the scripts
+*.pkl
+# LaTeX build files (the compiled PDF is committed)
+summary/*.aux
+summary/*.log
+summary/*.out
+summary/*.toc
+summary/*.fls
+summary/*.fdb_latexmk

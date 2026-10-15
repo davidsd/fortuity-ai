@@ -1,0 +1,1 @@
+Coulomb: rank of the Cartan values of the 5 classes = 4; non-Coulomb combinations 1 (functionals 6440)

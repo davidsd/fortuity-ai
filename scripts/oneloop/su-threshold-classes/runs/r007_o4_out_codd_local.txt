@@ -1,0 +1,17 @@
+21:04:38 hw: (4, 4, 14, 8, 8) Y=7: 41600 words (0s)
+21:04:38 hw: exact multiplicities (C sector -1) of 172 stripped contents, total 12717 (0s)
+21:04:39   hw: 20/172 stripped contents, 12061/41600 words (0s)
+21:04:39   hw: 40/172 stripped contents, 20057/41600 words (1s)
+21:04:39   hw: 60/172 stripped contents, 25677/41600 words (1s)
+21:04:39   hw: 80/172 stripped contents, 31101/41600 words (1s)
+21:04:39   hw: 100/172 stripped contents, 34957/41600 words (1s)
+21:04:40   hw: 120/172 stripped contents, 37748/41600 words (1s)
+21:04:40   hw: 140/172 stripped contents, 39704/41600 words (1s)
+21:04:40   hw: 160/172 stripped contents, 41301/41600 words (1s)
+21:04:40 hw: 172 stripped contents, 41600 shapes; raw hw rows 41600, exact multiplicity 12717, compressed rows 14093 (1s)
+21:04:41 Q_0: 41600 preimage words -> 53414 target words in play (1s)
+21:04:41 functionals 9975 in 1 chunks (target hw multiplicity 9907 {5: 9907}); B rows 14093, V rows 0; workers 1
+21:07:30   chunk d=5 cols 0:9975 done (eval 149s, combine 19s)
+21:08:51 rank B (Q_0-exact subspace of the target, hw) = 6597 (81s)
+21:08:51 controls: rank 6597 -> 6597 (exact, OK); Q_1 v rank increments per class []
+21:08:51 wrote classes/r007_o4_out/fullpar_seed41_codd.json (252s)

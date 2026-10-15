@@ -1,0 +1,8 @@
+[Mon Sep 28 04:23:08 AM EDT 2026] host=cn043
+[Mon Sep 28 04:25:06 AM EDT 2026] done coulsp3: COULOMB {'group': 'Sp', 'lam': [6, 3, 3], 'n': 2, 'graviton_classes': 20, 'coulomb_graviton_classes': 20}
+[Mon Sep 28 04:25:30 AM EDT 2026] done coulso7: COULOMB {'group': 'SO_odd', 'lam': [6, 3, 3], 'n': 2, 'graviton_classes': 21, 'coulomb_graviton_classes': 20}
+[Mon Sep 28 04:28:06 AM EDT 2026] done robsp3_633: 
+[Mon Sep 28 04:28:34 AM EDT 2026] done robso7_633: 
+[Mon Sep 28 04:47:08 AM EDT 2026] done hairy: HAIRY {'product_terms': 63, 'P_nonzero': True, 'P_is_nongraviton': True, 'degrees': [1, 3]}
+[Mon Sep 28 04:55:02 AM EDT 2026] done robso7_544: 
+[Mon Sep 28 04:55:02 AM EDT 2026] done

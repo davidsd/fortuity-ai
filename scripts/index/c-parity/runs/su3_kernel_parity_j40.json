@@ -1,0 +1,380 @@
+{
+ "description": "SU(3) kernel parity indices T = tr(P | ker rho), O = sum_(ker rho) (-1)^Y per hw column",
+ "N": 3,
+ "qmax": 20,
+ "diag_source": "diag_dims_N3_j40.pkl",
+ "rows": [
+  {
+   "lam": [
+    4,
+    4,
+    4
+   ],
+   "j": 24,
+   "T": 1,
+   "diag_unsigned": 1,
+   "O": -1,
+   "known": {
+    "total": 2,
+    "BH": 0,
+    "noncoulomb": 1
+   },
+   "T_predicted": 1
+  },
+  {
+   "lam": [
+    5,
+    4,
+    4
+   ],
+   "j": 26,
+   "T": 1,
+   "diag_unsigned": 2,
+   "O": -1,
+   "known": {
+    "total": 3,
+    "BH": 0,
+    "noncoulomb": 1
+   },
+   "T_predicted": 1
+  },
+  {
+   "lam": [
+    5,
+    5,
+    4
+   ],
+   "j": 28,
+   "T": 1,
+   "diag_unsigned": 3,
+   "O": -1,
+   "known": {
+    "total": 4,
+    "BH": 0,
+    "noncoulomb": 1
+   },
+   "T_predicted": 1
+  },
+  {
+   "lam": [
+    5,
+    5,
+    5
+   ],
+   "j": 30,
+   "T": 2,
+   "diag_unsigned": 0,
+   "O": 0,
+   "known": {
+    "total": 2,
+    "BH": 0,
+    "noncoulomb": 2
+   },
+   "T_predicted": 2
+  },
+  {
+   "lam": [
+    7,
+    4,
+    4
+   ],
+   "j": 30,
+   "T": -1,
+   "diag_unsigned": 11,
+   "O": 1,
+   "known": {
+    "total": 12,
+    "BH": 1,
+    "noncoulomb": 0
+   },
+   "T_predicted": -1
+  },
+  {
+   "lam": [
+    6,
+    5,
+    5
+   ],
+   "j": 32,
+   "T": 2,
+   "diag_unsigned": 1,
+   "O": 0
+  },
+  {
+   "lam": [
+    7,
+    5,
+    4
+   ],
+   "j": 32,
+   "T": -1,
+   "diag_unsigned": 20,
+   "O": 1
+  },
+  {
+   "lam": [
+    8,
+    4,
+    4
+   ],
+   "j": 32,
+   "T": -2,
+   "diag_unsigned": 19,
+   "O": 0
+  },
+  {
+   "lam": [
+    6,
+    6,
+    5
+   ],
+   "j": 34,
+   "T": 2,
+   "diag_unsigned": 1,
+   "O": 0
+  },
+  {
+   "lam": [
+    8,
+    5,
+    4
+   ],
+   "j": 34,
+   "T": -3,
+   "diag_unsigned": 34,
+   "O": -1
+  },
+  {
+   "lam": [
+    9,
+    4,
+    4
+   ],
+   "j": 34,
+   "T": -2,
+   "diag_unsigned": 31,
+   "O": 0
+  },
+  {
+   "lam": [
+    6,
+    6,
+    6
+   ],
+   "j": 36,
+   "T": 3,
+   "diag_unsigned": 0,
+   "O": -1
+  },
+  {
+   "lam": [
+    7,
+    6,
+    5
+   ],
+   "j": 36,
+   "T": 1,
+   "diag_unsigned": 6,
+   "O": -1
+  },
+  {
+   "lam": [
+    8,
+    5,
+    5
+   ],
+   "j": 36,
+   "T": -4,
+   "diag_unsigned": 6,
+   "O": 0
+  },
+  {
+   "lam": [
+    8,
+    6,
+    4
+   ],
+   "j": 36,
+   "T": -1,
+   "diag_unsigned": 43,
+   "O": -1
+  },
+  {
+   "lam": [
+    9,
+    5,
+    4
+   ],
+   "j": 36,
+   "T": -4,
+   "diag_unsigned": 53,
+   "O": 0
+  },
+  {
+   "lam": [
+    10,
+    4,
+    4
+   ],
+   "j": 36,
+   "T": -2,
+   "diag_unsigned": 45,
+   "O": 0
+  },
+  {
+   "lam": [
+    7,
+    6,
+    6
+   ],
+   "j": 38,
+   "T": 4,
+   "diag_unsigned": 0,
+   "O": 0
+  },
+  {
+   "lam": [
+    8,
+    6,
+    5
+   ],
+   "j": 38,
+   "T": -3,
+   "diag_unsigned": 14,
+   "O": 1
+  },
+  {
+   "lam": [
+    9,
+    5,
+    5
+   ],
+   "j": 38,
+   "T": -8,
+   "diag_unsigned": 14,
+   "O": 2
+  },
+  {
+   "lam": [
+    9,
+    6,
+    4
+   ],
+   "j": 38,
+   "T": -2,
+   "diag_unsigned": 68,
+   "O": 0
+  },
+  {
+   "lam": [
+    10,
+    5,
+    4
+   ],
+   "j": 38,
+   "T": -4,
+   "diag_unsigned": 75,
+   "O": 0
+  },
+  {
+   "lam": [
+    11,
+    4,
+    4
+   ],
+   "j": 38,
+   "T": -2,
+   "diag_unsigned": 61,
+   "O": 0
+  },
+  {
+   "lam": [
+    7,
+    7,
+    6
+   ],
+   "j": 40,
+   "T": 3,
+   "diag_unsigned": 0,
+   "O": 1
+  },
+  {
+   "lam": [
+    8,
+    6,
+    6
+   ],
+   "j": 40,
+   "T": 1,
+   "diag_unsigned": 1,
+   "O": 3
+  },
+  {
+   "lam": [
+    8,
+    7,
+    5
+   ],
+   "j": 40,
+   "T": -1,
+   "diag_unsigned": 18,
+   "O": 1
+  },
+  {
+   "lam": [
+    9,
+    6,
+    5
+   ],
+   "j": 40,
+   "T": -9,
+   "diag_unsigned": 27,
+   "O": 1
+  },
+  {
+   "lam": [
+    10,
+    5,
+    5
+   ],
+   "j": 40,
+   "T": -11,
+   "diag_unsigned": 24,
+   "O": -1
+  },
+  {
+   "lam": [
+    10,
+    6,
+    4
+   ],
+   "j": 40,
+   "T": -2,
+   "diag_unsigned": 95,
+   "O": 0
+  },
+  {
+   "lam": [
+    11,
+    5,
+    4
+   ],
+   "j": 40,
+   "T": -4,
+   "diag_unsigned": 100,
+   "O": 0
+  },
+  {
+   "lam": [
+    12,
+    4,
+    4
+   ],
+   "j": 40,
+   "T": -2,
+   "diag_unsigned": 78,
+   "O": 0
+  }
+ ],
+ "mismatches": []
+}

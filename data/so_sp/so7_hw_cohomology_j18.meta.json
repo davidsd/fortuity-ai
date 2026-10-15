@@ -1,0 +1,10 @@
+{
+ "description": "SO(7) BMN Q-cohomology on SU(3)_R highest-weight vectors: ALL dominant columns with j <= 18 and every nonempty 2J (52 columns, 170 sectors). One JSON line per sector, fortuity.hwcoh.run_sectors format: m = exact hw multiplicity, r_up = rank of Q from 2J to 2J+1, grav = multi-graviton hw classes modulo exact, check = self-check (rank of the hw vectors at the chosen functionals = m). The irrep lam occurs in the cohomology at 2J = n with multiplicity h = m_n - r_up(n-1) - r_up(n); non-graviton = h - grav. Result: 166 classes (per j = 4..18: 1, 1, 4, 5, 13, 21, 43, 78); 165 multi-graviton and exactly one non-graviton class, the R-005 singlet at (3,3,3), 2J = 1 (h = 1, grav = 0): no fortuitous class below j = 18, and none at j = 18 besides R-005. T-025.",
+ "computed_by": "Fortuity collaboration (Claude agent), NYU Torch (partition cs, account ${ACCOUNT})",
+ "date": "2026-09-30",
+ "code": "code/fortuity/hwcoh (run_sectors, ENGINE=par, group='SO_odd'); exact multiplicities from hwcoh.dims.partition_dims_nf (all 2J); MKL build of the ffblas kernel",
+ "commit": "809059f",
+ "conventions": "D-006 BMN conventions; so(7) letters as random antisymmetric 7x7 matrices over F_p; graviton generators up to n = 10 (GEN_NMAX=10; highest Casimir degree 6).",
+ "command": "scripts/bmn/so-odd-thresholds: sbatch dims.sbatch 3 18; sbatch --array=1-9 col.sbatch with TASKS=tasks_so7.txt; jobs 18902377, 18902378",
+ "checked": "(i) per-sector self-check passed in all 170 sectors; (ii) Euler characteristic = exact refined BMN index (fortuity.bmn.groupindex via scripts/bmn/so-usp-g2-scans/euler_check.py) in all 52 columns; (iii) the one non-graviton class is R-005's (positive control). Single seed: a random evaluation can only create spurious non-graviton classes, never hide one."
+}

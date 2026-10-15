@@ -1,0 +1,10 @@
+{
+ "description": "Second-seed (SEED=2) recomputation of data/so_sp/so11_hw_cohomology_j26.jsonl: SO(11) hw cohomology, columns (7,3,3) and (5,5,3), 2J = 0,1,2. Identical m, r_up, grav and self-checks in all six sectors.",
+ "computed_by": "Fortuity collaboration (Claude agent), PI Symmetry job 564203 (6 parallel sector processes)",
+ "date": "2026-09-27",
+ "code": "code/fortuity/hwcoh (group='SO_odd')",
+ "commit": "3981fd4",
+ "conventions": "As in so11_hw_cohomology_j26.meta.json.",
+ "command": "sbatch --export=ALL,GROUP=SO_odd,SEED=2 t020_sectors_parallel.sbatch (scripts/bmn/so-usp-g2-scans/cluster/), reusing dims_SO_odd5_j26_2J3.pkl of job 564199",
+ "checked": "Agrees with seed 1 sector by sector; self-check rank = m in all sectors."
+}

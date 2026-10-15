@@ -1,0 +1,46 @@
+{
+ "N": 3,
+ "SEC": [
+  4,
+  4,
+  14,
+  8,
+  8
+ ],
+ "Y": 8,
+ "maxlen": 6,
+ "seed": 41,
+ "n_vecs": 0,
+ "n_ctrl": 0,
+ "p": 67108859,
+ "case": "r007_o4_out",
+ "tp_words": 41600,
+ "tp_m": 25889,
+ "tp_rows": 27265,
+ "tp_raw_rows": 41600,
+ "q0_nnz": 298906,
+ "q0_max_row_l1": 16.0,
+ "target_words": 53414,
+ "csec": 0,
+ "target_m_d": {
+  "5": 19714
+ },
+ "ncols": 19782,
+ "timing_eval": 85,
+ "timing_combine": 124,
+ "nB": 27265,
+ "nV": 0,
+ "rank_B": 13110,
+ "rank_after_controls": 13110,
+ "controls_exact": true,
+ "lifted_increments": [],
+ "n_lifted": 0,
+ "timing_rank": 124,
+ "span": {
+  "rank": 25889,
+  "m": 25889,
+  "spans": true,
+  "deficits": []
+ },
+ "time": 431
+}

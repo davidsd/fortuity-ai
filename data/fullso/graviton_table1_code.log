@@ -1,0 +1,12 @@
+  dominant-weight single-trace cohomology: 1110 sectors, 1245 classes (72s)
+generators with level <= 18, Y <= 8: 4392 (72s)
+by level: [(4, 6), (5, 6), (6, 19), (7, 30), (8, 48), (9, 76), (10, 114), (11, 156), (12, 225), (13, 300), (14, 396), (15, 520), (16, 666), (17, 834), (18, 996)]
+  products landing in (1, 1, 6, 6, 6) Y=8: 258 combinations, 258 nonzero
+  SO_odd (1, 1, 6, 6, 6) Y=8: dim 903 (words rank 903), exact 559, out 220, h 124, graviton 123, non-graviton 1, Coulomb-type gravitons 123 (exact rows on the Cartan: rank 0) (2.0s)
+  products landing in (0, 0, 6, 6, 6) Y=8: 199 combinations, 199 nonzero
+  SO_odd (0, 0, 6, 6, 6) Y=8: dim 826 (words rank 826), exact 741, out 0, h 85, graviton 85, non-graviton 0, Coulomb-type gravitons 84 (exact rows on the Cartan: rank 0) (2.4s)
+  products landing in (1, 1, 6, 6, 6) Y=8: 258 combinations, 258 nonzero
+  Sp (1, 1, 6, 6, 6) Y=8: dim 903 (words rank 903), exact 559, out 221, h 123, graviton 123, non-graviton 0, Coulomb-type gravitons 123 (exact rows on the Cartan: rank 0) (1.7s)
+  products landing in (0, 0, 6, 6, 6) Y=8: 199 combinations, 199 nonzero
+  Sp (0, 0, 6, 6, 6) Y=8: dim 825 (words rank 825), exact 741, out 0, h 84, graviton 84, non-graviton 0, Coulomb-type gravitons 84 (exact rows on the Cartan: rank 0) (2.1s)
+done (81s)

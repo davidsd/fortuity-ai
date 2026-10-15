@@ -1,0 +1,2 @@
+su3_j24 class 0: Q_1 v at generic points: nonzero 510 of 510
+su3_j24 class 0: Q_1 v at Cartan points: nonzero 0 of 510

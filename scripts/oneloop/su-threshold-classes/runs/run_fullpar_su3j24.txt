@@ -1,0 +1,27 @@
+19:57:51 hw: loading cache/fullpar_hw_su3_j24.pkl
+19:58:00 Q_0: 298327 preimage words -> 422316 target words in play (8s)
+19:58:00 functionals 2707 in 3 chunks (target hw multiplicity 2503 {0: 183, 2: 1470, 4: 850}); B rows 4883, V rows 4; workers 6
+19:58:04   chunk d=0 cols 0:247 done (eval 0s, combine 3s)
+19:58:32   chunk d=2 cols 247:1792 done (eval 6s, combine 26s)
+19:58:47   chunk d=4 cols 1792:2707 done (eval 9s, combine 38s)
+19:58:51 rank B (Q_0-exact subspace of the target, hw) = 1897 (3s)
+19:58:51 controls: rank 1897 -> 1897 (exact, OK); Q_1 v rank increments per class [0]
+19:59:15 wrote classes/su3_j24/fullpar_seed41.json (84s)
+       84.16 real       120.19 user         2.67 sys
+          9271984128  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+             1741503  page reclaims
+              131696  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                3748  voluntary context switches
+               54324  involuntary context switches
+       1486589023627  instructions retired
+        278714726021  cycles elapsed
+          7598758128  peak memory footprint

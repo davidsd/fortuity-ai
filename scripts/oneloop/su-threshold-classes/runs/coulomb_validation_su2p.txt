@@ -1,0 +1,65 @@
+21:21:42 hw: (5, 5, 8, 8, 8) Y=5: 21199 words (0s)
+21:21:42 hw: exact multiplicities (C sector 0) of 171 stripped contents, total 905 (0s)
+21:21:42   hw: 20/171 stripped contents, 7212/21199 words (0s)
+21:21:43   hw: 40/171 stripped contents, 11727/21199 words (1s)
+21:21:43   hw: 60/171 stripped contents, 14709/21199 words (1s)
+21:21:43   hw: 80/171 stripped contents, 17049/21199 words (1s)
+21:21:43   hw: 100/171 stripped contents, 18279/21199 words (1s)
+21:21:43   hw: 120/171 stripped contents, 19479/21199 words (1s)
+21:21:43   hw: 140/171 stripped contents, 20553/21199 words (1s)
+21:21:43   hw: 160/171 stripped contents, 21051/21199 words (1s)
+21:21:43 hw: 171 stripped contents, 2079 shapes; raw hw rows 2925, exact multiplicity 905, compressed rows 2273 (1s)
+21:21:44 Q_0: 21001 preimage words -> 80109 target words in play (1s)
+21:21:44 functionals 1171 in 4 chunks (target hw multiplicity 884 {0: 48, 2: 433, 4: 391, 6: 12}); B rows 2273, V rows 0; workers 1
+21:21:44   chunk d=0 cols 0:112 done (eval 0s, combine 0s)
+21:21:46   chunk d=2 cols 112:622 done (eval 1s, combine 0s)
+21:21:47   chunk d=4 cols 622:1087 done (eval 2s, combine 0s)
+21:21:47   chunk d=6 cols 1087:1171 done (eval 2s, combine 0s)
+21:21:47 Cartan block: 823 columns (1s)
+21:21:48 rank B (Q_0-exact subspace of the target, hw) = 532 (0s)
+21:21:48 rank [B | Cartan] = 532: Cartan rank on ker Q_0 (Coulomb-type classes of the preimage sector) = 0
+21:21:48 controls: rank 532 -> 532 (exact, OK); Q_1 v rank increments per class []
+21:21:48 wrote classes/su2p6_in/fullpar_seed41_cartan.json (7s)
+21:21:49 hw: (4, 4, 8, 8, 8) Y=6: 34170 words (0s)
+21:21:49 hw: exact multiplicities (C sector 0) of 117 stripped contents, total 884 (0s)
+21:21:50   hw: 20/117 stripped contents, 15453/34170 words (1s)
+21:21:50   hw: 40/117 stripped contents, 23139/34170 words (1s)
+21:21:50   hw: 60/117 stripped contents, 29010/34170 words (1s)
+21:21:50   hw: 80/117 stripped contents, 31806/34170 words (1s)
+21:21:50   hw: 100/117 stripped contents, 33411/34170 words (2s)
+21:21:50 hw: 117 stripped contents, 2089 shapes; raw hw rows 3561, exact multiplicity 884, compressed rows 1820 (2s)
+21:21:52 Q_0: 33873 preimage words -> 102816 target words in play (1s)
+21:21:52 functionals 695 in 4 chunks (target hw multiplicity 408 {1: 67, 3: 244, 5: 96, 7: 1}); B rows 1820, V rows 0; workers 1
+21:21:52   chunk d=1 cols 0:135 done (eval 0s, combine 0s)
+21:21:53   chunk d=3 cols 135:455 done (eval 1s, combine 0s)
+21:21:54   chunk d=5 cols 455:623 done (eval 2s, combine 0s)
+21:21:54   chunk d=7 cols 623:695 done (eval 2s, combine 0s)
+21:21:54 Cartan block: 1084 columns (1s)
+21:21:55 rank B (Q_0-exact subspace of the target, hw) = 325 (0s)
+21:21:55 rank [B | Cartan] = 352: Cartan rank on ker Q_0 (Coulomb-type classes of the preimage sector) = 27
+21:21:55 controls: rank 325 -> 325 (exact, OK); Q_1 v rank increments per class []
+21:21:55 wrote classes/su2p6_out/fullpar_seed41_cartan.json (7s)
+21:21:55 hw: (5, 5, 8, 8, 8) Y=3: 51 words (0s)
+21:21:55 hw: exact multiplicities (C sector 0) of 29 stripped contents, total 29 (0s)
+21:21:55   hw: 20/29 stripped contents, 40/51 words (0s)
+21:21:55 hw: 29 stripped contents, 51 shapes; raw hw rows 51, exact multiplicity 29, compressed rows 261 (0s)
+21:21:55 Q_0: 51 preimage words -> 119 target words in play (0s)
+21:21:55 functionals 120 in 1 chunks (target hw multiplicity 51 {4: 51}); B rows 261, V rows 0; workers 1
+21:21:55   chunk d=4 cols 0:120 done (eval 0s, combine 0s)
+21:21:55 Cartan block: 280 columns (0s)
+21:21:55 rank B (Q_0-exact subspace of the target, hw) = 19 (0s)
+21:21:55 rank [B | Cartan] = 19: Cartan rank on ker Q_0 (Coulomb-type classes of the preimage sector) = 0
+21:21:55 controls: rank 19 -> 19 (exact, OK); Q_1 v rank increments per class []
+21:21:55 wrote classes/su2p4_in/fullpar_seed41_cartan.json (0s)
+21:21:55 hw: (4, 4, 8, 8, 8) Y=4: 51 words (0s)
+21:21:55 hw: exact multiplicities (C sector 0) of 29 stripped contents, total 51 (0s)
+21:21:55   hw: 20/29 stripped contents, 42/51 words (0s)
+21:21:55 hw: 29 stripped contents, 51 shapes; raw hw rows 51, exact multiplicity 51, compressed rows 283 (0s)
+21:21:55 Q_0: 51 preimage words -> 117 target words in play (0s)
+21:21:55 functionals 105 in 1 chunks (target hw multiplicity 36 {5: 36}); B rows 283, V rows 0; workers 1
+21:21:55   chunk d=5 cols 0:105 done (eval 0s, combine 0s)
+21:21:55 Cartan block: 270 columns (0s)
+21:21:55 rank B (Q_0-exact subspace of the target, hw) = 28 (0s)
+21:21:55 rank [B | Cartan] = 32: Cartan rank on ker Q_0 (Coulomb-type classes of the preimage sector) = 4
+21:21:55 controls: rank 28 -> 28 (exact, OK); Q_1 v rank increments per class []
+21:21:55 wrote classes/su2p4_out/fullpar_seed41_cartan.json (0s)

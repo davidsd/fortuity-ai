@@ -1,0 +1,605 @@
+{
+ "description": "x1^k coefficients (k = 0..7) of the SU(3) > SU(2) x U(1) restriction of the R-007 representative (T-021, 201,564 words, sector (5;7,4,4), [3,0] highest weight), classified in the SU(2) sector (5;7-k,4,4): target dim / Q-exact rank / graviton classes mod exact, image verdict, and the images of 6 SU(3) multi-graviton products (controls); two independent target seeds",
+ "source_representative": "scripts/bmn/su3-level30-representative/runs/rep_nmax5_seed11_expr.json.gz",
+ "results_seed17": [
+  {
+   "k": 0,
+   "sector": [
+    5,
+    7,
+    4,
+    4
+   ],
+   "terms": 201564,
+   "dim": 347,
+   "exact_rank": 141,
+   "grav": 4,
+   "nonzero": true,
+   "closed": true,
+   "not_exact": false,
+   "non_graviton_component": false,
+   "verdict": "Q-exact",
+   "controls": [
+    "zero",
+    "zero",
+    "zero",
+    "zero",
+    "zero",
+    "zero"
+   ]
+  },
+  {
+   "k": 1,
+   "sector": [
+    5,
+    6,
+    4,
+    4
+   ],
+   "terms": 74166,
+   "dim": 314,
+   "exact_rank": 123,
+   "grav": 0,
+   "nonzero": true,
+   "closed": true,
+   "not_exact": false,
+   "non_graviton_component": false,
+   "verdict": "Q-exact",
+   "controls": [
+    "zero",
+    "zero",
+    "zero",
+    "zero",
+    "zero",
+    "zero"
+   ]
+  },
+  {
+   "k": 2,
+   "sector": [
+    5,
+    5,
+    4,
+    4
+   ],
+   "terms": 25632,
+   "dim": 245,
+   "exact_rank": 90,
+   "grav": 4,
+   "nonzero": true,
+   "closed": true,
+   "not_exact": false,
+   "non_graviton_component": false,
+   "verdict": "Q-exact",
+   "controls": [
+    "zero",
+    "graviton",
+    "graviton",
+    "zero",
+    "graviton",
+    "zero"
+   ]
+  },
+  {
+   "k": 3,
+   "sector": [
+    5,
+    4,
+    4,
+    4
+   ],
+   "terms": 4845,
+   "dim": 153,
+   "exact_rank": 47,
+   "grav": 0,
+   "nonzero": true,
+   "closed": true,
+   "not_exact": true,
+   "non_graviton_component": true,
+   "verdict": "non-graviton",
+   "controls": [
+    "zero",
+    "zero",
+    "zero",
+    "zero",
+    "zero",
+    "zero"
+   ]
+  },
+  {
+   "k": 4,
+   "sector": [
+    5,
+    3,
+    4,
+    4
+   ],
+   "terms": 1101,
+   "dim": 61,
+   "exact_rank": 11,
+   "grav": 3,
+   "nonzero": true,
+   "closed": true,
+   "not_exact": false,
+   "non_graviton_component": false,
+   "verdict": "Q-exact",
+   "controls": [
+    "zero",
+    "zero",
+    "zero",
+    "zero",
+    "zero",
+    "zero"
+   ]
+  },
+  {
+   "k": 5,
+   "sector": [
+    5,
+    2,
+    4,
+    4
+   ],
+   "terms": 78,
+   "dim": 11,
+   "exact_rank": 0,
+   "grav": 0,
+   "nonzero": false,
+   "closed": true,
+   "not_exact": false,
+   "non_graviton_component": false,
+   "verdict": "zero at N=2",
+   "controls": [
+    "zero",
+    "zero",
+    "zero",
+    "zero",
+    "zero",
+    "zero"
+   ]
+  },
+  {
+   "k": 6,
+   "sector": [
+    5,
+    1,
+    4,
+    4
+   ],
+   "terms": 1,
+   "dim": 0,
+   "exact_rank": 0,
+   "grav": 0,
+   "nonzero": false,
+   "closed": true,
+   "not_exact": false,
+   "non_graviton_component": false,
+   "verdict": "zero at N=2",
+   "controls": [
+    "zero",
+    "zero",
+    "zero",
+    "zero",
+    "zero",
+    "zero"
+   ]
+  },
+  {
+   "k": 7,
+   "sector": [
+    5,
+    0,
+    4,
+    4
+   ],
+   "terms": 0,
+   "verdict": "zero (formally)"
+  }
+ ],
+ "results_seed29": [
+  {
+   "k": 0,
+   "sector": [
+    5,
+    7,
+    4,
+    4
+   ],
+   "terms": 201564,
+   "dim": 347,
+   "exact_rank": 141,
+   "grav": 4,
+   "nonzero": true,
+   "closed": true,
+   "not_exact": false,
+   "non_graviton_component": false,
+   "verdict": "Q-exact",
+   "controls": [
+    "zero",
+    "zero",
+    "zero",
+    "zero",
+    "zero",
+    "zero"
+   ]
+  },
+  {
+   "k": 1,
+   "sector": [
+    5,
+    6,
+    4,
+    4
+   ],
+   "terms": 74166,
+   "dim": 314,
+   "exact_rank": 123,
+   "grav": 0,
+   "nonzero": true,
+   "closed": true,
+   "not_exact": false,
+   "non_graviton_component": false,
+   "verdict": "Q-exact",
+   "controls": [
+    "zero",
+    "zero",
+    "zero",
+    "zero",
+    "zero",
+    "zero"
+   ]
+  },
+  {
+   "k": 2,
+   "sector": [
+    5,
+    5,
+    4,
+    4
+   ],
+   "terms": 25632,
+   "dim": 245,
+   "exact_rank": 90,
+   "grav": 4,
+   "nonzero": true,
+   "closed": true,
+   "not_exact": false,
+   "non_graviton_component": false,
+   "verdict": "Q-exact",
+   "controls": [
+    "zero",
+    "graviton",
+    "graviton",
+    "zero",
+    "graviton",
+    "zero"
+   ]
+  },
+  {
+   "k": 3,
+   "sector": [
+    5,
+    4,
+    4,
+    4
+   ],
+   "terms": 4845,
+   "dim": 153,
+   "exact_rank": 47,
+   "grav": 0,
+   "nonzero": true,
+   "closed": true,
+   "not_exact": true,
+   "non_graviton_component": true,
+   "verdict": "non-graviton",
+   "controls": [
+    "zero",
+    "zero",
+    "zero",
+    "zero",
+    "zero",
+    "zero"
+   ]
+  },
+  {
+   "k": 4,
+   "sector": [
+    5,
+    3,
+    4,
+    4
+   ],
+   "terms": 1101,
+   "dim": 61,
+   "exact_rank": 11,
+   "grav": 3,
+   "nonzero": true,
+   "closed": true,
+   "not_exact": false,
+   "non_graviton_component": false,
+   "verdict": "Q-exact",
+   "controls": [
+    "zero",
+    "zero",
+    "zero",
+    "zero",
+    "zero",
+    "zero"
+   ]
+  },
+  {
+   "k": 5,
+   "sector": [
+    5,
+    2,
+    4,
+    4
+   ],
+   "terms": 78,
+   "dim": 11,
+   "exact_rank": 0,
+   "grav": 0,
+   "nonzero": false,
+   "closed": true,
+   "not_exact": false,
+   "non_graviton_component": false,
+   "verdict": "zero at N=2",
+   "controls": [
+    "zero",
+    "zero",
+    "zero",
+    "zero",
+    "zero",
+    "zero"
+   ]
+  },
+  {
+   "k": 6,
+   "sector": [
+    5,
+    1,
+    4,
+    4
+   ],
+   "terms": 1,
+   "dim": 0,
+   "exact_rank": 0,
+   "grav": 0,
+   "nonzero": false,
+   "closed": true,
+   "not_exact": false,
+   "non_graviton_component": false,
+   "verdict": "zero at N=2",
+   "controls": [
+    "zero",
+    "zero",
+    "zero",
+    "zero",
+    "zero",
+    "zero"
+   ]
+  },
+  {
+   "k": 7,
+   "sector": [
+    5,
+    0,
+    4,
+    4
+   ],
+   "terms": 0,
+   "verdict": "zero (formally)"
+  }
+ ],
+ "seeds_agree": true,
+ "controls": [
+  [
+   [
+    "v",
+    2,
+    [
+     0
+    ],
+    0
+   ],
+   [
+    "w",
+    2,
+    [
+     0
+    ]
+   ],
+   [
+    "v",
+    3,
+    [
+     0,
+     1
+    ],
+    1
+   ],
+   [
+    "v",
+    3,
+    [
+     0,
+     2
+    ],
+    2
+   ]
+  ],
+  [
+   [
+    "v",
+    2,
+    [
+     0
+    ],
+    1
+   ],
+   [
+    "v",
+    2,
+    [
+     1
+    ],
+    2
+   ],
+   [
+    "v",
+    3,
+    [
+     0,
+     2
+    ],
+    0
+   ],
+   [
+    "w",
+    3,
+    [
+     0,
+     0
+    ]
+   ]
+  ],
+  [
+   [
+    "v",
+    2,
+    [
+     0
+    ],
+    1
+   ],
+   [
+    "v",
+    2,
+    [
+     1
+    ],
+    2
+   ],
+   [
+    "v",
+    3,
+    [
+     0,
+     0
+    ],
+    0
+   ],
+   [
+    "w",
+    3,
+    [
+     0,
+     2
+    ]
+   ]
+  ],
+  [
+   [
+    "v",
+    2,
+    [
+     0
+    ],
+    2
+   ],
+   [
+    "w",
+    2,
+    [
+     0
+    ]
+   ],
+   [
+    "u",
+    3,
+    [
+     1,
+     2,
+     2
+    ]
+   ],
+   [
+    "w",
+    3,
+    [
+     0,
+     0
+    ]
+   ]
+  ],
+  [
+   [
+    "v",
+    2,
+    [
+     0
+    ],
+    0
+   ],
+   [
+    "w",
+    2,
+    [
+     1
+    ]
+   ],
+   [
+    "u",
+    3,
+    [
+     0,
+     0,
+     2
+    ]
+   ],
+   [
+    "w",
+    3,
+    [
+     0,
+     0
+    ]
+   ]
+  ],
+  [
+   [
+    "v",
+    2,
+    [
+     0
+    ],
+    1
+   ],
+   [
+    "v",
+    2,
+    [
+     0
+    ],
+    2
+   ],
+   [
+    "v",
+    3,
+    [
+     0,
+     2
+    ],
+    2
+   ],
+   [
+    "w",
+    3,
+    [
+     1,
+     2
+    ]
+   ]
+  ]
+ ]
+}

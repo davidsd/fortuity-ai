@@ -1,0 +1,6 @@
+# python first_order_check.py
+H(-2 pi i) = (-2.19324542246 - 3.489748854e-39j) ; -2 pi^2/9 = -2.19324542246
+j=1e+09  (exact - lead - first)/lead = 6.17e-11   (eps^2 = 1.0e-06)
+j=1e+07  (exact - lead - first)/lead = 6.17e-09   (eps^2 = 2.2e-05)
+j=1e+05  (exact - lead - first)/lead = 6.15e-07   (eps^2 = 4.6e-04)
+S_cl,max/S = 1.012134 + 0.055071 eps + O(eps^2)

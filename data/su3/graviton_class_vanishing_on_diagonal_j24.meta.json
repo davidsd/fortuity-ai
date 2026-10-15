@@ -1,0 +1,10 @@
+{
+ "description": "Explicit multi-graviton polynomial in SU(3), j=24, that vanishes on diagonal matrices but is not Q-exact (counterexample to the diagonal criterion)",
+ "computed_by": "Fortuity collaboration (Claude agent)",
+ "date": "2026-09-26",
+ "code": "found with scripts/bmn/index-and-direct-cohomology/explicit_graviton_class.py (workspace only); verified with code/fortuity/bmn/r002_check.py (promoted 2026-10-02 from scripts/bmn/index-and-direct-cohomology/verify_explicit_class.py)",
+ "commit": "07cc88d",
+ "conventions": "BMN sector of SU(N); sector = (2J, q1, q2, q3) with q_I = R_I + J, j = 2 sum q; Chang-Lin / Choi et al. conventions (summary/fortuity-summary.pdf, section 2)",
+ "command": "python3 -m fortuity.bmn.r002_check --exact   (verification from code/ and data/ alone; original: PYTHONPATH=. python3 scripts/explicit_graviton_class.py; python3 scripts/verify_explicit_class.py in the workspace)",
+ "checked": "2026-09-26: operator rebuilt symbolically and re-verified with a fresh seed (Q-closed, zero on diagonal matrices, nonzero on generic 3x3 matrices, Weyl symmetrization independent of the 924 Q-exact operators of the Weyl-symmetric subspace). 2026-10-02: the same four statements reproduced from this data file with fortuity.bmn.r002_check (740 multitrace terms, rank of Q from the sector above = 924); tests code/tests/test_result_drivers.py"
+}

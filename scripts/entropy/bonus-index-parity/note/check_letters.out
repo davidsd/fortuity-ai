@@ -1,0 +1,3 @@
+letters checked: 359, failures: 0
+Q_0 splitting terms: 3067, charge-rule failures: 0
+single-letter index: sum = -0.039902126859, 1-(1-u)(1-v)(1-w)/((1-p)(1-q)) = -0.039902126859

@@ -1,0 +1,42 @@
+=== N=4 lam=(5, 3, 3) 2J=0
+  words: n=0: 4420, n+1: 14504 (0.1s)
+  hw vectors: n=0: 255, n+1: 1094 (7.7s)
+  functionals: 163 in 1 chunks; rows A 255, B 1094, G 1
+  check (attempt 0): rank per degree {0: 131} vs m_d {0: 131} -> OK
+RESULT {"N": 4, "lam": [5, 3, 3], "n": 0, "maxlen": null, "maxlen_up": null, "m": 131, "m_d": {"0": 131}, "words": 4420, "words_up": 14504, "rank_C_d": {"0": 131}, "check": true, "r_up": 131, "grav": 0, "grav_rows": 1, "ncols": 163, "timing": {"enumerate": 0.1, "hw": 7.7, "qimages": 0.2, "grav_hw": 2.4, "eval": 0.3, "combine": 0.0, "grav_eval": 0.0, "rank": 0.1}, "time": 10.8, "seed": 1, "group": "SO_odd"}
+=== N=4 lam=(5, 3, 3) 2J=1
+  words: n=1: 14504, n+1: 18845 (0.1s)
+  hw vectors: n=1: 1094, n+1: 1897 (4.6s)
+  functionals: 480 in 1 chunks; rows A 1094, B 1897, G 18
+  check (attempt 0): rank per degree {1: 442} vs m_d {1: 442} -> OK
+RESULT {"N": 4, "lam": [5, 3, 3], "n": 1, "maxlen": null, "maxlen_up": null, "m": 442, "m_d": {"1": 442}, "words": 14504, "words_up": 18845, "rank_C_d": {"1": 442}, "check": true, "r_up": 305, "grav": 5, "grav_rows": 18, "ncols": 480, "timing": {"enumerate": 0.1, "hw": 4.6, "qimages": 0.7, "grav_hw": 5.9, "eval": 3.1, "combine": 0.1, "grav_eval": 0.4, "rank": 0.4}, "time": 15.4, "seed": 1, "group": "SO_odd"}
+=== N=4 lam=(5, 3, 3) 2J=2
+  words: n=2: 18845, n+1: 12262 (0.1s)
+  hw vectors: n=2: 1897, n+1: 1700 (1.1s)
+  functionals: 728 in 2 chunks; rows A 1897, B 1700, G 32
+  check (attempt 0): rank per degree {0: 51, 2: 613} vs m_d {0: 51, 2: 613} -> OK
+RESULT {"N": 4, "lam": [5, 3, 3], "n": 2, "maxlen": null, "maxlen_up": null, "m": 664, "m_d": {"0": 51, "2": 613}, "words": 18845, "words_up": 12262, "rank_C_d": {"0": 51, "2": 613}, "check": true, "r_up": 359, "grav": 0, "grav_rows": 32, "ncols": 728, "timing": {"enumerate": 0.1, "hw": 1.1, "qimages": 0.4, "grav_hw": 8.1, "eval": 8.1, "combine": 0.3, "grav_eval": 0.8, "rank": 0.8}, "time": 19.7, "seed": 1, "group": "SO_odd"}
+=== N=4 lam=(5, 3, 3) 2J=3
+  words: n=3: 12262, n+1: 4140 (0.0s)
+  hw vectors: n=3: 1700, n+1: 829 (0.2s)
+  functionals: 752 in 2 chunks; rows A 1700, B 829, G 20
+  check (attempt 0): rank per degree {1: 214, 3: 451} vs m_d {1: 214, 3: 451} -> OK
+RESULT {"N": 4, "lam": [5, 3, 3], "n": 3, "maxlen": null, "maxlen_up": null, "m": 665, "m_d": {"1": 214, "3": 451}, "words": 12262, "words_up": 4140, "rank_C_d": {"1": 214, "3": 451}, "check": true, "r_up": 294, "grav": 12, "grav_rows": 20, "ncols": 752, "timing": {"enumerate": 0.0, "hw": 0.2, "qimages": 0.2, "grav_hw": 8.7, "eval": 6.0, "combine": 0.1, "grav_eval": 0.2, "rank": 0.6}, "time": 16.0, "seed": 1, "group": "SO_odd"}
+=== N=4 lam=(5, 3, 3) 2J=4
+  words: n=4: 4140, n+1: 669 (0.0s)
+  hw vectors: n=4: 829, n+1: 208 (0.0s)
+  functionals: 527 in 3 chunks; rows A 829, B 208, G 5
+  check (attempt 0): rank per degree {0: 30, 2: 224, 4: 150} vs m_d {0: 30, 2: 224, 4: 150} -> OK
+RESULT {"N": 4, "lam": [5, 3, 3], "n": 4, "maxlen": null, "maxlen_up": null, "m": 404, "m_d": {"0": 30, "2": 224, "4": 150}, "words": 4140, "words_up": 669, "rank_C_d": {"0": 30, "2": 224, "4": 150}, "check": true, "r_up": 110, "grav": 0, "grav_rows": 5, "ncols": 527, "timing": {"enumerate": 0.0, "hw": 0.0, "qimages": 0.0, "grav_hw": 8.8, "eval": 1.5, "combine": 0.0, "grav_eval": 0.0, "rank": 0.1}, "time": 10.6, "seed": 1, "group": "SO_odd"}
+=== N=4 lam=(5, 3, 3) 2J=5
+  words: n=5: 669, n+1: 38 (0.0s)
+  hw vectors: n=5: 208, n+1: 20 (0.0s)
+  functionals: 235 in 3 chunks; rows A 208, B 20, G 1
+  check (attempt 0): rank per degree {1: 40, 3: 60, 5: 14} vs m_d {1: 40, 3: 60, 5: 14} -> OK
+RESULT {"N": 4, "lam": [5, 3, 3], "n": 5, "maxlen": null, "maxlen_up": null, "m": 114, "m_d": {"1": 40, "3": 60, "5": 14}, "words": 669, "words_up": 38, "rank_C_d": {"1": 40, "3": 60, "5": 14}, "check": true, "r_up": 3, "grav": 1, "grav_rows": 1, "ncols": 235, "timing": {"enumerate": 0.0, "hw": 0.0, "qimages": 0.0, "grav_hw": 8.8, "eval": 0.1, "combine": 0.0, "grav_eval": 0.0, "rank": 0.0}, "time": 9.0, "seed": 1, "group": "SO_odd"}
+=== N=4 lam=(5, 3, 3) 2J=6
+  words: n=6: 38, n+1: 0 (0.0s)
+  hw vectors: n=6: 20, n+1: 0 (0.0s)
+  functionals: 122 in 3 chunks; rows A 20, B 0, G 0
+  check (attempt 0): rank per degree {0: 0, 2: 3, 4: 0} vs m_d {0: 0, 2: 3, 4: 0} -> OK
+RESULT {"N": 4, "lam": [5, 3, 3], "n": 6, "maxlen": null, "maxlen_up": null, "m": 3, "m_d": {"0": 0, "2": 3, "4": 0}, "words": 38, "words_up": 0, "rank_C_d": {"0": 0, "2": 3, "4": 0}, "check": true, "r_up": 0, "grav": 0, "ncols": 122, "timing": {"enumerate": 0.0, "hw": 0.0, "qimages": 0.0, "grav_hw": 8.8, "eval": 0.0, "combine": 0.0, "rank": 0.0}, "time": 8.8, "seed": 1, "group": "SO_odd"}

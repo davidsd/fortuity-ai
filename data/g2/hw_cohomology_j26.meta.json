@@ -1,0 +1,11 @@
+{
+ "description": "SO(7) and G2 BMN Q-cohomology on SU(3)_R highest-weight vectors, complete scans at j = 26 (all 21 columns, all 2J; 120 sectors per group). SO(7): one non-graviton class, column (5,4,4) [1,0] at 2J=3 (E = 23/2, fermionic) - not a descendant of the j=18 class (that SU(1|3) multiplet ends at j=24); its charges equal those of the j=18 class times the graviton w_2 ((1;3,3,3)+(2;2,1,1)), so it is a candidate 'hairy' product (not checked). G2: no non-graviton class (so none through j = 26). Restriction (so7_to_g2_restriction_j26.jsonl, fortuity.hwcoh.restrict on the SO(7) non-graviton sectors (4,4,3) 2J=3, (4,4,4) 2J=4, (5,4,4) 2J=3): each 1 -> 0 in G2, representatives closed in G2.",
+ "computed_by": "Fortuity collaboration (Claude agent), PI Symmetry job 564311 (21 column tasks x 2 groups, 26 parallel x 3 workers)",
+ "date": "2026-09-28",
+ "code": "code/fortuity/hwcoh (ENGINE=par, HW_CACHE), scripts/bmn/so-usp-g2-scans/cluster/t023_scan.sbatch with JS=26",
+ "commit": "6b25304",
+ "conventions": "D-006; graviton generators up to n = 8; dims partition_dims_nf(N, 26, group) from job 564221.",
+ "command": "sbatch --export=ALL,JS=26 --job-name=t023-scan26 t023_scan.sbatch",
+ "checked": "Per-sector self-check rank = m in all 240 sectors; Euler characteristic = exact index in all 21 columns for both groups (scripts/bmn/so-usp-g2-scans/euler_check.py). Second seed / GEN_NMAX check of the (5,4,4) 2J=3 SO(7) class not yet done; 'no non-graviton class' for G2 is robust by itself (random evaluation can only create spurious non-graviton classes).",
+ "note_2026-10-01": "The SO(7)->G2 restriction file of this entry was produced by fortuity.hwcoh.restrict before commit d869d37, which added a faithfulness check to _lower_q_rows (review B.1). The claim it supports (no G2 non-graviton image, 1 -> 0) does not depend on that check: the certified G2 scans have no non-graviton class in these sectors."
+}

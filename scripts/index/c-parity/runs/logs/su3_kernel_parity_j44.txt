@@ -1,0 +1,54 @@
+SU(3) diagonal graviton index vs data (j <= 36): OK
+indices done, rounding 5.3e-11  (38s)
+SU(3) columns with nonzero kernel index (T = #P+ - #P- in ker rho,  O = sum (-1)^Y over ker rho); known range: 5 rows, mismatches with prediction 0
+  j=24 lam=(4, 4, 4): T=  1  O= -1  known: total=2 BH=0 nonCoulomb=1 (T pred 1)
+  j=26 lam=(5, 4, 4): T=  1  O= -1  known: total=3 BH=0 nonCoulomb=1 (T pred 1)
+  j=28 lam=(5, 5, 4): T=  1  O= -1  known: total=4 BH=0 nonCoulomb=1 (T pred 1)
+  j=30 lam=(5, 5, 5): T=  2  O=  0  known: total=2 BH=0 nonCoulomb=2 (T pred 2)
+  j=30 lam=(7, 4, 4): T= -1  O=  1  known: total=12 BH=1 nonCoulomb=0 (T pred -1)  <-- T<0: P-odd (fortuitous) classes forced
+  j=32 lam=(6, 5, 5): T=  2  O=  0
+  j=32 lam=(7, 5, 4): T= -1  O=  1  <-- T<0: P-odd (fortuitous) classes forced
+  j=32 lam=(8, 4, 4): T= -2  O=  0  <-- T<0: P-odd (fortuitous) classes forced
+  j=34 lam=(6, 6, 5): T=  2  O=  0
+  j=34 lam=(8, 5, 4): T= -3  O= -1  <-- T<0: P-odd (fortuitous) classes forced
+  j=34 lam=(9, 4, 4): T= -2  O=  0  <-- T<0: P-odd (fortuitous) classes forced
+  j=36 lam=(6, 6, 6): T=  3  O= -1
+  j=36 lam=(7, 6, 5): T=  1  O= -1
+  j=36 lam=(8, 5, 5): T= -4  O=  0  <-- T<0: P-odd (fortuitous) classes forced
+  j=36 lam=(8, 6, 4): T= -1  O= -1  <-- T<0: P-odd (fortuitous) classes forced
+  j=36 lam=(9, 5, 4): T= -4  O=  0  <-- T<0: P-odd (fortuitous) classes forced
+  j=36 lam=(10, 4, 4): T= -2  O=  0  <-- T<0: P-odd (fortuitous) classes forced
+  j=38 lam=(7, 6, 6): T=  4  O=  0
+  j=38 lam=(8, 6, 5): T= -3  O=  1  <-- T<0: P-odd (fortuitous) classes forced
+  j=38 lam=(9, 5, 5): T= -8  O=  2  <-- T<0: P-odd (fortuitous) classes forced
+  j=38 lam=(9, 6, 4): T= -2  O=  0  <-- T<0: P-odd (fortuitous) classes forced
+  j=38 lam=(10, 5, 4): T= -4  O=  0  <-- T<0: P-odd (fortuitous) classes forced
+  j=38 lam=(11, 4, 4): T= -2  O=  0  <-- T<0: P-odd (fortuitous) classes forced
+  j=40 lam=(7, 7, 6): T=  3  O=  1
+  j=40 lam=(8, 6, 6): T=  1  O=  3
+  j=40 lam=(8, 7, 5): T= -1  O=  1  <-- T<0: P-odd (fortuitous) classes forced
+  j=40 lam=(9, 6, 5): T= -9  O=  1  <-- T<0: P-odd (fortuitous) classes forced
+  j=40 lam=(10, 5, 5): T=-11  O= -1  <-- T<0: P-odd (fortuitous) classes forced
+  j=40 lam=(10, 6, 4): T= -2  O=  0  <-- T<0: P-odd (fortuitous) classes forced
+  j=40 lam=(11, 5, 4): T= -4  O=  0  <-- T<0: P-odd (fortuitous) classes forced
+  j=40 lam=(12, 4, 4): T= -2  O=  0  <-- T<0: P-odd (fortuitous) classes forced
+  j=42 lam=(7, 7, 7): T=  4  O=  2
+  j=42 lam=(8, 7, 6): T=  3  O=  1
+  j=42 lam=(9, 6, 6): T= -7  O= -1  <-- T<0: P-odd (fortuitous) classes forced
+  j=42 lam=(9, 7, 5): T= -4  O= -2  <-- T<0: P-odd (fortuitous) classes forced
+  j=42 lam=(10, 6, 5): T=-14  O= -2  <-- T<0: P-odd (fortuitous) classes forced
+  j=42 lam=(11, 5, 5): T=-12  O=  0  <-- T<0: P-odd (fortuitous) classes forced
+  j=42 lam=(11, 6, 4): T= -2  O=  0  <-- T<0: P-odd (fortuitous) classes forced
+  j=42 lam=(12, 5, 4): T= -4  O=  0  <-- T<0: P-odd (fortuitous) classes forced
+  j=42 lam=(13, 4, 4): T= -2  O=  0  <-- T<0: P-odd (fortuitous) classes forced
+  j=44 lam=(8, 7, 7): T=  8  O=  0
+  j=44 lam=(8, 8, 6): T=  1  O= -1
+  j=44 lam=(9, 7, 6): T= -4  O= -4  <-- T<0: P-odd (fortuitous) classes forced
+  j=44 lam=(9, 8, 5): T= -1  O= -1  <-- T<0: P-odd (fortuitous) classes forced
+  j=44 lam=(10, 6, 6): T=-17  O= -1  <-- T<0: P-odd (fortuitous) classes forced
+  j=44 lam=(10, 7, 5): T= -7  O= -1  <-- T<0: P-odd (fortuitous) classes forced
+  j=44 lam=(11, 6, 5): T=-17  O=  1  <-- T<0: P-odd (fortuitous) classes forced
+  j=44 lam=(12, 5, 5): T=-12  O=  0  <-- T<0: P-odd (fortuitous) classes forced
+  j=44 lam=(12, 6, 4): T= -2  O=  0  <-- T<0: P-odd (fortuitous) classes forced
+  j=44 lam=(13, 5, 4): T= -4  O=  0  <-- T<0: P-odd (fortuitous) classes forced
+  j=44 lam=(14, 4, 4): T= -2  O=  0  <-- T<0: P-odd (fortuitous) classes forced

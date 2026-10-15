@@ -1,0 +1,10 @@
+{
+ "description": "SU(2) BMN-sector Q-cohomology per sector through j=28, with multi-graviton subspace (generators u2,v2,w2)",
+ "computed_by": "Fortuity collaboration (Claude agent)",
+ "date": "2026-09-26",
+ "code": "code/fortuity/bmn/direct.py; driver code/fortuity/bmn/run_su2_direct.py (promoted 2026-10-02 from scripts/bmn/index-and-direct-cohomology/run_su2_direct.py, same computation)",
+ "commit": "07cc88d",
+ "conventions": "BMN sector of SU(N); sector = (2J, q1, q2, q3) with q_I = R_I + J, j = 2 sum q; Chang-Lin / Choi et al. conventions (summary/fortuity-summary.pdf, section 2)",
+ "command": "python3 -m fortuity.bmn.run_su2_direct 28 OUT.json   (original, 2026-09-26, in the workspace copy: PYTHONPATH=. python3 scripts/run_su2_direct.py 28)",
+ "checked": "signed sums equal the Haar-integral index at every j<=28; graviton counts equal the eigenvalue count and the closed form (3.4) of arXiv:2312.16443; 2026-10-02: recomputed with the promoted driver, `python3 -m fortuity.bmn.run_su2_direct 28 --check data/su2/bmn_direct_cohomology_j28.json`: all 683 sectors identical (nwords, dimV, rQ, rQup, coh, grav, nongrav)"
+}

@@ -1,0 +1,23 @@
+[     0.0s] sector SU(3) (2J=5; (7, 4, 4)): expected {'m': 5664, 'r_up': 2186, 'grav': 4, 'h': 5, 'bh': 1}, r_down 3473; channels [(3, 0, 0)]
+[     3.5s]   words: n=4: 446929, n+1: 202252 (1.4s)
+[   113.2s]   hw vectors: n=4: 0, n+1: 28523 (109.7s)
+[   117.7s]   functionals: 6681 in 3 column chunks; rows A 0, B 28523, G 0; 6 workers; memmaps in ${TMPDIR}
+[   384.0s]   lower Q-images: 28523 rows x 6681 functionals of sector 4, rank 3473 vs r_down 3473
+[   384.5s]   words: n=5: 202252, n+1: 50370 (0.4s)
+[   390.4s]   hw vectors: n=5: 28523, n+1: 9651 (5.9s)
+[   393.6s]   functionals: 5778 in 3 column chunks; rows A 28523, B 9651, G 46; 6 workers; memmaps in ${TMPDIR}
+[   455.8s]   sector 5: rank per degree {1: 646, 3: 3079, 5: 1939} vs m_d {1: 646, 3: 3079, 5: 1939} -> OK
+[   511.8s]   compressed degree 1: 3101 hw rows -> 662
+[   524.6s]   compressed degree 3: 15376 hw rows -> 3095
+[   529.9s]   compressed degree 5: 10046 hw rows -> 1955
+[   613.3s]   compressed L: (5712, 6681), rank 3473 vs r_down 3473; closed combinations 2239
+[   641.8s]   closed: rank 2191 = m - r_down = 2191; h = 5, grav = 4, non-graviton = 1
+[   670.0s]   non-graviton classes found: 1
+[   671.1s] representatives: {'N': 3, 'group': 'SU', 'lam': [7, 4, 4], 'n': 5, 'seed': 1, 'maxlen': 6, 'maxlen_up': 6, 'r_down': 3473, 'lower_rows': 28523, 'lower_ncols': 6681, 'lower_timing': {'enumerate': 1.4, 'hw': 109.7, 'qimages': 3.5, 'eval_cpu': 263.6, 'eval': 54.8, 'combine': 131.9}, 'm': 5664, 'm_d': {'1': 646, '3': 3079, '5': 1939}, 'words': 202252, 'hw_rows': 28523, 'ncols': 5778, 'r_up': 2186, 'grav': 4, 'h': 5, 'nongrav': 1, 'rep_terms': [201564], 'extra': 16, 'timing': {'enumerate': 0.4, 'hw': 5.9, 'qimages': 1.2, 'grav_hw': 1.6, 'eval_cpu': 86.3, 'eval': 17.2, 'combine': 13.6}, 'time': 671.0}
+[   676.1s]   target SU N=2 (5, 4, 4, 4): npts=2 ncols=438 rank(words)=134
+[   676.4s]   target SU N=2 (5, 4, 4, 4): npts=4 ncols=876 rank(words)=153
+[   677.4s]   target SU N=2 (5, 4, 4, 4): dim=153 exact=47 graviton=0 (1s)
+[   686.7s]   channel x^(3, 0, 0) -> SU(2) (5, 4, 4, 4): dim 153, exact 47, graviton 0; non-graviton components [True]
+[   686.8s] restriction map on the 1 non-graviton classes: rank 1; cores 0
+[   705.6s] closedness checks (fresh points): {'rep0_closed_N3': True}
+[   705.9s] done

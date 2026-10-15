@@ -1,0 +1,6 @@
+[     41s]   words: n=1: 66390, n+1: 96957 (0.7s)
+[    389s]   hw vectors: n=1: 6974, n+1: 12867 (348.5s)
+[    419s]   functionals: 2424 in 1 chunks; rows A 6974, B 12867, G 93
+[    551s]   faithfulness OK: rank per degree {1: 2387} vs exact {1: 2387}
+[    596s]   sector SO_odd N=5 lam=(7, 3, 3) 2J=1: m=2387 closed=1780 exact=1757 h=23 grav=22 non-graviton=1 (556s)
+[    596s] done

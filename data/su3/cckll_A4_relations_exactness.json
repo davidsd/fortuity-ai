@@ -1,0 +1,151 @@
+{
+ "note": "Q-exactness at N=3 of entries of eq. (A.4) of arXiv:2312.16443 ('fundamental trace relations') and of eqs. (4.7)/(4.8), tested on the highest-weight component in the SU(3)_R highest-weight complex (fortuity.hwcoh)",
+ "rows": [
+  {
+   "operator": "R_18^{(0,2)} [0,0] = eps_{a1a2a3} u^{a1bc} v^{a2}_b v^{a3}_c",
+   "label": "R18",
+   "lam": [
+    3,
+    3,
+    3
+   ],
+   "twoJ": 2,
+   "j": 18,
+   "hw_exact_rank": 25,
+   "graviton_classes_in_sector": 0,
+   "functionals_faithful": true,
+   "Q_exact": true,
+   "in_gravitons_plus_exact": true
+  },
+  {
+   "operator": "(R_20^{(0,3)})^i [1,0] = 2 v^a_c v^b_a v^{ic}_b - 3 v^i_a v^c_b v^{ab}_c",
+   "label": "R20",
+   "lam": [
+    4,
+    3,
+    3
+   ],
+   "twoJ": 3,
+   "j": 20,
+   "hw_exact_rank": 80,
+   "graviton_classes_in_sector": 1,
+   "functionals_faithful": true,
+   "Q_exact": true,
+   "in_gravitons_plus_exact": true
+  },
+  {
+   "operator": "(R_22^{(0,3)})^{ij} [2,0] = u^{ij} v^a_b v^b_c v^c_a - 3 u^{a(i} v^{j)}_b v^b_c v^c_a + 3 u^{ab} v^{(i}_a v^{j)}_c v^c_b",
+   "label": "R22",
+   "lam": [
+    5,
+    3,
+    3
+   ],
+   "twoJ": 3,
+   "j": 22,
+   "hw_exact_rank": 214,
+   "graviton_classes_in_sector": 2,
+   "functionals_faithful": true,
+   "Q_exact": true,
+   "in_gravitons_plus_exact": true
+  },
+  {
+   "operator": "(R_26^{(0,4)})^i [1,0] = v^i_a v^a_b v^d_c v^{bc}_d",
+   "label": "R26",
+   "lam": [
+    5,
+    4,
+    4
+   ],
+   "twoJ": 4,
+   "j": 26,
+   "hw_exact_rank": 658,
+   "graviton_classes_in_sector": 1,
+   "functionals_faithful": true,
+   "Q_exact": false,
+   "in_gravitons_plus_exact": true
+  },
+  {
+   "operator": "R_24^{(0,3)} [0,0] = eps_{a1a2a3} u^{a1b} v^{a2}_b v^{a3c}_d v^d_c",
+   "label": "R24",
+   "lam": [
+    4,
+    4,
+    4
+   ],
+   "twoJ": 3,
+   "j": 24,
+   "hw_exact_rank": 184,
+   "graviton_classes_in_sector": 1,
+   "functionals_faithful": true,
+   "Q_exact": false,
+   "in_gravitons_plus_exact": true
+  },
+  {
+   "operator": "eq. (4.8), O = -6 O_6^{(0,3)}",
+   "label": "O48",
+   "lam": [
+    4,
+    4,
+    4
+   ],
+   "twoJ": 3,
+   "j": 24,
+   "hw_exact_rank": 184,
+   "graviton_classes_in_sector": 1,
+   "functionals_faithful": true,
+   "Q_exact": true,
+   "in_gravitons_plus_exact": true
+  },
+  {
+   "operator": "O_1^{(0,3)} of eq. (4.7)",
+   "label": "O1",
+   "lam": [
+    4,
+    4,
+    4
+   ],
+   "twoJ": 3,
+   "j": 24,
+   "hw_exact_rank": 184,
+   "graviton_classes_in_sector": 1,
+   "functionals_faithful": true,
+   "Q_exact": true,
+   "in_gravitons_plus_exact": true
+  },
+  {
+   "operator": "R_30^{(0,5)} [0,0] = v^a_b v^b_c v^c_d v^d_e v^e_a",
+   "label": "R30s",
+   "lam": [
+    5,
+    5,
+    5
+   ],
+   "twoJ": 5,
+   "j": 30,
+   "hw_exact_rank": 973,
+   "graviton_classes_in_sector": 1,
+   "functionals_faithful": true,
+   "Q_exact": false,
+   "in_gravitons_plus_exact": true,
+   "maxlen": 6
+  },
+  {
+   "operator": "(R_30^{(0,5)})^{ijk} [3,0] = eps^{a1a2(i} v^j_{a1} v^{k)}_{a2} v^b_c v^c_d v^d_b",
+   "label": "R30t",
+   "lam": [
+    7,
+    4,
+    4
+   ],
+   "twoJ": 5,
+   "j": 30,
+   "hw_exact_rank": 2186,
+   "graviton_classes_in_sector": 4,
+   "functionals_faithful": true,
+   "Q_exact": true,
+   "in_gravitons_plus_exact": true,
+   "maxlen": 6
+  }
+ ]
+}

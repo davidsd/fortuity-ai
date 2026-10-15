@@ -1,0 +1,326 @@
+{
+ "description": "SO(9) fortuitous class (R-006) restricted to SO(7) x SO(2)",
+ "controls": [
+  [
+   [
+    "u",
+    2,
+    [
+     0,
+     0
+    ]
+   ],
+   [
+    "u",
+    2,
+    [
+     1,
+     2
+    ]
+   ],
+   [
+    "u",
+    2,
+    [
+     1,
+     2
+    ]
+   ],
+   [
+    "v",
+    4,
+    [
+     0,
+     0,
+     0
+    ],
+    0
+   ]
+  ],
+  [
+   [
+    "u",
+    2,
+    [
+     0,
+     0
+    ]
+   ],
+   [
+    "u",
+    3,
+    [
+     0,
+     1,
+     1
+    ]
+   ],
+   [
+    "u",
+    2,
+    [
+     0,
+     2
+    ]
+   ],
+   [
+    "v",
+    3,
+    [
+     0,
+     2
+    ],
+    0
+   ]
+  ],
+  [
+   [
+    "u",
+    2,
+    [
+     0,
+     0
+    ]
+   ],
+   [
+    "v",
+    5,
+    [
+     0,
+     0,
+     0,
+     1
+    ],
+    0
+   ],
+   [
+    "u",
+    3,
+    [
+     1,
+     2,
+     2
+    ]
+   ]
+  ],
+  [
+   [
+    "u",
+    2,
+    [
+     0,
+     0
+    ]
+   ],
+   [
+    "u",
+    2,
+    [
+     0,
+     0
+    ]
+   ],
+   [
+    "u",
+    2,
+    [
+     0,
+     2
+    ]
+   ],
+   [
+    "v",
+    4,
+    [
+     1,
+     1,
+     2
+    ],
+    0
+   ]
+  ],
+  [
+   [
+    "u",
+    2,
+    [
+     0,
+     0
+    ]
+   ],
+   [
+    "v",
+    2,
+    [
+     2
+    ],
+    0
+   ],
+   [
+    "u",
+    4,
+    [
+     0,
+     0,
+     1,
+     2
+    ]
+   ],
+   [
+    "u",
+    2,
+    [
+     0,
+     1
+    ]
+   ]
+  ],
+  [
+   [
+    "u",
+    2,
+    [
+     0,
+     0
+    ]
+   ],
+   [
+    "u",
+    2,
+    [
+     1,
+     2
+    ]
+   ],
+   [
+    "v",
+    3,
+    [
+     1,
+     2
+    ],
+    0
+   ],
+   [
+    "u",
+    3,
+    [
+     0,
+     0,
+     0
+    ]
+   ]
+  ]
+ ],
+ "results": [
+  {
+   "case": "x^(2,0,0) -> SO(7) (1;3,3,3)",
+   "targets": [
+    [
+     2,
+     0,
+     0
+    ]
+   ],
+   "small_group": "SO(7)",
+   "small_sector": [
+    1,
+    3,
+    3,
+    3
+   ],
+   "small_dim": 903,
+   "small_exact": 559,
+   "small_grav": 123,
+   "rep0": {
+    "terms": 1068,
+    "verdict": "NON-GRAVITON",
+    "nonzero": true,
+    "closed": true,
+    "not_exact": true,
+    "non_graviton_component": true
+   },
+   "graviton_controls": [
+    "graviton (mod exact)",
+    "zero",
+    "zero",
+    "graviton (mod exact)",
+    "graviton (mod exact)",
+    "zero"
+   ]
+  },
+  {
+   "case": "x^(1,1,0) -> SO(7) (1;4,2,3)",
+   "targets": [
+    [
+     1,
+     1,
+     0
+    ]
+   ],
+   "small_group": "SO(7)",
+   "small_sector": [
+    1,
+    4,
+    2,
+    3
+   ],
+   "small_dim": 659,
+   "small_exact": 404,
+   "small_grav": 106,
+   "rep0": {
+    "terms": 634,
+    "verdict": "graviton (mod exact)",
+    "nonzero": true,
+    "closed": true,
+    "not_exact": true,
+    "non_graviton_component": false
+   },
+   "graviton_controls": [
+    "zero",
+    "zero",
+    "zero",
+    "zero",
+    "graviton (mod exact)",
+    "zero"
+   ]
+  },
+  {
+   "case": "x^(0,2,0) -> SO(7) (1;5,1,3)",
+   "targets": [
+    [
+     0,
+     2,
+     0
+    ]
+   ],
+   "small_group": "SO(7)",
+   "small_sector": [
+    1,
+    5,
+    1,
+    3
+   ],
+   "small_dim": 268,
+   "small_exact": 137,
+   "small_grav": 64,
+   "rep0": {
+    "terms": 199,
+    "verdict": "graviton (mod exact)",
+    "nonzero": true,
+    "closed": true,
+    "not_exact": true,
+    "non_graviton_component": false
+   },
+   "graviton_controls": [
+    "zero",
+    "zero",
+    "zero",
+    "zero",
+    "zero",
+    "zero"
+   ]
+  }
+ ],
+ "time": 67
+}

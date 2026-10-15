@@ -1,0 +1,1 @@
+[127s] SO_odd N=4: 114 sectors with graviton classes; non-Coulomb graviton classes in 0 new sectors: []

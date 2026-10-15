@@ -1,0 +1,68 @@
+{
+ "what": "SU(2) j=36 sector (9,9;12,12,12), Y=9: the two class representatives v_k (derivative-free, so K and T annihilate them) and their one-loop images Q_1 v_k (classes/su2_j36, increments [1,0] in (8,8;12,12,12)). Equivariance of d_1 under the tree-level generators predicts J Q_1 v_k Q_0-exact. V rows J Q_1 v_k, controls J applied to the three exact vectors of that run. h = target multiplicity - inbound rank - outbound rank (upper bound).",
+ "p": 67108859,
+ "seed": 41,
+ "date": "2026-10-06",
+ "tests": {
+  "K_+": {
+   "target_sector": "(6,8;11,11,11), Y=9",
+   "case_in": "rank:2:7,9,11,11,11:9",
+   "case_out": "rank:2:6,8,11,11,11:10",
+   "multiplicity": 168,
+   "rank_in": 82,
+   "rank_out": 85,
+   "h_upper": 1,
+   "controls_exact": true,
+   "increments": [
+    0,
+    0
+   ],
+   "functionals": 552
+  },
+  "K_-": {
+   "target_sector": "(8,6;11,11,11), Y=9",
+   "case_in": "rank:2:9,7,11,11,11:9",
+   "case_out": "rank:2:8,6,11,11,11:10",
+   "multiplicity": 168,
+   "rank_in": 82,
+   "rank_out": 85,
+   "h_upper": 1,
+   "controls_exact": true,
+   "increments": [
+    0,
+    0
+   ],
+   "functionals": 552
+  },
+  "T_{+,0}": {
+   "target_sector": "(7,9;13,11,11), Y=9",
+   "case_in": "rank:2:8,10,13,11,11:9",
+   "case_out": "rank:2:7,9,13,11,11:10",
+   "multiplicity": 456,
+   "rank_in": 194,
+   "rank_out": 258,
+   "h_upper": 4,
+   "controls_exact": true,
+   "increments": [
+    0,
+    0
+   ],
+   "functionals": 857
+  },
+  "T_{-,0}": {
+   "target_sector": "(9,7;13,11,11), Y=9",
+   "case_in": "rank:2:10,8,13,11,11:9",
+   "case_out": "rank:2:9,7,13,11,11:10",
+   "multiplicity": 456,
+   "rank_in": 194,
+   "rank_out": 258,
+   "h_upper": 4,
+   "controls_exact": true,
+   "increments": [
+    0,
+    0
+   ],
+   "functionals": 857
+  }
+ }
+}

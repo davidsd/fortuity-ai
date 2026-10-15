@@ -1,0 +1,10 @@
+{
+ "computed_by": "Fortuity collaboration (Claude agent), laptop",
+ "date": "2026-09-29",
+ "code": "code/fortuity/bmn/twistedindex.py (twisted Weyl integration, kernel_parity), code/fortuity/bmn/cparity.py, code/fortuity/bmn/gravindex.py (diagonal graviton counts); tests code/tests/test_twistedindex.py",
+ "commit": "7d4812b",
+ "conventions": "BMN sector (2J; q1,q2,q3) of SU(N), letters phi_m (0;e_m), psi_m (1;(1,1,1)-e_m), f (2;(1,1,1)); index Tr (-1)^(2J) with fugacities z^q; C: X -> -X^T on all letters; Y = q1+q2+q3-2J (number of letters); P = C (-1)^Y; per SU(3)_R hw column lam (irrep [lam1-lam2, lam2-lam3]); |lam| = lam1+lam2+lam3",
+ "description": "SU(3) C-twisted BMN index vs cohomology (R-017)",
+ "command": "PYTHONPATH=code python3 scripts/index/c-parity/code/twisted_index.py 3 15",
+ "checked": "all 172 columns agree with the prediction; P-odd only at SU(3) (7,4,4) (the R-007 class); ordinary index from the same code equals the data index per column; independent SU(3) twisted integrator (scripts/oneloop/su-threshold-classes/twisted_index.py) gives I_C = -10 at (7,4,4)"
+}

@@ -1,0 +1,29 @@
+saved run, K=48: exit 0, identical to outputs/indep/indep_grid12.tsv: True
+   merge_grid: 48 chunks, 184 points -> <dir>/merged.tsv
+missing chunk 17: exit 1, output written: False
+   merge_grid: missing chunks [17] of K=48 in <dir>
+leftover chunk 48: exit 1, output written: False
+   merge_grid: chunks [48] are not part of a K=48 run (left over from another run?); use a fresh OUT
+K=24 merge of the 48-chunk run (a smaller rerun into the same OUT): exit 1, output written: False
+   merge_grid: chunks [24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47] are not part of a K=24 run (left over from another run?); use a fresh OUT
+chunk 5 replaced by other points: exit 1, output written: False
+   merge_grid: <dir>/grid12_chunk5.tsv does not hold points 5::48 of the point list (4 rows, 4 expected)
+a '# fail' line in chunk 3: exit 1, output written: False
+   merge_grid: <dir>/grid12_chunk3.tsv reports failed points
+wrong --rmax0 0.9: exit 1, output written: False
+   merge_grid: <dir>/grid12_chunk0.tsv does not hold points 0::48 of the point list (4 rows, 4 expected)
+r1 = '-' in chunk 9 (as written by --no-r1): exit 1, output written: False
+   merge_grid: <dir>/grid12_chunk9.tsv, data row 1: column r1 is '-', not a number
+delta0 = nan in chunk 2: exit 1, output written: False
+   merge_grid: <dir>/grid12_chunk2.tsv, data row 2: column delta0 is 'nan'
+a truncated row in chunk 4: exit 1, output written: False
+   merge_grid: <dir>/grid12_chunk4.tsv, data row 1: 30 fields, the header has 31
+cut_cl = -inf in chunk 7 (only +inf is allowed there): exit 1, output written: False
+   merge_grid: <dir>/grid12_chunk7.tsv, data row 1: column cut_cl is '-inf'
+--points with the grid as a point list (184 points): exit 0, identical to outputs/indep/indep_grid12.tsv: True
+   merge_grid: 48 chunks, 184 points -> <tmp>/pts/merged.tsv
+--points with a point list lacking one point (183 points): exit 1, identical to outputs/indep/indep_grid12.tsv: False
+   merge_grid: <tmp>/pts/pt_chunk39.tsv does not hold points 39::48 of the point list (4 rows, 3 expected)
+compare_scan.py, undamaged merge: 'all 173 matched points agree to the scan's printed precision'
+compare_scan.py, merge with r1 = '-' in data row 6: '173 matched, 1 mismatched'; flagged [['0.0', '0.1']]
+test_merge_grid PASSED

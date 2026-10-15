@@ -1,0 +1,10 @@
+[Fri Oct  2 02:32:05 AM EDT 2026] host=cn050 code 782384e
+ERROR: Unable to locate a modulefile for 'gcc/10.2.0'
+ERROR: Unable to locate a modulefile for 'gcc/10.2.0'
+ERROR: Unable to locate a modulefile for 'gcc/10.2.0'
+ERROR: Unable to locate a modulefile for 'gcc/10.2.0'
+[Fri Oct  2 03:00:22 AM EDT 2026] done Sp-usp6-256-23: COULOMB {'group': 'Sp', 'lam': [8, 3, 3], 'n': 2, 'graviton_classes': 41, 'coulomb_graviton_classes': 40} npts_extra=256 seed=23
+[Fri Oct  2 03:02:34 AM EDT 2026] done Sp-usp6-1024-37: COULOMB {'group': 'Sp', 'lam': [8, 3, 3], 'n': 2, 'graviton_classes': 41, 'coulomb_graviton_classes': 40} npts_extra=1024 seed=37
+[Fri Oct  2 03:07:18 AM EDT 2026] done SO_odd-so7-256-23: COULOMB {'group': 'SO_odd', 'lam': [8, 3, 3], 'n': 2, 'graviton_classes': 41, 'coulomb_graviton_classes': 40} npts_extra=256 seed=23
+[Fri Oct  2 03:07:48 AM EDT 2026] done SO_odd-so7-1024-37: COULOMB {'group': 'SO_odd', 'lam': [8, 3, 3], 'n': 2, 'graviton_classes': 41, 'coulomb_graviton_classes': 40} npts_extra=1024 seed=37
+[Fri Oct  2 03:07:48 AM EDT 2026] done

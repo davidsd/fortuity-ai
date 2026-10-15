@@ -1,0 +1,9 @@
+{
+ "description": "SU(4) j=28, highest weight (6,4,4) of [2,0]: exact sector dimensions and direct cohomology for 2J=8,7",
+ "computed_by": "Fortuity collaboration (Claude agent)",
+ "date": "2026-09-26",
+ "code": "code/fortuity/bmn/fullindex.py (partition_dims), symdirect.py",
+ "commit": "07cc88d",
+ "conventions": "BMN sector of SU(N); sector = (2J, q1, q2, q3) with q_I = R_I + J, j = 2 sum q; Chang-Lin / Choi et al. conventions (summary/fortuity-summary.pdf, section 2)",
+ "command": "PYTHONPATH=. python3 scripts/run_su4_energy.py 8,7"
+}

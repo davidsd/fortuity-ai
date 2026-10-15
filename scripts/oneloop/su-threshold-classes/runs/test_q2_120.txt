@@ -1,0 +1,19 @@
+120 random derivative-free multitraces (1-2 traces of 2-5 letters)
+1. exchange symmetry of the outer letters: 0 violations (N = 2, 3)
+2. N=2: Q_1^2 != 0 on 54 words; violations of Q_1^2 + K_2 {Q_0,U} = 0: 0; fitted K_2: ['-1/6']
+2. N=3: Q_1^2 != 0 on 54 words; violations of Q_1^2 + K_2 {Q_0,U} = 0: 0; fitted K_2: ['-1/6']
+2. N=4: Q_1^2 != 0 on 54 words; violations of Q_1^2 + K_2 {Q_0,U} = 0: 0; fitted K_2: ['-1/6']
+   distinct K_2 over all N: ['-1/6']
+   negative control (wrong D2 weight), N=3: violations 54, distinct fitted constants 0
+3. graded commutators on the same words, N=3 (violations for U | for Q_1 | words where J w != 0):
+   E_1      :   0 |   0 | 84
+   E_2      :   0 |   0 | 93
+   F_1      :   0 |   0 | 92
+   F_2      :   0 |   0 | 84
+   C        :   0 |   0 | 120
+   d_theta0 :   0 |   0 | 104
+   d_theta1 :   0 |   0 | 102
+   d_theta2 :   0 |   0 | 101
+   S_0      :   0 |   0 | 109
+   S_1      :   0 |   0 | 105
+   S_2      :   0 |   0 | 104

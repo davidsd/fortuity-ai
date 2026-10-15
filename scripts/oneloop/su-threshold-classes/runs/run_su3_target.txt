@@ -1,0 +1,32 @@
+target (2, 2, 8, 8, 8) Y=9: singlet mult 2503 {0: 183, 2: 1470, 4: 850}; preimage (3, 3, 8, 8, 8) Y=8: words 298561, hw rows 12802, singlet mult 4747 {1: 1304, 3: 2845, 5: 598} (1s)
+(a) preimage hw rank per degree {1: 1304, 3: 2845, 5: 598} vs {1: 1304, 3: 2845, 5: 598} -> SPAN (68s)
+(b) target words in play 422316; exact rows 12801; Q_1 v sizes [69978]; controls [17340, 22896, 27012] (78s)
+[seed 41] target functionals 3251; exact rank 1897 (156s)
+[seed 41] Q_1 v residual nonzero entries per class: [0]
+[seed 41] RANK of residuals = number of classes lifted at one loop: 0
+[seed 41] controls Q_1 Q_0 u residuals (must be 0): [0, 0, 0]
+[seed 41] residual on the non-Coulomb combinations: nonzero entries [0]
+[seed 43] target functionals 3251; exact rank 1897 (237s)
+[seed 43] Q_1 v residual nonzero entries per class: [0]
+[seed 43] RANK of residuals = number of classes lifted at one loop: 0
+[seed 43] controls Q_1 Q_0 u residuals (must be 0): [0, 0, 0]
+[seed 43] residual on the non-Coulomb combinations: nonzero entries [0]
+done (237s)
+      236.99 real       236.10 user         3.44 sys
+          3789684736  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+             2063880  page reclaims
+                  46  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+                 163  voluntary context switches
+               60522  involuntary context switches
+       4531100027257  instructions retired
+        926291541334  cycles elapsed
+          3744533936  peak memory footprint

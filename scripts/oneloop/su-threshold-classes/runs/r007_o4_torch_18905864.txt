@@ -1,0 +1,119 @@
+ffblas (MKL) loaded
+node cs623.hpc.nyu.edu, cpus 8
+=== r007_o4_in Wed Sep 30 21:05:33 EDT 2026
+21:05:34 hw: loading cache/fullpar_hw_r007_o4_in.pkl
+21:05:38 Q_0: 34206 preimage words -> 67358 target words in play (4s)
+21:05:38 functionals 25965 in 1 chunks (target hw multiplicity 25889 {4: 25889}); B rows 21024, V rows 0; workers 8
+21:10:11   chunk d=4 cols 0:25965 done (eval 136s, combine 137s)
+21:11:39 rank B (Q_0-exact subspace of the target, hw) = 12602 (88s)
+21:11:39 controls: rank 12602 -> 12602 (exact, OK); Q_1 v rank increments per class []
+21:16:50 wrote classes/r007_o4_in/fullpar_seed41.json (677s)
+{
+ "N": 3,
+ "SEC": [
+  5,
+  5,
+  14,
+  8,
+  8
+ ],
+ "Y": 7,
+ "maxlen": 6,
+ "seed": 41,
+ "n_vecs": 0,
+ "n_ctrl": 0,
+ "p": 67108859,
+ "case": "r007_o4_in",
+ "tp_words": 34206,
+ "tp_m": 18648,
+ "tp_rows": 21024,
+ "tp_raw_rows": 34206,
+ "q0_nnz": 342906,
+ "q0_max_row_l1": 22.0,
+ "target_words": 67358,
+ "csec": 0,
+ "target_m_d": {
+  "4": 25889
+ },
+ "ncols": 25965,
+ "timing_eval": 136,
+ "timing_combine": 137,
+ "nB": 21024,
+ "nV": 0,
+ "rank_B": 12602,
+ "rank_after_controls": 12602,
+ "controls_exact": true,
+ "lifted_increments": [],
+ "n_lifted": 0,
+ "timing_rank": 88,
+ "span": {
+  "rank": 18648,
+  "m": 18648,
+  "spans": true,
+  "deficits": []
+ },
+ "time": 677
+}=== r007_o4_out Wed Sep 30 21:16:51 EDT 2026
+21:16:52 hw: (4, 4, 14, 8, 8) Y=7: 41600 words (0s)
+21:16:52 hw: exact multiplicities (C sector 0) of 172 stripped contents, total 25889 (1s)
+21:16:53   hw: 20/172 stripped contents, 12061/41600 words (1s)
+21:16:53   hw: 40/172 stripped contents, 20057/41600 words (1s)
+21:16:54   hw: 60/172 stripped contents, 25677/41600 words (2s)
+21:16:54   hw: 80/172 stripped contents, 31101/41600 words (2s)
+21:16:54   hw: 100/172 stripped contents, 34957/41600 words (2s)
+21:16:54   hw: 120/172 stripped contents, 37748/41600 words (2s)
+21:16:54   hw: 140/172 stripped contents, 39704/41600 words (2s)
+21:16:54   hw: 160/172 stripped contents, 41301/41600 words (2s)
+21:16:54 hw: 172 stripped contents, 41600 shapes; raw hw rows 41600, exact multiplicity 25889, compressed rows 27265 (2s)
+21:16:58 Q_0: 41600 preimage words -> 53414 target words in play (3s)
+21:16:58 functionals 19782 in 1 chunks (target hw multiplicity 19714 {5: 19714}); B rows 27265, V rows 0; workers 8
+21:20:28   chunk d=5 cols 0:19782 done (eval 85s, combine 124s)
+21:22:32 rank B (Q_0-exact subspace of the target, hw) = 13110 (124s)
+21:22:32 controls: rank 13110 -> 13110 (exact, OK); Q_1 v rank increments per class []
+21:24:02 wrote classes/r007_o4_out/fullpar_seed41.json (431s)
+{
+ "N": 3,
+ "SEC": [
+  4,
+  4,
+  14,
+  8,
+  8
+ ],
+ "Y": 8,
+ "maxlen": 6,
+ "seed": 41,
+ "n_vecs": 0,
+ "n_ctrl": 0,
+ "p": 67108859,
+ "case": "r007_o4_out",
+ "tp_words": 41600,
+ "tp_m": 25889,
+ "tp_rows": 27265,
+ "tp_raw_rows": 41600,
+ "q0_nnz": 298906,
+ "q0_max_row_l1": 16.0,
+ "target_words": 53414,
+ "csec": 0,
+ "target_m_d": {
+  "5": 19714
+ },
+ "ncols": 19782,
+ "timing_eval": 85,
+ "timing_combine": 124,
+ "nB": 27265,
+ "nV": 0,
+ "rank_B": 13110,
+ "rank_after_controls": 13110,
+ "controls_exact": true,
+ "lifted_increments": [],
+ "n_lifted": 0,
+ "timing_rank": 124,
+ "span": {
+  "rank": 25889,
+  "m": 25889,
+  "spans": true,
+  "deficits": []
+ },
+ "time": 431
+}ORDERS DONE Wed Sep 30 21:24:02 EDT 2026

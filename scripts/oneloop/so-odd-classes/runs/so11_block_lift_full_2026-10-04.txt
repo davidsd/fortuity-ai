@@ -1,0 +1,28 @@
+
+== SO(11) [4,0] (1;7,3,3): 24278 terms, sector {(1, 1, 14, 6, 6)}, info {'group': 'SO_odd', 'N': 5, 'lam': [7, 3, 3], 'n': 1, 'm': 2387, 'closed': 1780, 'r_exact': 1757, 'grav': 22, 'h': 23, 'nongrav': 1, 'rep_terms': [24278], 'time': 555.5}
+Q_0 O = 0 on so(11): True | on so(13): False
+Q_1 O: 69404 terms; rho(Q_1 O): 1816 terms, sectors {(0, 0, 6, 6, 6)}, nonzero on so(7): True  (17 s)
+4436 SO(11) graviton polynomials; nonzero rho(Q_1 g): 293  (648 s)
+controls with nonzero rho: 1
+  seed 11, 3060 functionals: rank target words 826, exact 741, exact + extra 741, rank increase by tests [1, 0]
+  seed 11, 6030 functionals: rank target words 826, exact 741, exact + extra 741, rank increase by tests [1, 0]
+  seed 12, 3060 functionals: rank target words 826, exact 741, exact + extra 741, rank increase by tests [1, 0]
+  seed 12, 6030 functionals: rank target words 826, exact 741, exact + extra 741, rank increase by tests [1, 0]
+SO(11) [4,0] (1;7,3,3) two-block test: {'source_words': 6027, 'target_words': 1974, 'increases': [1, 0], 'stable': True, 'seeds_agree': True, 'ranks': [(826, 741, 741), (826, 741, 741)]}
+  seed 13, 3060 functionals: rank target words 826, exact 741, exact + extra 742, rank increase by tests [0]
+  seed 13, 6030 functionals: rank target words 826, exact 741, exact + extra 742, rank increase by tests [0]
+SO(11) [4,0] (1;7,3,3): rho(Q_1 O) in span(exact, Q_1 O_18): True  (688 s)
+
+== SO(11) [0,2] (1;5,5,3): 56021 terms, sector {(1, 1, 10, 10, 6)}, info {'group': 'SO_odd', 'N': 5, 'lam': [5, 5, 3], 'n': 1, 'm': 2354, 'closed': 1820, 'r_exact': 1808, 'grav': 11, 'h': 12, 'nongrav': 1, 'rep_terms': [56021], 'time': 497.0}
+Q_0 O = 0 on so(11): True | on so(13): False
+Q_1 O: 161663 terms; rho(Q_1 O): 1893 terms, sectors {(0, 0, 6, 6, 6)}, nonzero on so(7): True  (45 s)
+6458 SO(11) graviton polynomials; nonzero rho(Q_1 g): 293  (9357 s)
+controls with nonzero rho: 1
+  seed 11, 3060 functionals: rank target words 826, exact 741, exact + extra 741, rank increase by tests [1, 0]
+  seed 11, 6030 functionals: rank target words 826, exact 741, exact + extra 741, rank increase by tests [1, 0]
+  seed 12, 3060 functionals: rank target words 826, exact 741, exact + extra 741, rank increase by tests [1, 0]
+  seed 12, 6030 functionals: rank target words 826, exact 741, exact + extra 741, rank increase by tests [1, 0]
+SO(11) [0,2] (1;5,5,3) two-block test: {'source_words': 6027, 'target_words': 1974, 'increases': [1, 0], 'stable': True, 'seeds_agree': True, 'ranks': [(826, 741, 741), (826, 741, 741)]}
+  seed 13, 3060 functionals: rank target words 826, exact 741, exact + extra 742, rank increase by tests [0]
+  seed 13, 6030 functionals: rank target words 826, exact 741, exact + extra 742, rank increase by tests [0]
+SO(11) [0,2] (1;5,5,3): rho(Q_1 O) in span(exact, Q_1 O_18): True  (9395 s)

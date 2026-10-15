@@ -1,0 +1,7 @@
+su2:9:6,6,6 --factor 3
+su2:10:7,6,6 --factor 3
+su2:11:7,7,6 --factor 3
+su2:12:7,7,7 --factor 3
+su2:11:8,7,7 --factor 3
+rank:2:7,7,12,10,10:7 --factor 3
+rank:2:6,6,12,10,10:8 --cartan 2000 --factor 3

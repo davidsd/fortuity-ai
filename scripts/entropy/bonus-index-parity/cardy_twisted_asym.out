@@ -1,0 +1,5 @@
+SU(3) so-type: (a) 3-torus max 0.8900378 at th/pi = [1. 1. 1.] ;  (b) x=1 slice max 0.7406240 at th/pi = (0.66667, 0.66667, 0.66667) [symmetric protected 0.7406240]
+SU(4) so-type: (a) 3-torus max 0.8262379 at th/pi = [1. 1. 1.] ;  (b) x=1 slice max 0.7047299 at th/pi = (0.66667, 0.66667, 0.66667) [symmetric protected 0.7047299]
+SU(4) sp-type: (a) 3-torus max 0.6768548 at th/pi = [0.48069 0.48069 1.13182] ;  (b) x=1 slice max 0.6666667 at th/pi = (0.88889, 1.55556, 1.55556) [symmetric protected 0.6299605]
+SU(5) so-type: (a) 3-torus max 0.7775196 at th/pi = [1. 1. 1.] ;  (b) x=1 slice max 0.6786044 at th/pi = (0.66667, 0.66667, 0.66667) [symmetric protected 0.6786044]
+time 1.92 s

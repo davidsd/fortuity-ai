@@ -1,0 +1,94 @@
+{
+ "description": "SU(3) kernel parity indices T = tr(P | ker rho), O = sum_(ker rho) (-1)^Y per hw column",
+ "N": 3,
+ "qmax": 15,
+ "diag_source": "diag_dims_N3_j36.pkl",
+ "rows": [
+  {
+   "lam": [
+    4,
+    4,
+    4
+   ],
+   "j": 24,
+   "T": 1,
+   "diag_unsigned": 1,
+   "O": -1,
+   "known": {
+    "total": 2,
+    "BH": 0,
+    "noncoulomb": 1
+   },
+   "T_predicted": 1
+  },
+  {
+   "lam": [
+    5,
+    4,
+    4
+   ],
+   "j": 26,
+   "T": 1,
+   "diag_unsigned": 2,
+   "O": -1,
+   "known": {
+    "total": 3,
+    "BH": 0,
+    "noncoulomb": 1
+   },
+   "T_predicted": 1
+  },
+  {
+   "lam": [
+    5,
+    5,
+    4
+   ],
+   "j": 28,
+   "T": 1,
+   "diag_unsigned": 3,
+   "O": -1,
+   "known": {
+    "total": 4,
+    "BH": 0,
+    "noncoulomb": 1
+   },
+   "T_predicted": 1
+  },
+  {
+   "lam": [
+    5,
+    5,
+    5
+   ],
+   "j": 30,
+   "T": 2,
+   "diag_unsigned": 0,
+   "O": 0,
+   "known": {
+    "total": 2,
+    "BH": 0,
+    "noncoulomb": 2
+   },
+   "T_predicted": 2
+  },
+  {
+   "lam": [
+    7,
+    4,
+    4
+   ],
+   "j": 30,
+   "T": -1,
+   "diag_unsigned": 11,
+   "O": 1,
+   "known": {
+    "total": 12,
+    "BH": 1,
+    "noncoulomb": 0
+   },
+   "T_predicted": -1
+  }
+ ],
+ "mismatches": []
+}

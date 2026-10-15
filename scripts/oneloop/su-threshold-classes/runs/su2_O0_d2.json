@@ -1,0 +1,292 @@
+{
+ "what": "d_2 on the SU(2) threshold class O_0 = (5,5;8,8,8), Y = 7: z = K_2 U x + Q_1 y with Q_0 y = -Q_1 x (d2_make.py, q2bmn.py), tested for Q_0-exactness in T_2 = (4,4;8,8,8), Y = 6 (fullpar.py rank:2:5,5,8,8,8:6). Test rows: z, two Coulomb classes t_0, t_1 of T_2 (classes/su2p_Y6 representatives 0 and 1), z + noise; three exact controls Q_0 u.",
+ "date": "2026-10-06",
+ "K2": "-1/6",
+ "result": "increment 0 for z: d_2[O_0] = 0",
+ "first_solution": {
+  "make": {
+   "case": "su2_j24",
+   "N": 2,
+   "K2": "-1/6",
+   "p": 67108859,
+   "x_from": "dense solve",
+   "q1x_equals_stored": true,
+   "x_words": 84,
+   "q1x_words": 5910,
+   "y_words": 7497,
+   "Ux_words": 2127,
+   "q1y_words": 96323,
+   "z_words": 97115,
+   "z_sector": [
+    4,
+    4,
+    8,
+    8,
+    8
+   ],
+   "check_Q0y_plus_Q1x_nonzero": 0,
+   "control_Q0y_plus_2Q1x_nonzero": 1392,
+   "check_values": 1416,
+   "check_Q0z_nonzero": 0,
+   "control_2K2_nonzero": 984,
+   "check_Q0z_values": 2064,
+   "z_nonzero_values": 1416,
+   "E_z_nonzero": [
+    0,
+    0
+   ],
+   "test_rows": [
+    "z",
+    "t_0",
+    "t_1",
+    "z + noise"
+   ],
+   "ctrl_words": [
+    786,
+    90,
+    164
+   ],
+   "vec_words": 99433,
+   "n_ctrl": 3,
+   "time": 29
+  },
+  "exactness": {
+   "N": 2,
+   "SEC": [
+    5,
+    5,
+    8,
+    8,
+    8
+   ],
+   "Y": 6,
+   "maxlen": 3,
+   "seed": 41,
+   "n_vecs": 4,
+   "n_ctrl": 3,
+   "p": 67108859,
+   "case": "rank:2:5,5,8,8,8:6",
+   "tp_words": 21199,
+   "tp_m": 905,
+   "tp_rows": 2273,
+   "tp_raw_rows": 2925,
+   "q0_nnz": 288043,
+   "q0_max_row_l1": 46.0,
+   "target_words": 137235,
+   "csec": 0,
+   "target_m_d": {
+    "0": 48,
+    "2": 433,
+    "4": 391,
+    "6": 12
+   },
+   "ncart": 0,
+   "ncols": 1171,
+   "timing_eval": 3,
+   "timing_combine": 2,
+   "nB": 2273,
+   "nV": 7,
+   "rank_B": 532,
+   "rank_after_controls": 532,
+   "controls_exact": true,
+   "lifted_increments": [
+    0,
+    1,
+    1,
+    1
+   ],
+   "n_lifted": 3,
+   "timing_rank": 1,
+   "span": {
+    "rank": 905,
+    "m": 905,
+    "spans": true,
+    "deficits": []
+   },
+   "time": 8
+  }
+ },
+ "second_solution_of_the_linear_system": {
+  "make": {
+   "case": "su2_j24",
+   "N": 2,
+   "K2": "-1/6",
+   "p": 67108859,
+   "x_from": "xker_aug.npy",
+   "x_words": 84,
+   "q1x_words": 5910,
+   "y_words": 11340,
+   "Ux_words": 2127,
+   "q1y_words": 119985,
+   "z_words": 120777,
+   "z_sector": [
+    4,
+    4,
+    8,
+    8,
+    8
+   ],
+   "check_Q0y_plus_Q1x_nonzero": 0,
+   "control_Q0y_plus_2Q1x_nonzero": 1392,
+   "check_values": 1416,
+   "check_Q0z_nonzero": 0,
+   "control_2K2_nonzero": 984,
+   "check_Q0z_values": 2064,
+   "z_nonzero_values": 1416,
+   "E_z_nonzero": [
+    0,
+    0
+   ],
+   "test_rows": [
+    "z",
+    "t_0",
+    "t_1",
+    "z + noise"
+   ],
+   "ctrl_words": [
+    786,
+    90,
+    164
+   ],
+   "vec_words": 122079,
+   "n_ctrl": 3,
+   "time": 31
+  },
+  "exactness": {
+   "N": 2,
+   "SEC": [
+    5,
+    5,
+    8,
+    8,
+    8
+   ],
+   "Y": 6,
+   "maxlen": 3,
+   "seed": 41,
+   "n_vecs": 4,
+   "n_ctrl": 3,
+   "p": 67108859,
+   "case": "rank:2:5,5,8,8,8:6",
+   "tp_words": 21199,
+   "tp_m": 905,
+   "tp_rows": 2273,
+   "tp_raw_rows": 2925,
+   "q0_nnz": 288043,
+   "q0_max_row_l1": 46.0,
+   "target_words": 149439,
+   "csec": 0,
+   "target_m_d": {
+    "0": 48,
+    "2": 433,
+    "4": 391,
+    "6": 12
+   },
+   "ncart": 0,
+   "ncols": 1171,
+   "timing_eval": 3,
+   "timing_combine": 2,
+   "nB": 2273,
+   "nV": 7,
+   "rank_B": 532,
+   "rank_after_controls": 532,
+   "controls_exact": true,
+   "lifted_increments": [
+    0,
+    1,
+    1,
+    1
+   ],
+   "n_lifted": 3,
+   "timing_rank": 1,
+   "time": 7
+  }
+ },
+ "rows_of_the_seed_checks": [
+  "z",
+  "d1_0",
+  "d1_1",
+  "d1_2",
+  "d1_3",
+  "d1_4",
+  "d1_5",
+  "t_0",
+  "t_1",
+  "z + noise"
+ ],
+ "seed_checks": {
+  "classes/rank_2_5-5-8-8-8_6/fullpar_seed41.json": {
+   "seed": 41,
+   "ncols": 1171,
+   "rank_B": 532,
+   "controls_exact": true,
+   "increments": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1
+   ]
+  },
+  "classes/rank_2_5-5-8-8-8_6/fullpar_seed43.json": {
+   "seed": 43,
+   "ncols": 1171,
+   "rank_B": 532,
+   "controls_exact": true,
+   "increments": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1
+   ]
+  },
+  "classes/rank_2_5-5-8-8-8_6/fullpar_seed47.json": {
+   "seed": 47,
+   "ncols": 1171,
+   "rank_B": 532,
+   "controls_exact": true,
+   "increments": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1
+   ]
+  },
+  "classes/rank_2_5-5-8-8-8_6_f2/fullpar_seed41.json": {
+   "seed": 41,
+   "ncols": 2312,
+   "rank_B": 532,
+   "controls_exact": true,
+   "increments": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1
+   ]
+  }
+ },
+ "note_seed_checks": "third solution y (integer elimination, d2_make.py of 2026-10-06 noon) with six random closed y' (rows d1_j = Q_1 y'_j): evaluation seeds 41, 43, 47 and seed 41 with twice the points"
+}

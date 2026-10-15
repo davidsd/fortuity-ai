@@ -1,0 +1,10 @@
+{
+ "description": "Explicit Q-preimage of eq. (4.8) of arXiv:2312.16443: f-free SU(3)-singlet lambda_0 in sector (4;4,4,4), content (4 phi, 4 psi), with (4.8) = Q_code(lambda_0) = i Q_paper(lambda_0) on 3x3 traceless matrices; 99 covariant monomials, exact rational coefficients with common denominator 360; includes the expanded canonical form",
+ "computed_by": "Fortuity collaboration (Claude agent)",
+ "date": "2026-09-26",
+ "code": "scripts/bmn/su3-level24/singlet_preimage.py, singlet_preimage_rational.py, singlet_preimage_best.py",
+ "commit": "bc72c71",
+ "conventions": "D-006 (Chang-Lin / Choi et al. BMN conventions as in fortuity.bmn.words); Q_paper = -i Q_code; sector (2J; q1,q2,q3), q_I = R_I + J, j = 2 sum q",
+ "command": "python3 singlet_preimage.py; python3 singlet_preimage_best.py",
+ "checked": "solved at 5 primes below 2^26 and combined by CRT (rational reconstruction complete from 2 primes, unchanged by 3 more); Q(lambda_0) - (4.8) vanishes on random 3x3 matrices at three further primes (40 points each), is nonzero formally and at N=4,5"
+}

@@ -1,0 +1,19 @@
+PASS  SU(3)>SU(2)xU(1) coefficient of x1^0: 120 big terms -> 120 small terms; nonzero numeric entries 64
+PASS  SU(3)>SU(2)xU(1) coefficient of x1^1: 120 big terms -> 233 small terms; nonzero numeric entries 64
+PASS  SU(3)>SU(2)xU(1) coefficient of x1^2: 120 big terms -> 220 small terms; nonzero numeric entries 64
+PASS  SU(3)>SU(2)xU(1) coefficient of x1^3: 120 big terms -> 117 small terms; nonzero numeric entries 64
+PASS  SU(3)>SU(2)xU(1) coefficient of x1^4: 120 big terms -> 34 small terms; nonzero numeric entries 64
+  SO(9) words in (1, 5, 3, 3): 14504
+PASS  SO(9)>SO(7)xSO(2) (1, 5, 3, 3) coefficient of x1^0: 120 big terms -> 120 small terms; nonzero numeric entries 4
+PASS  SO(9)>SO(7)xSO(2) (1, 5, 3, 3) coefficient of x1^2: 120 big terms -> 18 small terms; nonzero numeric entries 4
+PASS  SO(9)>SO(7)xSO(2) (1, 5, 3, 3) coefficient of x1^4: 120 big terms -> 2 small terms; nonzero numeric entries 4
+  SO(9) words in (3, 5, 4, 4): 256676
+PASS  SO(9)>SO(7)xSO(2) (3, 5, 4, 4) coefficient of x1^0: 120 big terms -> 120 small terms; nonzero numeric entries 16
+PASS  SO(9)>SO(7)xSO(2) (3, 5, 4, 4) coefficient of x1^2: 120 big terms -> 7 small terms; nonzero numeric entries 16
+PASS  SO(9)>SO(7)xSO(2) (3, 5, 4, 4) coefficient of x1^4: 120 big terms -> 0 small terms; nonzero numeric entries 0
+  SO(11) words in (1;7,3,3): 66390
+PASS  SO(11)>SO(7)xSO(2)^2 total degree 4: 80 big terms -> 7 small terms; nonzero numeric entries 4
+PASS  composition SO(11)>SO(9)xSO(2)>SO(7)xSO(2)^2 equals the two-block map (1 terms)
+PASS  SO(2) restriction commutes with Q formally (98 terms)
+PASS  U(1) restriction commutes with Q formally (1181 terms)
+ALL PASS  (675s)

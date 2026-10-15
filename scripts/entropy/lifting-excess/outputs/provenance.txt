@@ -1,0 +1,80 @@
+# T-041 provenance of the cluster runs. Recorded 2026-10-02 by read-only queries on symmetry (no job submitted,
+# nothing changed there), after the jobs had finished.
+#
+# 1. Slurm accounting record of the five T-041 jobs. Command:
+#    ssh symmetry 'export PATH=/cm/shared/apps/slurm/current/bin:$PATH; sacct -X -j 568105,568138,568139,568140,568141 --format=JobID,JobName%22,Partition,NodeList,Submit,Start,End,Elapsed,State,ExitCode'
+JobID                       JobName  Partition        NodeList              Submit               Start                 End    Elapsed      State ExitCode
+------------ ---------------------- ---------- --------------- ------------------- ------------------- ------------------- ---------- ---------- --------
+568105                    t041-prod       amdq           cn084 2026-10-02T12:45:47 2026-10-02T12:45:48 2026-10-02T13:04:32   00:18:44  COMPLETED      0:0
+568138                    t041-main       amdq           cn083 2026-10-02T13:46:43 2026-10-02T13:46:44 2026-10-02T14:31:48   00:45:04  COMPLETED      0:0
+568139                t041-extended       amdq           cn085 2026-10-02T13:46:43 2026-10-02T13:46:44 2026-10-02T13:51:03   00:04:19  COMPLETED      0:0
+568140            t041_indep_points  amddebugq           cn107 2026-10-02T13:46:43 2026-10-02T13:46:44 2026-10-02T13:47:58   00:01:14  COMPLETED      0:0
+568141              t041_indep_grid  amddebugq           cn097 2026-10-02T13:46:43 2026-10-02T13:46:44 2026-10-02T13:46:58   00:00:14  COMPLETED      0:0
+#    Times are EDT (the cluster's local time). Job 568105's wall time (18 min 44 s) is close to its longest process
+#    (su4, 18 min 37 s in outputs/torus_unequal_su4.time), so its seven processes ran concurrently; their times in
+#    outputs/*.time sum to 59 min 42 s.
+#
+# 2. The checkout. outputs/indep/verify_freeenergy.out (job 568140) prints the repo package path
+#    ${SCRATCH}/fortuity-t037/code/fortuity/full/letters.py, so that job ran with
+#    REPO=${SCRATCH}/fortuity-t037. The other job outputs do not print REPO; that checkout holds every
+#    script they ran, with the md5 below, and is presumably where all five were submitted from.
+#    That folder is a copy of the repo without .git: 'git rev-parse HEAD' there fails with "not a git repository",
+#    so no commit can be read from it. Instead, the md5 of every script the jobs ran was compared with the local file
+#    (symmetry: md5sum, in ${SCRATCH}/fortuity-t037; local: md5 -q, in the repo root):
+# path                                                      md5 on symmetry                    md5 local                          equal
+scripts/entropy/lifting-excess/code/rf/scan_kklp_charges.py        f57bb4edc69f294d8884056261b60ce5   f57bb4edc69f294d8884056261b60ce5   yes
+scripts/entropy/lifting-excess/code/cardy_torus_unequal.py         d3336305cbfd04b1e1c0c639fa5b65ef   d3336305cbfd04b1e1c0c639fa5b65ef   yes
+scripts/entropy/lifting-excess/code/cardy_lib.py                   e6487ad61cd114d9a5136f4df34f00c1   e6487ad61cd114d9a5136f4df34f00c1   yes
+scripts/entropy/lifting-excess/physics/scan_extended.py            471600900a924b16e13697a1faa053e5   471600900a924b16e13697a1faa053e5   yes
+scripts/entropy/lifting-excess/physics/classical_max.py            6cb394d2c4ac231f844c1e7644ca42b9   6cb394d2c4ac231f844c1e7644ca42b9   yes
+scripts/entropy/lifting-excess/indep/indep_delta_r1.py             360510057e992e47e18a8da4d4b04a16   360510057e992e47e18a8da4d4b04a16   yes
+scripts/entropy/lifting-excess/indep/verify_freeenergy.py          11e9e5bbd3fcaf9f38824d0604df7133   11e9e5bbd3fcaf9f38824d0604df7133   yes
+scripts/entropy/lifting-excess/indep/points_wedge.txt              2724d6179d3b5bffa057977f44f810c6   2724d6179d3b5bffa057977f44f810c6   yes
+scripts/entropy/lifting-excess/cluster/run_t041.sbatch             59df781cc72bd568d9993a1e73314bd2   59df781cc72bd568d9993a1e73314bd2   yes
+scripts/entropy/lifting-excess/cluster/run_extended.sbatch         99fa912fd6cef22d8be87e0224860b03   99fa912fd6cef22d8be87e0224860b03   yes
+scripts/entropy/lifting-excess/indep/run_indep_grid.sbatch         431656fb6feb40a7f6a71dd05bccac15   431656fb6feb40a7f6a71dd05bccac15   yes
+scripts/entropy/lifting-excess/indep/run_indep_points.sbatch       e71b1ac6fe2baa62c507eb213ce3c41a   e71b1ac6fe2baa62c507eb213ce3c41a   yes
+scripts/entropy/bonus-index-parity/rf/scan_kklp_charges.py             ba1871b27bab7f9ef7167319525b3c49   ba1871b27bab7f9ef7167319525b3c49   yes
+scripts/entropy/bonus-index-parity/cardy_torus_unequal.py              c71a426e1ab92ca66fd6c183dc5c9ea9   c71a426e1ab92ca66fd6c183dc5c9ea9   yes
+scripts/entropy/bonus-index-parity/cardy_lib.py                        e6487ad61cd114d9a5136f4df34f00c1   e6487ad61cd114d9a5136f4df34f00c1   yes
+code/fortuity/full/letters.py                              b5244ae928332ba428c2eba7583eb3ad   b5244ae928332ba428c2eba7583eb3ad   yes
+#    The local t038/ scripts and letters.py equal those at commit fa9436b ('git diff --quiet fa9436b -- <files>').
+#    The t038/ scripts are what job 568105 ran; the t041/ scripts are what jobs 568138-568141 ran.
+#
+# 3. Output folders named in the job scripts, and where their contents are in outputs/ (copied back by hand):
+#    ${SCRATCH}/t041/main/568138/*            -> outputs/main/
+#    ${SCRATCH}/t041/extended/568139/*        -> outputs/extended/
+#    ${SCRATCH}/t041/indep/*                  -> outputs/indep/    (jobs 568140 and 568141)
+#    ${SCRATCH}/slurm_logs/<name>_<jobid>.out -> outputs/logs_<name>_<jobid>.out
+#    Job 568105 (no job script or log kept): its outputs are the top-level files outputs/scan12.tsv, scan12.err,
+#    scan_selftest.out, torus_unequal_<group>.out and *.time. outputs/scan12_clean.tsv is a hand edit of scan12.tsv,
+#    identical to: sed '49s/^/# /' outputs/scan12.tsv (checked with cmp).
+#
+# 4. Added 2026-10-02 (later): job 568296, the independent check of the segments with one negative charge
+#    (indep/run_indep_segments.sbatch; indep_delta_r1.py at the 245 points of indep/points_segments.txt, --h 1e-5).
+#    sacct record (same command as in 1, with -j 568296):
+JobID                       JobName  Partition        NodeList              Submit               Start                 End    Elapsed      State ExitCode
+------------ ---------------------- ---------- --------------- ------------------- ------------------- ------------------- ---------- ---------- --------
+568296               t041_indep_seg  amddebugq           cn112 2026-10-02T17:28:25 2026-10-02T17:28:26 2026-10-02T17:28:41   00:00:15  COMPLETED      0:0
+#    Run from the same checkout, REPO=${SCRATCH}/fortuity-t037, after copying points_segments.txt and
+#    run_indep_segments.sbatch into it. md5 of what ran, from the job's own log (outputs/logs_t041_indep_seg_568296.out;
+#    the third line is Slurm's spooled copy of the job script), on symmetry, and of the local files (md5 -r):
+# path                                                      md5 in the job log                 md5 local                          equal
+scripts/entropy/lifting-excess/indep/indep_delta_r1.py             360510057e992e47e18a8da4d4b04a16   360510057e992e47e18a8da4d4b04a16   yes
+scripts/entropy/lifting-excess/indep/points_segments.txt           397c0d44bc0022f691241b9c7d3335e3   397c0d44bc0022f691241b9c7d3335e3   yes
+scripts/entropy/lifting-excess/indep/run_indep_segments.sbatch     4665f83670dff9bac3c8af219b6386e9   4665f83670dff9bac3c8af219b6386e9   yes
+#    indep_delta_r1.py is the same file as in jobs 568140-568141 (section 2).
+#    Outputs: ${SCRATCH}/t041/indep_seg/568296/seg_chunk<k>.tsv (k = 0..63) -> outputs/indep_seg/; the Slurm
+#    log ${SCRATCH}/slurm_logs/t041_indep_seg_568296.out -> outputs/logs_t041_indep_seg_568296.out.
+#    Merged locally by indep/merge_grid.py ../outputs/indep_seg 64 --points points_segments.txt --prefix seg_chunk
+#    (-> outputs/indep_seg/indep_points_segments.tsv) and compared by indep/compare_segments.py
+#    (-> outputs/indep_seg/compare_segments.out).
+#    The local copies of the outputs equal those on symmetry (read-only md5sum there, md5 -q here): all 64
+#    seg_chunk<k>.tsv files are identical; the md5 of the list "md5  seg_chunk<k>.tsv" ordered by k is
+#    8b041efc2e1276eaa6dcb2c450c6d7c9 on both sides. The Slurm log has md5 a1945e3315d409b1dcbd7aa64c5dcc38 on both sides.
+#    The local merge and comparison were made with these files (md5 -r, after their last change; compare_segments.py's
+#    later edit touched only its docstring, and rerunning it gives the same compare_segments.out):
+#      indep/merge_grid.py                                     53897d6d0d3d1ac6b1872c3cf90a5513
+#      indep/compare_segments.py                               21c29f55e5f3da16a1a92052abfcdaf8
+#      outputs/indep_seg/indep_points_segments.tsv             9a36141629e37825c1eb5140d915e95d
+#      outputs/indep_seg/compare_segments.out                  64ef4f41f345b31463e3a2574b48386e

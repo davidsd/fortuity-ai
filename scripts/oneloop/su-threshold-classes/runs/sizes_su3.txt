@@ -1,0 +1,5 @@
+N=3 sec=(3, 3, 8, 8, 8) Y=9: weight-space dim 11316, singlet hw mult 293 {3: 213, 1: 80}, words(ml=6) 37746 (0s)
+N=3 sec=(4, 4, 8, 8, 8) Y=8: weight-space dim 8052, singlet hw mult 326 {4: 151, 2: 160, 0: 15}, words(ml=6) 21936 (0s)
+N=3 sec=(2, 2, 8, 8, 8) Y=10: weight-space dim 8932, singlet hw mult 142 {2: 130, 0: 12}, words(ml=6) 41871 (0s)
+N=3 sec=(2, 2, 8, 8, 8) Y=9: weight-space dim 78984, singlet hw mult 2503 {0: 183, 2: 1470, 4: 850}, words(ml=6) 263094 (1s)
+N=3 sec=(3, 3, 8, 8, 8) Y=8: weight-space dim 109201, singlet hw mult 4747 {1: 1304, 3: 2845, 5: 598}, words(ml=6) 298561 (1s)

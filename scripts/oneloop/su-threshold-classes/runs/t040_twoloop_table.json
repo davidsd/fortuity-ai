@@ -1,0 +1,291 @@
+{
+ "what": "T-040 at two loops: d_2 on the one-loop survivors of the SU(2) sectors (cluster/t040_d2.sbatch, d2_make.py, Torch array 19292391). Rows with done = false had not finished (or were killed for memory) when this was collected.",
+ "collected": "2026-10-06 14:21 EDT",
+ "K2": "-1/6",
+ "rows": [
+  {
+   "case": "su2:5:4,4,4",
+   "j": 24,
+   "Y": 7,
+   "reps": "0",
+   "T2": "rank_2_5-5-8-8-8_6",
+   "d1_kernel_dim": 1,
+   "a": [
+    1
+   ],
+   "x_words": 84,
+   "y_words": 7497,
+   "z_words": 97115,
+   "check_Q0y_plus_Q1x_nonzero": 0,
+   "control_Q0y_plus_2Q1x_nonzero": 1392,
+   "check_Q0z_nonzero": 0,
+   "control_2K2_nonzero": 984,
+   "check_Q0z_values": 2064,
+   "E_z_nonzero": [
+    0,
+    0
+   ],
+   "test_rows": [
+    "z",
+    "d1_0",
+    "d1_1",
+    "d1_2",
+    "d1_3",
+    "d1_4",
+    "d1_5",
+    "z + noise"
+   ],
+   "time": 24,
+   "T2_hw_multiplicity": 884,
+   "rank_B": 532,
+   "controls_exact": true,
+   "increments": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   "span": true,
+   "done": true
+  },
+  {
+   "case": "su2:6:5,4,4",
+   "j": 26,
+   "Y": 7,
+   "reps": "0",
+   "T2": "rank_2_6-6-10-8-8_6",
+   "d1_kernel_dim": 1,
+   "a": [
+    1
+   ],
+   "x_words": 81,
+   "y_words": 9663,
+   "z_words": 196130,
+   "check_Q0y_plus_Q1x_nonzero": 0,
+   "control_Q0y_plus_2Q1x_nonzero": 1848,
+   "check_Q0z_nonzero": 0,
+   "control_2K2_nonzero": 1032,
+   "check_Q0z_values": 1416,
+   "E_z_nonzero": [
+    0,
+    0
+   ],
+   "test_rows": [
+    "z",
+    "d1_0",
+    "d1_1",
+    "d1_2",
+    "d1_3",
+    "d1_4",
+    "d1_5",
+    "z + noise"
+   ],
+   "time": 70,
+   "T2_hw_multiplicity": 3577,
+   "rank_B": 1559,
+   "controls_exact": true,
+   "increments": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   "span": true,
+   "done": true
+  },
+  {
+   "case": "su2:7:5,5,4",
+   "j": 28,
+   "Y": 7,
+   "reps": "0",
+   "T2": "rank_2_7-7-10-10-8_6",
+   "d1_kernel_dim": 1,
+   "a": [
+    1
+   ],
+   "x_words": 37,
+   "y_words": 6334,
+   "z_words": 242547,
+   "check_Q0y_plus_Q1x_nonzero": 0,
+   "control_Q0y_plus_2Q1x_nonzero": 1392,
+   "check_Q0z_nonzero": 0,
+   "control_2K2_nonzero": 1848,
+   "check_Q0z_values": 2064,
+   "E_z_nonzero": [
+    0,
+    0
+   ],
+   "test_rows": [
+    "z",
+    "d1_0",
+    "d1_1",
+    "d1_2",
+    "d1_3",
+    "d1_4",
+    "d1_5",
+    "z + noise"
+   ],
+   "time": 95,
+   "T2_hw_multiplicity": 5766,
+   "rank_B": 1994,
+   "controls_exact": true,
+   "increments": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   "span": true,
+   "done": true
+  },
+  {
+   "case": "su2:8:5,5,5",
+   "j": 30,
+   "Y": 7,
+   "reps": "0",
+   "T2": "rank_2_8-8-10-10-10_6",
+   "d1_kernel_dim": 1,
+   "a": [
+    1
+   ],
+   "x_words": 75,
+   "y_words": 7111,
+   "z_words": 438104,
+   "check_Q0y_plus_Q1x_nonzero": 0,
+   "control_Q0y_plus_2Q1x_nonzero": 2064,
+   "check_Q0z_nonzero": 0,
+   "control_2K2_nonzero": 1392,
+   "check_Q0z_values": 1416,
+   "E_z_nonzero": [
+    0,
+    0
+   ],
+   "test_rows": [
+    "z",
+    "d1_0",
+    "d1_1",
+    "d1_2",
+    "d1_3",
+    "d1_4",
+    "d1_5",
+    "z + noise"
+   ],
+   "time": 183,
+   "T2_hw_multiplicity": 4554,
+   "rank_B": 1255,
+   "controls_exact": true,
+   "increments": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   "span": true,
+   "done": true
+  },
+  {
+   "case": "su2:7:6,5,5",
+   "j": 32,
+   "Y": 9,
+   "reps": "0",
+   "T2": "rank_2_7-7-12-10-10_8",
+   "done": false
+  },
+  {
+   "case": "su2:8:6,6,5",
+   "j": 34,
+   "Y": 9,
+   "reps": "0",
+   "T2": "rank_2_8-8-12-12-10_8",
+   "done": false
+  },
+  {
+   "case": "su2:8:7,5,5",
+   "j": 34,
+   "Y": 9,
+   "reps": "0",
+   "T2": "rank_2_8-8-14-10-10_8",
+   "done": false
+  },
+  {
+   "case": "su2:9:6,6,6",
+   "j": 36,
+   "Y": 9,
+   "reps": "0,1",
+   "T2": "rank_2_9-9-12-12-12_8",
+   "done": false
+  },
+  {
+   "case": "su2:9:7,6,5",
+   "j": 36,
+   "Y": 9,
+   "reps": "0",
+   "T2": "rank_2_9-9-14-12-10_8",
+   "done": false
+  },
+  {
+   "case": "su2:10:7,6,6",
+   "j": 38,
+   "Y": 9,
+   "reps": "0,1",
+   "T2": "rank_2_10-10-14-12-12_8",
+   "done": false
+  },
+  {
+   "case": "su2:9:8,6,6",
+   "j": 40,
+   "Y": 11,
+   "reps": "0",
+   "T2": "rank_2_9-9-16-12-12_10",
+   "done": false
+  },
+  {
+   "case": "su2:10:8,7,6",
+   "j": 42,
+   "Y": 11,
+   "reps": "0",
+   "T2": "rank_2_10-10-16-14-12_10",
+   "done": false
+  },
+  {
+   "case": "su2:10:9,6,6",
+   "j": 42,
+   "Y": 11,
+   "reps": "0",
+   "T2": "rank_2_10-10-18-12-12_10",
+   "done": false
+  },
+  {
+   "case": "su2:11:9,7,6",
+   "j": 44,
+   "Y": 11,
+   "reps": "0",
+   "T2": "rank_2_11-11-18-14-12_10",
+   "done": false
+  },
+  {
+   "case": "su2:11:8,7,7",
+   "j": 44,
+   "Y": 11,
+   "reps": "0,1",
+   "T2": "rank_2_11-11-16-14-14_10",
+   "done": false
+  }
+ ]
+}

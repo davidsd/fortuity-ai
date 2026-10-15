@@ -1,0 +1,8 @@
+su3_c_6_5_5.jsonl 6,5,5
+su3_c_6_6_4.jsonl 6,6,4
+su3_c_7_5_4.jsonl 7,5,4
+su3_c_7_6_3.jsonl 7,6,3
+su3_c_8_4_4.jsonl 8,4,4
+su3_c_8_5_3.jsonl 8,5,3
+su3_c_7_7_2.jsonl 7,7,2
+su3_c_9_4_3.jsonl 9,4,3

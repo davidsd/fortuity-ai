@@ -1,0 +1,3 @@
+SO_odd: 24 columns, all self-checks True; Euler characteristic = index in all columns: True
+Sp: 24 columns, all self-checks True; Euler characteristic = index in all columns: True
+G2: 24 columns, all self-checks True; Euler characteristic = index in all columns: True

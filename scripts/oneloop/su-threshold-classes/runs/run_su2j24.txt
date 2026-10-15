@@ -1,0 +1,22 @@
+[su2_j24] SEC (5, 5, 8, 8, 8) Y=7: words 897, hw rows 52, independent 11 vs exact m 11 {3: 6, 5: 3, 1: 2} -> SPAN (0s)
+exact: UP (6, 6, 8, 8, 8) Y=6: words 197, hw rows 19 (exact m_up 4); rank of Q_0 images 4 (0s)
+closedness: Q_0 image rank 6 (m_low 9); closed hw combinations 5 (0s)
+cohomology dimension h = 1 = closed 5 - exact rank 4 (0s)
+representative sizes (words): [84]
+closedness at fresh points: nonzero entries 0 of 43 (must be 0)
+Coulomb: rank of the Cartan values of the 1 classes = 0; non-Coulomb combinations 1 (functionals 6440)
+rep 0: 84 words -> Q_1 v: 5910 words (0s)
+su2_j24 UP words 197 controls [13608, 13740, 16284]
+20:57:56 hw: (5, 5, 8, 8, 8) Y=6: 11735 words (0s)
+20:57:56 hw: exact multiplicities of 34 stripped contents, total 262 (0s)
+20:57:57   hw: 20/35 stripped contents, 10494/11735 words (1s)
+20:57:57 hw: 35 stripped contents, 486 shapes; raw hw rows 1021, exact multiplicity 262, compressed rows 534 (1s)
+20:57:57 Q_0: 11610 preimage words -> 89176 target words in play (1s)
+20:57:57 functionals 517 in 4 chunks (target hw multiplicity 231 {2: 120, 4: 96, 0: 9, 6: 6}); B rows 534, V rows 4; workers 6
+20:57:58   chunk d=0 cols 0:73 done (eval 0s, combine 0s)
+20:57:58   chunk d=2 cols 73:268 done (eval 0s, combine 0s)
+20:57:58   chunk d=4 cols 268:433 done (eval 1s, combine 0s)
+20:57:58   chunk d=6 cols 433:517 done (eval 1s, combine 0s)
+20:57:59 rank B (Q_0-exact subspace of the target, hw) = 149 (0s)
+20:57:59 controls: rank 149 -> 149 (exact, OK); Q_1 v rank increments per class [0]
+20:57:59 wrote classes/su2_j24/fullpar_seed41.json (3s)

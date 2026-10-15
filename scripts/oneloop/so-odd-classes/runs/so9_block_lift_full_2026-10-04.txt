@@ -1,0 +1,14 @@
+O_9: 5863 terms, sectors {(1, 1, 10, 6, 6)}; info {'group': 'SO_odd', 'N': 4, 'lam': [5, 3, 3], 'n': 1, 'm': 442, 'closed': 311, 'r_exact': 305, 'grav': 5, 'h': 6, 'nongrav': 1, 'rep_terms': [5863], 'time': 25.6}
+Q_0 O_9 = 0 on so(9): True | on so(11): False
+Q_1 O_9: 14899 terms; sectors {(0, 0, 10, 6, 6)}
+rho_2(Q_1 O_9): 1828 terms; sectors {(0, 0, 6, 6, 6)}; nonzero on so(7): True
+1364 SO(9) graviton polynomials in (1;5,3,3); nonzero rho_2(Q_1 g): 293
+controls with nonzero rho_2: 2
+  seed 11, 3060 functionals: rank target words 826, exact 741, exact + extra 741, rank increase by tests [1, 0, 0]
+  seed 11, 6030 functionals: rank target words 826, exact 741, exact + extra 741, rank increase by tests [1, 0, 0]
+  seed 12, 3060 functionals: rank target words 826, exact 741, exact + extra 741, rank increase by tests [1, 0, 0]
+  seed 12, 6030 functionals: rank target words 826, exact 741, exact + extra 741, rank increase by tests [1, 0, 0]
+SO(9) block test: {'source_words': 6027, 'target_words': 1974, 'increases': [1, 0, 0], 'stable': True, 'seeds_agree': True, 'ranks': [(826, 741, 741), (826, 741, 741)]}
+  seed 13, 3060 functionals: rank target words 826, exact 741, exact + extra 742, rank increase by tests [0, 0]
+  seed 13, 6030 functionals: rank target words 826, exact 741, exact + extra 742, rank increase by tests [0, 0]
+rho_2(Q_1 O_9) in span(exact, Q_1 O_18): True {'source_words': 6027, 'target_words': 1974, 'increases': [0, 0], 'stable': True, 'seeds_agree': True, 'ranks': [(826, 741, 742)]}
