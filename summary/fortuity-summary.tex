@@ -59,8 +59,9 @@ perturbative fate of the lowest classes at one and two loops. The main results a
 (i) the $\SU(3)$ threshold operator of Choi, Choi, Kim, Lee and Lee is $Q$-exact, and the eigenvalue criterion on
 which their non-graviton index rests is false; the first $\SU(3)$ non-graviton class is at $j=30$
 ($E=\tfrac{25}{2}$, $[3,0]$), it is the brane-fused operator of de Mello Koch, Kim, Kim, Lee and Lee, it is odd under
-charge conjugation, and it survives one loop; every $\SU(3)$ black-hole class below $j=34$ is fused, and the first
-genuine core sits at $j=34$, exactly one in its column;
+charge conjugation, and it survives one loop; every $\SU(3)$ black-hole class below $j=34$ is fused on an $\SU(2)$
+black hole by scalar branes, and at $j=34$ the $[3,1]$ column contains, besides a descendant of the fused class at
+$j=32$, exactly one class that is not of that form;
 (ii) $\SU(2)$ has 20 non-graviton classes through $j=44$, of which 5 lift at one loop; the threshold class has no
 admissible lifting partner at any order given a superconformal selection rule, $d_2$ vanishes on it by direct
 computation, and the index alone protects it at every coupling;
@@ -117,7 +118,7 @@ branch, and the ``non-graviton index'' built on that count is not a detector of 
 \item The $\SU(3)$ threshold operator, eq.~(4.8) of \cite{CCKLL}, is $Q$-exact at $N=3$; the $-t^{24}$ of their
 non-graviton index is a fermionic graviton class, represented by their own ``trace relation'' $R_{24}^{(0,3)}$
 (\R{09}). The first $\SU(3)$ black hole is at $j=30$ (\R{07}), the brane-fused operator $O^3_{30}$ of \cite{dMK}
-(\R{16}); the first genuine (unfused) core is at $j=34$ (\R{24}).
+(\R{16}); the first class not fused by scalar branes is at $j=34$ (\R{24}).
 \item The $\SU(4)$ entries $-\chi_{[2,0]}t^{28}$ and $\chi_{[1,1]}t^{30}$ of eq.~(3.15) of \cite{CCKLL} are artifacts of
 the same count (\R{08}, \R{14}).
 \item The descendant factor printed in eqs.~(3.7), (3.14), (3.15) of \cite{CCKLL} should be $\prod_I(1-t^2x_I)$
@@ -387,7 +388,7 @@ $x^4\otimes O_0$ (the operator $O^3_{32}$ of \cite{dMK}), and $(6;8,4,4)$, $(6;7
 their $x^3$ channels. By their charges the last two are the $(1;e_1)$ and $(1;e_2)$ descendants of the class of
 \R{07}. Data: \file{data/su3/hw_cohomology_j32_records}.
 
-\subsection{Level 34: the first genuine core}\label{sec:su3core}
+\subsection{Level 34: the first class beyond scalar brane fusion}\label{sec:su3core}
 
 \paragraph{Counting (\R{24}).} The complete column $\lambda=(8,5,4)$ ($[3,1]$, $j=34$, every $2J$) has 37 multiplets:
 34 multi-graviton and 3 non-graviton, two at $(6;8,5,4)$ ($E=14$, 11 letters) and one at $(7;8,5,4)$
@@ -395,18 +396,24 @@ their $x^3$ channels. By their charges the last two are the $(1;e_1)$ and $(1;e_
 $x^n\otimes(\text{$\SU(2)$ non-graviton classes})$, equivariantly; the only channels with the right charges are
 $x^4\otimes$ (the $\SU(2)$ class at $(6;5,4,4)$) and $x^3\otimes$ (the one at $(7;5,5,4)$), so the fused capacity is
 one class at $2J=6$ and one at $2J=7$. Two classes at $2J=6$ against capacity one force at least one class whose
-restrictions are all graviton or exact: a core, not obtained by attaching branes to an $\SU(2)$ black hole.
+restrictions are all graviton or exact: a class not obtained by attaching scalar branes to an $\SU(2)$ black hole (the
+restriction maps of \R{16} keep only the abelian components of the scalars; the abelian components of $\psi$ and $f$
+are set to zero).
 Independently of the graviton counts, the $C$-twisted index gives exactly $(37-31)/2=3$ $P$-odd classes in the
 column, more than the total capacity 2.
 
-\paragraph{Which class is the core.} Explicit representatives of all non-graviton classes at $j=30$--$34$ were built
+\paragraph{Which class it is.} Explicit representatives of all non-graviton classes at $j=30$--$34$ were built
 and restricted in every capacity channel (\file{data/su3/core_restrictions_j30_j34.json}): the $2J=7$ class and all
 three $j=32$ classes are fused; at $(6;8,5,4)$ the restriction map on the two classes has rank one, so exactly one
-combination is a core. Its images have zero residue in both channels, re-checked on the combined expression; the core
-is a generic lift on 834{,}657 of the sector's 834{,}972 trace words, closed at fresh $N=3$ points. With \R{07} fused
-and the $j=32$ classes fused, \emph{every $\SU(3)$ black-hole class below $j=34$ is fused, and the cores start at
-$j=34$}, exactly one in this column. By charges, the fused $2J=6$ class sits where the $(1;e_2)$ descendant of
-$O^3_{32}$ would, and the core is a new $SU(1|3)$ primary (a reading by charges, not constructed).
+combination has no scalar-brane channel. Its images have zero residue in both channels, re-checked on the combined
+expression; that class is a generic lift on 834{,}657 of the sector's 834{,}972 trace words, closed at fresh $N=3$
+points. With \R{07} fused and the $j=32$ classes fused, \emph{every $\SU(3)$ black-hole class below $j=34$ is
+scalar-fused, and the first class that is not sits at $j=34$}, exactly one in this column. By charges, the fused $2J=6$
+class sits where the $(1;e_2)$ descendant of $O^3_{32}$ would, and the other one is a new $SU(1|3)$ primary (a reading
+by charges, not constructed). This is a statement about scalar branes only. A brane could also carry fermionic
+components, and a restriction that keeps the abelian components of $\psi$ would test whether this class is fused in
+that wider sense; that extension of the maps of \R{16} has not been done, so whether any $\SU(3)$ black hole is free
+of brane structure altogether remains open.
 
 \subsection{Beyond: what the indices force}\label{sec:su3beyond}
 
@@ -913,6 +920,10 @@ survive?
 \item $\SO(2N)$ groups (Pfaffian invariants), and the $\USp(2N)$ thresholds beyond $j=28$.
 \end{enumerate}
 
+\paragraph{Note added.} While this summary was being prepared we learned of the independent work of Kim, Lee, Lee and
+Song \cite{KLLS}, whose results overlap with ours in $\SU(3)$ and $\SU(4)$. We thank them for sharing their results
+and for coordinating the posting.
+
 \appendix
 
 \section{Index of results, code and data}\label{app:index}
@@ -1150,6 +1161,9 @@ truncation and S-duality}, \arxiv{2506.13887}.
 \arxiv{2512.07771}.
 
 \bibitem{KKLP} S. Kim, S. Kim, S. Lee and J. Park, \emph{Quantum black hole cohomologies}, \arxiv{2606.27955}.
+
+\bibitem{KLLS} S. Kim, J. Lee, S. Lee and J. Song, \emph{Black hole cohomologies in $\cN=4$ SYM},
+\arxiv{2610.20340}.
 
 \bibitem{BGKWWY} K. Budzik, D. Gaiotto, J. Kulp, B. R. Williams, J. Wu and M. Yu, \emph{Semi-chiral operators in 4d
 $\cN=1$ gauge theories}, JHEP \textbf{05} (2024) 245, \arxiv{2306.01039}.

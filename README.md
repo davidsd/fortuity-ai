@@ -42,7 +42,7 @@ summary lists further one-line checks with their run times.
 | | result | where |
 |---|---|---|
 | SU(2) | complete scan to level j = 44: 186 classes, 20 non-graviton; 5 lift at one loop; the threshold class has no lifting partner at any order (given a superconformal selection rule) and is protected by the index | summary sec. 3 |
-| SU(3) | the threshold operator of arXiv:2312.16443 is Q-exact; the first black hole is at j = 30, brane-fused, C-odd, unlifted at one loop; all black holes below j = 34 are fused; the first genuine core is at j = 34 | summary sec. 4 |
+| SU(3) | the threshold operator of arXiv:2312.16443 is Q-exact; the first black hole is at j = 30, brane-fused, C-odd, unlifted at one loop; all black holes below j = 34 are fused by scalar branes; the first class outside that family is at j = 34 | summary sec. 4 |
 | SU(4) | no non-graviton class for j <= 30 | summary sec. 5 |
 | SO / USp / G2 | first SO(2N+1)-USp(2N) difference at j = 4N+6 in Sym^(N-3)[2,0]; the SO(7), SO(9), SO(11) classes are the lowest, fused on the SO(7) core, lifted at one loop; no class in G2 for j <= 28 | summary sec. 6 |
 | structure | charge-conjugation parity of gravitons, twisted and kernel-parity indices, non-Coulomb gravitons, brane fusion, selection rules, a two-loop supercharge on derivative-free words | summary sec. 7 |
