@@ -36,7 +36,7 @@
 \author{Claude (Opus 5.5)\\[3pt]
 \parbox{0.85\textwidth}{\centering\small (prompted by Nathan Benjamin, Andrea Guerrieri, Victor Rodriguez,
 David Simmons-Duffin, Yifan Wang, and Zechuan Zheng)}}
-\date{14 October 2026}
+\date{14 October 2026; revised 16 October 2026}
 
 \begin{document}
 \maketitle
@@ -154,6 +154,11 @@ weight $\lambda=(q_1\ge q_2\ge q_3)$ labels a \emph{column}, the irrep $[q_1-q_2
 Outside the BMN sector we use the full set of letters (gaugini $\lambda$ and derivatives) in the superfield
 conventions of \cite{CLWords,BK}, with sectors $(2J_1,2J_2;2q_1,2q_2,2q_3)$ at letter number $Y$; the derivative
 grading $d_{\rm BMN}$ vanishes exactly on the BMN sector.
+
+Loop corrections are organised as $Q(g)=Q_0+g^2Q_1+g^4Q_2+\dots$. As in \cite{ChoiLee,KKLP} and \cite[footnote~2]{KVM}, ``one loop'' and
+``order $n$'' refer to this expansion of the supercharge: a class lifted at order $n$ is removed by the $n$-th
+differential $d_n$ of the perturbative spectral sequence, which is built from $Q_1,\dots,Q_n$. The classical
+cohomology $H(Q_0)$ itself describes the states that are BPS under the one-loop dilatation operator.
 
 \subsection{Gravitons and fortuity: the operational definition}
 
@@ -447,15 +452,19 @@ vector of the weight of R-007; excluded by the selection rule.
 \item \emph{Order 2.} The $C$-odd target cohomology has dimension $218{,}008-112{,}730-103{,}379=1{,}899$, of which
 $1{,}898$ are of Coulomb type. The one non-Coulomb class is not a lowest-weight vector (its $[2,1]$ and $[2,0]$ lowering
 images are not exact, with span certificates), so the selection rule excludes it. Eight Coulomb-type classes pass all
-lowest-weight tests; $d_1$ vanishes on them. They are excluded under the Coulomb-branch assumption (a Coulomb-type
-class is never a target), and otherwise only by $d_2[\text{R-007}]$. The direct computation of $d_2[\text{R-007}]$
+lowest-weight tests; $d_1$ vanishes on them. They cannot disappear at one loop either: by the theorem of \cite[eq.~(6.21)]{KVM}
+(section~\ref{sec:literature}) every nonzero image of $d_1$ vanishes on the Cartan, so no combination of these
+Coulomb-type classes is $d_1$-exact, and all eight survive to the second page. They are excluded under the
+Coulomb-branch assumption (a Coulomb-type class is never a target), and otherwise only by $d_2[\text{R-007}]$. The direct computation of $d_2[\text{R-007}]$
 with the $Q_2$ of section~\ref{sec:q2} was set up on the cluster in two independent chains; it has not produced an
 exactness verdict, so order 2 is open.
 \item \emph{Restriction argument} (\T{33}). Theorem A: every possible order-3 partner of R-007 is an $\SU(3)$ core
 (restricts to zero under $\SU(3)\supset\SU(2)\times U(1)$); classical, with all fused channels computed directly.
 The block restriction is not a $Q_1$ chain map (W-boson exchange), so it can prove lifting but not survival.
 \end{itemize}
-So R-007 is stable to all orders under the Coulomb-branch assumption, and without it at orders 1, 3 and 4. The index
+So R-007 is stable to all orders under the Coulomb-branch assumption, and without it at orders 1, 3 and 4. The
+one-loop form of that assumption has since been proved \cite[sec.~6]{KVM}; what the protection of R-007 needs is its
+two-loop form, for the eight classes above. The index
 cannot do better (section~\ref{sec:selection}): the eight multiplets above have the weight and $C$-parity of R-007 and
 the opposite statistics, so its protection is equivalent to the Coulomb-branch statement for those eight classes.
 The all-letter index at the weight of R-007 is $35$, its $C$-twisted version $-565$; without the all-letter graviton
@@ -611,6 +620,15 @@ $\SO(2N+1)$ class at the first $\SO$/$\USp$ difference, $N=3,4,5$, is lifted at 
 restriction commutes with $Q_1$ in cohomology on all three lifted fused classes (\T{33}; ratios $-2$, $288$, $-60$ on
 both sides; \file{scripts/oneloop/protection}).
 
+A second one-loop pair in $\SO(7)$ was found in \cite[sec.~5]{KVM}. The non-Coulomb monotone $\mathcal S^4$, with
+$\mathcal S=\mathrm{Tr}(\lambda_+\lambda_-)$ the gaugino bilinear, sits in $(0,0;8,8,8)$ with eight letters, and it is
+the $[Q_1]$-image of an explicit fortuitous class $F_4$ in $(1,1;8,8,8)$, also with eight letters:
+$[Q_1][F_4]=-12\kappa_Q[\mathcal S^4]$ \cite[eq.~(5.21)]{KVM}. Both are at
+full-letter level 24, beyond our scans (BMN sector to $j=28$, all letters to level 22). The same paper shows that
+$\mathcal S^4$ is a superconformal descendant of the chiral-ring monotone of \cite{CLSduality} that pairs with
+$O_{18}$ \cite{ChoiLee} (\cite[eq.~(5.4) and app.~D]{KVM}), so its lifting also follows from that of the level-18 pair; $F_4$ is an independent
+construction of the partner.
+
 \subsection{Full letters: $\SO(7)$ and $\USp(6)$ at levels 18--22 (\R{25})}
 
 Complete highest-weight cohomology with all letters (gaugini and derivatives) at levels 18, 20, 22 (every column,
@@ -627,6 +645,14 @@ the twelve sectors that were classified, five are non-graviton and sixteen Coulo
 seven largest sectors are not classified.
 \item In every classified sector the Coulomb-type graviton counts of $\SO(7)$ and $\USp(6)$ agree, as S-duality
 requires. The derivative-free sectors agree column by column with the BMN engine.
+\item By charges, the ten extra $\SO(7)$ multiplets at level 20 are exactly the first descendants of the two level-18
+classes, the BMN class at $(1,1;6,6,6)$ and the chiral-ring monotone at $(0,0;6,6,6)$, under the commutant
+supercharges. Each has one $Q^m_+$ descendant, a $[1,0]$ at $(2J_1+1,2J_2+1)$, and four descendants under pairs of the
+odd generators that trade a $\theta_a$ for a $z_{\dot\alpha}$: a $[1,0]$ $\SU(2)_R$ triplet at $(2J_1\pm2,2J_2\mp2)$
+and $(2J_1,2J_2)$, and a $[0,2]$ singlet at $(2J_1,2J_2)$. The five non-graviton classes fit the descendants of the BMN
+class and the five Coulomb-invisible multi-gravitons those of the monotone. Six such generators take the monotone to
+$\mathcal S^4$ at level 24 \cite[eq.~(5.4)]{KVM}. This is a reading by charges and multiplicities; the descendants were not
+constructed.
 \end{itemize}
 
 \subsection{Kernel parity for $\SO$, $\USp$, $\Gtwo$ (\T{34})}
@@ -661,9 +687,12 @@ randomly sampled dimensions, is not a certified lower bound; with that correctio
 are exact (in the 17 forced columns $D=0$, and every $\SU(2)$ diagonal dimension was also computed exactly over
 $\mathbb Q$); the $\SU(3)$ values are confirmed by direct cohomology at $j\le32$ and in the column $(8,5,4)$; beyond
 that they are very likely right but conditional. $Q_1$ preserves $Y$ and commutes with $C$, so it conserves $P$: at one
-loop a $P$-odd class can pair only with another $P$-odd (non-graviton) class. This is why the $P$-odd threshold
-classes of $\SU(2)$ and $\SU(3)$ survive one loop, while the $P$-even $\SO(7)$ class is lifted by a graviton
-\cite{ChoiLee}.
+loop a $P$-odd class can pair only with another $P$-odd, hence non-graviton, class. This happens for $O_1$ in $\SU(2)$
+at $j=36$; the threshold classes $O_0$ and R-007 have no such partner at one loop (sections~\ref{sec:su2} and
+\ref{sec:su3pert}). A $P$-even class can pair with a graviton, and the $\SO(7)$ class does \cite{ChoiLee}. Combined
+with the theorem of \cite[eq.~(6.7)]{KVM} that every one-loop source is fortuitous (section~\ref{sec:noncoulomb}),
+this gives, as noted in \cite[sec.~7]{KVM}, that a monotone can be lifted at one loop only by a fortuitous class of graviton parity, and that in the
+other parity sector both partners are fortuitous.
 
 \subsection{Non-Coulomb gravitons}\label{sec:noncoulomb}
 
@@ -680,13 +709,30 @@ the range computed. Properties:
 isomorphic Cartan data require; graviton mismatches between the two groups sit only in non-Coulomb classes.
 \item \emph{Rank dependence.} $R_{24}^{(0,3)}$ vanishes on diagonal $3\times3$ matrices but not on $4\times4$ or
 $5\times5$ ones; the observation that Coulomb-invisibility is rank-specific, and the terminology, are due to
-\cite{ChoiLee}; the first non-Coulomb graviton is the $\SO(7)$ chiral-ring class of \cite{CLSduality}.
+\cite{ChoiLee}; the first non-Coulomb graviton is the $\SO(7)$ chiral-ring class of \cite{CLSduality}. Ref.~\cite[sec.~7]{KVM}
+explains the vanishing of $R_{24}^{(0,3)}$ on the Cartan by the mechanism of section~\ref{sec:su3j24}: on the $\SU(3)$
+Cartan the scalar flavour vectors are linearly dependent, so their antisymmetrized triple product vanishes.
 \item \emph{Counting.} The finite-$N$ graviton count by ``quantizing the moduli space'' (eigenvalues of commuting
 diagonal letters, \cite{KMMR} sec.~6.1, used for the $\frac1{16}$-BPS sector in \cite{CCKLL} sec.~3) undercounts the
 monotone spectrum by exactly these classes; $Z-Z_{\rm grav}$ computed that way is the index of the kernel of the
 Coulomb restriction, which contains non-Coulomb gravitons as well as black holes.
-\item \emph{Quantum.} BMN classes are never targets of a lifting (section~\ref{sec:selection}); $Q_1$ of every graviton
-polynomial tested is $Q_0$-exact, in all groups (\R{20}, \T{30}, \T{31}).
+\item \emph{Quantum.} BMN classes are never targets of a lifting (section~\ref{sec:selection}). At one loop much more
+has now been proved \cite[sec.~6]{KVM}: for the classical families at finite rank (multi-trace sector, all letters),
+$[Q_1]$ annihilates every monotone class \cite[eq.~(6.7)]{KVM}, and every nonzero image of $[Q_1]$ vanishes on the
+Cartan \cite[eq.~(6.21)]{KVM}. So every one-loop pair
+has a fortuitous source and a non-Coulomb target; Coulomb monotones survive one loop, and a non-Coulomb monotone can
+lift only as a target, which needs gauginos or derivatives in both $z_\pm$ directions \cite[sec.~6.1]{KVM}. In particular every BMN
+monotone, including $R_{24}^{(0,3)}$ and the other non-Coulomb gravitons above, survives one loop. This proves at one
+loop, without the Coulomb-branch assumption, the statement that graviton classes are never sources, which our
+analysis had derived from that assumption, and it agrees with our one-loop data: $Q_1$ of every graviton tested is
+$Q_0$-exact (\R{20}, \T{30}, \T{31}), and the targets we found ($\SO(7)$, and $P$-odd ones in $\SU(2)$) are
+non-Coulomb.
+\item \emph{Outside the BMN sector.} Kibe, van Leuven and Mathieson \cite[sec.~4]{KVM} study a tower of non-Coulomb monotones built from the gaugino
+bilinear, also observed in \cite{ChoiKim}: $\mathcal S^m$ with $r<m<h^\vee$ is nonzero in classical cohomology (by
+the classical chiral-ring results quoted there) but zero on the Cartan. It exists in
+$\SO(n)$ for $n\ge7$ and is empty for $\SU(N)$ and $\USp(2N)$, where $h^\vee=r+1$. Its first member
+$\mathcal S^{r+1}$ matches the first $\SO(2r+1)$--$\USp(2r)$ difference of the pure-gaugino index, at $t^{2r+2}$ for
+$r=3,\dots,6$ \cite[sec.~3, Table~2]{KVM}, the gaugino counterpart of our BMN-index differences (section~\ref{sec:so}).
 \end{itemize}
 
 \subsection{Brane fusion and cores}\label{sec:fusion}
@@ -716,7 +762,8 @@ have the same $C$, and the order-$n$ partner of a $P$-odd class has $P=(-1)^n$, 
 commutant $\mathfrak{psu}(1,2|3)$ of $Q$; a lifting partner must then be a lowest-weight vector of the same weight. This
 follows from perturbative superconformal invariance (a framework hypothesis, not the Coulomb-branch assumption). $Q_1$
 commutes exactly with all these generators except $K$ and $T$; for those, the defect was checked to be $Q_0$-exact on
-the one-loop partner of the lifted $\SU(2)$ class at $j=36$. At two loops the rule predicts $d_2[O_0]=0$, which the
+the one-loop partner of the lifted $\SU(2)$ class at $j=36$. Ref.~\cite[sec.~6.1]{KVM}, citing \cite{BK}, uses that
+these commutators are $Q_0$-exact on $Q_0$-closed operators, which is the one-loop form of the rule. At two loops the rule predicts $d_2[O_0]=0$, which the
 direct computation confirms. It is argued and tested, not proven, beyond one loop.
 
 \paragraph{The index.} The BPS states at coupling $g$ form a unitary lowest-weight module of $\mathfrak{psu}(1,2|3)$,
@@ -842,6 +889,27 @@ unlifted; $O_1$ lifted, exact-space rank 912 at $j=36$); their eq.~(2.19) with a
 orders the paper leaves open (p.~6), no admissible partner at any order given the selection rule, $d_2[O_0]=0$
 directly, and protection at every coupling by the index (section~\ref{sec:su2}); the charge
 dependence of the entropy excess (section~\ref{sec:entropy}).
+\item[Kibe, van Leuven, Mathieson \cite{KVM}.] Posted after the first version of this summary; we compare with
+its version 1.
+\begin{itemize}
+\item General one-loop restrictions for the classical families at finite rank (multi-trace sector, all letters; for
+$\SO(2N)$ the reflection-even part): $[Q_1]$ annihilates every monotone class (their eq.~(6.7)), and every nonzero
+image of $[Q_1]$ vanishes on the Cartan (eq.~(6.21)). The second statement rests on the identity $\Delta^kF=Q_0H$ for
+every closed $F$ that vanishes on the Cartan (eq.~(6.19); $\Delta$ the discriminant of a scalar), and on the statement, argued in \cite{CLSduality},
+that a fortuitous class has such a representative after subtracting monotone classes.
+\item Relation to our analysis: these are the one-loop forms of the two statements our all-orders argument used as
+input or assumption (graviton classes are never sources; Coulomb-type classes are never targets). They agree with all
+our one-loop results (sections~\ref{sec:su2}, \ref{sec:su3pert}, \ref{sec:so}). They imply that the eight order-2
+candidates of R-007 survive to the second page; the two-loop statement that would protect R-007 is not covered. The
+consequence that BMN monotones survive one loop agrees with our grading argument and with the direct test on
+$R_{24}^{(0,3)}$.
+\item New relative to us: the study of the tower $\mathcal S^m$ of non-Coulomb monotones in $\SO(n\ge7)$ (sec.~4;
+also observed in \cite{ChoiKim}) and the pure-gaugino index differences (sec.~3); in $\SO(7)$, the identification of
+$\mathcal S^4$ as a descendant of the chiral-ring monotone of \cite{CLSduality,ChoiLee} (eq.~(5.4), app.~D) and the
+explicit fortuitous partner $F_4$ (sec.~5, eq.~(5.21)), a lifted pair at level 24, beyond our full-letter range. Our level-20 data fit the multiplet structure this implies (section~\ref{sec:so}).
+\item Their parity remarks in sec.~7 (a monotone can be lifted only by a fortuitous class of graviton parity; in the
+other parity sector both partners are fortuitous) follow from the lemma of \R{17} combined with their theorem.
+\end{itemize}
 \item[Budzik, Kulp \cite{BK}.] We use their one-loop supercharge $Q_1$ (with an $\mathfrak{so}(n)$ completeness term for
 the orthogonal groups) and their nilpotency relation eq.~(12). The two-loop supercharge on derivative-free words with
 $K_2=-\tfrac16$ (section~\ref{sec:q2}) is, as far as we know, new; \cite{BGKWWY} state for $\cN=1$ theories that
@@ -903,8 +971,9 @@ certified null results are exact over $\mathbb F_p$, and a bad prime could only 
 \section{Open questions}\label{sec:open}
 
 \begin{enumerate}
-\item $d_2$ of the $\SU(3)$ class R-007 (the only open order without the Coulomb-branch assumption); the validity of
-the superconformal selection rule beyond one loop; the lowest-energy status of R-007 (sectors $j=34$, $2J\ge10$ and
+\item $d_2$ of the $\SU(3)$ class R-007 (the only open order without the Coulomb-branch assumption). A two-loop
+analogue of the theorem of \cite[eq.~(6.21)]{KVM}, that images of $d_2$ vanish on the Cartan, would settle it. Also open: the
+validity of the superconformal selection rule beyond one loop; the lowest-energy status of R-007 (sectors $j=34$, $2J\ge10$ and
 $j=36$, $2J=12$).
 \item The $\SU(2)$ survivors at higher order: order 3 of $w_2O_0$ (three non-Coulomb classes in the target) and of
 $O_1'$; $d_2$ beyond the multiplet of $O_0$.
@@ -917,14 +986,19 @@ $\USp(6)$ at level 30 (sizing done, scan not); $\USp(6)$ at $j=26$; the 13 uncla
 level 22.
 \item The $C$-twisted index with all letters at the charges of R-007, which is coupling-independent and could protect a
 $C$-odd state non-perturbatively.
-\item Are non-Coulomb gravitons ever lifted as targets in $\SU(N)$? Which fortuitous classes above the thresholds
-survive?
+\item Non-Coulomb gravitons beyond one loop and outside $\SO(n)$. At one loop they can lift only as targets, BMN
+ones survive, and in $\SO(7)$ the monotone $\mathcal S^4$ is lifted \cite[secs.~5--6]{KVM}. Open: whether any non-Coulomb monotone
+of $\SU(N)$, necessarily outside the BMN sector at one loop, is lifted, at one loop or at higher order; and which
+fortuitous classes above the thresholds survive.
 \item $\SO(2N)$ groups (Pfaffian invariants), and the $\USp(2N)$ thresholds beyond $j=28$.
 \end{enumerate}
 
 \paragraph{Note added.} While this summary was being prepared we learned of the independent work of Kim, Lee, Lee and
 Song \cite{KLLS}, whose results overlap with ours in $\SU(3)$ and $\SU(4)$. We thank them for sharing their results
-and for coordinating the posting.
+and for coordinating the posting. After the first version of this summary was posted, Kibe, van Leuven and
+Mathieson \cite{KVM} proved general restrictions on one-loop lifting that bear on sections~\ref{sec:su3pert} and
+\ref{sec:noncoulomb}; we compare in section~\ref{sec:literature} and have updated the text where their results
+apply.
 
 \appendix
 
@@ -1166,6 +1240,12 @@ JHEP \textbf{08} (2026) 089, \arxiv{2512.07771}.
 
 \bibitem{KLLS} S. Kim, J. Lee, S. Lee and J. Song, \emph{Black hole cohomologies in $\cN=4$ SYM},
 \arxiv{2610.20340}.
+
+\bibitem{KVM} T. Kibe, S. van Leuven and K. Mathieson, \emph{Non-Coulomb $Q$-cohomology and quantum lifting},
+\arxiv{2610.22332}, version 1 (15 October 2026).
+
+\bibitem{ChoiKim} J. Choi and S. Kim, \emph{Fortuity and relevant deformation}, JHEP \textbf{07} (2026) 097,
+\arxiv{2512.12674}.
 
 \bibitem{BGKWWY} K. Budzik, D. Gaiotto, J. Kulp, B. R. Williams, J. Wu and M. Yu, \emph{Semi-chiral operators in 4d
 $\cN=1$ gauge theories}, JHEP \textbf{05} (2024) 245, \arxiv{2306.01039}.
