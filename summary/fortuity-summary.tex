@@ -117,14 +117,18 @@ section~\ref{sec:literature}. The most consequential ones:
 \item The criterion ``a multi-graviton polynomial that vanishes on diagonal matrices is $Q$-exact'' (sec.~3 of
 \cite{CCKLL}) is false. Counting gravitons on the diagonal undercounts them by the classes that vanish on the Coulomb
 branch, and the ``non-graviton index'' built on that count is not a detector of black holes (\R{02}, \R{15}).
-\item The $\SU(3)$ threshold operator, eq.~(4.8) of \cite{CCKLL}, is $Q$-exact at $N=3$; the $-t^{24}$ of their
-non-graviton index is a fermionic graviton class, represented by their own ``trace relation'' $R_{24}^{(0,3)}$
-(\R{09}). The first $\SU(3)$ black hole is at $j=30$ (\R{07}), the brane-fused operator $O^3_{30}$ of \cite{dMK}
+Version~3 of \cite{CCKLL} now notes that such a class ``was assumed to be absent''.
+\item The $\SU(3)$ threshold operator, eq.~(4.8) of \cite{CCKLL} as printed in versions 1 and 2, is $Q$-exact at
+$N=3$ (\R{09}). Version~3 (15 October 2026) confirms this, traces it to a misprint in $(r_{14}^{(0,2)})_{ij}$, and
+states, citing \cite{KLLS}, that the corrected operator is not exact but cohomologous to a non-Coulomb graviton. We
+find the same: the corrected operator is $240$ times $R_{24}^{(0,3)}$ modulo exact terms
+(section~\ref{sec:su3j24}). Either way the $-t^{24}$ of their non-graviton index is the fermionic graviton class of
+their own ``trace relation'' $R_{24}^{(0,3)}$ (\R{09}). The first $\SU(3)$ black hole is at $j=30$ (\R{07}), the brane-fused operator $O^3_{30}$ of \cite{dMK}
 (\R{16}); the first class not fused by scalar branes is at $j=34$ (\R{24}).
 \item The $\SU(4)$ entries $-\chi_{[2,0]}t^{28}$ and $\chi_{[1,1]}t^{30}$ of eq.~(3.15) of \cite{CCKLL} are artifacts of
 the same count (\R{08}, \R{14}).
-\item The descendant factor printed in eqs.~(3.7), (3.14), (3.15) of \cite{CCKLL} should be $\prod_I(1-t^2x_I)$
-(\R{01}); the thesis \cite{LeeThesis} has the correct factor.
+\item The descendant factor printed in eqs.~(3.7), (3.14), (3.15) of versions 1 and 2 of \cite{CCKLL} should be
+$\prod_I(1-t^2x_I)$ (\R{01}); version~3 and the thesis \cite{LeeThesis} have the correct factor.
 \item The operator $O^3_{30}$ of \cite{dMK} needs three corrections to its printed form to be closed; with them its
 stated coefficient $-\tfrac{648}{5}$ is reproduced (\R{16}).
 \end{itemize}
@@ -308,8 +312,8 @@ counterexample to the eigenvalue criterion: a 32-term polynomial $\sum c\,u_2u_2
 $Q$-closed, identically zero on diagonal matrices and not exact (\file{data/su3/graviton_class_vanishing_on_diagonal_j24.json};
 check: \file{python3 -m fortuity.bmn.r002_check}).
 
-\paragraph{The threshold operator is exact (\R{09}).} The operator $O=-6\,O_6^{(0,3)}$ of eq.~(4.8) of \cite{CCKLL}
-was built in two ways (from the printed expansion, and from the definitions through $r_{10},r_{14}$ with the traceless
+\paragraph{The threshold operator (\R{09}).} The operator $O=-6\,O_6^{(0,3)}$ of eq.~(4.8) of \cite{CCKLL}, as
+printed in versions 1 and 2, was built in two ways (from the printed expansion, and from the definitions through $r_{10},r_{14}$ with the traceless
 projections of their (A.3)); the two agree term by term (3747 canonical multi-trace terms). It is closed on
 traceless $3\times3$ matrices (not formally, not at $N=4,5$) and it is $Q$-exact at $N=3$, by three independent
 computations (the Weyl-symmetric subspace at two primes, the full complex with certified functionals, and the
@@ -320,8 +324,19 @@ $O=Q_{\rm code}(\lambda_0)=i\,Q_{\rm paper}(\lambda_0)$ on $3\times3$ traceless 
 singlet cohomology of $(j,2J)=(24,3)$ is represented by the paper's own ``fundamental trace relation''
 $R_{24}^{(0,3)}=\epsilon_{a_1a_2a_3}u^{a_1b}{v^{a_2}}_b{v^{a_3c}}_d{v^d}_c$ of its (A.4), which vanishes on diagonal
 matrices at $N=3$ (not at $N=4,5$) but is not exact; $24R_{24}^{(0,3)}+\mathrm{Sym}(P)$ is exact, with $P$ the
-polynomial of \R{02}. Two errors cancel in the paper's Table~2: one graviton too few (28 instead of 29, from the
-diagonal count) and one exact operator called non-exact.
+polynomial of \R{02}.
+
+\paragraph{Version 3 of \cite{CCKLL}.} Version~3 (15 October 2026) confirms in a footnote that the printed operator was
+exact, and corrects the last term of $(r_{14}^{(0,2)})_{ij}$ in its (A.6), which changes the last line of (4.8). We
+rebuilt the corrected operator in the same two ways; they agree term by term (3693 canonical terms;
+\file{scripts/bmn/su3-level24/cckll_v3.py}). It is closed at $N=3$ and not exact, and modulo exact operators it equals
+$240$ times $R_{24}^{(0,3)}$, at two primes (\file{decompose_multi.py}; outputs \file{runs/multi_v3_p1.json},
+\file{multi_v3_p2.json}). This is what the footnote states, citing \cite{KLLS}: the corrected operator is cohomologous
+to a non-Coulomb graviton, ``which was assumed to be absent in this paper''. So the non-exactness the paper
+reports holds for the corrected operator; the printed one had a misprint. What remains is the reading: the main text of version~3 still calls (4.8)
+the non-graviton threshold class, and its Table~2 still splits the 29 classes into 28 gravitons and one non-graviton,
+whereas all 29 are gravitons (\R{02}). The diagonal count misses exactly one graviton class, that of
+$R_{24}^{(0,3)}$, and this is the class of the corrected (4.8).
 
 \paragraph{The list (A.4) of \cite{CCKLL} (\R{09}).} Of the entries for which the paper gives no $Q$-exact form,
 $R_{18}^{(0,2)}$, $(R_{20}^{(0,3)})^i$, $(R_{22}^{(0,3)})^{ij}$ and $(R_{30}^{(0,5)})^{ijk}$ are exact (genuine
@@ -333,7 +348,9 @@ of the one of level 24:
 \end{equation}
 in the paper's normalisation (\file{scripts/bmn/su3-level24/descendant_check.py}). In the sector of the $[3,0]$ entry
 (\R{07}'s sector, four graviton classes and one non-graviton class) the paper's diagonal-vanishing polynomial is
-trivial, so the $-t^{30}[3,0]$ of the non-graviton index is the genuine class of \R{07}.
+trivial, so the $-t^{30}[3,0]$ of the non-graviton index is the genuine class of \R{07}. Version~3 of \cite{CCKLL}
+adds a footnote to (A.4) stating, citing \cite{KLLS}, that $R_{24}^{(0,3)}$, $(R_{26}^{(0,4)})^i$ and the singlet
+$R_{30}^{(0,5)}$ vanish on the Coulomb branch but are not $Q$-exact.
 
 \paragraph{How the three entries vanish on the diagonal.} On diagonal traceless $3\times3$ matrices the three
 eigenvalue vectors of the scalars span only a plane in flavour space, and flavour singlets see the fermions through
@@ -343,9 +360,10 @@ operator of these sectors vanishes on the diagonal, graviton or not, exact or no
 functions exist and the vanishing is a genuine condition (\file{scripts/bmn/su3-level24/diag_vanishing.py}; the counts
 are exact linear algebra on polynomials).
 
-\paragraph{Table~1 of \cite{CCKLL} revisited.} With the descendant factor corrected to $\prod_I(1-t^2x_I)$, the
-paper's Table~1 (the core of the $\SU(3)$ non-graviton index) is reproduced entry by entry through $j=40$ from our
-diagonal counts (\file{table1_core.py}); with the printed factor the rows 26 and 28 would not be empty. Adding the parity
+\paragraph{Table~1 of \cite{CCKLL} revisited.} With the descendant factor $\prod_I(1-t^2x_I)$ (as corrected in
+version~3), the paper's Table~1 (the core of the $\SU(3)$ non-graviton index) is reproduced entry by entry through
+$j=40$ from our diagonal counts (\file{table1_core.py}); with the factor printed in versions 1 and 2 the rows 26 and 28
+would not be empty. Adding the parity
 $P$ of section~\ref{sec:parity}: the $[0,0]$ entries at $j=24$ and $30$ are the graviton classes $R_{24}^{(0,3)}$ and
 $R_{30}^{(0,5)}$; every other entry through $j=40$ is $P$-odd, hence not a graviton (certified at $j\le30$, and at
 $j=32$ by the scan below; conditional on the diagonal counts for $j=34$--$40$); the $[0,0]$ at $j=36$ and the $[1,0]$
@@ -840,25 +858,32 @@ $\SU(2)$ BMN threshold at $j=24$, $(5;4,4,4)$, $E=\tfrac{19}{2}$, unique, with n
 (section~\ref{sec:method}).
 \item[Choi, Kim, Lee, Park \cite{CKLP}.] Agrees: the explicit $\SU(2)$ threshold operator is closed and not exact; its
 $SU(1|3)$ descendants are non-exact non-gravitons (\R{01}).
-\item[Choi, Choi, Kim, Lee, Lee \cite{CCKLL}.] The overlap is large; item by item:
+\item[Choi, Choi, Kim, Lee, Lee \cite{CCKLL}.] The overlap is large. We compare with version~3 (15 October 2026),
+which corrected some of the points below; we say where. Item by item:
 \begin{itemize}
 \item Table~2 (the $j=24$ singlet sector: 1898 / 953 / 924 / 29): agrees exactly. Its split ``28 gravitons + 1 black
-hole'' does not: the 29 classes are all multi-gravitons (\R{02}).
+hole'' does not: the 29 classes are all multi-gravitons (\R{02}). Version~3 keeps the split in its main text and adds
+in a footnote that its threshold representative is cohomologous to a non-Coulomb graviton.
 \item Sec.~3 and its appendix A, criterion ``graviton polynomial vanishing on diagonal matrices $\Rightarrow$
 $Q$-exact'': false; explicit counterexample (\R{02}); in the three affected sectors of (A.4) there is no function on the
-diagonal at all (section~\ref{sec:su3j24}).
-\item Eq.~(4.8), the threshold representative: $Q$-exact at $N=3$, explicit preimage (\R{09}). Their transcription and
-definition of the operator agree with each other (3747 terms); why their test reported it non-exact is not known.
+diagonal at all (section~\ref{sec:su3j24}). Version~3 notes that such a class ``was assumed to be absent''.
+\item Eq.~(4.8), the threshold representative: as printed in versions 1 and 2, $Q$-exact at $N=3$, with an explicit
+preimage (\R{09}); its printed expansion and its definition agree with each other (3747 terms). Version~3 confirms
+this and corrects the last term of $(r_{14}^{(0,2)})_{ij}$ in (A.6). The corrected operator (3693 terms, again the same
+both ways) is closed, not exact, and equal to $240$ times $R_{24}^{(0,3)}$ modulo exact terms, as version~3
+states citing \cite{KLLS}. This answers the question we had left open, why their test found (4.8) non-exact: the
+printed operator differed, through the misprint in $r_{14}$, from the corrected one, which is indeed not exact.
 \item Eq.~(3.4), the $\SU(2)$ graviton closed form: agrees through $j=44$.
-\item Eqs.~(3.7), (3.14), (3.15): the descendant factor $\prod_{I<J}(1-t^4x_Ix_J)$ is a misprint for
-$\prod_I(1-t^2x_I)$ (the thesis \cite{LeeThesis}, eq.~6.33, has the correct one); with it the $\SU(2)$ core is exactly
-$-\sum_nt^{24+12n}$ and Table~1 is reproduced.
+\item Eqs.~(3.7), (3.14), (3.15): the descendant factor $\prod_{I<J}(1-t^4x_Ix_J)$ printed in versions 1 and 2 is a
+misprint for $\prod_I(1-t^2x_I)$, corrected in version~3 (the thesis \cite{LeeThesis}, eq.~6.33, has the correct one);
+with it the $\SU(2)$ core is exactly $-\sum_nt^{24+12n}$ and Table~1 is reproduced.
 \item Eq.~(3.15), $\SU(4)$: the diagonal-count terms $-\chi_{[2,0]}t^{28}$, $\chi_{[1,1]}t^{30}$ are reproduced as
 diagonal-count statements and are artifacts: no non-graviton class in $\SU(4)$ for $j\le30$ (\R{03}, \R{08},
 \R{14}).
 \item List (A.4): $R_{18}$, $R_{20}$, $R_{22}$ and $(R_{30})^{ijk}$ are genuine relations; $R_{24}^{(0,3)}$,
 $(R_{26}^{(0,4)})^i$ and the singlet $R_{30}^{(0,5)}$ are not, they are graviton classes, and
-$(R_{26}^{(0,4)})^i=-\tfrac13Q^i_+R_{24}^{(0,3)}$ modulo exact terms (\R{09}).
+$(R_{26}^{(0,4)})^i=-\tfrac13Q^i_+R_{24}^{(0,3)}$ modulo exact terms (\R{09}). Version~3 adds a footnote stating
+that the three vanish on the Coulomb branch and are not exact, citing \cite{KLLS}.
 \item Table~1: reproduced with the corrected factor through $j=40$ (signed). The $[0,0]$ entries at $j=24$, 30 are
 gravitons; the $-t^{30}[3,0]$ is the genuine class of \R{07}; the other entries through $j=40$ are $P$-odd; $[0,0]$ at
 $j=36$ and $[1,0]$ at $j=38$ are undetermined (section~\ref{sec:su3j24}).
@@ -995,7 +1020,10 @@ fortuitous classes above the thresholds survive.
 
 \paragraph{Note added.} While this summary was being prepared we learned of the independent work of Kim, Lee, Lee and
 Song \cite{KLLS}, whose results overlap with ours in $\SU(3)$ and $\SU(4)$. We thank them for sharing their results
-and for coordinating the posting. After the first version of this summary was posted, Kibe, van Leuven and
+and for coordinating the posting. Version~3 of \cite{CCKLL} (15 October 2026) corrects the descendant factor and a term of
+$(r_{14}^{(0,2)})_{ij}$ that made the printed operator (4.8) exact, and adds footnotes on (4.8) and (A.4) citing
+\cite{KLLS}; sections~\ref{sec:glance}, \ref{sec:su3j24} and \ref{sec:literature} now compare with it. After the
+first version of this summary was posted, Kibe, van Leuven and
 Mathieson \cite{KVM} proved general restrictions on one-loop lifting that bear on sections~\ref{sec:su3pert} and
 \ref{sec:noncoulomb}; we compare in section~\ref{sec:literature} and have updated the text where their results
 apply.
@@ -1044,8 +1072,9 @@ label & content & code, data, checks\\
 \file{scripts/bmn/su3-level30-representative/representative.py} and \file{runs/}.\\
 \R{08} & $\SU(4)$ $j\le28$ & \file{code/fortuity/hwcoh}; \file{scripts/bmn/hw-scans-cluster};
 \file{data/su4/bmn_hw_cohomology_j28.json}.\\
-\R{09} & Eq.~(4.8) of \cite{CCKLL} exact; (A.4); diagonal mechanism; Table~1 & \file{scripts/bmn/su3-level24}
-(\file{build_O.py}, \file{build_O6.py}, \file{singlet_preimage*.py}, \file{hw_relation_test.py},
+\R{09} & Eq.~(4.8) of \cite{CCKLL} (versions 1, 2) exact; corrected operator of version 3; (A.4); diagonal
+mechanism; Table~1 & \file{scripts/bmn/su3-level24}
+(\file{build_O.py}, \file{build_O6.py}, \file{cckll_v3.py} with outputs \file{runs/multi_v3_p*.json}, \file{singlet_preimage*.py}, \file{hw_relation_test.py},
 \file{triple_check.py}, \file{decompose*.py}, \file{full_complex_check.py}, \file{f_restricted_exactness.py},
 \file{R24_check.py}, \file{descendant_check.py}, \file{diag_vanishing.py}, \file{table1_core.py},
 \file{singlet_column_j36.py}); \file{data/su3/cckll_eq4p8_operator_j24.json}, \file{cckll_eq4p8_preimage_j24.json},
@@ -1217,7 +1246,7 @@ nodes with up to 0.5\,TB of memory or an H200 GPU.
 JHEP \textbf{09} (2024) 029, \arxiv{2209.12696}.
 
 \bibitem{CCKLL} J. Choi, S. Choi, S. Kim, J. Lee and S. Lee, \emph{Finite $N$ black hole cohomologies},
-JHEP \textbf{12} (2024) 029, \arxiv{2312.16443}.
+JHEP \textbf{12} (2024) 029, \arxiv{2312.16443}; version 3 (15 October 2026).
 
 \bibitem{LeeThesis} S. Lee, \emph{Quantum anatomy of supersymmetric black holes in AdS spacetimes}, PhD thesis,
 University of Michigan (2024), \arxiv{2409.03862}.
